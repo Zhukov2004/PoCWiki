@@ -1,0 +1,1041 @@
+[
+  {
+    "name": "Ảo Ảnh Ánh Sáng",
+    "desc": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 1 lá Pháp Sư Phản Chiếu.",
+    "counter": "Chọn các tướng có khả năng tạo bài, dùng nhiều bài được tạo.",
+    "champs": [
+      "Ambessa",
+      "Viktor",
+      "Ekko",
+      "Leblanc",
+      "Heimerdinger",
+      "Nami",
+      "Norra",
+      "Tryndamere",
+      "Twisted Fate",
+      "Teemo",
+      "Sett",
+      "Mel"
+    ]
+  },
+  {
+    "name": "Ảo Ảnh Ánh Sáng",
+    "desc": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Pháp Sư Phản Chiếu 0|8.",
+    "counter": "Chọn tướng có khả năng tiêu diệt bài quân của địch nhanh chóng có các hiệu ứng khống chế",
+    "champs": [
+      "Akshan",
+      "Ambessa",
+      "Ashe",
+      "Ahri",
+      "Evelynn",
+      "Garen",
+      "Kindred",
+      "Jinx",
+      "Jhin Nasus"
+    ]
+  },
+  {
+    "name": "Adoribus!",
+    "desc": "Bắt Đầu Vòng Đấu: Biến đổi tùy tùng mạnh nhất của người chơi thành 1 lá Sóc 1|1 và Câm Lặng nó trong vòng này.",
+    "counter": "Chọn tướng đánh carry không phụ thuộc quá nhiều vào tùy tùng",
+    "champs": [
+      "Varus",
+      "Vayne",
+      "Vex",
+      "Viego",
+      "Viktor",
+      "Yasuo",
+      "Nidalee",
+      "Miss Fortune",
+      "Kindred Hoa Linh",
+      "Jayce",
+      "Leblanc",
+      "Gwen",
+      "Diana",
+      "Ahri"
+    ]
+  },
+  {
+    "name": "Bản Sao Lặp Lại",
+    "desc": "Khi người chơi BẤT KỲ sử dụng 1 bài phép, sao chép hiệu ứng bài phép đó lên cùng mục tiêu.",
+    "counter": "Dùng các tướng cần dùng nhiều bài phép. Có thể là bài phép buff chỉ số, bài phép gây sát thương.",
+    "champs": [
+      "Ahri",
+      "Ahri Hoa Linh",
+      "Akshan",
+      "Ambessa",
+      "Anivia",
+      "Ekko",
+      "Leblanc",
+      "Lux",
+      "Lux2",
+      "Lee Sin :))",
+      "Jhin",
+      "Jinx",
+      "Janna",
+      "Jack",
+      "Heimerdinger",
+      "Jayce",
+      "Nami",
+      "Mel",
+      "Yi",
+      "Yi Hoa Linh",
+      "Miss Fortune",
+      "Swain",
+      "Varus",
+      "Vex",
+      "Tryndamere",
+      "Twisted Fate",
+      "Veigar",
+      "Viktor"
+    ]
+  },
+  {
+    "name": "Bất Lực",
+    "desc": "Những bài quân bị thương của người chơi Không Thể Chặn Đòn.",
+    "counter": "Hạn chế để bài quân bị thương",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Bị cấm đánh",
+    "desc": "Kẻ địch nhận -1|-0.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Bí Thuật Bandle",
+    "desc": "Bắt Đầu Trận Đấu: Người chơi triệu hồi 1 lá Cây Cổ Thụ Bandle.",
+    "counter": "Ưu tiên dùng tướng đa khu vực Jax (nếu muốn thắng bằng địa danh)",
+    "champs": [
+      "Viktor",
+      "Norra",
+      "Jax hoặc bất kỳ"
+    ]
+  },
+  {
+    "name": "Biên Niên Sử Tàn Ác",
+    "desc": "Bắt Đầu Vòng Đấu: Tiêu diệt TẤT CẢ bài quân, sau đó hồi sinh chúng.",
+    "counter": "Có thể dùng cổ vật thiên thần hộ mệnh, các cổ vật có hiệu ứng triệu hồi",
+    "champs": [
+      "Vex",
+      "Jhin hoặc bất kỳ"
+    ]
+  },
+  {
+    "name": "Bóng Tối Ập Đến",
+    "desc": "Bài quân của Địch Thủ sở hữu: \"Tấn Công Nhà Chính: Tạo trên tay 1 lá Quỷ Dữ Bóng Tối.\"",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Bóng Tối Dai Dẳng",
+    "desc": "Khi 1 bài quân hy sinh, ban +1|+1 cho 1 bài quân ngẫu nhiên trên tay người chơi sở hữu bài quân đó.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Bổn Phận Phục Tùng",
+    "desc": "Mỗi vòng đấu, lá bài Demacia đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Demacia"
+    ]
+  },
+  {
+    "name": "Buốt Da Thấu Thịt",
+    "desc": "Bắt Đầu Vòng Đấu: Đóng Băng bài quân Mạnh Nhất của người chơi.",
+    "counter": "Hạn chế dùng tướng solo carry, dùng tướng dàn quân có nhiều nguồn dmg hoặc dùng cổ vật Sức Mạnh Khỉ Đá",
+    "champs": [
+      "Akshan",
+      "Ambessa",
+      "Twisted Fate",
+      "Pyke",
+      "Norra",
+      "Aatrox",
+      "Ahri",
+      "Elise",
+      "Evelynn",
+      "Garen",
+      "Leona",
+      "Jax",
+      "Sett",
+      "Warwick",
+      "Viego",
+      "Tryndamere",
+      "Volibear",
+      "Yasuo Hoa Linh",
+      "Yuumi",
+      "Viktor",
+      "Vua Poro"
+    ]
+  },
+  {
+    "name": "Cá Đuối Rình Rập",
+    "desc": "Bắt Đầu Vòng Đấu: Nếu người chơi có năng lượng bài phép, Địch Thủ đánh cắp 1 năng lượng bài phép.",
+    "counter": "Ít ảnh hưởng đến lối chơi, có thể hạn chế dùng tướng phụ thuộc mana phép",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Cái Giá Của Tiến Bộ",
+    "desc": "Giảm 2 tiêu hao cho các bài phép. Các bài quân tăng thêm 1 tiêu hao.",
+    "counter": "Dùng tướng thiên về bài phép hơn dàn quân.",
+    "champs": [
+      "Ahri",
+      "Jhin",
+      "Jinx",
+      "Janna",
+      "Mel",
+      "Nami",
+      "Miss Fortune",
+      "Master Yi",
+      "Yi Hoa Linh",
+      "Veigar",
+      "Varus"
+    ]
+  },
+  {
+    "name": "Càn Quét Sân Khấu",
+    "desc": "Khi Địch Thủ tấn công, Làm Choáng bài quân yếu nhất của người chơi.",
+    "counter": "Nên dùng tướng có nhiều bài quân",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Cẩu Ca Mặn Mòi",
+    "desc": "Mỗi vòng đấu, lá bài Bilgewater đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Bilgewater"
+    ]
+  },
+  {
+    "name": "Cây Hút Fan",
+    "desc": "Bắt Đầu Vòng Đấu: Trao +2|+0 và Áp Đảo cho bài quân mạnh nhất của Địch Thủ trong vòng này.",
+    "counter": "Nên dùng tướng có đóng băng hoặc choáng",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Gấu Đá Ngủ Đông.",
+    "desc": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Gấu Đá Ngủ Đông.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Chào Mừng Tới Cầu Đồ Tể",
+    "desc": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Vực Gió Hú.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Chạy Đua Vũ Trang",
+    "desc": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 2 lá Thợ Rèn Vui Tính.",
+    "counter": "Dùng các tướng chuyên gây sát thương phép, dàn quân.",
+    "champs": [
+      "Ambessa",
+      "Aatrox",
+      "Annie",
+      "Anivia",
+      "Fiddlesticks",
+      "Garen",
+      "Gwen",
+      "Jayce",
+      "Jhin",
+      "Jinx",
+      "Kai'sa",
+      "Lux",
+      "Lux2",
+      "Mel",
+      "Miss Fortune",
+      "Pyke",
+      "Samira",
+      "Sett",
+      "Swain",
+      "Twisted Fate",
+      "Taliyah",
+      "Vex",
+      "Yuumi",
+      "Viktor",
+      "Vua Poro",
+      "Warwick"
+    ]
+  },
+  {
+    "name": "Chọn Lọc Phi Tự Nhiên",
+    "desc": "Bài quân của người chơi nhận Tiến Hóa.",
+    "counter": "Các tướng có nhiều đặc điểm",
+    "champs": [
+      "Kai'sa",
+      "Yummi",
+      "Viktor",
+      "Bard",
+      "Elise"
+    ]
+  },
+  {
+    "name": "Chống Chọi",
+    "desc": "Bắt Đầu Vòng Đấu: Ban +0|+1 cho bài quân của Địch Thủ.",
+    "counter": "Tránh cù cưa quá lâu, nên chọn tướng thắng nhanh",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Con Số Ma Thuật",
+    "desc": "Khi người chơi rút 1 lá bài, đặt tiêu hao của lá bài đó thành 3.",
+    "counter": "Các tướng có tiêu hao cao từ 6 trở lên",
+    "champs": [
+      "Aatrox",
+      "Anivia",
+      "Sol",
+      "Mordekaiser",
+      "Nasus",
+      "Nautilus",
+      "Rồng Ngàn Tuổi",
+      "Ornn",
+      "Tryndamere",
+      "Volibear",
+      "Yasuo"
+    ]
+  },
+  {
+    "name": "Cổng Dịch Chuyển Bí Ẩn",
+    "desc": "Mỗi vòng đấu, lá bài Thành Phố Bandle đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Thành Phố Bandle"
+    ]
+  },
+  {
+    "name": "Cuồng Phong Tích Tụ",
+    "desc": "Khi bài quân của Địch Thủ tấn công, Làm Choáng bài quân yếu nhất của người chơi và Địch Thủ rút 1 lá bài.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Cứng Như Đá",
+    "desc": "Bắt Đầu Vòng Đấu: Gây 1 sát thương lên tất cả các bài quân của người chơi.",
+    "counter": "Các bài quân có nhiều máu hoặc có khả năng cộng máu.",
+    "champs": [
+      "Tahm Kench",
+      "Pyke",
+      "Darius",
+      "Ambessa",
+      "Evelynn",
+      "Elise",
+      "Kayle",
+      "Nautilus",
+      "Shyvana",
+      "Sett",
+      "Rồng Ngàn Tuổi",
+      "Varus",
+      "Vua Poro",
+      "Yuumi"
+    ]
+  },
+  {
+    "name": "Cười Lăn Quay",
+    "desc": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 1 lá Ma Trơi 0|10.",
+    "counter": "Tướng có nhiều quân cảm tử hoặc hy sinh",
+    "champs": [
+      "Ahri Hoa Linh",
+      "Viego hoặc bất kỳ"
+    ]
+  },
+  {
+    "name": "Cường Hóa Liên Tục",
+    "desc": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi Ụ Súng tiếp theo.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Dấu Ấn Phàm Trần",
+    "desc": "Khi người chơi BẤT KỲ triệu hồi 1 bài quân, đặt máu của lá đó thành 1.",
+    "counter": "Các tướng có thể tăng máu lên hoặc thắng nhanh",
+    "champs": [
+      "Jack",
+      "Aatrox",
+      "Ambessa",
+      "Bard",
+      "Gwen",
+      "Lillia",
+      "Kindred Hoa Linh",
+      "Pyke",
+      "Nami",
+      "Master Yi",
+      "Vua Poro"
+    ]
+  },
+  {
+    "name": "Di Tích Helia",
+    "desc": "Giảm 1 tiêu hao cho TẤT CẢ bài phép. TẤT CẢ bài quân được nhận Khiên Phép.",
+    "counter": "Các tướng công mạnh, tránh tướng kiểm soát bằng bài phép",
+    "champs": [
+      "Aatrox",
+      "Ahri",
+      "Ahri Hoa Linh",
+      "Ambessa",
+      "Azir",
+      "Darius",
+      "Diana",
+      "Elise",
+      "Evelynn",
+      "Fiddlesticks",
+      "Jax",
+      "Lillia",
+      "Kayn",
+      "Nautilus",
+      "Nidalee",
+      "Lux2",
+      "Yi",
+      "Yi Hoa Linh",
+      "Pyke",
+      "Rồng Ngàn Tuổi",
+      "Viego",
+      "Viktor",
+      "Varus",
+      "Vayne",
+      "Yuumi",
+      "Vua Poro"
+    ]
+  },
+  {
+    "name": "Dòng Chảy Năng Lượng",
+    "desc": "Bắt Đầu Trận Đấu: Nhận 1 ngọc năng lượng.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Dư Ảnh",
+    "desc": "Bắt Đầu Vòng Đấu: Địch Thủ hồi sinh 1 bản sao Cảm Tử của tuỳ tùng mạnh nhất đã hy sinh.",
+    "counter": "Hạn chế để tùy tùng quá mạnh của bản bạn hy sinh",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Đánh Cắp Quân Lương",
+    "desc": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Tư Dinh Chiến Tướng. Khi lá Tu Dinh Chiến Tướng của Địch Thủ hoàn thành đếm ngược, Địch Thủ trộm 1 ngọc năng lượng từ người chơi và triệu hồi 1 lá Tư Dinh Chiến Tướng.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Đế Chế Muôn Năm",
+    "desc": "Kết Thúc Vòng Đấu: Ban +2|+0 cho TẤT CẢ bài quân.",
+    "counter": "Tướng công mạnh",
+    "champs": [
+      "Aatrox",
+      "Darius",
+      "Ambess",
+      "Pyke",
+      "Elise",
+      "Nautilus",
+      "Tryndamere",
+      "Lux2",
+      "Vua Poro",
+      "Twisted Fate",
+      "Jax"
+    ]
+  },
+  {
+    "name": "Đỉnh Núi",
+    "desc": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Đỉnh Targon. Kết Thúc Vòng Đấu: TẤT CẢ người chơi rút 1 lá bài.",
+    "counter": "Các tướng có tiêu hao cao",
+    "champs": [
+      "Volibear",
+      "Rồng Ngàn tuổi",
+      "Tryndamere",
+      "Viego",
+      "Sol",
+      "Aatrox",
+      "Nautilus"
+    ]
+  },
+  {
+    "name": "Đón Nhận Bóng Tối",
+    "desc": "Bài quân ở vị trí tấn công của Địch Thủ được nhận +1|+0.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Đón Nhận Thời Thế",
+    "desc": "Khi ngươi sử dụng 1 bài phép, nhận 1 năng lượng bài phép.",
+    "counter": "Tướng dùng nhiều bài phép tiêu hao thấp.",
+    "champs": [
+      "Nami",
+      "Master Yi",
+      "Ammbessa",
+      "Mel",
+      "Ahri",
+      "Akshan",
+      "Viktor",
+      "Varus",
+      "Jinx",
+      "Jhin",
+      "Heimer",
+      "Janna Jayce",
+      "kayle",
+      "Leblanc",
+      "Lee Sin",
+      "Sett",
+      "Samira",
+      "Nilah",
+      "Morgana",
+      "Miss Fortune"
+    ]
+  },
+  {
+    "name": "Đồ Tể Chặn Đòn",
+    "desc": "TẤT CẢ bài quân có \"Cưỡng Đoạt: Ban cho ta +1|+1.\"",
+    "counter": "",
+    "champs": [
+      "Bất kỳ trừ Jhin (lỗi kích cưỡng đoạt)"
+    ]
+  },
+  {
+    "name": "Gia Cố",
+    "desc": "Nhà Chính của ngươi có Kiên Cường.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ hạn chế dùng Jinx"
+    ]
+  },
+  {
+    "name": "Giao Chiến Cuồng Loạn",
+    "desc": "Đồng minh nhận +2|+2.Kết Thúc Vòng Đấu: Gây 2 sát thương lên tất cả đồng minh.",
+    "counter": "Tướng có máu cao, tướng dàn quân cần nhiều chỉ số, tướng tăng tiến chỉ số theo thời gian được.",
+    "champs": [
+      "Tahm Kench",
+      "Darius",
+      "Tryndamere",
+      "Nautilus",
+      "Viktor",
+      "Volibear",
+      "Vua Poro",
+      "Viego",
+      "Pyke",
+      "Nami",
+      "Master Yi",
+      "Nasus",
+      "Lux2",
+      "Rồng Ngàn Tuổi",
+      "Leona",
+      "Jax",
+      "Elise"
+    ]
+  },
+  {
+    "name": "Giáp Nhu Động",
+    "desc": "TẤT CẢ bài quân có Đáng Gờm.",
+    "counter": "Các bài quân có thể tăng nhiều máu",
+    "champs": [
+      "Kayle",
+      "Kayn",
+      "Evelynn Hoa Linh",
+      "Ahri Hoa Linh",
+      "Ambessa",
+      "Elise",
+      "Leona",
+      "Sett",
+      "Pyke",
+      "Nautilus"
+    ]
+  },
+  {
+    "name": "Hơn Cả Máu Thịt",
+    "desc": "Bài quân của Địch Thủ nhận +1|+1 cho mỗi đặc điểm mà chúng có.",
+    "counter": "Được thì dùng tướng có thế thắng nhanh",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Hung Thần Đại Dương",
+    "desc": "Bắt Đầu Vòng Đấu: Hồi lại năng lượng bài phép của TẤT CẢ Người Chơi.",
+    "counter": "Các tướng cần năng lượng phép",
+    "champs": [
+      "Bất Kỳ"
+    ]
+  },
+  {
+    "name": "Kẻ Thù Hiểm Độc",
+    "desc": "+10 máu Nhà Chính, +1 năng lượng khởi điểm, +1 lá bài khởi đầu.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ nên dùng tướng 3 sao trở lên"
+    ]
+  },
+  {
+    "name": "Kẻ Tiếp Sức",
+    "desc": "Bắt Đầu Vòng Đấu: Trao +3|+3 cho đồng minh yếu nhất của người chơi trong vòng này.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Kéc Kéc",
+    "desc": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Khỉ Đuôi Nổ.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Khẩn Cầu Ứng Cứu",
+    "desc": "Khi bắt đầu vòng 7, Địch Thủ triệu hồi 1 anh hùng cấp 2 ngẫu nhiên.",
+    "counter": "Chọn tướng đánh nhanhthắng nhanh",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Không Ngoảnh Lại",
+    "desc": "Khi người chơi không còn lá bài nào trên tay, bài quân của họ nhận +2|+2.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Không Thể Cản Phá",
+    "desc": "Đồng minh nhận +3|+3, Áp Đảo và Không Thể Chặn Đòn.",
+    "counter": "Các tướng dánh dàn quân, lấy công bù thủ",
+    "champs": [
+      "Ambessa",
+      "Darius",
+      "Jax",
+      "Vua Poro",
+      "Viego",
+      "Pyke",
+      "Nautilus",
+      "Tryndamere",
+      "Samira",
+      "Norra",
+      "Leona",
+      "Lillia",
+      "Elise",
+      "Diana"
+    ]
+  },
+  {
+    "name": "Kỷ Nguyên Chinh Phục",
+    "desc": "Khi bài quân của Địch Thủ tấn công, ban +2|+0 cho bài quân mạnh nhất ở vị trí tấn công.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Lan Tỏa Cổ Thuật",
+    "desc": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi bắt đầu với 3 năng lượng bài phép.",
+    "counter": "Ưu tiên tướng cần năng lượng bài phép giai đoạn đầu",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Linh Hồn Than Khóc",
+    "desc": "Mỗi vòng đấu, lá bài Quần Đảo Bóng Đêm đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Quần Đảo Bóng Đêm"
+    ]
+  },
+  {
+    "name": "Lọc Da Xẻ Thịt",
+    "desc": "Mỗi vòng đấu, lần đầu tiên Địch Thủ triệu hồi 1 bài quân, ban Khí Lực cho bài quân đó.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Lửa Bập Bùng",
+    "desc": "TẤT CẢ bài phép và kỹ năng gây thêm 1 sát thương.",
+    "counter": "Dùng tướng chuyên về gây sát thương bằng bài phép và kỹ năng",
+    "champs": [
+      "Annie",
+      "Jinx",
+      "Jhin",
+      "Gwen",
+      "Lux",
+      "Miss Fortune",
+      "Mel",
+      "Veigar",
+      "Taliyah",
+      "Swain"
+    ]
+  },
+  {
+    "name": "Lướt Trên Cồn Cát",
+    "desc": "Mỗi vòng đấu, lá bài Shurima đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Shurima"
+    ]
+  },
+  {
+    "name": "Ma Pháp Vô Dạng",
+    "desc": "Bắt Đầu Vòng Đấu: Tạo 1 lá Từ Chối Phù Du trên tay Địch Thủ. Lá đó có 2 tiêu hao.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Ma Thuật Hoang Dại",
+    "desc": "Bắt Đầu Vòng Đấu: Mỗi người chơi nhận 1 ngọc năng lượng.",
+    "counter": "Tướng cần nhiều năng lượng hoặc khai sáng nhanh",
+    "champs": [
+      "Anivia",
+      "Sol",
+      "Rồng Ngàn Tuổi",
+      "Yasuo Hoa Linh",
+      "Volibear hoặc bất kỳ"
+    ]
+  },
+  {
+    "name": "Nghỉ Xả Hơi",
+    "desc": "Bài quân của Địch Thủ được nhận Hồi Phục.",
+    "counter": "Nên chọn tướng có khả năng dứt điểm tốt",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Nghiên Cứu Đột Phá",
+    "desc": "Mỗi vòng đấu, lá bài Piltover & Zaun đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Piltover & Zaun"
+    ]
+  },
+  {
+    "name": "Phi Vụ Gian Nan",
+    "desc": "Bắt Đầu Vòng Đấu: Địch Thủ có 50% cơ hội tạo trên tay 1 lá Cổ Vật May Mắn. Người Chơi có 25% cơ hội.",
+    "counter": "Có thể chọn tướng liên quan đến khả năng chọn mục tiêu hoặc dùng bài phép.",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Phong Cách Tối Giản",
+    "desc": "Bắt Đầu Trận Đấu: Người chơi bắt đầu với 2 ngọc năng lượng cộng thêm, nhưng sẽ không được nhận thêm khi vòng đấu bắt đầu.",
+    "counter": "Tướng 4 hoặc 5 tiêu hao trở xuống.",
+    "champs": [
+      "Gwen",
+      "Illaoi",
+      "Ekko",
+      "Jhin",
+      "Jinx",
+      "Evelynn",
+      "Elise",
+      "Lillia",
+      "Leblanc",
+      "Lux2",
+      "Kindred",
+      "Jax",
+      "Yasuo",
+      "Viktor",
+      "Vua Poro",
+      "Vex",
+      "Yuumi"
+    ]
+  },
+  {
+    "name": "Quậy Tưng Nào",
+    "desc": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 1 lá Đường Núi Lở nếu chưa có lá bài này.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Rò Rỉ Năng Lượng",
+    "desc": "Khi người chơi sử dụng 1 bài phép, tạo 1 bản sao Phù Du trên tay Địch Thủ.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Sắt Thép Sáng Lóa",
+    "desc": "Bắt Đầu Vòng Đấu: Làm Choáng bài quân Yếu Nhất của người chơi.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Sức Mạnh Áp Đảo",
+    "desc": "Kết Thúc Vòng Đấu: Ban cho đồng minh Ở Mọi Nơi +1|+1.",
+    "counter": "Tướng có khả năng thắng nhanh, tránh đánh cù cưa quá lâu",
+    "champs": [
+      "Lillia",
+      "Gwen",
+      "Jinx",
+      "Jhin",
+      "Sol",
+      "Swain",
+      "Nidalee",
+      "Viego",
+      "Viktor",
+      "Elise",
+      "Fiddlesticks"
+    ]
+  },
+  {
+    "name": "Sức Mạnh Demacia II",
+    "desc": "Khi 1 đồng minh Ra Đòn, ban +2|+2 cho đồng minh đó.",
+    "counter": "Tướng có khả năng thắng nhanh",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Sức Mạnh Kiên Cường",
+    "desc": "Mỗi vòng đấu, lá bài Noxus đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Noxus"
+    ]
+  },
+  {
+    "name": "Sức Mạnh Noxus II",
+    "desc": "Mỗi vòng đấu, lần đầu tiên ngươi xuất trận 1 đồng minh, ban +4|+0 và Áp Đảo cho đồng minh đó.",
+    "counter": "Ưu tiên tướng có đóng băng hoặc choáng",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Sức Mạnh Quan Sát",
+    "desc": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 1 lá Đài Thiên Văn Hextech.",
+    "counter": "Tướng sử dụng bài phép, đặc biệt bài phép tốn nhiều năng lượng",
+    "champs": [
+      "Tryndamere",
+      "Lux",
+      "Jayce",
+      "Ambessa",
+      "Heimerdinger",
+      "Varus",
+      "Ekko",
+      "Morgana"
+    ]
+  },
+  {
+    "name": "Sương Biến Ảo",
+    "desc": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, chúng triệu hồi 1 lá Màn Sương Xâm Chiếm.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Sương Giá Cô Đọng",
+    "desc": "Mỗi vòng đấu, lá bài Freljord đầu tiên của người chơi được giảm 1 tiêu hao để xuất trận.",
+    "counter": "",
+    "champs": [
+      "Tướng Freljord"
+    ]
+  },
+  {
+    "name": "Tàn Sát Nhân Đạo",
+    "desc": "Kết Thúc Vòng Đấu: Tiêu diệt TẤT CẢ các bài quân bị thương.",
+    "counter": "Tướng thắng nhanh hoặc tướng có đột kích, tránh để bài quân bị thương",
+    "champs": [
+      "Lillia",
+      "Gwen",
+      "Jinx",
+      "Jhin",
+      "Sol",
+      "Swain",
+      "Nidalee",
+      "Viego",
+      "Viktor",
+      "Elise",
+      "Fiddlesticks",
+      "Viego"
+    ]
+  },
+  {
+    "name": "Tăng Thêm Chút Xíu",
+    "desc": "Bắt Đầu Vòng Đấu: Trao +1|+0 cho bài quân mạnh nhất của Địch Thủ trong vòng này với mỗi lá bài trên tay của người chơi.",
+    "counter": "Ưu tiên dùng tướng có choáng hoặc đóng băng",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Tập Luyện Trong Rừng",
+    "desc": "TẤT CẢ bài quân có \"Ra Đòn: Nhân đôi Sức Mạnh của ta.\"",
+    "counter": "Nên dùng các tướng có khả năng ra đòn nhiều lần",
+    "champs": [
+      "Diana",
+      "Ambessa",
+      "Vayne",
+      "Yuumi",
+      "Tryndamere",
+      "Sett",
+      "Azir"
+    ]
+  },
+  {
+    "name": "Tất Tay Với Khỉ Đuôi Nổ II",
+    "desc": "Bắt Đầu Vòng Đấu: Triệu hồi 1 lá Khỉ Đuôi Nổ.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Thiền Hướng",
+    "desc": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi bắt đầu với 10 ngọc năng lượng.",
+    "counter": "Các tướng dùng được cổ vật máy sao chép hóa kỹ hoặc các tướng cần nhiều năng lượng",
+    "champs": [
+      "Anivia",
+      "Volibear",
+      "Rồng Ngàn tuổi",
+      "Tryndamere",
+      "Viego",
+      "Sol",
+      "Aatrox",
+      "Nautilus hoặc bấ kỳ"
+    ]
+  },
+  {
+    "name": "Thiên Nhiên Báo Thù",
+    "desc": "Khi nhận lượt tấn công, triệu hồi 1 lá Chồi Non.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Thống Khổ",
+    "desc": "Bắt Đầu Vòng Đấu: Gây 1 sát thương lên tất cả các bài quân bị thương của người chơi.",
+    "counter": "Hạn chế bị thương",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Thống Khổ",
+    "desc": "Bắt Đầu Vòng Đấu: Gây 3 sát thương lên tất cả các bài quân bị thương của người chơi.",
+    "counter": "Hạn chế bị thương",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Tiên Tri Thượng Thần II",
+    "desc": "Khi đồng minh tấn công, Triệu Gọi 3 xúc tu.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Tri Thức Được Khai Sáng",
+    "desc": "Bắt Đầu Vòng Đấu: Hồi 3 máu cho Nhà Chính của Địch Thủ.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Trò Tiêu Khiển Noxus",
+    "desc": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Đấu Trường Noxkraya.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Trượt Siêu Mượt",
+    "desc": "Khi Địch Thủ tấn công, chúng triệu hồi 1 Poro 1 tiêu hao ngẫu nhiên ở vị trí tấn công.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  },
+  {
+    "name": "Vặt Vãnh",
+    "desc": "Khi người chơi triệu hồi 1 bài quân, đặt chỉ số của lá bài đó thành 1|1.",
+    "counter": "Dùng các tướng có khả năng cộng chỉ số hoặc các tướng sát thương chủ đạo là bài phép và kỹ năng",
+    "champs": [
+      "Annie",
+      "Bard",
+      "Jhin",
+      "Jinx",
+      "Lux2",
+      "Lux",
+      "Kayle",
+      "Nami",
+      "Master Yi",
+      "Yi Hoa Linh",
+      "Swain",
+      "Kindred Hoa Linh",
+      "Vua Poro",
+      "Vex",
+      "Miss Fortune",
+      "Mel"
+    ]
+  },
+  {
+    "name": "Xạ Thủ Tàn Nhẫn",
+    "desc": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 1 lá Hải Tặc Thiện Xạ.",
+    "counter": "Các tướng gây sát thương kỹ năng hoặc bài phép",
+    "champs": [
+      "Annie",
+      "Jhin",
+      "Jinx",
+      "Norra",
+      "Miss Fortune"
+    ]
+  },
+  {
+    "name": "Xuất Huyết",
+    "desc": "Kết Thúc Vòng Đấu: Gây 1 sát thương lên Nhà Chính của người chơi với mỗi bài quân của Địch Thủ.",
+    "counter": "Chọn tướng đánh nhanh thắng nhanh, nhà chính có kiên cường hoặc dùng cổ vật cho nhà chính Kiên Cường",
+    "champs": [
+      "Nautilus",
+      "Shyvana hoặc bất kỳ"
+    ]
+  },
+  {
+    "name": "Yến Tiệc Siêu Hạng",
+    "desc": "Khi Địch Thủ triệu hồi 1 bài quân, ban +0|+3 cho bài quân đó.",
+    "counter": "",
+    "champs": [
+      "Bất kỳ"
+    ]
+  }
+]

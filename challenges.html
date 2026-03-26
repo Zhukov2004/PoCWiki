@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoC Guide - Chinh Phục Thử Thách Tháng</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body { background: #04060b; color: #f8fafc; font-family: 'Open Sans', sans-serif; scroll-behavior: smooth; }
+        .lor-gold { color: #c89b3c; }
+        .bg-card { background: #0a0e1a; border: 1px solid rgba(255,255,255,0.05); }
+        .tag-champ { background: rgba(200, 155, 60, 0.1); border: 1px solid rgba(200, 155, 60, 0.2); color: #c89b3c; font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 600; text-transform: uppercase; }
+        .nav-link:hover { color: #c89b3c; border-bottom: 2px solid #c89b3c; }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #04060b; }
+        ::-webkit-scrollbar-thumb { background: #c89b3c; border-radius: 10px; }
+    </style>
+</head>
+<body class="pb-20">
+
+    <nav class="sticky top-0 z-50 bg-[#04060b]/90 backdrop-blur-md border-b border-white/5 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold lor-gold tracking-tighter uppercase italic">PoC Monthly Guide</h1>
+            <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+                <a href="#overview" class="nav-link">Tổng Quan</a>
+                <a href="#strategy" class="nav-link">Chiến Thuật</a>
+                <a href="#bosses" class="nav-link">Đối Phó Boss</a>
+                <a href="#lookup" class="nav-link text-white border-b-2 border-lor-gold">Tra Cứu Mutators</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto px-6">
+        
+        <section id="overview" class="pt-16 mb-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold lor-gold mb-6 uppercase italic leading-tight">Chinh Phục<br>Tháp Tháng</h2>
+                    <div class="space-y-4 text-slate-400 text-sm leading-relaxed">
+                        <p>Thử thách tháng (Monthly Challenges) là chế độ đỉnh cao của <span class="text-white">Con Đường Anh Hùng</span>, gồm 70 tầng thử thách làm mới vào mỗi đầu tháng.</p>
+                        <p>Hoàn thành tháp để nhận <span class="text-white">Xu Vinh Danh</span>, dùng để mua Cổ vật Trấn, Mảnh cam và các phần thưởng quý hiếm trong Cửa hàng vinh danh.</p>
+                    </div>
+                    <div class="mt-8 grid grid-cols-2 gap-4">
+                        <div class="bg-card p-4 rounded-xl">
+                            <div class="text-2xl font-bold text-white">70</div>
+                            <div class="text-[10px] uppercase text-slate-500 font-black">Tầng Thử Thách</div>
+                        </div>
+                        <div class="bg-card p-4 rounded-xl">
+                            <div class="text-2xl font-bold text-white">24</div>
+                            <div class="text-[10px] uppercase text-slate-500 font-black">Tướng Tối Thiểu</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-card p-8 rounded-[2.5rem] relative overflow-hidden border-white/10 shadow-2xl">
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i data-lucide="award" class="w-5 h-5 lor-gold"></i> Phần Thưởng Vinh Danh
+                    </h3>
+                    <ul class="space-y-3 text-xs text-slate-400">
+                        <li class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500 mt-0.5"></i> 60 Xu Vinh Danh cho mỗi cấp độ thăng cấp.</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500 mt-0.5"></i> Cổ vật Trấn của tướng (độc quyền).</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-green-500 mt-0.5"></i> Mảnh cam, Rương hoa linh, Kho báu bạch kim.</li>
+                    </ul>
+                    <div class="mt-6 p-4 bg-white/5 rounded-xl border border-white/5 text-[11px] italic">
+                        *Làm mới vào 23:00 ngày cuối tháng theo giờ VN.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="strategy" class="mb-20">
+            <div class="bg-gradient-to-br from-[#c89b3c10] to-transparent p-10 rounded-[2.5rem] border border-lor-gold/20">
+                <div class="flex flex-col md:flex-row gap-10">
+                    <div class="md:w-1/3">
+                        <h2 class="text-2xl font-bold text-white uppercase italic mb-4">Phương Pháp Nhảy Cóc (Leapfrog)</h2>
+                        <div class="w-20 h-1 bg-lor-gold mb-6"></div>
+                        <p class="text-xs text-slate-400 leading-relaxed">Đừng leo tuần tự! Hãy đánh các tầng mốc để mở khóa toàn bộ thông tin trước khi dồn tướng mạnh dứt điểm.</p>
+                    </div>
+                    <div class="md:w-2/3 grid gap-4">
+                        <div class="flex gap-4 p-4 bg-card rounded-2xl border border-white/5">
+                            <div class="bg-lor-gold text-black font-black w-8 h-8 rounded-lg flex items-center justify-center shrink-0">1</div>
+                            <p class="text-xs text-slate-300">Đánh tầng <span class="text-white font-bold">3, 6, 9...</span> để mở khóa các tầng tiếp theo cực nhanh.</p>
+                        </div>
+                        <div class="flex gap-4 p-4 bg-card rounded-2xl border border-white/5">
+                            <div class="bg-lor-gold text-black font-black w-8 h-8 rounded-lg flex items-center justify-center shrink-0">2</div>
+                            <p class="text-xs text-slate-300">Nắm bắt thông tin boss và luật chơi (Mutators) của toàn bộ 70 tầng.</p>
+                        </div>
+                        <div class="flex gap-4 p-4 bg-card rounded-2xl border border-white/5">
+                            <div class="bg-lor-gold text-black font-black w-8 h-8 rounded-lg flex items-center justify-center shrink-0">3</div>
+                            <p class="text-xs text-slate-300">Dùng tướng mạnh nhất đánh từ tầng <span class="text-white font-bold">70 xuống</span>. Tiết kiệm tướng phù hợp cho các tầng thấp.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bosses" class="mb-24">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <i data-lucide="shield-alert" class="w-6 h-6 text-red-500"></i> Đối Phó Boss Khó
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-card p-6 rounded-2xl border-l-4 border-red-500">
+                    <h4 class="font-bold text-white mb-2">Zed, Irelia, Katarina</h4>
+                    <p class="text-xs text-slate-500 mb-4">Áp lực tràn sân, tấn công liên tục từ sớm.</p>
+                    <div class="text-[11px] text-lor-gold font-bold italic">Giải pháp: Choáng, Đóng băng, Khống chế cứng.</div>
+                </div>
+                <div class="bg-card p-6 rounded-2xl border-l-4 border-blue-500">
+                    <h4 class="font-bold text-white mb-2">Fiora</h4>
+                    <p class="text-xs text-slate-500 mb-4">Thắng bằng cơ chế tiêu diệt đủ 4 quân bài.</p>
+                    <div class="text-[11px] text-lor-gold font-bold italic">Giải pháp: Câm lặng (Silence), Tiêu diệt trực tiếp.</div>
+                </div>
+                <div class="bg-card p-6 rounded-2xl border-l-4 border-purple-500">
+                    <h4 class="font-bold text-white mb-2">Viktor, Kai'sa, Draven</h4>
+                    <p class="text-xs text-slate-500 mb-4">Tăng tiến sức mạnh (Buff) cực nhanh.</p>
+                    <div class="text-[11px] text-lor-gold font-bold italic">Giải pháp: Tiêu diệt sớm trước khi Boss "lăn cầu tuyết".</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="lookup" class="mb-20">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-8 gap-6">
+                <div>
+                    <h2 class="text-2xl font-bold text-white uppercase italic tracking-widest">Bảng Tra Cứu Quy Tắc</h2>
+                    <p class="text-xs text-slate-500 mt-1">Dữ liệu được tải từ tệp <span class="text-lor-gold">mutators.json</span></p>
+                </div>
+                <div class="relative w-full md:w-96 group">
+                    <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 group-focus-within:text-lor-gold transition-colors"></i>
+                    <input type="text" id="searchInput" placeholder="Tìm tên luật, mô tả hoặc tướng..." 
+                           class="w-full bg-card p-4 pl-12 rounded-2xl outline-none border border-white/10 focus:border-lor-gold transition-all text-sm shadow-2xl">
+                </div>
+            </div>
+
+            <div class="bg-card rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm border-collapse">
+                        <thead class="bg-white/5 text-slate-500 uppercase text-[10px] font-black tracking-widest border-b border-white/10">
+                            <tr>
+                                <th class="p-6">Quy Tắc</th>
+                                <th class="p-6">Mô Tả Luật</th>
+                                <th class="p-6">Cách Đối Phó</th>
+                                <th class="p-6">Tướng Gợi Ý</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dataTable" class="divide-y divide-white/5">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="mt-32 mb-10 text-center relative">
+            <div class="absolute inset-0 bg-lor-gold/5 blur-[120px] rounded-full -z-10"></div>
+            
+            <div class="inline-block mb-6 px-6 py-2 rounded-full border border-lor-gold/30 bg-lor-gold/5 text-[10px] font-black uppercase tracking-[0.3em] text-lor-gold animate-bounce">
+                Final Message
+            </div>
+            
+            <h2 class="text-4xl md:text-6xl font-black italic uppercase tracking-tighter mb-8 leading-none">
+                Đừng Đợi <span class="lor-gold">Vận May</span>,<br>Hãy Làm Chủ <span class="text-white">Kỹ Năng</span>.
+            </h2>
+            
+            <div class="max-w-2xl mx-auto space-y-6 text-slate-400 text-sm md:text-base leading-relaxed">
+                <p>
+                    70 tầng tháp không chỉ là những con số, đó là chiến trường nơi bản lĩnh của một nhà cầm quân được khẳng định. Thử thách tháng có thể khắc nghiệt, các Mutators có thể "vô tri", nhưng với một bể tướng đủ sâu và một chiến thuật đủ sắc, không có ngọn tháp nào là không thể san phẳng.
+                </p>
+                <p class="font-bold text-white italic">
+                    Hãy nhớ: Trong Con Đường Anh Hùng, bạn không chỉ chơi một trò chơi thẻ bài, bạn đang viết nên huyền thoại của chính mình. 
+                </p>
+            </div>
+
+            <div class="mt-12 flex flex-col md:flex-row justify-center items-center gap-6">
+                <div class="h-[1px] w-24 bg-gradient-to-r from-transparent to-lor-gold/50"></div>
+                <div class="flex items-center gap-4">
+                    <i data-lucide="swords" class="w-8 h-8 lor-gold"></i>
+                    <span class="text-2xl font-black lor-gold italic uppercase tracking-widest">Hẹn gặp lại ở đỉnh tháp!</span>
+                    <i data-lucide="crown" class="w-8 h-8 lor-gold"></i>
+                </div>
+                <div class="h-[1px] w-24 bg-gradient-to-l from-transparent to-lor-gold/50"></div>
+            </div>
+
+            
+        </section>
+    </div>
+
+    <script>
+        let allMutators = [];
+
+        // HÀM ĐỌC FILE JSON
+        async function loadMutatorData() {
+            const tableBody = document.getElementById('dataTable');
+            try {
+                // Fetch file mutators.json (Đảm bảo file này nằm cùng thư mục)
+                const response = await fetch('mutators.json');
+                if (!response.ok) throw new Error('Không tìm thấy file mutators.json');
+                
+                allMutators = await response.json();
+                renderTable(allMutators);
+            } catch (error) {
+                console.error(error);
+                tableBody.innerHTML = `
+                    <tr><td colspan="4" class="p-20 text-center">
+                        <div class="text-red-400 font-bold mb-2 uppercase tracking-widest">Lỗi: File JSON không khả dụng</div>
+                        <p class="text-slate-500 text-xs leading-relaxed">
+                            Trình duyệt chặn việc đọc file trực tiếp (CORS). <br>
+                            Hãy chạy file này bằng <strong>VS Code Live Server</strong> hoặc đẩy lên Hosting/Github.
+                        </p>
+                    </td></tr>`;
+            }
+        }
+
+        // HÀM HIỂN THỊ DỮ LIỆU
+        function renderTable(data) {
+            const tbody = document.getElementById('dataTable');
+            if (data.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="4" class="p-10 text-center text-slate-600 italic">Không tìm thấy kết quả phù hợp...</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = data.map(item => `
+                <tr class="hover:bg-white/[0.02] transition-colors">
+                    <td class="p-6 font-bold text-white text-xs md:text-sm border-r border-white/5">${item.name}</td>
+                    <td class="p-6 text-slate-400 text-xs md:text-sm leading-relaxed">${item.desc}</td>
+                    <td class="p-6 text-lor-gold italic text-xs md:text-sm font-medium border-x border-white/5">${item.counter}</td>
+                    <td class="p-6">
+                        <div class="flex flex-wrap gap-2">
+                            ${item.champs.map(c => `<span class="tag-champ">${c}</span>`).join('')}
+                        </div>
+                    </td>
+                </tr>
+            `).join('');
+            lucide.createIcons();
+        }
+
+        // TÌM KIẾM DỮ LIỆU
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            const filtered = allMutators.filter(m => 
+                m.name.toLowerCase().includes(term) || 
+                m.desc.toLowerCase().includes(term) ||
+                m.counter.toLowerCase().includes(term) ||
+                m.champs.some(c => c.toLowerCase().includes(term))
+            );
+            renderTable(filtered);
+        });
+
+        // Khởi chạy
+        loadMutatorData();
+    </script>
+</body>
+</html>
