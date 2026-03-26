@@ -1,6 +1,5 @@
 // Hàm tạo và chèn Navbar vào trang
-function injectSharedComponents() {
-    
+function injectNavbar() {
     const navHTML = `
     <nav class="fixed top-0 w-full z-[100] flex items-center justify-between px-6 md:px-12 py-4 bg-[#04060b]/90 backdrop-blur-md border-b border-white/5 transition-all duration-300" id="mainNav">
         <a href="index.html" class="flex items-center gap-3 group transition-transform active:scale-95">
