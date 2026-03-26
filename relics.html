@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kho Cổ Vật - PoC Guide</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { 'lor-gold': '#c89b3c' }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body { background-color: #04060b; color: #f8fafc; font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+        
+        .bg-fixed-section {
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(to bottom, #04060b 0%, rgba(4, 6, 11, 0.85) 50%, #04060b 100%), 
+                              url('https://images.contentstack.io/v3/assets/blt0eb2a29869260172/LoR_WorldMap_Background.jpg');
+        }
+
+        .relic-card {
+            background: rgba(10, 18, 35, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            backdrop-filter: blur(16px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .relic-card:hover { 
+            transform: translateY(-6px); 
+            background: rgba(16, 28, 55, 0.95);
+            border-color: rgba(200, 155, 60, 0.4);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .border-Epic { border-top: 5px solid #a855f7; }
+        .border-Rare { border-top: 5px solid #06b6d4; }
+        .border-Common { border-top: 5px solid #94a3b8; }
+
+        /* Hiệu ứng cho nút lọc đang chọn */
+        .filter-btn.active {
+            background-color: #c89b3c !important;
+            color: black !important;
+            border-color: #c89b3c !important;
+            box-shadow: 0 0 15px rgba(200, 155, 60, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="glass-header fixed top-0 w-full z-50 flex items-center justify-between px-6 md:px-12 py-4 bg-[#04060b]/80 backdrop-blur-md border-b border-white/5">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 md:w-10 md:h-10 bg-lor-gold rounded-md flex items-center justify-center text-black font-bold text-lg md:text-xl shadow-[0_0_15px_rgba(200,155,60,0.4)]">P</div>
+            <span class="text-xl md:text-2xl tracking-tighter uppercase text-white font-bold font-primary">PoC Guide</span>
+        </div>
+        
+        <div class="hidden lg:flex gap-10 items-center">
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2">
+                <i data-lucide="users" class="w-4 h-4"></i> Tướng
+            </a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2">
+                <i data-lucide="database" class="w-4 h-4"></i> Dữ liệu
+            </a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2">
+                <i data-lucide="wrench" class="w-4 h-4"></i> Công cụ
+            </a>
+        </div>
+    </nav>
+
+    <div class="bg-fixed-section min-h-screen pt-32 pb-24">
+        <div class="max-w-[1400px] mx-auto px-6">
+            
+            <div class="flex flex-col lg:flex-row justify-between items-end mb-12 gap-8">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-primary font-bold uppercase mb-4 tracking-tight">Kho <span class="text-lor-gold">Cổ Vật</span></h1>
+                    <p class="text-slate-400 text-lg italic tracking-wide">Cơ sở dữ liệu toàn diện về các chỉ số, hiệu ứng và cấp bậc của hệ thống Cổ Vật</p>
+                </div>
+                
+                <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto">
+                    <div class="relative flex-grow sm:flex-grow-0">
+                        <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500"></i>
+                        <input type="text" id="searchInput" placeholder="Tìm tên cổ vật..." 
+                               class="bg-white/5 border border-white/10 rounded-xl pl-12 pr-5 py-3 text-base focus:border-lor-gold outline-none w-full sm:w-64 transition-all">
+                    </div>
+
+                    <div class="flex bg-white/5 p-1 rounded-xl border border-white/10">
+                        <button onclick="setFilter('all', this)" class="filter-btn active px-4 py-2 rounded-lg text-xs font-bold uppercase transition-all">Tất cả</button>
+                        <button onclick="setFilter('Epic', this)" class="filter-btn px-4 py-2 rounded-lg text-xs font-bold uppercase text-purple-400 hover:bg-white/5 transition-all">Sử Thi</button>
+                        <button onclick="setFilter('Rare', this)" class="filter-btn px-4 py-2 rounded-lg text-xs font-bold uppercase text-cyan-400 hover:bg-white/5 transition-all">Hiếm</button>
+                        <button onclick="setFilter('Common', this)" class="filter-btn px-4 py-2 rounded-lg text-xs font-bold uppercase text-slate-400 hover:bg-white/5 transition-all">Thường</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="relic-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                </div>
+        </div>
+    </div>
+
+    <script>
+        let allRelics = [];
+        let currentRarity = 'all';
+
+        async function init() {
+            try {
+                const response = await fetch('relics.json');
+                allRelics = await response.json();
+                render();
+            } catch (e) {
+                document.getElementById('relic-grid').innerHTML = '<p class="col-span-full text-center text-xl py-20 text-red-400">Lỗi load dữ liệu!</p>';
+            }
+        }
+
+        function cleanText(text) {
+            if (!text) return "";
+            return text
+                .replace(/<style=Keyword>(.*?)<\/style>/g, '<span class="text-cyan-400 font-bold">$1</span>')
+                .replace(/<style=Vocab>(.*?)<\/style>/g, '<span class="text-lor-gold font-bold">$1</span>')
+                .replace(/<link=.*?>(.*?)<\/link>/g, '<span class="text-white font-semibold">$1</span>')
+                .replace(/<sprite.*?>/g, '')
+                .replace(/<br>/g, '<br class="mb-2 block content-[\'\']">');
+        }
+
+        function render() {
+            const grid = document.getElementById('relic-grid');
+            const searchVal = document.getElementById('searchInput').value.toLowerCase();
+
+            const filtered = allRelics.filter(item => {
+                const matchesRarity = currentRarity === 'all' || item.rarityRef === currentRarity;
+                const matchesSearch = item.name.toLowerCase().includes(searchVal);
+                return matchesRarity && matchesSearch;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = '<p class="col-span-full text-center py-20 text-slate-500 text-xl">Không tìm thấy cổ vật nào.</p>';
+                return;
+            }
+
+            grid.innerHTML = filtered.map(item => `
+                <div class="relic-card group p-7 pb-10 border-${item.rarityRef}">
+                    <div class="relative w-full aspect-square mb-6 bg-gradient-to-b from-white/5 to-transparent rounded-2xl flex items-center justify-center">
+                        <img src="${item.assetAbsolutePath}" class="w-32 h-32 object-contain group-hover:scale-110 transition-transform duration-500">
+                        <span class="absolute top-3 right-3 text-[9px] font-bold bg-black/60 px-3 py-1 rounded-full uppercase tracking-widest border border-white/5 shadow-lg">
+                            ${item.rarity}
+                        </span>
+                    </div>
+
+                    <h3 class="text-xl font-primary font-bold text-white mb-4 group-hover:text-lor-gold transition-colors leading-tight">
+                        ${item.name}
+                    </h3>
+
+                    <div class="text-[14px] text-slate-300 leading-relaxed min-h-[85px]">
+                        ${cleanText(item.description)}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Hàm xử lý lọc độ hiếm
+        function setFilter(rarity, btn) {
+            currentRarity = rarity;
+            
+            // Cập nhật trạng thái nút active
+            document.querySelectorAll('.filter-btn').forEach(el => el.classList.remove('active'));
+            btn.classList.add('active');
+            
+            render();
+        }
+
+        // Tự động lọc khi gõ tìm kiếm
+        document.getElementById('searchInput').addEventListener('input', render);
+
+        init();
+        lucide.createIcons();
+    </script>
+</body>
+</html>
