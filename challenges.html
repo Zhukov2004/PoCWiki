@@ -8,36 +8,112 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    
     <style>
-        body { background: #04060b; color: #f8fafc; font-family: 'Open Sans', sans-serif; scroll-behavior: smooth; }
+        /* 1. Cấu hình chung */
+        body { 
+            background: #04060b; 
+            color: #f8fafc; 
+            font-family: 'Open Sans', sans-serif; 
+            scroll-behavior: smooth; 
+            /* Đẩy nội dung xuống để không bị Navbar che mất */
+            padding-top: 40px; 
+        }
+    
         .lor-gold { color: #c89b3c; }
-        .bg-card { background: #0a0e1a; border: 1px solid rgba(255,255,255,0.05); }
-        .tag-champ { background: rgba(200, 155, 60, 0.1); border: 1px solid rgba(200, 155, 60, 0.2); color: #c89b3c; font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 600; text-transform: uppercase; }
-        .nav-link:hover { color: #c89b3c; border-bottom: 2px solid #c89b3c; }
         
-        /* Custom Scrollbar */
+        .bg-card { 
+            background: #0a0e1a; 
+            border: 1px solid rgba(255,255,255,0.05); 
+        }
+    
+        .tag-champ { 
+            background: rgba(200, 155, 60, 0.1); 
+            border: 1px solid rgba(200, 155, 60, 0.2); 
+            color: #c89b3c; 
+            font-size: 11px; 
+            padding: 2px 8px; 
+            border-radius: 4px; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+        }
+    
+        /* 2. Thanh điều hướng (Navbar) */
+        .glass-header {
+            background: rgba(4, 6, 11, 0.9); 
+            backdrop-filter: blur(10px);    
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            z-index: 9999;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    
+        /* 3. Logo & Links */
+        .logo-gold {
+            color: #c89b3c !important; 
+        }
+    
+        .nav-link:hover { 
+            color: #c89b3c; 
+            border-bottom: 2px solid #c89b3c; 
+        }
+    
+        /* 4. Thanh cuộn (Scrollbar) */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #04060b; }
-        ::-webkit-scrollbar-thumb { background: #c89b3c; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb { 
+            background: #c89b3c; 
+            border-radius: 10px; 
+        }
+        @keyframes loading {
+    0% { width: 0%; transform: translateX(-100%); }
+    50% { width: 100%; transform: translateX(0%); }
+    100% { width: 0%; transform: translateX(100%); }
+}
+
+/* Hiệu ứng mờ dần khi ẩn loader */
+.loader-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
     </style>
 </head>
 <body class="pb-20">
-
-    <nav class="sticky top-0 z-50 bg-[#04060b]/90 backdrop-blur-md border-b border-white/5 px-6 py-4">
-        <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <h1 class="text-xl font-bold lor-gold tracking-tighter uppercase italic">PoC Monthly Guide</h1>
-            <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-400">
-                <a href="#overview" class="nav-link">Tổng Quan</a>
-                <a href="#strategy" class="nav-link">Chiến Thuật</a>
-                <a href="#bosses" class="nav-link">Đối Phó Boss</a>
-                <a href="#lookup" class="nav-link text-white border-b-2 border-lor-gold">Tra Cứu Mutators</a>
+    <div id="loader" class="fixed inset-0 z-[10000] bg-[#04060b] flex flex-col items-center justify-center transition-opacity duration-700">
+        <div class="relative">
+            <div class="absolute inset-0 bg-lor-gold/20 blur-xl rounded-full animate-pulse"></div>
+            
+            <div class="w-16 h-16 bg-lor-gold rounded-xl flex items-center justify-center text-black font-black text-4xl shadow-[0_0_30px_rgba(200,155,60,0.6)] animate-bounce">
+                P
             </div>
+        </div>
+        <div class="mt-8 text-lor-gold font-bold tracking-[0.5em] uppercase text-[10px] animate-pulse">
+            Loading Assets...
+        </div>
+        <div class="mt-4 w-48 h-[2px] bg-white/5 rounded-full overflow-hidden">
+            <div class="h-full bg-lor-gold animate-[loading_2s_ease-in-out_infinite]"></div>
+        </div>
+    </div>
+    <nav class="glass-header fixed top-0 left-0 w-full flex items-center justify-between px-6 md:px-12 py-4">
+        <a href="index.html" class="flex items-center gap-3 group">
+            <div class="logo-gold w-10 h-10 bg-lor-gold rounded-md flex items-center justify-center text-black font-extrabold text-2xl shadow-[0_0_15px_rgba(200,155,60,0.5)] transition-all group-hover:scale-105">
+                P
+            </div>
+            
+            <span class="text-lor-gold text-2xl tracking-tighter uppercase font-bold font-primary group-hover:text-white transition-colors">
+                PoC Guide
+            </span>
+        </a>
+        <div class="hidden lg:flex gap-10 items-center">
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i> Tướng</a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="database" class="w-4 h-4"></i> Dữ liệu</a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Công cụ</a>
         </div>
     </nav>
 
     <div class="max-w-6xl mx-auto px-6">
-        
+        <script src="components.js"></script>
         <section id="overview" class="pt-16 mb-20">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
@@ -249,6 +325,14 @@
 
         // Khởi chạy
         loadMutatorData();
+        window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    
+    // Đợi 1.5 giây để hiệu ứng trông mượt mà hơn trước khi ẩn
+    setTimeout(() => {
+        loader.classList.add('loader-hidden');
+    }, 1500);
+});
     </script>
 </body>
 </html>

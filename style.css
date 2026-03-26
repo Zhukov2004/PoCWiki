@@ -1,0 +1,18 @@
+/* Hiệu ứng thanh loading chạy qua lại */
+@keyframes loading {
+    0% { width: 0%; transform: translateX(-100%); }
+    50% { width: 100%; transform: translateX(0%); }
+    100% { width: 0%; transform: translateX(100%); }
+}
+
+/* Hiệu ứng ẩn Loader mượt mà */
+.loader-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.7s ease-out;
+}
+
+/* Hiệu ứng Logo nhấp nháy (nếu cần) */
+.animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
