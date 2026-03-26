@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện Lá Bài - PoC Guide</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { 'lor-gold': '#c89b3c' },
+                    fontFamily: {
+                        'primary': ['"Space Grotesk"', 'sans-serif'],
+                        'secondary': ['"Open Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body { background-color: #04060b; color: #f8fafc; font-family: 'Open Sans', sans-serif; margin: 0; }
+        .glass-header { backdrop-filter: blur(20px); background-color: rgba(4, 6, 11, 0.9); border-bottom: 1px solid rgba(200, 155, 60, 0.1); z-index: 100; }
+        
+        .card-item {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative; z-index: 1; border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        /* Chỉ giữ lại hiệu ứng bay lên nhẹ và đổ bóng, bỏ scale(1.05) */
+.card-item:hover {
+    transform: translateY(-8px); /* Giữ lại hiệu ứng nhấc lên một chút cho sinh động */
+    z-index: 50; 
+    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.9), 0 0 15px var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+/* Đảm bảo ảnh bên trong không bị phóng to khi hover vào card-item */
+.card-item:hover img {
+    transform: none !important;
+}
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #c89b3c; border-radius: 10px; }
+
+        .custom-dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%; left: 0; right: 0;
+            background: #0a0e1a;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            margin-top: 8px;
+            z-index: 1000;
+            max-height: 400px;
+            overflow-y: auto;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        .custom-dropdown-content.show { display: block; }
+        
+        .filter-box {
+            background-color: #0a0e1a;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.2s ease;
+        }
+        .filter-box:hover { border-color: #c89b3c; }
+
+        .page-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid rgba(255,255,255,0.1);
+            background-color: #0a0e1a;
+            font-size: 0.875rem;
+            font-weight: 700;
+            transition: all 0.2s;
+        }
+        .page-btn:hover:not(:disabled) { border-color: #c89b3c; color: #c89b3c; }
+        .page-btn.active { background-color: #c89b3c; color: #000; border-color: #c89b3c; }
+    </style>
+</head>
+<body>
+
+    <nav class="glass-header fixed top-0 w-full flex items-center justify-between px-6 md:px-12 py-4">
+        <a href="index.html" class="flex items-center gap-3 group">
+            <div class="w-10 h-10 bg-lor-gold rounded-md flex items-center justify-center text-black font-bold text-xl shadow-[0_0_15px_rgba(200,155,60,0.4)]">
+                P
+            </div>
+            <span class="text-2xl tracking-tighter uppercase text-white font-bold font-primary group-hover:text-lor-gold transition-colors">
+                PoC Guide
+            </span>
+        </a>
+        <div class="hidden lg:flex gap-10 items-center">
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i> Tướng</a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="database" class="w-4 h-4"></i> Dữ liệu</a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Công cụ</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 pt-32 pb-24">
+        <div class="mb-12 text-center">
+            <h1 class="text-4xl md:text-6xl font-primary font-bold mb-6 uppercase tracking-tight text-lor-gold">Thư viện lá bài</h1>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 bg-[#0a0e1a]/90 p-5 rounded-3xl border border-white/5 shadow-2xl">
+                <div class="relative">
+                    <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500"></i>
+                    <input type="text" id="searchInput" placeholder="Tên lá bài..." class="filter-box w-full rounded-xl py-3 pl-10 pr-4 focus:outline-none focus:border-lor-gold text-sm text-white">
+                </div>
+
+                <div class="relative custom-wrapper" id="manaWrapper">
+                    <div class="filter-box w-full rounded-xl py-3 px-4 flex items-center gap-3 cursor-pointer text-sm">
+                        <i data-lucide="zap" class="w-4 h-4 text-emerald-400"></i>
+                        <span id="manaLabel">Tất cả Mana</span>
+                        <i data-lucide="chevron-down" class="ml-auto w-4 h-4 text-slate-500"></i>
+                    </div>
+                    <div id="manaDropdown" class="custom-dropdown-content">
+                        <div class="dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/5" data-value="all">
+                             <span>Tất cả Mana</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative custom-wrapper" id="typeWrapper">
+                    <div class="filter-box w-full rounded-xl py-3 px-4 flex items-center gap-3 cursor-pointer text-sm">
+                        <i data-lucide="layers" class="w-4 h-4 text-blue-400"></i>
+                        <span id="typeLabel">Tất cả loại bài</span>
+                        <i data-lucide="chevron-down" class="ml-auto w-4 h-4 text-slate-500"></i>
+                    </div>
+                    <div id="typeDropdown" class="custom-dropdown-content">
+                        <div class="dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/5" data-value="all">
+                             <span>Tất cả loại bài</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative custom-wrapper" id="regionWrapper">
+                    <div class="filter-box w-full rounded-xl py-3 px-4 flex items-center gap-3 cursor-pointer text-sm">
+                        <img id="currentRegionImg" class="w-5 h-5 object-contain hidden">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-slate-500" id="defaultRegionIcon"></i>
+                        <span id="regionLabel">Tất cả khu vực</span>
+                        <i data-lucide="chevron-down" class="ml-auto w-4 h-4 text-slate-500"></i>
+                    </div>
+                    <div id="regionDropdown" class="custom-dropdown-content">
+                        <div class="dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/5" data-value="all">
+                            <i data-lucide="globe" class="w-4 h-4 text-slate-500"></i><span>Tất cả khu vực</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative custom-wrapper" id="rarityWrapper">
+                    <div class="filter-box w-full rounded-xl py-3 px-4 flex items-center gap-3 cursor-pointer text-sm">
+                        <i data-lucide="sparkles" class="w-4 h-4 text-purple-400"></i>
+                        <span id="rarityLabel">Tất cả độ hiếm</span>
+                        <i data-lucide="chevron-down" class="ml-auto w-4 h-4 text-slate-500"></i>
+                    </div>
+                    <div id="rarityDropdown" class="custom-dropdown-content">
+                        <div class="dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/5" data-value="all">
+                            <span>Tất cả độ hiếm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cardsGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6"></div>
+        <div id="pagination" class="mt-16 flex flex-wrap justify-center items-center gap-2"></div>
+        <div id="loading" class="flex justify-center py-20"><div class="w-10 h-10 border-2 border-lor-gold/20 border-t-lor-gold rounded-full animate-spin"></div></div>
+    </main>
+
+    <script>
+        const regionData = [
+            { id: 'Bilgewater', name: 'Bilgewater', color: '#ff7b00', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bilgewater.png' },
+            { id: 'Demacia', name: 'Demacia', color: '#fff5d1', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-demacia.png' },
+            { id: 'Noxus', name: 'Noxus', color: '#ff4b4b', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-noxus.png' },
+            { id: 'Ionia', name: 'Ionia', color: '#ff99cc', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-ionia.png' },
+            { id: 'Freljord', name: 'Freljord', color: '#4be3ff', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-freljord.png' },
+            { id: 'Piltover & Zaun', name: 'Piltover & Zaun', color: '#ff9900', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-piltoverzaun.png' },
+            { id: 'Quần Đảo Bóng Đêm', name: 'Quần Đảo Bóng Đêm', color: '#00ffcc', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-shadowisles.png' },
+            { id: 'Shurima', name: 'Shurima', color: '#ffe033', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-shurima.png' },
+            { id: 'Targon', name: 'Targon', color: '#a3b8ff', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-targon.png' },
+            { id: 'Thành Phố Bandle', name: 'Thành Phố Bandle', color: '#ccff33', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bandlecity.png' },
+            { id: 'Runeterra', name: 'Runeterra', color: '#ffffff', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-runeterra.png' }
+        ];
+
+        const typeData = [
+            { id: 'Bài quân', name: 'Bài quân', icon: 'user' },
+            { id: 'Bài phép', name: 'Bài phép', icon: 'wand-2' },
+            { id: 'Trang Bị', name: 'Trang Bị', icon: 'hammer' },
+            { id: 'Địa Danh', name: 'Địa Danh', icon: 'landmark' }
+        ];
+
+        const rarityData = [
+            { id: 'THƯỜNG', name: 'Thường', color: '#94a3b8', icon: 'circle' },
+            { id: 'HIẾM', name: 'Hiếm', color: '#3b82f6', icon: 'triangle' },
+            { id: 'SỬ THI', name: 'Sử Thi', color: '#a855f7', icon: 'diamond' },
+            { id: 'Anh Hùng', name: 'Anh Hùng', color: '#eab308', icon: 'crown' }
+        ];
+
+        const manaData = [0, 1, 2, 3, 4, 5, 6, '7+'];
+        let allCards = [], filteredCards = [], filters = { search: '', mana: 'all', type: 'all', region: 'all', rarity: 'all' };
+        let currentPage = 1;
+        const cardsPerPage = 20;
+
+        // --- RENDER DROPDOWNS ---
+        function initDropdowns() {
+            const manaList = document.getElementById('manaDropdown');
+            manaData.forEach(m => {
+                const opt = document.createElement('div');
+                opt.className = 'dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/5';
+                opt.dataset.value = (m === '7+') ? '7' : m;
+                opt.innerHTML = `<span>${m} Mana</span>`;
+                manaList.appendChild(opt);
+            });
+
+            const typeList = document.getElementById('typeDropdown');
+            typeData.forEach(t => {
+                const opt = document.createElement('div');
+                opt.className = 'dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/5';
+                opt.dataset.value = t.id;
+                opt.innerHTML = `<i data-lucide="${t.icon}" class="w-4 h-4"></i><span>${t.name}</span>`;
+                typeList.appendChild(opt);
+            });
+
+            const regionList = document.getElementById('regionDropdown');
+            regionData.forEach(r => {
+                const opt = document.createElement('div');
+                opt.className = 'dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/10 group';
+                opt.dataset.value = r.id;
+                opt.innerHTML = `
+                    <img src="${r.icon}" class="w-6 h-6 object-contain grayscale group-hover:grayscale-0 transition-all">
+                    <span style="color: ${r.color}">${r.name}</span>
+                `;
+                regionList.appendChild(opt);
+            });
+
+            const rarityList = document.getElementById('rarityDropdown');
+            rarityData.forEach(r => {
+                const opt = document.createElement('div');
+                opt.className = 'dropdown-option p-3 flex items-center gap-3 cursor-pointer text-sm hover:bg-white/5';
+                opt.dataset.value = r.id;
+                opt.innerHTML = `<i data-lucide="${r.icon}" class="w-4 h-4" style="color: ${r.color}"></i><span style="color: ${r.color}">${r.name}</span>`;
+                rarityList.appendChild(opt);
+            });
+            lucide.createIcons();
+        }
+
+        // --- FILTER LOGIC ---
+        function handleFilters() {
+            filters.search = document.getElementById('searchInput').value.toLowerCase().trim();
+            filteredCards = allCards.filter(card => {
+                const nameMatch = (card.name || "").toLowerCase().includes(filters.search);
+                const cardCost = parseInt(card.cost);
+                const filterMana = filters.mana === 'all' ? 'all' : parseInt(filters.mana);
+                const manaMatch = filterMana === 'all' || (filterMana === 7 ? cardCost >= 7 : cardCost === filterMana);
+                const typeMatch = filters.type === 'all' || (card.type && card.type.toLowerCase().trim() === filters.type.toLowerCase().trim());
+                const regionMatch = filters.region === 'all' || (card.regions && card.regions.some(r => r.toLowerCase().trim() === filters.region.toLowerCase().trim()));
+                const rarityMatch = filters.rarity === 'all' || (card.rarity && card.rarity.toLowerCase().trim() === filters.rarity.toLowerCase().trim());
+                return nameMatch && manaMatch && typeMatch && regionMatch && rarityMatch;
+            });
+            changePage(1);
+        }
+
+        // --- PAGINATION ---
+        function changePage(page) {
+            currentPage = page;
+            const start = (currentPage - 1) * cardsPerPage;
+            const pageCards = filteredCards.slice(start, start + cardsPerPage);
+            displayCards(pageCards);
+            renderPaginationButtons(filteredCards.length);
+        }
+
+        function renderPaginationButtons(total) {
+            const container = document.getElementById('pagination');
+            const totalPages = Math.ceil(total / cardsPerPage);
+            if (totalPages <= 1) { container.innerHTML = ''; return; }
+            let html = `<button onclick="changePage(${currentPage - 1})" class="page-btn" ${currentPage === 1 ? 'disabled' : ''}><i data-lucide="chevron-left" class="w-4 h-4"></i></button>`;
+            for (let i = 1; i <= totalPages; i++) {
+                if(i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2))
+                    html += `<button onclick="changePage(${i})" class="page-btn ${i === currentPage ? 'active' : ''}">${i}</button>`;
+                else if(i === currentPage - 3 || i === currentPage + 3) html += `<span class="text-white/20">...</span>`;
+            }
+            html += `<button onclick="changePage(${currentPage + 1})" class="page-btn" ${currentPage === totalPages ? 'disabled' : ''}><i data-lucide="chevron-right" class="w-4 h-4"></i></button>`;
+            container.innerHTML = html;
+            lucide.createIcons();
+        }
+
+        // --- DISPLAY ---
+        function displayCards(cards) {
+            const grid = document.getElementById('cardsGrid');
+            if(cards.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center py-20 text-slate-500">Không tìm thấy lá bài nào.</div>`;
+                return;
+            }
+            grid.innerHTML = cards.map(card => {
+                const rInfo = rarityData.find(r => r.id === card.rarity);
+                const hoverColor = rInfo ? rInfo.color : '#c89b3c';
+                return `
+                    <div class="card-item bg-[#0a0e1a] rounded-2xl overflow-hidden group shadow-lg" style="--hover-color: ${hoverColor}">
+                        <div class="aspect-[2/3] overflow-hidden bg-black">
+                            <img src="${card.assets[0].gameAbsolutePath}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                        </div>
+                        <div class="p-3 bg-gradient-to-t from-black pt-2">
+                            <h3 class="text-white font-bold text-xs truncate">${card.name}</h3>
+                            <div class="flex justify-between items-center mt-2 opacity-60">
+                                <span class="text-[9px] font-bold uppercase">${card.regions[0] || ''}</span>
+                                <span class="text-[9px]">${card.cost} Mana</span>
+                            </div>
+                        </div>
+                    </div>`;
+            }).join('');
+        }
+
+        // --- EVENT HELPERS ---
+        function setupDropdownEvents(wrapperId, labelId, filterKey) {
+            const wrapper = document.getElementById(wrapperId);
+            const display = wrapper.querySelector('.filter-box');
+            const dropdown = wrapper.querySelector('.custom-dropdown-content');
+
+            display.addEventListener('click', (e) => {
+                e.stopPropagation();
+                document.querySelectorAll('.custom-dropdown-content').forEach(d => d !== dropdown && d.classList.remove('show'));
+                dropdown.classList.toggle('show');
+            });
+
+            dropdown.addEventListener('click', (e) => {
+                const option = e.target.closest('.dropdown-option');
+                if (!option) return;
+                
+                filters[filterKey] = option.dataset.value;
+                document.getElementById(labelId).innerText = option.querySelector('span').innerText;
+
+                if(filterKey === 'region') {
+                    const mainImg = document.getElementById('currentRegionImg');
+                    const defIcon = document.getElementById('defaultRegionIcon');
+                    const selected = regionData.find(r => r.id === filters.region);
+                    
+                    if(selected && filters.region !== 'all') {
+                        mainImg.src = selected.icon;
+                        mainImg.classList.remove('hidden');
+                        defIcon.classList.add('hidden');
+                    } else {
+                        mainImg.classList.add('hidden');
+                        defIcon.classList.remove('hidden');
+                    }
+                }
+
+                dropdown.classList.remove('show');
+                handleFilters();
+            });
+        }
+
+        window.addEventListener('click', () => document.querySelectorAll('.custom-dropdown-content').forEach(d => d.classList.remove('show')));
+
+        async function fetchCards() {
+            try {
+                const response = await fetch('cards.json');
+                allCards = await response.json();
+                document.getElementById('loading').classList.add('hidden');
+                handleFilters();
+            } catch (error) { 
+                document.getElementById('loading').innerHTML = "Lỗi tải dữ liệu.";
+            }
+        }
+
+        initDropdowns();
+        setupDropdownEvents('manaWrapper', 'manaLabel', 'mana');
+        setupDropdownEvents('typeWrapper', 'typeLabel', 'type');
+        setupDropdownEvents('regionWrapper', 'regionLabel', 'region');
+        setupDropdownEvents('rarityWrapper', 'rarityLabel', 'rarity');
+        document.getElementById('searchInput').addEventListener('input', handleFilters);
+        fetchCards();
+    </script>
+</body>
+</html>

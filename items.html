@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hệ Thống Trang Bị - PoC Wiki</title>
+    <title>Hệ Thống Trang Bị - PoC Guide</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -11,161 +11,232 @@
         tailwind.config = { theme: { extend: { colors: { 'lor-gold': '#c89b3c' } } } }
     </script>
     <style>
-        body { background: #04060b; color: #f8fafc; font-family: 'Open Sans', sans-serif; }
-        .bg-fixed-section { background: linear-gradient(to bottom, #04060b, rgba(4,6,11,0.8)), url('https://images.contentstack.io/v3/assets/blt0eb2a29869260172/LoR_WorldMap_Background.jpg') fixed center/cover; }
-        .item-card { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 24px; backdrop-filter: blur(12px); transition: 0.3s; }
-        .item-card:hover { transform: translateY(-5px); border-color: rgba(200,155,60,0.4); background: rgba(255,255,255,0.05); }
+        body { background: #04060b; color: #f8fafc; font-family: 'Open Sans', sans-serif; overflow-x: hidden; }
+        .bg-fixed-section { 
+            background: linear-gradient(to bottom, #04060b, rgba(4,6,11,0.8)), 
+            url('https://images.contentstack.io/v3/assets/blt0eb2a29869260172/LoR_WorldMap_Background.jpg') fixed center/cover; 
+        }
+        .item-card { 
+            background: rgba(255,255,255,0.02); 
+            border: 1px solid rgba(255,255,255,0.05); 
+            border-radius: 24px; 
+            backdrop-filter: blur(12px); 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+        }
+        .item-card:hover { transform: translateY(-8px); border-color: #c89b3c; background: rgba(255,255,255,0.05); }
         
-        .border-Epic { border-top: 3px solid #a855f7; }
-        .border-Rare { border-top: 3px solid #3b82f6; }
-        .border-Common { border-top: 3px solid #94a3b8; }
+        .border-Epic { border-top: 4px solid #a855f7; }
+        .border-Rare { border-top: 4px solid #3b82f6; }
+        .border-Common { border-top: 4px solid #94a3b8; }
 
-        .active-all { background: #c89b3c !important; color: black; }
-        .active-Epic { background: #a855f7 !important; box-shadow: 0 0 15px #a855f766; color: white !important; }
-        .active-Rare { background: #3b82f6 !important; box-shadow: 0 0 15px #3b82f666; color: white !important; }
-        .active-Common { background: #94a3b8 !important; box-shadow: 0 0 15px #94a3b866; color: white !important; }
+        .active-all { background: #c89b3c !important; color: black !important; }
+        .active-Epic { background: #a855f7 !important; color: white !important; box-shadow: 0 0 15px #a855f766; }
+        .active-Rare { background: #3b82f6 !important; color: white !important; box-shadow: 0 0 15px #3b82f666; }
+        .active-Common { background: #94a3b8 !important; color: white !important; box-shadow: 0 0 15px #94a3b866; }
 
-        .item-icon-wrapper { -webkit-mask-image: radial-gradient(circle, black 40%, transparent 72%); }
-        /* Style cho Tooltip */
-.tooltip-container {
-    position: relative;
-    display: inline-block;
-    cursor: help;
-}
+        .tooltip-container { position: relative; display: inline; cursor: help; border-bottom: 1px dashed rgba(255,255,255,0.3); }
+        .tooltip-text {
+            visibility: hidden; width: 220px; background: #1a2235; color: #f8fafc;
+            border: 1px solid #c89b3c; border-radius: 8px; padding: 12px;
+            position: absolute; z-index: 100; bottom: 130%; left: 50%;
+            transform: translateX(-50%); opacity: 0; transition: 0.3s;
+            font-size: 12px; line-height: 1.5; pointer-events: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8); font-style: normal;
+        }
+        .tooltip-container:hover .tooltip-text { visibility: visible; opacity: 1; bottom: 120%; }
 
-.tooltip-text {
-    visibility: hidden;
-    width: 200px;
-    background-color: #1a2235;
-    color: #f8fafc;
-    text-align: left;
-    border: 1px solid #c89b3c;
-    border-radius: 8px;
-    padding: 10px;
-    position: absolute;
-    z-index: 100;
-    bottom: 125%; /* Hiển thị phía trên chữ */
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s;
-    font-size: 12px;
-    line-height: 1.4;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-    pointer-events: none;
-}
-
-.tooltip-container:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
-}
+        /* Style cho phân trang */
+        .page-btn { transition: 0.3s; border: 1px solid rgba(255,255,255,0.1); }
+        .page-btn:hover:not(:disabled) { border-color: #c89b3c; color: #c89b3c; }
+        .page-btn.active { background: #c89b3c; color: black; border-color: #c89b3c; }
     </style>
 </head>
 <body>
-    <nav class="fixed top-0 w-full z-50 flex justify-between px-10 py-4 bg-[#04060b]/80 backdrop-blur-md border-b border-white/5">
-        <div class="flex items-center gap-3 font-bold text-xl tracking-tighter uppercase">
-            <div class="w-8 h-8 bg-lor-gold rounded text-black flex items-center justify-center">P</div>
-            <span>PoC <span class="text-lor-gold">Wiki</span></span>
+    <nav class="fixed top-0 w-full z-[100] flex items-center justify-between px-6 md:px-12 py-4 bg-[#04060b]/90 backdrop-blur-md border-b border-white/5 transition-all duration-300" id="mainNav">
+        <a href="index.html" class="flex items-center gap-3 group transition-transform active:scale-95">
+            <div class="w-8 h-8 md:w-10 md:h-10 bg-lor-gold rounded-md flex items-center justify-center text-black font-bold text-lg md:text-xl shadow-[0_0_15px_rgba(200,155,60,0.4)] group-hover:shadow-[0_0_25px_rgba(200,155,60,0.6)] transition-all">
+                P
+            </div>
+            <span class="text-xl md:text-2xl tracking-tighter uppercase text-white font-bold font-primary group-hover:text-lor-gold transition-colors">
+                PoC Guide
+            </span>
+        </a>
+        
+        <div class="hidden lg:flex gap-10 items-center">
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2">
+                <i data-lucide="users" class="w-4 h-4"></i> Tướng
+            </a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2">
+                <i data-lucide="database" class="w-4 h-4"></i> Dữ liệu
+            </a>
+            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2">
+                <i data-lucide="wrench" class="w-4 h-4"></i> Công cụ
+            </a>
         </div>
+        
+        
     </nav>
 
     <div class="bg-fixed-section min-h-screen pt-32 pb-20 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
                 <div>
-                    <h1 class="text-5xl font-bold uppercase italic mb-2">Hệ Thống <span class="text-lor-gold">Trang Bị</span></h1>
-                    <p class="text-slate-400 border-l-2 border-lor-gold pl-4">Cơ sở dữ liệu toàn diện về các chỉ số và hiệu ứng của Trang Bị.</p>
+                    <h1 class="text-5xl font-bold uppercase italic mb-2">Thư Viện <span class="text-lor-gold">Trang Bị</span></h1>
+                    <p class="text-slate-400 border-l-2 border-lor-gold pl-4 text-sm md:text-base">Tra cứu hiệu ứng và từ điển kỹ năng của Runeterra.</p>
                 </div>
                 
                 <div class="flex flex-wrap gap-4 items-center">
-                    <input type="text" id="searchInput" placeholder="Tìm trang bị..." class="bg-white/5 border border-white/10 rounded-xl px-4 py-2 outline-none focus:border-lor-gold transition-all w-64">
+                    <input type="text" id="searchInput" placeholder="Tìm tên hoặc hiệu ứng..." class="bg-white/5 border border-white/10 rounded-xl px-4 py-2 outline-none focus:border-lor-gold transition-all w-64 text-sm">
                     <div class="flex bg-black/40 p-1 rounded-xl border border-white/5 text-[10px] font-bold uppercase tracking-widest">
-                        <button onclick="setFilter('all', this)" class="filter-btn active-all px-4 py-2 rounded-lg">Tất cả</button>
+                        <button onclick="setFilter('all', this)" class="filter-btn active-all px-4 py-2 rounded-lg transition-all">Tất cả</button>
                         <button onclick="setFilter('Epic', this)" class="filter-btn px-4 py-2 rounded-lg text-purple-400">Sử Thi</button>
                         <button onclick="setFilter('Rare', this)" class="filter-btn px-4 py-2 rounded-lg text-cyan-400">Hiếm</button>
                         <button onclick="setFilter('Common', this)" class="filter-btn px-4 py-2 rounded-lg text-slate-400">Thường</button>
                     </div>
                 </div>
             </div>
-            <div id="item-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+
+            <div id="item-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12"></div>
+
+            <div id="pagination" class="flex justify-center items-center gap-2"></div>
         </div>
     </div>
 
     <script>
         let allItems = [];
+        let filteredItems = [];
+        let dictionary = { vocabTerms: [], keywords: [] };
         let currentRarity = 'all';
+        
+        // CẤU HÌNH PHÂN TRANG
+        let currentPage = 1;
+        const itemsPerPage = 12; // Số lượng trang bị mỗi trang
+
+        function getDefinition(term) {
+            const lowerTerm = term.toLowerCase().trim();
+            const findIn = (list) => list.find(i => i.name.toLowerCase() === lowerTerm);
+            const result = findIn(dictionary.vocabTerms) || findIn(dictionary.keywords);
+            return result ? result.description : "Thông tin hiệu ứng đang được cập nhật...";
+        }
 
         async function init() {
             try {
-                const res = await fetch('items.json');
-                allItems = await res.json();
-                render();
-            } catch (e) { console.error("Lỗi tải dữ liệu"); }
+                const [itemsRes, dictRes] = await Promise.all([
+                    fetch('items.json'),
+                    fetch('dictionary.json')
+                ]);
+                allItems = await itemsRes.json();
+                dictionary = await dictRes.json();
+                updateFilteredItems();
+            } catch (e) { 
+                console.error("Lỗi tải dữ liệu!", e); 
+            }
         }
 
         function cleanText(text) {
-    if (!text) return "";
+            if (!text) return "";
+            return text
+                .replace(/<(style=Keyword|style=Vocab)>(.*?)<\/style>/g, (match, type, content) => {
+                    const desc = getDefinition(content);
+                    const colorClass = type.includes('Vocab') ? 'text-lor-gold italic' : 'text-cyan-400';
+                    return `<span class="tooltip-container ${colorClass} font-bold">${content}<span class="tooltip-text font-normal text-slate-300"><b class="text-lor-gold block mb-1 border-b border-lor-gold/20 pb-1">${content}</b>${desc}</span></span>`;
+                })
+                .replace(/<link=.*?>(.*?)<\/link>/g, '$1')
+                .replace(/<sprite name=.*?>/g, '')
+                .replace(/<br>/g, '<br class="mb-2">');
+        }
 
-    // Từ điển giải thích hiệu ứng
-    const descriptions = {
-        'Bắt Giữ': 'Loại bỏ một đơn vị khỏi trận đấu. Đơn vị đó sẽ quay trở lại khi đơn vị Bắt Giữ rời khỏi sân đấu.',
-        'Mạnh nhất': 'Đơn vị có chỉ số Tấn công cao nhất, sau đó là Máu, sau đó là Chi phí.',
-        'Thách Đấu': 'Có thể chọn đơn vị chặn đòn cho mình khi tấn công.',
-        'Phù Du': 'Đơn vị này sẽ biến mất khi kết thúc vòng đấu hoặc sau khi tấn công.'
-    };
-
-    return text
-        // Xử lý Keywords & Vocab và bọc chúng trong Tooltip
-        .replace(/<(style=Keyword|style=Vocab)>(.*?)<\/style>/g, (match, p1, content) => {
-            const desc = descriptions[content] || "Hiệu ứng đặc biệt trong game.";
-            const colorClass = p1.includes('Keyword') ? 'text-cyan-400' : 'text-lor-gold italic';
-            
-            return `
-                <span class="tooltip-container ${colorClass} font-bold">
-                    ${content}
-                    <span class="tooltip-text font-normal text-white">
-                        <strong class="text-lor-gold block mb-1">${content}</strong>
-                        ${desc}
-                    </span>
-                </span>`;
-        })
-        // Loại bỏ thẻ link và sprite cũ để code sạch hơn
-        .replace(/<link=.*?>(.*?)<\/link>/g, '$1')
-        .replace(/<sprite name=.*?>/g, '')
-        .replace(/<br>/g, '<br class="mb-2">');
-}
+        // Cập nhật danh sách đã lọc (Search + Rarity)
+        function updateFilteredItems() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            filteredItems = allItems.filter(i => 
+                (currentRarity === 'all' || i.rarityRef === currentRarity) && 
+                (i.name.toLowerCase().includes(search) || i.description.toLowerCase().includes(search))
+            );
+            currentPage = 1; // Reset về trang 1 khi lọc
+            render();
+        }
 
         function render() {
             const grid = document.getElementById('item-grid');
-            const search = document.getElementById('searchInput').value.toLowerCase();
-            const filtered = allItems.filter(i => (currentRarity === 'all' || i.rarityRef === currentRarity) && i.name.toLowerCase().includes(search));
+            const paginationEl = document.getElementById('pagination');
+            
+            // Tính toán dữ liệu trang hiện tại
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const paginatedItems = filteredItems.slice(startIndex, endIndex);
 
-            grid.innerHTML = filtered.map(item => `
-                <div class="item-card p-6 border-${item.rarityRef}">
-                    <div class="item-icon-wrapper h-40 flex items-center justify-center mb-4">
-                        <img src="${item.assetAbsolutePath}" class="w-full h-full object-contain scale-125">
+            // Render Items
+            grid.innerHTML = paginatedItems.map(item => `
+                <div class="item-card p-6 border-${item.rarityRef} flex flex-col h-full shadow-2xl">
+                    <div class="h-44 flex items-center justify-center mb-4 relative group">
+                        <img src="${item.assetAbsolutePath}" class="w-full h-full object-contain scale-110 group-hover:scale-125 transition-all duration-500 drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]" loading="lazy">
                     </div>
-                    <div class="text-center">
-                        <span class="text-[9px] uppercase tracking-widest text-slate-500 font-black">${item.rarity}</span>
-                        <h3 class="text-lg font-bold text-white my-2 min-h-[50px] flex items-center justify-center leading-tight">${item.name}</h3>
-                        <div class="text-[13px] text-slate-400 leading-relaxed min-h-[80px]">${cleanText(item.description)}</div>
+                    <div class="text-center flex-grow flex flex-col">
+                        <span class="text-[10px] uppercase tracking-[0.3em] text-slate-500 font-black mb-2">${item.rarity}</span>
+                        <h3 class="text-lg font-bold text-white mb-4 min-h-[50px] flex items-center justify-center leading-tight">${item.name}</h3>
+                        <div class="text-[13px] text-slate-400 leading-relaxed italic">${cleanText(item.description)}</div>
                     </div>
                 </div>
             `).join('');
-            lucide.createIcons();
+
+            // Render Pagination Buttons
+            renderPagination(paginationEl);
+            
+            // Cuộn lên đầu danh sách khi chuyển trang
+            if (currentPage > 1) {
+                window.scrollTo({ top: 200, behavior: 'smooth' });
+            }
+        }
+
+        function renderPagination(container) {
+            const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+
+            let btns = [];
+            
+            // Nút Previous
+            btns.push(`<button onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} class="page-btn px-4 py-2 rounded-lg bg-white/5 disabled:opacity-20 disabled:cursor-not-allowed">
+                <i data-lucide="chevron-left" class="w-5 h-5"></i>
+            </button>`);
+
+            // Các nút số trang
+            for (let i = 1; i <= totalPages; i++) {
+                // Logic thu gọn trang nếu quá nhiều (tùy chọn)
+                if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                    btns.push(`<button onclick="changePage(${i})" class="page-btn w-10 h-10 rounded-lg font-bold ${i === currentPage ? 'active' : 'bg-white/5'}">${i}</button>`);
+                } else if (i === currentPage - 2 || i === currentPage + 2) {
+                    btns.push(`<span class="text-slate-600 px-2">...</span>`);
+                }
+            }
+
+            // Nút Next
+            btns.push(`<button onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''} class="page-btn px-4 py-2 rounded-lg bg-white/5 disabled:opacity-20 disabled:cursor-not-allowed">
+                <i data-lucide="chevron-right" class="w-5 h-5"></i>
+            </button>`);
+
+            container.innerHTML = btns.join('');
+            if(window.lucide) lucide.createIcons();
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            render();
         }
 
         function setFilter(rarity, btn) {
             currentRarity = rarity;
             document.querySelectorAll('.filter-btn').forEach(b => {
-                b.className = b.className.replace(/active-\S+/g, '').trim();
-                b.classList.remove('active-all');
+                b.className = 'filter-btn px-4 py-2 rounded-lg transition-all text-slate-400';
             });
             btn.classList.add(`active-${rarity}`);
-            render();
+            updateFilteredItems();
         }
 
-        document.getElementById('searchInput').addEventListener('input', render);
+        document.getElementById('searchInput').addEventListener('input', updateFilteredItems);
         init();
     </script>
 </body>
