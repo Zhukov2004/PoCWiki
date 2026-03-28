@@ -1,14 +1,28 @@
 {
   "M001": {
-    "name": "Hành Trình Ionia",
+    "name": "Trinh sát nhanh nhẹn",
     "region": "Ionia",
-    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01DE012-full.png?ef8b3",
-    "difficulty_text": "Dễ",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01PZ008T2-full.png?a20a9",
+    "mapimages": "image/Teemo_PoC_Map.png",
     "stars": 1,
     "difficulty_icon": "https://raw.githubusercontent.com/RiotGames/LoR-Adventure-Data/main/assets/stars/star_1.png",
-    "completion_xp": 1000,
-    "adventure_type": "World Adventure",
-
+    "completion_xp": 100,
+    "adventure_type": "Phiêu lưu khắp thế giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 13",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
     "adventure_powers": [
       { "powerCode": "P0492" }, 
       { "powerCode": "P1015" }
@@ -16,60 +30,82 @@
 
     "nodes": {
       "node1": {
-        "title": "Vườn Thiền",
-        "top": "80.00%",
-        "left": "50.00%",
-        "connections": [
-          { "to": "node2", "type": "path" },
-          { "to": "node3", "type": "discovery" }
-        ],
+        "title": "Khỉ Nổ Tung",
         "enemies": [
           {
-            "cardCode": "01FR008T1",
+            "cardCode": "04PZ016",
+            
             "powers": [
-              { "powerCode": "P0492" },
-              { "powerCode": "P1015" }
+              
             ],
-            "note": "Cẩn thận với các lá bài phép hệ Siêu Tốc của đối thủ."
+            "note": ""
           }
         ]
       },
       "node2": {
-        "title": "Rừng Tre",
-        "top": "50.00%",
-        "left": "35.00%",
-        "connections": [
-          { "to": "boss_node", "type": "path" }
-        ],
-        "enemies": []
-      },
-      "node3": {
-        "title": "Suối Nước Nóng",
-        "top": "50.00%",
-        "left": "65.00%",
-        "powers": [
-          { "powerCode": "P0999" }
-        ],
-        "connections": [
-          { "to": "boss_node", "type": "path" }
-        ],
-        "enemies": []
-      },
-      "boss_node": {
-        "title": "Đền Thờ Karma",
-        "top": "20.00%",
-        "left": "50.00%",
-        "connections": [],
+        "title": "Chủ Quán Chợ Đen",
         "enemies": [
           {
-            "cardCode": "01IO012",
+            "cardCode": "01PZ002",
             "powers": [
-              { "powerCode": "P0333" }
+              { "name": "Quầy Bar Đại Chiến", "description": "Khi một bài quân được triệu hồi, tráo đổi chỉ số của lá bài đó" }
             ],
-            "note": "Trận đấu cuối cùng đầy cam go."
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "title": "Chồn Rác Hôi Thối",
+        "enemies": [
+          {
+            "cardCode": "05PZ035",
+            "powers": [
+              { "name": "Trạm chán với chồn rác", "description": "Khi một bài quân của người chơi hi sinh, gài 1 lá Nấm Độc lên bộ bài của người chơi" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "title": "Cỗ Máy Mô Phỏng",
+        "enemies": [
+          {
+            "cardCode": "03PZ010",
+            "powers": [
+              { "name": "Poro Tân Tiến", "description": "Bắt Đầu Trận Đấu: Địch Thủ tạo trên tay 1 lá Poro Cường Hóa " }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "title": "Voltician Bất Ổn",
+        "enemies": [
+          {
+            "cardCode": "01PZ024",
+            "powers": [
+              { "name": "Không Màng Hậu quả", "description": "Bài phép của Địch Thủ tăng 2 tiêu hao và gây gấp đôi sát thương " }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "title": "Teemo",
+        "enemies": [
+          {
+            "cardCode": "01PZ008",
+            "powers": [
+              { "name": "Đội Trinh Sát Bandle", "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Xưởng Chế Lõi Công Nghệ " }
+      
+            ],
+            "note": ""
           }
         ]
       }
     }
-  }
+}
 }

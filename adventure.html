@@ -2,363 +2,464 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoR Adventure Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        .map-node { position: absolute; transform: translate(-50%, -50%); transition: all 0.3s; z-index: 20; }
-        .map-node:hover { transform: translate(-50%, -50%) scale(1.2); filter: drop-shadow(0 0 15px #22d3ee); }
-        .node-active { border-color: #c89b3c !important; box-shadow: 0 0 20px #c89b3c; }
-        #arrow-svg { z-index: 10; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,900;1,900&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; background-color: #020408; color: white; }
+        .lor-italic { font-style: italic; font-weight: 900; letter-spacing: -0.02em; }
 
-        /* Style cho Tooltip (Bảng hiện khi hover) */
-        .node-tooltip {
-            position: absolute;
-            bottom: 120%; /* Hiển thị phía trên Node */
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(2, 4, 8, 0.95);
-            border: 1px border border-white/10;
-            border-radius: 12px;
-            padding: 12px;
-            width: 220px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.2s ease-out;
-            z-index: 100;
-            pointer-events: none; /* Không ngăn cản hover vào node */
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #020408; }
+        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
+
+        .xp-box-compact {
+            background: rgba(0, 0, 0, 0.85);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-right: 5px solid #22d3ee;
+            padding: 12px 24px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
         }
-        .map-node:hover .node-tooltip {
-            opacity: 1;
-            visibility: visible;
-            transform: translateX(-50%) translateY(-5px);
+
+        .rule-card {
+            background: linear-gradient(135deg, rgba(34, 211, 238, 0.12) 0%, rgba(15, 23, 42, 0.6) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
         }
+        /* Ô bọc từng vật phẩm thưởng */
+.reward-item-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: white; /* Nền trắng như ảnh */
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    min-width: fit-content;
+}
+
+.reward-item-card img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.reward-item-name {
+    color: #1e293b; /* Chữ màu tối */
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.reward-item-qty {
+    color: #1e293b;
+    font-weight: 800;
+    font-size: 13px;
+    margin-left: auto; /* Đẩy số lượng về bên phải */
+    padding-left: 10px;
+}
+        /* Class này sẽ được thêm vào bằng JavaScript */
+.map-hidden {
+    max-height: 0 !important;
+    opacity: 0 !important;
+    margin-top: 0 !important;
+    pointer-events: none;
+    border-color: transparent !important;
+}
     </style>
 </head>
-<body class="bg-[#020408] text-white font-sans p-8">
-    <div id="adventure-header" class="max-w-7xl mx-auto mb-10 mt-2 bg-slate-900/50 border border-white/10 rounded-3xl p-6 flex flex-col gap-8 shadow-2xl relative overflow-hidden group">
+<body class="p-8">
+
+    <div id="adventure-header" class="max-w-7xl mx-auto mb-6 bg-[#0a0a0c] border border-white/10 rounded-2xl p-8 flex flex-row gap-10 shadow-2xl relative overflow-hidden min-h-[300px]">
+        <div id="adv-header-bg" class="absolute inset-0 bg-cover bg-center opacity-25 blur-md scale-105"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-[#0a0a0c] via-transparent to-[#0a0a0c]"></div>
     
-        <div id="adv-header-bg" class="absolute inset-0 bg-cover bg-center blur-sm opacity-20 transition-transform duration-700 group-hover:scale-110"></div>
-        
-        <div class="relative flex items-start gap-8 z-10 w-full">
-            <div class="w-28 h-28 rounded-2xl overflow-hidden shadow-2xl flex-shrink-0 border-2 border-white/10 bg-slate-950">
-                <img id="adv-header-icon" src="" class="w-full h-full object-cover">
+        <div class="relative z-10 flex flex-col justify-between flex-1">
+            <div class="flex items-center gap-8">
+                <div class="w-24 h-24 rounded-2xl border-2 border-cyan-400/50 rotate-2 p-1 bg-slate-900 shadow-xl overflow-hidden flex-shrink-0">
+                    <img id="adv-header-icon" src="" class="w-full h-full object-cover rounded-xl">
+                </div>
+                <h1 id="adv-header-title" class="text-7xl lor-italic uppercase text-white drop-shadow-2xl">--</h1>
+            </div>
+    
+            <div class="flex items-center gap-6 mt-6">
+                <div class="flex flex-col items-center justify-center w-20 h-20 rounded-full bg-black/80 border border-yellow-500/40 shadow-lg">
+                    <b id="adv-header-stars" class="text-3xl font-black text-yellow-500 leading-none">0</b>
+                    <i data-lucide="star" class="w-5 h-5 fill-yellow-500 text-yellow-500 mt-1"></i>
+                </div>
+                <div class="flex flex-col items-center justify-center px-8 h-20 rounded-full bg-black/80 border border-cyan-500/40 shadow-lg">
+                    <span class="text-[11px] text-cyan-400 font-bold uppercase tracking-widest mb-1">Loại cuộc phiêu lưu</span>
+                    <b id="adv-header-type" class="text-sm font-black text-white uppercase text-center leading-tight whitespace-nowrap">--</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative z-10 flex flex-col justify-end items-end w-[350px]">
+            <div class="xp-box-compact">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-tighter mb-1">Kinh nghiệm tướng (XP)</span>
+                <b class="text-5xl lor-italic text-white" id="adv-header-xp">0</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto mb-12">
+        <div class="bg-[#0a0a0c] border border-white/10 rounded-[2.5rem] p-10 shadow-2xl">
+            
+            <h3 class="text-xl font-bold text-cyan-400 font-primary uppercase flex items-center gap-2 border-b border-white/10 pb-6 mb-8">
+                <i data-lucide="shield-alert" class="w-6 h-6"></i> 
+                Luật chơi toàn bản đồ
+            </h3>
+    
+            <div id="special-rules-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                </div>
+        </div>
+    </div>
+    <div class="max-w-7xl mx-auto mb-12">
+        <div class="bg-[#0a0a0c] border border-white/10 rounded-[2.5rem] p-10 shadow-2xl">
+            <div class="flex items-center justify-between mb-8 pb-6 border-b border-white/10">
+                <h3 class="text-xl font-bold text-cyan-400 font-primary uppercase flex items-center gap-2">
+                    <i data-lucide="compass" class="w-6 h-6"></i> Tướng / Khu vực yêu cầu
+                </h3>
+                <button onclick="toggleSection('req-container', 'req-icon', 'req-text')" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
+                    <i data-lucide="eye-off" class="w-4 h-4 text-cyan-400" id="req-icon"></i>
+                    <span id="req-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
+                </button>
+            </div>
+    
+            <div id="req-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[1000px]">
+                <div id="champion-grid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-6">
+                    <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                        <div class="w-16 h-16 rounded-full border-2 border-slate-700 p-0.5 group-hover:border-cyan-400 transition-all duration-300 shadow-lg">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Aatrox.png" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all">
+                        </div>
+                        <span class="text-[11px] text-slate-400 group-hover:text-white transition-colors">Aatrox</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="max-w-7xl mx-auto mb-12">
+        <div class="bg-[#0a0a0c] border border-white/10 rounded-[2.5rem] p-10 shadow-2xl">
+            <div class="flex items-center justify-between mb-8 pb-6 border-b border-white/10">
+                <h3 class="text-xl font-bold text-yellow-500 font-primary uppercase flex items-center gap-2">
+                    <i data-lucide="gift" class="w-6 h-6"></i> Mốc thưởng
+                </h3>
+                <button onclick="toggleSection('reward-container', 'reward-icon', 'reward-text')" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
+                    <i data-lucide="eye-off" class="w-4 h-4 text-yellow-500" id="reward-icon"></i>
+                    <span id="reward-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
+                </button>
+            </div>
+    
+            <div id="req-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[1000px]">
+                <div id="champion-grid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-6">
+                    </div>
             </div>
             
-            <div class="flex-1 space-y-5 self-center">
-                <h1 id="adv-header-title" class="text-4xl font-black italic uppercase tracking-tighter leading-none text-white">Đang tải...</h1>
+            <div id="reward-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[1000px]">
+                <div class="rounded-2xl border border-white/5 bg-black/20 overflow-hidden text-left">
+                    <table class="w-full border-collapse">
+                        <thead class="bg-white/5 border-b border-white/10">
+                            <tr>
+                                <th class="p-5 text-[12px] font-bold text-slate-400 uppercase tracking-widest w-1/3">Phần thưởng</th>
+                                <th class="p-5 text-[12px] font-bold text-slate-400 uppercase tracking-widest">Danh sách phần thưởng</th>
+                            </tr>
+                        </thead>
+                        <tbody id="reward-table-body" class="divide-y divide-white/5">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-7xl mx-auto mb-16">
+        <div class="bg-[#0a0a0c] border border-white/10 rounded-[2.5rem] p-8 shadow-2xl">
+            
+            <div class="flex items-center justify-between mb-8 pb-6 border-b border-white/10">
+                <h3 class="text-xl font-bold text-cyan-400 font-primary uppercase flex items-center gap-2">
+                    <i data-lucide="map-pin" class="w-6 h-6"></i> 
+                    Bản đồ lộ trình
+                </h3>
                 
-                <div class="flex gap-10 pt-2 border-t border-white/5">
-                    <div class="flex items-center gap-4">
-                        <img id="adv-header-diff-icon" src="" class="w-10 h-10 object-contain">
-                        <div>
-                            <span class="text-[10px] text-slate-500 uppercase tracking-widest block mb-1">Độ khó</span>
-                            <b id="adv-header-diff-text" class="text-white text-base font-black uppercase tracking-tight">--</b>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-center gap-4 bg-cyan-500/5 p-3 rounded-xl border border-cyan-500/10">
-                        <i data-lucide="award" class="w-10 h-10 text-cyan-400"></i>
-                        <div>
-                            <span class="text-[10px] text-cyan-400 font-bold uppercase tracking-widest block mb-1">Hoàn thành nhận</span>
-                            <b class="text-white text-base font-black tracking-tight"><span id="adv-header-xp">0</span> XP TƯỚNG</b>
-                        </div>
-                    </div>
-                </div>
+                <button onclick="toggleMap()" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-cyan-500/50 transition-all group">
+                    <i data-lucide="eye-off" class="w-4 h-4 text-cyan-400" id="map-icon"></i>
+                    <span id="map-btn-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn bản đồ</span>
+                </button>
             </div>
-        </div>
     
-        <div id="adv-powers-container" class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-4">
-            </div>
-    </div>
-    <div class="text-center mb-10">
-        <h1 id="adventure-name" class="text-5xl font-black italic uppercase text-cyan-400">Đang tải...</h1>
-        <p id="region-tag" class="text-slate-500 tracking-widest uppercase text-sm mt-2"></p>
-    </div>
-
-    <div class="max-w-7xl mx-auto space-y-12">
-        
-        <div id="map-container" class="w-full aspect-video relative overflow-hidden bg-cover bg-center shadow-2xl rounded-3xl border border-white/10">
-            <svg id="arrow-svg" class="absolute inset-0 w-full h-full pointer-events-none">
-                <defs>
-                    <marker id="arrowhead-gold" markerWidth="10" markerHeight="7" refX="25" refY="3.5" orient="auto">
-                        <polygon points="0 0, 10 3.5, 0 7" fill="#c89b3c" />
-                    </marker>
-                    <marker id="arrowhead-cyan" markerWidth="10" markerHeight="7" refX="25" refY="3.5" orient="auto">
-                        <polygon points="0 0, 10 3.5, 0 7" fill="#22d3ee" />
-                    </marker>
-                </defs>
-            </svg>
-            </div>
-
-        <div class="bg-white/5 border border-white/10 rounded-3xl p-8 space-y-6 shadow-2xl border border-white/10 animate-in slide-in-from-bottom duration-500">
-            <h2 class="text-2xl font-black italic border-b border-white/10 pb-4 flex items-center gap-3 text-cyan-400 uppercase tracking-tight">
-                <i data-lucide="skull" class="text-red-500"></i> Hồ sơ kẻ địch trên bản đồ
-            </h2>
-            
-            <div id="boss-summary-area" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="map-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[2000px]">
+                <div class="rounded-2xl border border-white/5 bg-black/40 overflow-hidden">
+                    <img id="map-image-display" src="" alt="Adventure Map" class="w-full h-auto block hover:scale-[1.02] transition-transform duration-700">
                 </div>
+            </div>
         </div>
+    </div>
 
+    <div class="max-w-7xl mx-auto bg-[#0a0a0c] border border-white/10 rounded-[2.5rem] p-10 shadow-2xl mb-20">
+        <div class="flex items-center justify-between mb-8 pb-6 border-b border-white/10">
+            <h2 class="text-xl font-bold text-cyan-400 font-primary uppercase flex items-center gap-2">
+                <i data-lucide="skull" class="text-red-500 w-6 h-6"></i> 
+                Hồ sơ kẻ địch
+            </h2>
+    
+            <button onclick="toggleEnemies()" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-red-500/50 transition-all group">
+                <i data-lucide="eye-off" class="w-4 h-4 text-red-400" id="enemy-icon"></i>
+                <span id="enemy-btn-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn hồ sơ</span>
+            </button>
+        </div>
+        
+        <div id="enemy-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[5000px]">
+            <div class="rounded-2xl border border-white/5 bg-black/20">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-white/5 border-b border-white/10">
+                        <tr>
+                            <th class="p-6 text-cyan-400 text-[13px] font-black tracking-[0.15em] w-1/4">Tên kẻ địch</th>
+                            <th class="p-6 text-cyan-400 text-[13px] font-black tracking-[0.15em]">Sức mạnh (Powers)</th>
+                            <th class="p-6 text-cyan-400 text-[13px] font-black tracking-[0.15em] w-1/4 text-right">Ghi chú</th>
+                        </tr>
+                    </thead>
+                    <tbody id="boss-table-body" class="divide-y divide-white/5"></tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
     <script>
-        // Quản lý trạng thái tập trung
-const state = {
-    cards: {},
-    powers: {},
-    adventure: null,
-    isEditMode: false,
-    activeNode: null
-};
+        const state = { cards: {}, powers: {}, adventure: null };
 
-// --- API & DATA ---
-async function fetchData(url) {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Không thể tải: ${url}`);
-    return res.json();
-}
+        async function init() {
+            try {
+                const urlParams = new URLSearchParams(window.location.search);
+                const id = urlParams.get('id') || 'M001';
 
-async function init() {
-    try {
-        const urlParams = new URLSearchParams(window.location.search);
-        const id = urlParams.get('id') || 'M001';
+                const [cardsArr, allAdventures, powersArr] = await Promise.all([
+                    fetch('cards.json').then(r => r.json()),
+                    fetch('adventures_data.json').then(r => r.json()),
+                    fetch('powers.json').then(r => r.json())
+                ]);
 
-        const [cardsArr, allAdventures, powersArr] = await Promise.all([
-            fetchData('cards.json'),
-            fetchData('adventures_data.json'),
-            fetchData('powers.json')
-        ]);
+                cardsArr.forEach(c => state.cards[c.cardCode] = c);
+                powersArr.forEach(p => state.powers[p.id || p.powerCode] = p);
+                state.adventure = allAdventures[id];
 
-        // Mapping dữ liệu để truy xuất O(1)
-        cardsArr.forEach(c => state.cards[c.cardCode] = c);
-        powersArr.forEach(p => state.powers[p.id || p.powerCode] = p);
-        state.adventure = allAdventures[id];
-
-        renderHeader();
-        renderMap();
-        renderBossSummary();
-    } catch (err) {
-        console.error("Lỗi khởi tạo:", err);
-    }
-}
-
-// --- COMPONENTS RENDERERS ---
-
-// Helper để tạo HTML cho từng Power item
-const createPowerItemHTML = (pInfo, isSmall = false) => {
-    const p = state.powers[pInfo.powerCode] || {};
-    const sizeClass = isSmall ? 'w-10 h-10' : 'w-12 h-12';
-    const textClass = isSmall ? 'text-[11px]' : 'text-xs';
-    
-    return `
-        <div class="flex gap-3 items-start bg-black/40 p-2.5 rounded-xl border border-white/5 hover:bg-black/60 transition-colors group/item">
-            <div class="${sizeClass} rounded-full border border-cyan-500/20 flex-shrink-0 overflow-hidden bg-slate-900 group-hover/item:border-cyan-500/60 transition-all">
-                <img src="${p.assetAbsolutePath}" class="w-full h-full object-cover" loading="lazy">
-            </div>
-            <div class="flex-1">
-                <b class="text-white ${isSmall ? 'text-[11px]' : 'text-xs'} block uppercase tracking-tight">${p.name || 'Sức mạnh'}</b>
-                <p class="text-slate-400 ${textClass} leading-snug font-medium">${p.description || ""}</p>
-            </div>
-        </div>`;
-};
-
-function renderHeader() {
+                renderAll();
+            } catch (err) { console.error("Lỗi dữ liệu:", err); }
+        }
+        function renderAll() {
     const adv = state.adventure;
-    if (!adv) {
-        console.error("Không tìm thấy dữ liệu adventure!");
-        return;
-    }
+    if (!adv) return;
 
-    // 1. Cập nhật thông tin cơ bản
+    // --- 1. Cập nhật Header & Map ---
+    const mapSrc = adv.mapimages || adv.bg_image;
     document.getElementById('adv-header-title').innerText = adv.name;
-    document.getElementById('adventure-name').innerText = adv.name; // Cập nhật cả tiêu đề dưới
-    document.getElementById('region-tag').innerText = adv.region;
-    
     document.getElementById('adv-header-icon').src = adv.bg_image;
     document.getElementById('adv-header-bg').style.backgroundImage = `url('${adv.bg_image}')`;
-    document.getElementById('adv-header-diff-text').innerText = adv.difficulty_text;
-    document.getElementById('adv-header-diff-icon').src = adv.difficulty_icon;
+    document.getElementById('adv-header-stars').innerText = adv.stars || 0;
+    document.getElementById('adv-header-type').innerText = adv.adventure_type || '--';
+    document.getElementById('adv-header-xp').innerText = (adv.completion_xp || 0).toLocaleString();
+    document.getElementById('map-image-display').src = mapSrc;
 
-    // 2. Cập nhật XP (Sửa lỗi hiển thị 0)
-    const xpVal = adv.completion_xp || 0;
-    const xpEl = document.getElementById('adv-header-xp');
-    if (xpEl) {
-        xpEl.innerText = xpVal.toLocaleString('vi-VN');
-    }
+    // --- 2. Render Luật chơi bản đồ (Adventure Powers) ---
+    const rulesContainer = document.getElementById('special-rules-container');
+    const advPowers = adv.adventure_powers || [];
+    rulesContainer.innerHTML = advPowers.map(pInfo => {
+        const p = state.powers[pInfo.powerCode] || { name: "Sức mạnh ẩn", description: "...", assetAbsolutePath: "" };
+        return `
+            <div class="rule-card flex items-start gap-5 p-5 rounded-xl border border-white/5 shadow-inner">
+                <img src="${p.assetAbsolutePath}" class="w-14 h-14 rounded-full border-2 border-cyan-400 bg-slate-800 flex-shrink-0 shadow-lg shadow-cyan-500/20">
+                <div>
+                    <div class="text-[15px] font-black text-white tracking-tight">${p.name}</div>
+                    <div class="text-[13px] text-slate-300 mt-2 leading-relaxed font-medium">${p.description}</div>
+                </div>
+            </div>`;
+    }).join('');
 
-    // 3. Render danh sách Power trên Header
-    const powersContainer = document.getElementById('adv-powers-container');
-    if (powersContainer) {
-        if (adv.adventure_powers && adv.adventure_powers.length > 0) {
-            powersContainer.innerHTML = adv.adventure_powers.map(pInfo => {
-                const p = state.powers[pInfo.powerCode] || { name: 'Sức mạnh', description: 'Đang tải...', assetAbsolutePath: '' };
-                // Sử dụng style tối (Dark Mode) để khớp với giao diện tổng thể
-                return `
-                    <div class="bg-slate-950/60 border border-white/10 rounded-2xl p-4 flex gap-4 items-center shadow-inner hover:border-cyan-500/50 transition-all duration-300">
-                        <div class="w-12 h-12 rounded-full border border-cyan-500/30 overflow-hidden bg-slate-900 flex-shrink-0">
-                            <img src="${p.assetAbsolutePath}" class="w-full h-full object-cover">
-                        </div>
-                        <div class="flex-1">
-                            <b class="text-white text-sm font-bold uppercase tracking-wide leading-none">${p.name}</b>
-                            <p class="text-slate-400 text-[11px] mt-1 leading-tight line-clamp-2">${p.description}</p>
-                        </div>
-                    </div>`;
-            }).join('');
-        } else {
-            powersContainer.innerHTML = ''; // Xóa sạch nếu không có power
-        }
-    }
+    // --- 3. Render Bảng Kẻ Địch (Ảnh vuông bé bên cạnh tên) ---
+    const tableBody = document.getElementById('boss-table-body');
+    // Gom tất cả kẻ địch từ các nodes thành một mảng phẳng
+    const enemies = Object.values(adv.nodes).flatMap(n => (n.enemies || []));
 
-    // Khởi tạo lại các icon Lucide mới được tạo ra
-    lucide.createIcons();
-}
+    tableBody.innerHTML = enemies.map(e => {
+        // Tra cứu thông tin card từ state.cards bằng cardCode
+        const cardInfo = state.cards[e.cardCode] || {};
+        const cardName = cardInfo.name || e.cardCode;
+        
+        // Lấy link ảnh: Ưu tiên fullAbsolutePath từ cards.json
+        // Chỉnh sửa thuộc tính .fullAbsolutePath tùy theo cấu trúc file cards.json của bạn
+        const cardImg = cardInfo.fullAbsolutePath || cardInfo.assets?.[0]?.fullAbsolutePath || "";
 
-function renderMap() {
-    const container = document.getElementById('map-container');
-    container.style.backgroundImage = `url('${state.adventure.bg_image}')`;
-    
-    // Xóa nodes cũ hiệu quả hơn
-    const nodes = container.querySelectorAll('.map-node');
-    nodes.forEach(n => n.remove());
+        // Render danh sách sức mạnh của kẻ địch đó
+        const powersHTML = (e.powers || []).map(pInfo => {
+            let pName, pDesc, pImg;
 
-    const fragment = document.createDocumentFragment();
+            // TRƯỜNG HỢP 1: Nếu bạn viết trực tiếp "name" trong JSON màn chơi (Viết tay)
+            if (pInfo.name) {
+                pName = pInfo.name;
+                pDesc = pInfo.description || "";
+                pImg = ""; // Viết tay thường không có link ảnh
+            } 
+            // TRƯỜNG HỢP 2: Nếu không có name, hệ thống tự tra cứu theo mã powerCode
+            else {
+                const dbPower = state.powers[pInfo.powerCode] || {};
+                pName = dbPower.name || "Sức mạnh ẩn";
+                pDesc = dbPower.description || "Chưa có mô tả.";
+                pImg = dbPower.assetAbsolutePath || "";
+            }
 
-    Object.entries(state.adventure.nodes).forEach(([id, node]) => {
-        const nodeEl = document.createElement('div');
-        nodeEl.className = 'map-node w-12 h-12 rounded-full border-4 border-cyan-400 bg-slate-900 flex items-center justify-center shadow-lg cursor-pointer';
-        nodeEl.style.cssText = `top: ${node.top}; left: ${node.left};`;
-        nodeEl.dataset.id = id;
+            // Xử lý Icon: Nếu có ảnh thì hiện ảnh, không có thì hiện icon ngôi sao lấp lánh
+            const powerIcon = pImg 
+                ? `<img src="${pImg}" class="w-7 h-7 rounded-full bg-slate-800 border border-white/10 flex-shrink-0">`
+                : `<div class="w-7 h-7 rounded-full bg-cyan-950 border border-cyan-500/30 flex items-center justify-center flex-shrink-0">
+                     <i data-lucide="sparkles" class="w-3.5 h-3.5 text-cyan-400"></i>
+                   </div>`;
 
-        // Tooltip Content
-        const enemiesHTML = (node.enemies || []).map(enemy => {
-            const card = state.cards[enemy.cardCode] || {};
-            const img = (card.assets && card.assets[0]) ? card.assets[0].fullAbsolutePath : '';
             return `
-                <div class="flex gap-2 items-center">
-                    <img src="${img}" class="w-6 h-6 rounded border border-white/20">
-                    <p class="text-white text-xs font-medium">${card.name || 'Unknown'}</p>
+                <div class="flex items-start gap-3 mb-3 last:mb-0 bg-white/5 p-2 rounded-lg border border-white/5 hover:bg-white/[0.08] transition-all">
+                    ${powerIcon}
+                    <div>
+                        <div class="text-[11px] font-black text-white leading-none">${pName}</div>
+                        <div class="text-[12px] text-slate-400 leading-snug mt-1">${pDesc}</div>
+                    </div>
                 </div>`;
         }).join('');
 
-        nodeEl.innerHTML = `
-            <i data-lucide="swords" class="w-6 h-6 text-cyan-400"></i>
-            ${enemiesHTML ? `<div class="node-tooltip"><p class="text-[10px] text-cyan-400 font-bold uppercase mb-2">Kẻ địch</p>${enemiesHTML}</div>` : ''}
-        `;
-        
-        fragment.appendChild(nodeEl);
-    });
-
-    container.appendChild(fragment);
-    lucide.createIcons();
-    requestAnimationFrame(renderAllArrows);
-}
-
-function renderBossSummary() {
-    const summaryArea = document.getElementById('boss-summary-area');
-    
-    const html = Object.values(state.adventure.nodes)
-        .filter(node => node.enemies?.length > 0)
-        .flatMap(node => node.enemies.map(enemy => {
-            const card = state.cards[enemy.cardCode] || {};
-            const img = (card.assets && card.assets[0]) ? card.assets[0].fullAbsolutePath : '';
-            
-            return `
-                <div class="space-y-4 animate-in fade-in duration-500">
-                    <div class="w-full group relative overflow-hidden rounded-2xl border-2 border-white/10 shadow-lg">
-                        <img src="${img}" class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
-                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[#020408] via-black/60 to-transparent">
-                            <div class="flex items-center gap-2">
-                                <i data-lucide="skull" class="w-4 h-4 text-red-500"></i>
-                                <h4 class="text-xl font-black text-white uppercase italic">${card.name || 'Unknown'}</h4>
+        return `
+            <tr class="hover:bg-white/[0.03] transition-colors border-b border-white/5 last:border-0">
+                <td class="p-5 align-top w-1/3">
+                    <div class="flex items-center gap-4">
+                        ${cardImg ? `
+                            <div class="relative w-16 h-16 rounded-xl overflow-hidden border border-white/10 shadow-lg flex-shrink-0 group">
+                                <img src="${cardImg}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                                <div class="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors"></div>
                             </div>
+                        ` : `
+                            <div class="w-16 h-16 bg-slate-900/80 rounded-xl border border-dashed border-white/10 flex items-center justify-center text-slate-600 text-[10px] text-center p-2 italic flex-shrink-0">
+                                No Img
+                            </div>
+                        `}
+                        <div class="flex flex-col gap-1">
+                            <div class="text-1.5xl lor-italic text-white tracking-tight italic leading-tight">
+                                ${cardName}
+                            </div>
+                            
                         </div>
                     </div>
-                    <div class="bg-white/5 border border-white/10 rounded-2xl p-4 space-y-3">
-                        <div class="grid grid-cols-1 gap-2.5">
-                            ${enemy.powers.map(p => createPowerItemHTML(p)).join('')}
-                        </div>
-                        ${enemy.note ? `<div class="bg-lor-gold/5 p-2.5 rounded-lg border border-lor-gold/20 text-[10px] italic text-slate-300">💡 ${enemy.note}</div>` : ''}
+                </td>
+                <td class="p-5 align-top">${powersHTML}</td>
+                <td class="p-5 align-top text-right">
+                    <div class="text-[11px] text-yellow-500 font-semibold italic leading-relaxed bg-yellow-500/5 p-3 rounded-xl border border-yellow-500/10 inline-block text-left max-w-[180px]">
+                        ${e.note ? '💡 ' + e.note : '<span class="text-slate-600 italic text-[10px]">Chưa có ghi chú</span>'}
                     </div>
-                </div>`;
-        })).join('');
+                </td>
+            </tr>`;
+    }).join('');
+    const champGrid = document.getElementById('champion-grid');
+    const reqChamps = adv.required_champions || [];
+    
+    if (reqChamps.length > 0) {
+        champGrid.innerHTML = reqChamps.map(champ => `
+            <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                <div class="w-16 h-16 rounded-full border-2 border-slate-700 p-0.5 group-hover:border-cyan-400 transition-all duration-300 shadow-lg bg-slate-900">
+                    <img src="${champ.thumb}" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all">
+                </div>
+                <span class="text-[10px] font-bold text-slate-500 group-hover:text-cyan-400 transition-colors uppercase tracking-tighter text-center">
+                    ${champ.name}
+                </span>
+            </div>
+        `).join('');
+    } else {
+        champGrid.innerHTML = `<p class="text-slate-600 italic text-sm col-span-full">Không có yêu cầu đặc biệt</p>`;
+    }
 
-    summaryArea.innerHTML = html;
+    // --- 5. Render Mốc thưởng (Cập nhật giao diện mới) ---
+    const rewardTable = document.getElementById('reward-table-body');
+    const rewards = adv.rewards || [];
+
+    if (rewards.length > 0) {
+        rewardTable.innerHTML = rewards.map(r => `
+            <tr class="hover:bg-white/[0.02] transition-colors border-b border-white/5">
+                <td class="p-6 text-sm text-white font-bold align-middle w-1/4">
+                    ${r.milestone}
+                </td>
+                
+                <td class="p-6">
+                    <div class="flex flex-wrap gap-3">
+                        ${r.items.map(item => `
+                            <div class="reward-item-card">
+                                <img src="${item.img}" alt="${item.name}">
+                                <span class="reward-item-name">${item.name}</span>
+                                <span class="reward-item-qty">${item.qty}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </td>
+            </tr>
+        `).join('');
+    } else {
+        rewardTable.innerHTML = `<tr><td colspan="2" class="p-10 text-center text-slate-600 italic">Chưa có thông tin phần thưởng</td></tr>`;
+    }
+    // Khởi tạo lại các icon Lucide sau khi render xong nội dung động
     lucide.createIcons();
 }
+function toggleMap() {
+    const mapContainer = document.getElementById('map-container');
+    const btnText = document.getElementById('map-btn-text');
+    const isHidden = mapContainer.classList.toggle('map-hidden');
 
-// --- UTILS & EVENTS ---
-
-function renderAllArrows() {
-    const svg = document.getElementById('arrow-svg');
-    svg.innerHTML = svg.querySelector('defs').outerHTML; // Giữ lại defs, xóa line cũ
-
-    Object.entries(state.adventure.nodes).forEach(([id, node]) => {
-        (node.connections || []).forEach(conn => {
-            const start = document.querySelector(`[data-id="${id}"]`);
-            const end = document.querySelector(`[data-id="${conn.to}"]`);
-            
-            if (start && end) {
-                const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-                const isDisc = conn.type === 'discovery';
-                
-                line.setAttribute('x1', start.offsetLeft);
-                line.setAttribute('y1', start.offsetTop);
-                line.setAttribute('x2', end.offsetLeft);
-                line.setAttribute('y2', end.offsetTop);
-                line.setAttribute('stroke', isDisc ? '#22d3ee' : '#c89b3c');
-                line.setAttribute('stroke-width', '2');
-                if (isDisc) line.setAttribute('stroke-dasharray', '8,5');
-                line.setAttribute('marker-end', `url(#arrowhead-${isDisc ? 'cyan' : 'gold'})`);
-                
-                svg.appendChild(line);
-            }
-        });
-    });
+    if (isHidden) {
+        btnText.innerText = "Hiện bản đồ";
+        // Cập nhật icon sang "hiện" khi đang ẩn
+        document.getElementById('map-icon').setAttribute('data-lucide', 'eye');
+    } else {
+        btnText.innerText = "Ẩn bản đồ";
+        // Cập nhật icon sang "ẩn" khi đang hiện
+        document.getElementById('map-icon').setAttribute('data-lucide', 'eye-off');
+    }
+    // Vẽ lại icon lucide mới
+    lucide.createIcons();
 }
-
-// Xử lý sự kiện kéo thả tối ưu (Throttling)
-let tick = false;
-function updateNodesPosition(e) {
-    if (!state.isEditMode || !state.activeNode || tick) return;
+function toggleEnemies() {
+    const enemyContainer = document.getElementById('enemy-container');
+    const btnText = document.getElementById('enemy-btn-text');
+    const icon = document.getElementById('enemy-icon');
     
-    tick = true;
-    requestAnimationFrame(() => {
-        const rect = document.getElementById('map-container').getBoundingClientRect();
-        const x = ((e.clientX - rect.left) / rect.width) * 100;
-        const y = ((e.clientY - rect.top) / rect.height) * 100;
-        
-        state.activeNode.style.left = `${x.toFixed(2)}%`;
-        state.activeNode.style.top = `${y.toFixed(2)}%`;
-        renderAllArrows();
-        tick = false;
-    });
+    const isHidden = enemyContainer.classList.toggle('map-hidden'); // Dùng chung class map-hidden đã có
+
+    if (isHidden) {
+        btnText.innerText = "Hiện hồ sơ";
+        icon.setAttribute('data-lucide', 'eye');
+    } else {
+        btnText.innerText = "Ẩn hồ sơ";
+        icon.setAttribute('data-lucide', 'eye-off');
+    }
+    lucide.createIcons();
 }
+function toggleSection(containerId, iconId, textId) {
+    const container = document.getElementById(containerId);
+    const icon = document.getElementById(iconId);
+    const text = document.getElementById(textId);
+    
+    // Sử dụng chung class map-hidden mà bạn đã khai báo trong CSS
+    const isHidden = container.classList.toggle('map-hidden');
 
-// Event Listeners
-window.addEventListener('keydown', e => {
-    if (e.key.toLowerCase() === 'e') {
-        state.isEditMode = !state.isEditMode;
-        document.body.classList.toggle('edit-mode-active', state.isEditMode);
+    if (isHidden) {
+        text.innerText = "Hiện";
+        icon.setAttribute('data-lucide', 'eye');
+    } else {
+        text.innerText = "Ẩn";
+        icon.setAttribute('data-lucide', 'eye-off');
     }
-});
-
-document.addEventListener('mousedown', e => {
-    state.activeNode = state.isEditMode ? e.target.closest('.map-node') : null;
-});
-
-document.addEventListener('mousemove', updateNodesPosition);
-document.addEventListener('mouseup', () => {
-    if (state.activeNode) {
-        console.log(`Node ${state.activeNode.dataset.id}:`, {
-            top: state.activeNode.style.top,
-            left: state.activeNode.style.left
-        });
-        state.activeNode = null;
-    }
-});
-
-init();
+    lucide.createIcons();
+}
+        init();
     </script>
 </body>
 </html>
