@@ -16,9 +16,30 @@
     ],
     "rewards": [
   {
-    "milestone": "Mốc thưởng 13",
+    "milestone": "Mốc thưởng 1",
     "items": [
       { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 2",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 3",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 4",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
       { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
     ]
   }
