@@ -1,0 +1,602 @@
+[
+  {
+    "level": "1",
+    "exp_needed": "0",
+    "total_exp": "0",
+    "reward": {
+      "deck": "Mở khóa ô Cổ Vật 1 (Thường)",
+      "health": "20",
+      "regen": "0",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "2",
+    "exp_needed": "50",
+    "total_exp": "50",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 1",
+      "health": "25",
+      "regen": "0",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "3",
+    "exp_needed": "100",
+    "total_exp": "150",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 2",
+      "health": "30",
+      "regen": "0",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "4",
+    "exp_needed": "150",
+    "total_exp": "300",
+    "reward": {
+      "deck": "Nâng cấp thẻ không thuộc bộ bài (tùy chọn)",
+      "health": "30",
+      "regen": "0",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "5",
+    "exp_needed": "200",
+    "total_exp": "500",
+    "reward": {
+      "deck": "",
+      "health": "30",
+      "regen": "0",
+      "gold": "0",
+      "others": "Anh hùng hỗ trợ có một vật phẩm Thường ngẫu nhiên."
+    }
+  },
+  {
+    "level": "6",
+    "exp_needed": "300",
+    "total_exp": "800",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 3",
+      "health": "30",
+      "regen": "0",
+      "gold": "0",
+      "others": "+5% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Hiếm."
+    }
+  },
+  {
+    "level": "7",
+    "exp_needed": "450",
+    "total_exp": "1250",
+    "reward": {
+      "deck": "",
+      "health": "30",
+      "regen": "0",
+      "gold": "0",
+      "others": "Bắt đầu mỗi cuộc phiêu lưu với 1 Lượt Hồi Sinh."
+    }
+  },
+  {
+    "level": "8",
+    "exp_needed": "500",
+    "total_exp": "1750",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 1 lên Hiếm.",
+      "health": "30",
+      "regen": "0",
+      "gold": "0",
+      "others": "+2.5% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Sử Thi."
+    }
+  },
+  {
+    "level": "9",
+    "exp_needed": "560",
+    "total_exp": "2310",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 4",
+      "health": "30",
+      "regen": "0",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "10",
+    "exp_needed": "670",
+    "total_exp": "2980",
+    "reward": {
+      "deck": "",
+      "health": "30",
+      "regen": "2",
+      "gold": "0",
+      "others": "1% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Sử Thi."
+    }
+  },
+  {
+    "level": "11",
+    "exp_needed": "800",
+    "total_exp": "3780",
+    "reward": {
+      "deck": "",
+      "health": "30",
+      "regen": "2",
+      "gold": "0",
+      "others": "Anh hùng hỗ trợ có một vật phẩm Hiếm ngẫu nhiên."
+    }
+  },
+  {
+    "level": "12",
+    "exp_needed": "930",
+    "total_exp": "4710",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 5",
+      "health": "30",
+      "regen": "2",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "13",
+    "exp_needed": "1070",
+    "total_exp": "5780",
+    "reward": {
+      "deck": "Mở khóa ô Cổ Vật 2 (Thường)",
+      "health": "30",
+      "regen": "2",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "14",
+    "exp_needed": "1210",
+    "total_exp": "6990",
+    "reward": {
+      "deck": "",
+      "health": "30",
+      "regen": "2",
+      "gold": "0",
+      "others": "Phần thưởng trận chiến đầu tiên của bạn có bao gồm vật phầm Thường\n+10% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Hiếm."
+    }
+  },
+  {
+    "level": "15",
+    "exp_needed": "1360",
+    "total_exp": "8350",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 6",
+      "health": "30",
+      "regen": "2",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "16",
+    "exp_needed": "1520",
+    "total_exp": "9870",
+    "reward": {
+      "deck": "",
+      "health": "35",
+      "regen": "2",
+      "gold": "0",
+      "others": "+5% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Sử Thi."
+    }
+  },
+  {
+    "level": "17",
+    "exp_needed": "1690",
+    "total_exp": "11560",
+    "reward": {
+      "deck": "",
+      "health": "35",
+      "regen": "2",
+      "gold": "0",
+      "others": "Các lá bài hỗ trợ có vật phẩm Thường."
+    }
+  },
+  {
+    "level": "18",
+    "exp_needed": "1860",
+    "total_exp": "13420",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 7",
+      "health": "35",
+      "regen": "2",
+      "gold": "0",
+      "others": "2% tỷ lệ tìm được Sức Mạnh Huyền Thoại."
+    }
+  },
+  {
+    "level": "19",
+    "exp_needed": "2040",
+    "total_exp": "15460",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 2 lên Hiếm.",
+      "health": "35",
+      "regen": "2",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "20",
+    "exp_needed": "2220",
+    "total_exp": "17680",
+    "reward": {
+      "deck": "",
+      "health": "35",
+      "regen": "2",
+      "gold": "0",
+      "others": "Bắt đầu trận đấu: Rút 1 Anh Hùng"
+    }
+  },
+  {
+    "level": "21",
+    "exp_needed": "2410",
+    "total_exp": "20090",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 8",
+      "health": "35",
+      "regen": "2",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "22",
+    "exp_needed": "2610",
+    "total_exp": "22700",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 2 lên Hiếm.",
+      "health": "35",
+      "regen": "4",
+      "gold": "0",
+      "others": "+15% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Hiếm"
+    }
+  },
+  {
+    "level": "23",
+    "exp_needed": "2810",
+    "total_exp": "25510",
+    "reward": {
+      "deck": "",
+      "health": "35",
+      "regen": "4",
+      "gold": "0",
+      "others": "Các lá bài hỗ trợ có vật phẩm Hiếm."
+    }
+  },
+  {
+    "level": "24",
+    "exp_needed": "2810",
+    "total_exp": "28530",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 9",
+      "health": "35",
+      "regen": "4",
+      "gold": "0",
+      "others": "+7.5% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Sử Thi"
+    }
+  },
+  {
+    "level": "25",
+    "exp_needed": "3230",
+    "total_exp": "31760",
+    "reward": {
+      "deck": "Mở khóa ô Cổ Vật 3 (Thường)",
+      "health": "35",
+      "regen": "4",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "26",
+    "exp_needed": "3450",
+    "total_exp": "35210",
+    "reward": {
+      "deck": "",
+      "health": "35",
+      "regen": "4",
+      "gold": "0",
+      "others": "Phần thưởng trận chiến đầu tiên của bạn có bao gồm vật phầm Hiếm\n3% tỷ lệ tìm được Sức Mạnh Huyền Thoại."
+    }
+  },
+  {
+    "level": "27",
+    "exp_needed": "3670",
+    "total_exp": "38880",
+    "reward": {
+      "deck": "Nâng cấp bộ bài 10",
+      "health": "35",
+      "regen": "4",
+      "gold": "0",
+      "others": "Phần thưởng trận chiến đầu tiên của bạn có bao gồm vật phầm Hiếm\n3% tỷ lệ tìm được Sức Mạnh Huyền Thoại."
+    }
+  },
+  {
+    "level": "28",
+    "exp_needed": "3900",
+    "total_exp": "42780",
+    "reward": {
+      "deck": "",
+      "health": "40",
+      "regen": "4",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "29",
+    "exp_needed": "4140",
+    "total_exp": "46920",
+    "reward": {
+      "deck": "",
+      "health": "40",
+      "regen": "4",
+      "gold": "0",
+      "others": "Anh hùng hỗ trợ có một vật phẩm Sử Thi ngẫu nhiên."
+    }
+  },
+  {
+    "level": "30",
+    "exp_needed": "4370",
+    "total_exp": "51290",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "40",
+      "regen": "4",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "31",
+    "exp_needed": "5850",
+    "total_exp": "57140",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "42",
+      "regen": "4",
+      "gold": "0",
+      "others": ""
+    }
+  },
+  {
+    "level": "32",
+    "exp_needed": "6930",
+    "total_exp": "64070",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "42",
+      "regen": "4",
+      "gold": "30",
+      "others": ""
+    }
+  },
+  {
+    "level": "33",
+    "exp_needed": "8140",
+    "total_exp": "72210",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "42",
+      "regen": "4",
+      "gold": "30",
+      "others": "+20% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Hiếm"
+    }
+  },
+  {
+    "level": "34",
+    "exp_needed": "9680",
+    "total_exp": "81890",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "42",
+      "regen": "6",
+      "gold": "30",
+      "others": "+20% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Hiếm"
+    }
+  },
+  {
+    "level": "35",
+    "exp_needed": "11240",
+    "total_exp": "93130",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "44",
+      "regen": "6",
+      "gold": "30",
+      "others": ""
+    }
+  },
+  {
+    "level": "36",
+    "exp_needed": "12860",
+    "total_exp": "105990",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "44",
+      "regen": "6",
+      "gold": "30",
+      "others": "+10% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Sử Thi"
+    }
+  },
+  {
+    "level": "37",
+    "exp_needed": "14620",
+    "total_exp": "120610",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "44",
+      "regen": "6",
+      "gold": "60",
+      "others": ""
+    }
+  },
+  {
+    "level": "38",
+    "exp_needed": "16050",
+    "total_exp": "136660",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "44",
+      "regen": "6",
+      "gold": "60",
+      "others": "+25% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Hiếm"
+    }
+  },
+  {
+    "level": "39",
+    "exp_needed": "18770",
+    "total_exp": "155430",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "46",
+      "regen": "6",
+      "gold": "60",
+      "others": ""
+    }
+  },
+  {
+    "level": "40",
+    "exp_needed": "21100",
+    "total_exp": "176530",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "46",
+      "regen": "6",
+      "gold": "60",
+      "others": "+1 Lượt đổi"
+    }
+  },
+  {
+    "level": "41",
+    "exp_needed": "23510",
+    "total_exp": "200040",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "46",
+      "regen": "6",
+      "gold": "90",
+      "others": ""
+    }
+  },
+  {
+    "level": "42",
+    "exp_needed": "26150",
+    "total_exp": "226190",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "46",
+      "regen": "6",
+      "gold": "90",
+      "others": "4% tỷ lệ tìm được Sức Mạnh Huyền Thoại"
+    }
+  },
+  {
+    "level": "43",
+    "exp_needed": "29190",
+    "total_exp": "255380",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "48",
+      "regen": "6",
+      "gold": "90",
+      "others": ""
+    }
+  },
+  {
+    "level": "44",
+    "exp_needed": "32530",
+    "total_exp": "287910",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "48",
+      "regen": "8",
+      "gold": "90",
+      "others": ""
+    }
+  },
+  {
+    "level": "45",
+    "exp_needed": "35420",
+    "total_exp": "323330",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "48",
+      "regen": "8",
+      "gold": "120",
+      "others": ""
+    }
+  },
+  {
+    "level": "46",
+    "exp_needed": "38070",
+    "total_exp": "361400",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "48",
+      "regen": "8",
+      "gold": "120",
+      "others": "+30% tỷ lệ tìm được Sức Mạnh và Vật Phẩm Hiếm"
+    }
+  },
+  {
+    "level": "47",
+    "exp_needed": "41230",
+    "total_exp": "402630",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "50",
+      "regen": "8",
+      "gold": "120",
+      "others": ""
+    }
+  },
+  {
+    "level": "48",
+    "exp_needed": "45550",
+    "total_exp": "448180",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "50",
+      "regen": "8",
+      "gold": "120",
+      "others": "+12.5% tỷ lệ tìm được Vật Phẩm và Sức Mạnh Sử Thi"
+    }
+  },
+  {
+    "level": "49",
+    "exp_needed": "49690",
+    "total_exp": "497870",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "50",
+      "regen": "8",
+      "gold": "150",
+      "others": ""
+    }
+  },
+  {
+    "level": "50",
+    "exp_needed": "54800",
+    "total_exp": "552670",
+    "reward": {
+      "deck": "Nâng cấp Ô Cổ Vật 3 lên Hiếm.",
+      "health": "50",
+      "regen": "8",
+      "gold": "120",
+      "others": "5% tỷ lệ tìm được Sức Mạnh Huyền Thoại."
+    }
+  }
+]

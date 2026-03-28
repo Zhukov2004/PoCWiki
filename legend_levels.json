@@ -1,776 +1,482 @@
 [
   {
+    "level": "1",
+    "exp_needed": "0",
+    "total_exp": "0",
+    "reward": "Bắt đầu hành trình của bạn"
+  },
+  {
     "level": "2",
     "exp_needed": "1 000",
     "total_exp": "1 000",
-    "reward": "Chapter Quests unlocked"
+    "reward": "Nhiệm Vụ Chương"
   },
   {
     "level": "3",
     "exp_needed": "2 000",
     "total_exp": "3 000",
-    "reward": "Daily and Weekly Quests unlocked"
+    "reward": "Nhiệm Vụ Ngày & Nhiệm Vụ Tuần"
   },
   {
     "level": "4",
     "exp_needed": "3 000",
     "total_exp": "6 000",
-    "reward": "Rare Drops in Adventure unlocked"
+    "reward": "Chiến Lợi Phẩm Hiếm Khi Phiêu Lưu"
   },
   {
     "level": "5",
     "exp_needed": "3 500",
     "total_exp": "9 500",
-    "reward": "Guinsoo's Rageblade. Can now use Relics."
+    "reward": "Cổ Vật"
   },
   {
     "level": "6",
     "exp_needed": "4 000",
-    "total_exp": "1 3500",
-    "reward": "Shop upgrade - Now offer 6 cards for sale.\nWeekly Adventure Starlight Portal unlocked."
+    "total_exp": "13 500",
+    "reward": "Nâng Cấp Cửa Hàng (Có 6 lá bài để chọn mua)\nCổng Tinh Tú"
   },
   {
     "level": "7",
     "exp_needed": "4 500",
     "total_exp": "18 000",
-    "reward": "Silver Cosmic Vault\n Epic Drops in adventure unlocked."
+    "reward": "Chiến Lợi Phẩm Sử Thi Khi Phiêu Lưu\nKho Báu Bạc"
   },
   {
     "level": "8",
     "exp_needed": "5 000",
     "total_exp": "23 000",
-    "reward": "Begin adventures with +1 extra Reroll. 2 Rerolls total."
+    "reward": "+1 Lượt Đổi"
   },
   {
     "level": "9",
     "exp_needed": "5 500",
     "total_exp": "28 500",
-    "reward": "+10% Gold earned"
+    "reward": "+10% Vàng Kiếm Được"
   },
   {
     "level": "10",
     "exp_needed": "6 000",
     "total_exp": "34 500",
-    "reward": "Healer upgrade - Cut all copies of a card (among 3 choices) from your deck.\nWeekly Adventure Shadow Portal unlocked."
+    "reward": "Nâng Cấp Hồi Phục Sư (Cắt 1 lá bài tại ải Hồi Phục Sư)\nCổng Bóng Tối"
   },
   {
     "level": "11",
     "exp_needed": "7 000",
     "total_exp": "41 500",
-    "reward": "100 Starting Gold"
+    "reward": "+100 Vàng Khởi Điểm"
   },
   {
     "level": "12",
     "exp_needed": "8 000",
     "total_exp": "49 500",
-    "reward": "Silver Reliquary"
+    "reward": "Hòm Thần Tích Bạc"
   },
   {
     "level": "13",
     "exp_needed": "9 000",
     "total_exp": "58 500",
-    "reward": "Shop upgrade - Now offers a power and a card gets discounted"
+    "reward": "Nâng Cấp Cửa Hàng (Bán sức mạnh và 1 lá bài giảm giá)"
   },
   {
     "level": "14",
     "exp_needed": "10 000",
     "total_exp": "68 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "15",
     "exp_needed": "11 000",
     "total_exp": "79 500",
-    "reward": "Healer upgrade - Cut all copies of any non-champion card from your deck.\nWeekly Adventure Dark Star Portal unlocked.\nMonthly Challenges unlocked."
+    "reward": "Nâng Cấp Hồi Phục Sư (Cắt 1 lá bài BẤT KỲ)\nCổng Hắc Tinh\nThử Thách Tháng của Aurelion Sol"
   },
   {
     "level": "16",
     "exp_needed": "12 000",
     "total_exp": "91 500",
-    "reward": "+10% Gold earned. +20% total."
+    "reward": "+10% Vàng Kiếm Được"
   },
   {
     "level": "17",
     "exp_needed": "13 000",
     "total_exp": "104 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "18",
     "exp_needed": "15 000",
     "total_exp": "119 500",
-    "reward": "Begin adventures with +1 extra Reroll. 3 Rerolls total."
+    "reward": "+1 Lượt Đổi"
   },
   {
     "level": "19",
     "exp_needed": "17 000",
     "total_exp": "136 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "20",
     "exp_needed": "19 000",
     "total_exp": "155 500",
-    "reward": "Healer upgrade - Purchase a full heal at Healers in adventures"
+    "reward": "Nâng Cấp Hồi Phục Sư (Mua hồi đầy máu)"
   },
   {
     "level": "21",
     "exp_needed": "21 000",
     "total_exp": "176 500",
-    "reward": "10 Wild Fragments"
+    "reward": "10 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "22",
     "exp_needed": "23 000",
     "total_exp": "199 500",
-    "reward": "Champion Rewards in Adventures - Champions can appear in reward picks\nShop Upgrade - Can offer champions.\n Silver Reliquary"
+    "reward": "Phần Thưởng Anh Hùng Khi Phiêu Lưu\nHòm Thần Tích Bạc"
   },
   {
     "level": "23",
     "exp_needed": "25 000",
     "total_exp": "224 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "24",
     "exp_needed": "27 000",
     "total_exp": "251 500",
-    "reward": "+10% Gold earned. +30% total.\n 10 Wild Fragments"
+    "reward": "+10% Vàng Kiếm Được\n10 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "25",
     "exp_needed": "29 000",
     "total_exp": "280 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "26",
     "exp_needed": "31 000",
     "total_exp": "311 500",
-    "reward": "Begin adventures with +1 extra Reroll. 4 Rerolls total.\n Silver Reliquary"
+    "reward": "+1 Lượt Đổi\nHòm Thần Tích Bạc"
   },
   {
     "level": "27",
     "exp_needed": "33 000",
     "total_exp": "344 500",
-    "reward": "20 Wild Fragments"
+    "reward": "20 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "28",
     "exp_needed": "35 000",
     "total_exp": "379 500",
-    "reward": "+200 Starting Gold\n Gold Cosmic Vault"
+    "reward": "+200 Vàng Khởi Điểm\nKho Báu Vàng"
   },
   {
     "level": "29",
     "exp_needed": "37 000",
     "total_exp": "416 500",
-    "reward": "20 Wild Fragments"
+    "reward": "20 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "30",
     "exp_needed": "39 000",
     "total_exp": "455 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "31",
     "exp_needed": "30 000",
     "total_exp": "485 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "32",
     "exp_needed": "30 000",
     "total_exp": "515 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "33",
     "exp_needed": "30 000",
     "total_exp": "545 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "34",
     "exp_needed": "30 000",
     "total_exp": "575 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "35",
     "exp_needed": "30 000",
     "total_exp": "605 000",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "36",
     "exp_needed": "30 000",
     "total_exp": "635 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "37",
     "exp_needed": "30 000",
     "total_exp": "665 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "38",
     "exp_needed": "30 000",
     "total_exp": "695 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "39",
     "exp_needed": "30 000",
     "total_exp": "725 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "40",
     "exp_needed": "30 000",
     "total_exp": "755 500",
-    "reward": "Gold Reliquary"
+    "reward": "Hòm Thần Tích Vàng"
   },
   {
     "level": "41",
     "exp_needed": "30 000",
     "total_exp": "785 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "42",
     "exp_needed": "30 000",
     "total_exp": "815 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "43",
     "exp_needed": "30 000",
     "total_exp": "845 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "44",
     "exp_needed": "30 000",
     "total_exp": "875 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "45",
     "exp_needed": "30 000",
     "total_exp": "905 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "46",
     "exp_needed": "30 000",
     "total_exp": "935 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "47",
     "exp_needed": "30 000",
     "total_exp": "965 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "48",
     "exp_needed": "30 000",
     "total_exp": "995 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "49",
     "exp_needed": "30 000",
     "total_exp": "1 025 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "50",
     "exp_needed": "45 000",
     "total_exp": "1 070 500",
-    "reward": "Gold Reliquary"
+    "reward": "Hòm Thần Tích Vàng"
   },
   {
     "level": "51",
     "exp_needed": "45 000",
     "total_exp": "1 115 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "52",
     "exp_needed": "45 000",
     "total_exp": "1 160 500",
-    "reward": "Demacia Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Demacia"
   },
   {
     "level": "53",
     "exp_needed": "45 000",
     "total_exp": "1 205 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "54",
     "exp_needed": "45 000",
     "total_exp": "1 250 500",
-    "reward": "Ionia Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Ionia"
   },
   {
     "level": "55",
     "exp_needed": "45 000",
     "total_exp": "1 295 500",
-    "reward": "40 Wild Fragments"
+    "reward": "40 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "56",
     "exp_needed": "45 000",
     "total_exp": "1 340 500",
-    "reward": "Diamond Cosmic Vault"
+    "reward": "Kho Báu Kim Cương"
   },
   {
     "level": "57",
     "exp_needed": "60 000",
     "total_exp": "1 400 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "58",
     "exp_needed": "60 000",
     "total_exp": "1 460 500",
-    "reward": "Piltover Zaun Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Piltover & Zaun"
   },
   {
     "level": "59",
     "exp_needed": "60 000",
     "total_exp": "1 520 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "60",
     "exp_needed": "60 000",
     "total_exp": "1 580 500",
-    "reward": "Noxus Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Noxus"
   },
   {
     "level": "61",
     "exp_needed": "60 000",
     "total_exp": "1 640 500",
-    "reward": "40 Wild Fragments"
+    "reward": "40 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "62",
     "exp_needed": "80 000",
     "total_exp": "1 720 500",
-    "reward": "Diamond Cosmic Vault"
+    "reward": "Kho Báu Kim Cương"
   },
   {
     "level": "63",
     "exp_needed": "80 000",
     "total_exp": "1 800 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "64",
     "exp_needed": "80 000",
     "total_exp": "1 880 500",
-    "reward": "Shadow Isles Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Quần Đảo Bóng Đêm"
   },
   {
     "level": "65",
     "exp_needed": "80 000",
     "total_exp": "1 960 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "66",
     "exp_needed": "80 000",
     "total_exp": "2 040 500",
-    "reward": "Freljord Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Freljord"
   },
   {
     "level": "67",
     "exp_needed": "80 000",
     "total_exp": "2 120 500",
-    "reward": "40 Wild Fragments"
+    "reward": "40 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "68",
     "exp_needed": "100 000",
     "total_exp": "2 220 500",
-    "reward": "Diamond Cosmic Vault"
+    "reward": "Kho Báu Kim Cương"
   },
   {
     "level": "69",
     "exp_needed": "100 000",
     "total_exp": "2 320 500",
-    "reward": "Gold Cosmic Vault"
+    "reward": "Kho Báu Vàng"
   },
   {
     "level": "70",
     "exp_needed": "100 000",
     "total_exp": "2 420 500",
-    "reward": "Bilgewater Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Bilgewater"
   },
   {
     "level": "71",
     "exp_needed": "100 000",
     "total_exp": "2 520 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "72",
     "exp_needed": "100 000",
     "total_exp": "2 620 500",
-    "reward": "Targon Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Targon"
   },
   {
     "level": "73",
     "exp_needed": "100 000",
     "total_exp": "2 720 500",
-    "reward": "40 Wild Fragments"
+    "reward": "40 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "74",
     "exp_needed": "120 000",
     "total_exp": "2 840 500",
-    "reward": "Major Gemstone Vessel"
+    "reward": "Rương Đá Quý Lớn"
   },
   {
     "level": "75",
     "exp_needed": "120 000",
     "total_exp": "2 960 500",
-    "reward": "Platinum Cosmic Vault"
+    "reward": "Kho Báu Bạch Kim"
   },
   {
     "level": "76",
     "exp_needed": "120 000",
     "total_exp": "3 080 500",
-    "reward": "Shurima Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Shurima"
   },
   {
     "level": "77",
     "exp_needed": "120 000",
     "total_exp": "3 200 500",
-    "reward": "40 Wild Fragments"
+    "reward": "40 Mảnh Ghép Bí Ẩn"
   },
   {
     "level": "78",
     "exp_needed": "120 000",
     "total_exp": "3 320 500",
-    "reward": "Bandle City Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Thành Phố Bandle"
   },
   {
     "level": "79",
     "exp_needed": "120 000",
     "total_exp": "3 440 500",
-    "reward": "Runeterra Gold Star Vessel"
+    "reward": "Rương Tinh Tú Vàng Runeterra"
   },
   {
     "level": "80",
     "exp_needed": "120 000",
     "total_exp": "3 560 500",
-    "reward": "Nova Crystal Vessel"
-  },
-  {
-    "level": "1",
-    "exp_needed": "0",
-    "total_exp": "0",
-    "reward": "First Relic slot unlocked."
-  },
-  {
-    "level": "2",
-    "exp_needed": "50",
-    "total_exp": "50",
-    "reward": "Deck Upgrade 1"
-  },
-  {
-    "level": "3",
-    "exp_needed": "100",
-    "total_exp": "150",
-    "reward": "Deck Upgrade 2"
-  },
-  {
-    "level": "4",
-    "exp_needed": "150",
-    "total_exp": "300",
-    "reward": "Non-Deck Card Upgrade\n(optional)"
-  },
-  {
-    "level": "5",
-    "exp_needed": "200",
-    "total_exp": "500",
-    "reward": "Support champions have a random Common Item."
-  },
-  {
-    "level": "6",
-    "exp_needed": "300",
-    "total_exp": "800",
-    "reward": "Deck Upgrade 3"
-  },
-  {
-    "level": "7",
-    "exp_needed": "450",
-    "total_exp": "1,250",
-    "reward": "Begin every Adventure with  1 Revive Token."
-  },
-  {
-    "level": "8",
-    "exp_needed": "500",
-    "total_exp": "1,750",
-    "reward": "First Relic slot upgraded to Rare."
-  },
-  {
-    "level": "9",
-    "exp_needed": "560",
-    "total_exp": "2,310",
-    "reward": "Deck Upgrade 4"
-  },
-  {
-    "level": "10",
-    "exp_needed": "670",
-    "total_exp": "2,980",
-    "reward": "2"
-  },
-  {
-    "level": "11",
-    "exp_needed": "800",
-    "total_exp": "3,780",
-    "reward": "Support champions have a random Rare Item."
-  },
-  {
-    "level": "12",
-    "exp_needed": "930",
-    "total_exp": "4,710",
-    "reward": "Deck Upgrade 5"
-  },
-  {
-    "level": "13",
-    "exp_needed": "1,070",
-    "total_exp": "5,780",
-    "reward": "Second Relic slot unlocked."
-  },
-  {
-    "level": "14",
-    "exp_needed": "1,210",
-    "total_exp": "6,990",
-    "reward": "First combat reward includes Common Items.\n+10% to find Rare Items and Powers."
-  },
-  {
-    "level": "15",
-    "exp_needed": "1,360",
-    "total_exp": "8,350",
-    "reward": "Deck Upgrade 6"
-  },
-  {
-    "level": "16",
-    "exp_needed": "1,520",
-    "total_exp": "9,870",
-    "reward": "35"
-  },
-  {
-    "level": "17",
-    "exp_needed": "1,690",
-    "total_exp": "11,560",
-    "reward": "Support cards have Common Items."
-  },
-  {
-    "level": "18",
-    "exp_needed": "1,860",
-    "total_exp": "13,420",
-    "reward": "Deck Upgrade 7"
-  },
-  {
-    "level": "19",
-    "exp_needed": "2,040",
-    "total_exp": "15,460",
-    "reward": "Second Relic slot upgraded to Rare."
-  },
-  {
-    "level": "20",
-    "exp_needed": "2,220",
-    "total_exp": "17,680",
-    "reward": "New Power: \n Heroes' Welcome"
-  },
-  {
-    "level": "21",
-    "exp_needed": "2,410",
-    "total_exp": "20,090",
-    "reward": "Deck Upgrade 8"
-  },
-  {
-    "level": "22",
-    "exp_needed": "2,610",
-    "total_exp": "22,700",
-    "reward": "4"
-  },
-  {
-    "level": "23",
-    "exp_needed": "2,810",
-    "total_exp": "25,510",
-    "reward": "Support cards have Rare Items."
-  },
-  {
-    "level": "24",
-    "exp_needed": "3,020",
-    "total_exp": "28,530",
-    "reward": "Deck Upgrade 9"
-  },
-  {
-    "level": "25",
-    "exp_needed": "3,230",
-    "total_exp": "31,760",
-    "reward": "Third Relic slot unlocked."
-  },
-  {
-    "level": "26",
-    "exp_needed": "3,450",
-    "total_exp": "35,210",
-    "reward": "First combat reward includes Rare Items.\n3% to find Legendary Powers."
-  },
-  {
-    "level": "27",
-    "exp_needed": "3,670",
-    "total_exp": "38,880",
-    "reward": "Deck Upgrade 10"
-  },
-  {
-    "level": "28",
-    "exp_needed": "3,900",
-    "total_exp": "42,780",
-    "reward": "40"
-  },
-  {
-    "level": "29",
-    "exp_needed": "4,140",
-    "total_exp": "46,920",
-    "reward": "Support champs have a random Epic Item."
-  },
-  {
-    "level": "30",
-    "exp_needed": "4,370",
-    "total_exp": "51,290",
-    "reward": "Third Relic slot upgraded to Rare."
-  },
-  {
-    "level": "31",
-    "exp_needed": "5,850",
-    "total_exp": "57,140",
-    "reward": "42"
-  },
-  {
-    "level": "32",
-    "exp_needed": "6,930",
-    "total_exp": "64,070",
-    "reward": "30"
-  },
-  {
-    "level": "33",
-    "exp_needed": "8,140",
-    "total_exp": "72,210",
-    "reward": "+20% to find Rare Items and Powers."
-  },
-  {
-    "level": "34",
-    "exp_needed": "9,680",
-    "total_exp": "81,890",
-    "reward": "6"
-  },
-  {
-    "level": "35",
-    "exp_needed": "11,240",
-    "total_exp": "93,130",
-    "reward": "44"
-  },
-  {
-    "level": "36",
-    "exp_needed": "12,860",
-    "total_exp": "105,990",
-    "reward": "+10% to find Epic Items and Powers."
-  },
-  {
-    "level": "37",
-    "exp_needed": "14,620",
-    "total_exp": "120,610",
-    "reward": "60"
-  },
-  {
-    "level": "38",
-    "exp_needed": "16,050",
-    "total_exp": "136,660",
-    "reward": "+25% to find Rare Items and Powers."
-  },
-  {
-    "level": "39",
-    "exp_needed": "18,770",
-    "total_exp": "155,430",
-    "reward": "46"
-  },
-  {
-    "level": "40",
-    "exp_needed": "21,100",
-    "total_exp": "176,530",
-    "reward": "+1  Reroll"
-  },
-  {
-    "level": "41",
-    "exp_needed": "23,510",
-    "total_exp": "200,040",
-    "reward": "90"
-  },
-  {
-    "level": "42",
-    "exp_needed": "26,150",
-    "total_exp": "226,190",
-    "reward": "4% to find Legendary Powers."
-  },
-  {
-    "level": "43",
-    "exp_needed": "29,190",
-    "total_exp": "255,380",
-    "reward": "48"
-  },
-  {
-    "level": "44",
-    "exp_needed": "32,530",
-    "total_exp": "287,910",
-    "reward": "8"
-  },
-  {
-    "level": "45",
-    "exp_needed": "35,420",
-    "total_exp": "323,330",
-    "reward": "120"
-  },
-  {
-    "level": "46",
-    "exp_needed": "38,070",
-    "total_exp": "361,400",
-    "reward": "+30% to find Rare Items and Powers."
-  },
-  {
-    "level": "47",
-    "exp_needed": "41,230",
-    "total_exp": "402,630",
-    "reward": "50"
-  },
-  {
-    "level": "48",
-    "exp_needed": "45,550",
-    "total_exp": "448,180",
-    "reward": "+12.5% to find Epic Items and Powers."
-  },
-  {
-    "level": "49",
-    "exp_needed": "49,690",
-    "total_exp": "497,870",
-    "reward": "150"
-  },
-  {
-    "level": "50",
-    "exp_needed": "54,800",
-    "total_exp": "552,670",
-    "reward": "5% to find Legendary Powers."
+    "reward": "Rương Ngọc Tân Tinh"
   }
 ]

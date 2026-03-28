@@ -1,0 +1,75 @@
+{
+  "M001": {
+    "name": "Hành Trình Ionia",
+    "region": "Ionia",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01DE012-full.png?ef8b3",
+    "difficulty_text": "Dễ",
+    "stars": 1,
+    "difficulty_icon": "https://raw.githubusercontent.com/RiotGames/LoR-Adventure-Data/main/assets/stars/star_1.png",
+    "completion_xp": 1000,
+    "adventure_type": "World Adventure",
+
+    "adventure_powers": [
+      { "powerCode": "P0492" }, 
+      { "powerCode": "P1015" }
+    ],
+
+    "nodes": {
+      "node1": {
+        "title": "Vườn Thiền",
+        "top": "80.00%",
+        "left": "50.00%",
+        "connections": [
+          { "to": "node2", "type": "path" },
+          { "to": "node3", "type": "discovery" }
+        ],
+        "enemies": [
+          {
+            "cardCode": "01FR008T1",
+            "powers": [
+              { "powerCode": "P0492" },
+              { "powerCode": "P1015" }
+            ],
+            "note": "Cẩn thận với các lá bài phép hệ Siêu Tốc của đối thủ."
+          }
+        ]
+      },
+      "node2": {
+        "title": "Rừng Tre",
+        "top": "50.00%",
+        "left": "35.00%",
+        "connections": [
+          { "to": "boss_node", "type": "path" }
+        ],
+        "enemies": []
+      },
+      "node3": {
+        "title": "Suối Nước Nóng",
+        "top": "50.00%",
+        "left": "65.00%",
+        "powers": [
+          { "powerCode": "P0999" }
+        ],
+        "connections": [
+          { "to": "boss_node", "type": "path" }
+        ],
+        "enemies": []
+      },
+      "boss_node": {
+        "title": "Đền Thờ Karma",
+        "top": "20.00%",
+        "left": "50.00%",
+        "connections": [],
+        "enemies": [
+          {
+            "cardCode": "01IO012",
+            "powers": [
+              { "powerCode": "P0333" }
+            ],
+            "note": "Trận đấu cuối cùng đầy cam go."
+          }
+        ]
+      }
+    }
+  }
+}
