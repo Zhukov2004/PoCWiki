@@ -1,13 +1,13 @@
 {
   "M001": {
-    "name": "Trinh sát nhanh nhẹn",
+    "name": "Trinh Sát Nhanh Nhẹn",
     "region": "Ionia",
     "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01PZ008T2-full.png?a20a9",
     "mapimages": "image/Teemo_PoC_Map.png",
     "stars": 1,
     "difficulty_icon": "https://raw.githubusercontent.com/RiotGames/LoR-Adventure-Data/main/assets/stars/star_1.png",
     "completion_xp": 100,
-    "adventure_type": "Phiêu lưu khắp thế giới",
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
     "required_champions": [
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },

@@ -9,7 +9,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,900;1,900&display=swap');
         
-        body { font-family: 'Inter', sans-serif; background-color: #020408; color: white; }
+        body { font-family: 'Inter', sans-serif; background-color: #020408; color: white;
+    /* Thêm các dòng dưới đây */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out; /* Hiệu ứng chuyển cảnh mượt */ }
         .lor-italic { font-style: italic; font-weight: 900; letter-spacing: -0.02em; }
 
         /* Custom Scrollbar */
@@ -74,11 +79,17 @@
     pointer-events: none;
     border-color: transparent !important;
 }
+body { 
+    font-family: 'Inter', sans-serif; 
+    background-color: #020408; 
+    color: white; 
+    /* Thêm dòng dưới đây */
+}
     </style>
 </head>
 <body class="p-8">
-
-    <div id="adventure-header" class="max-w-7xl mx-auto mb-6 bg-[#0a0a0c] border border-white/10 rounded-2xl p-8 flex flex-row gap-10 shadow-2xl relative overflow-hidden min-h-[300px]">
+    <script src="components.js"></script>
+    <div id="adventure-header" class="mt-20 max-w-7xl mx-auto mb-6 bg-[#0a0a0c] border border-white/10 rounded-2xl p-8 flex flex-row gap-10 shadow-2xl relative overflow-hidden min-h-[300px]">
         <div id="adv-header-bg" class="absolute inset-0 bg-cover bg-center opacity-25 blur-md scale-105"></div>
         <div class="absolute inset-0 bg-gradient-to-r from-[#0a0a0c] via-transparent to-[#0a0a0c]"></div>
     
@@ -137,9 +148,7 @@
             <div id="req-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[1000px]">
                 <div id="champion-grid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-6">
                     <div class="flex flex-col items-center gap-2 group cursor-pointer">
-                        <div class="w-16 h-16 rounded-full border-2 border-slate-700 p-0.5 group-hover:border-cyan-400 transition-all duration-300 shadow-lg">
-                            <img src="https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Aatrox.png" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all">
-                        </div>
+                        
                         <span class="text-[11px] text-slate-400 group-hover:text-white transition-colors">Aatrox</span>
                     </div>
                 </div>
@@ -258,7 +267,11 @@
     if (!adv) return;
 
     // --- 1. Cập nhật Header & Map ---
-    const mapSrc = adv.mapimages || adv.bg_image;
+    const bgSrc = adv.bg_image; // Lấy ảnh nền từ dữ liệu map
+    const mapSrc = adv.mapimages || bgSrc;
+    document.title = `${adv.name} - PoC Guide`;          
+    // Đổi background cho toàn bộ trang (body)
+    document.body.style.backgroundImage = `linear-gradient(rgba(2, 4, 8, 0.85), rgba(2, 4, 8, 0.85)), url('${bgSrc}')`;
     document.getElementById('adv-header-title').innerText = adv.name;
     document.getElementById('adv-header-icon').src = adv.bg_image;
     document.getElementById('adv-header-bg').style.backgroundImage = `url('${adv.bg_image}')`;

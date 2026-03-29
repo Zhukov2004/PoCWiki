@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoR Adventure Selection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,900;1,900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #020408; color: white; min-height: 100vh; }
+        .lor-italic { font-style: italic; font-weight: 900; letter-spacing: -0.02em; }
+        .bg-glow { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 50% -20%, #1e293b 0%, #020408 70%); z-index: -1; }
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(34, 211, 238, 0.3); border-radius: 10px; }
+        @keyframes pulse-glow {
+    0%, 100% { opacity: 0.1; transform: scale(1); }
+    50% { opacity: 0.3; transform: scale(1.05); }
+}
+
+/* CHỈ áp dụng hiệu ứng nháy cho nút Home có ID này */
+#back-to-home::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, #22d3ee, #3b82f6);
+    border-radius: 18px;
+    z-index: -1;
+    opacity: 0.2;
+    animation: pulse-glow 3s infinite;
+}
+    </style>
+</head>
+<body class="bg-[#020408]">
+    <script src="components.js"></script>
+    <div class="bg-glow"></div>
+    
+    <div class="max-w-7xl mx-auto px-6 md:px-10 pt-32"> 
+        <div class="mb-12">
+            <h1 class="text-4xl md:text-6xl lor-italic uppercase tracking-tighter text-white">Danh sách bản đồ</h1>
+            <p class="text-cyan-400 font-bold text-xs md:text-sm tracking-widest uppercase mt-2">Chọn cuộc phiêu lưu của bạn</p>
+            
+            <div class="flex flex-wrap items-center gap-4 mt-10">
+                <div class="relative group flex-1 min-w-[300px]">
+                    <div class="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+                    <div class="relative flex items-center bg-[#0a0a0c] border border-white/10 rounded-2xl">
+                        <i data-lucide="search" class="ml-4 w-5 h-5 text-slate-500"></i>
+                        <input type="text" id="searchInput" placeholder="Tìm kiếm tên bản đồ..." 
+                            class="w-full bg-transparent py-4 px-4 text-white focus:outline-none placeholder:text-slate-600">
+                    </div>
+                </div>
+
+                <div class="relative min-w-[220px]" id="dropdown-type">
+                    <button onclick="toggleDropdown('menu-type')" class="w-full bg-[#0a0a0c] border border-white/10 hover:border-cyan-500/50 rounded-2xl py-4 px-5 flex items-center justify-between transition-all group">
+                        <span id="label-type" class="text-slate-300 font-medium">Tất cả loại</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-500 group-hover:text-cyan-400 transition-transform duration-300" id="icon-type"></i>
+                    </button>
+                    <div id="menu-type" class="absolute z-50 w-full mt-2 bg-[#0d0d0f]/95 backdrop-blur-xl border border-white/10 rounded-2xl p-2 hidden shadow-2xl overflow-hidden">
+                        <div id="options-type" class="max-h-60 overflow-y-auto custom-scrollbar">
+                            <div onclick="selectOption('type', '')" class="px-4 py-3 hover:bg-cyan-500/10 hover:text-cyan-400 rounded-xl cursor-pointer transition-all text-slate-400">Tất cả loại</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative min-w-[160px]" id="dropdown-star">
+                    <button onclick="toggleDropdown('menu-star')" class="w-full bg-[#0a0a0c] border border-white/10 hover:border-yellow-500/50 rounded-2xl py-4 px-5 flex items-center justify-between transition-all group">
+                        <span id="label-star" class="text-slate-300 font-medium">Tất cả sao</span>
+                        <i data-lucide="sparkles" class="w-4 h-4 text-slate-500 group-hover:text-yellow-400 transition-transform duration-300" id="icon-star"></i>
+                    </button>
+                    <div id="menu-star" class="absolute z-50 w-full mt-2 bg-[#0d0d0f]/95 backdrop-blur-xl border border-white/10 rounded-2xl p-2 hidden shadow-2xl overflow-hidden">
+                        <div id="options-star" class="max-h-60 overflow-y-auto custom-scrollbar">
+                            <div onclick="selectOption('star', '')" class="px-4 py-3 hover:bg-yellow-500/10 hover:text-yellow-400 rounded-xl cursor-pointer transition-all text-slate-400">Tất cả sao</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="maps-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 pb-20"></div>
+    </div>
+
+    <script>
+        let adventures = {};
+        let currentFilters = { name: "", type: "", star: "" };
+
+        async function init() {
+            try {
+                const response = await fetch('adventures_data.json');
+                adventures = await response.json();
+                setupFilters(adventures);
+                render(adventures);
+            } catch (err) {
+                console.error("Không tải được dữ liệu:", err);
+            }
+        }
+
+        function render(data) {
+            const grid = document.getElementById('maps-grid');
+            grid.innerHTML = Object.entries(data).map(([id, map]) => {
+                const xp = (map.completion_xp || 0).toLocaleString();
+                const nodeCount = map.nodes ? Object.keys(map.nodes).length : 0;
+                return `
+                <a class="block h-full group cursor-pointer" onclick="window.location.href='adventure.html?id=${id}'">
+                    <div class="bg-[#0a0a0c] border border-white/10 rounded-xl overflow-hidden shadow-sm hover:border-cyan-500 transition-all h-full">
+                        <div class="relative w-full aspect-video bg-slate-900">
+                            <img src="${map.bg_image}" alt="${map.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute top-2 right-2 bg-black/70 text-yellow-400 font-bold px-2 py-1 rounded text-sm backdrop-blur-sm shadow-md">${map.stars} ★</div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg text-white group-hover:text-cyan-400 line-clamp-1 transition-colors">${map.name}</h3>
+                            <p class="text-slate-400 text-sm mt-1 line-clamp-1">${map.adventure_type || "Chưa xác định"}</p>
+                            <div class="mt-3 flex justify-between items-center border-t border-white/5 pt-3">
+                                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">XP: ${xp}</span>
+                                <span class="text-xs text-slate-500">${nodeCount} ải</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>`;
+            }).join('');
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        }
+
+        function toggleDropdown(id) {
+            const menu = document.getElementById(id);
+            const allMenus = ['menu-type', 'menu-star'];
+            allMenus.forEach(m => { if (m !== id) document.getElementById(m).classList.add('hidden'); });
+            menu.classList.toggle('hidden');
+            
+            const iconId = id === 'menu-type' ? 'icon-type' : 'icon-star';
+            document.getElementById(iconId).style.transform = menu.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+        }
+
+        function setupFilters(data) {
+            const typeOptions = document.getElementById('options-type');
+            const starOptions = document.getElementById('options-star');
+
+            const types = [...new Set(Object.values(data).map(m => m.adventure_type))].filter(Boolean);
+            types.forEach(type => {
+                typeOptions.innerHTML += `<div onclick="selectOption('type', '${type}')" class="px-4 py-3 hover:bg-cyan-500/10 hover:text-cyan-400 rounded-xl cursor-pointer transition-all text-slate-400 border-l-2 border-transparent hover:border-cyan-500">${type}</div>`;
+            });
+
+            const stars = [...new Set(Object.values(data).map(m => m.stars))].sort((a,b) => a - b);
+            stars.forEach(s => {
+                starOptions.innerHTML += `<div onclick="selectOption('star', '${s}')" class="px-4 py-3 hover:bg-yellow-500/10 hover:text-yellow-400 rounded-xl cursor-pointer transition-all text-slate-400 border-l-2 border-transparent hover:border-yellow-500">${s} ★</div>`;
+            });
+        }
+
+        function selectOption(filterType, value) {
+            currentFilters[filterType] = value;
+            const labelId = `label-${filterType}`;
+            const labelElem = document.getElementById(labelId);
+            
+            if (value === "") {
+                labelElem.innerText = filterType === 'type' ? "Tất cả loại" : "Tất cả sao";
+                labelElem.style.color = "#94a3b8"; // slate-300
+            } else {
+                labelElem.innerText = value + (filterType === 'star' ? " ★" : "");
+                labelElem.style.color = "#22d3ee"; // cyan-400
+            }
+            toggleDropdown(`menu-${filterType}`);
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const nameTerm = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = Object.fromEntries(
+                Object.entries(adventures).filter(([id, map]) => {
+                    const matchName = map.name.toLowerCase().includes(nameTerm);
+                    const matchType = currentFilters.type === "" || map.adventure_type === currentFilters.type;
+                    const matchStar = currentFilters.star === "" || map.stars.toString() === currentFilters.star;
+                    return matchName && matchType && matchStar;
+                })
+            );
+            render(filtered);
+        }
+
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+
+        window.onclick = function(event) {
+            if (!event.target.closest('#dropdown-type') && !event.target.closest('#dropdown-star')) {
+                document.getElementById('menu-type').classList.add('hidden');
+                document.getElementById('menu-star').classList.add('hidden');
+            }
+        }
+
+        init();
+    </script>
+    <div class="fixed bottom-8 left-8 z-[100]">
+        <a href="index.html" id="back-to-home" class="group relative flex items-center justify-center w-14 h-14 md:w-16 md:h-16">
+            <div class="absolute inset-0 bg-cyan-500 rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-all duration-500"></div>
+            <div class="relative flex items-center justify-center w-full h-full bg-[#0a0a0c]/80 backdrop-blur-lg border border-white/10 rounded-2xl group-hover:border-cyan-500/50 group-hover:scale-110 transition-all duration-300 shadow-2xl">
+                <i data-lucide="home" class="w-6 h-6 text-slate-400 group-hover:text-cyan-400 group-hover:-translate-y-1 transition-all duration-300"></i>
+                <span class="absolute left-full ml-4 px-3 py-1 bg-cyan-500 text-black text-xs font-bold uppercase tracking-widest rounded opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 pointer-events-none whitespace-nowrap">
+                    Trang chủ
+                </span> </div>
+        </a>
+    </div>
+</body>
+</html>
