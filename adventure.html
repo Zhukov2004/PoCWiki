@@ -85,6 +85,59 @@ body {
     color: white; 
     /* Thêm dòng dưới đây */
 }
+/* --- Tối ưu Mobile --- */
+@media (max-width: 768px) {
+    /* 1. Body & Padding */
+    body { padding: 1rem !important; }
+
+    /* 2. Header: Chuyển từ hàng ngang sang hàng dọc */
+    #adventure-header {
+        flex-direction: column !important;
+        min-height: auto !important;
+        gap: 1.5rem !important;
+        padding: 1.5rem !important;
+        margin-top: 1rem !important;
+    }
+    
+    #adventure-header > div:last-child {
+        width: 100% !important;
+        align-items: center !important;
+    }
+
+    #adv-header-title {
+        font-size: 3rem !important; /* Thu nhỏ chữ tên Map */
+        text-align: center;
+    }
+
+    .xp-box-compact {
+        width: 100%;
+        align-items: center !important;
+    }
+
+    /* 3. Bảng: Cho phép cuộn ngang để không bị nát layout */
+    .table-responsive {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        min-width: 600px; /* Ép bảng giữ độ rộng tối thiểu để nội dung dễ đọc */
+    }
+
+    /* 4. Section Padding */
+    .bg-\[\#0a0a0c\] {
+        padding: 1.5rem !important;
+        border-radius: 1.5rem !important;
+    }
+    
+    /* 5. Grid Tướng */
+    #champion-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+        gap: 0.75rem !important;
+    }
+}
     </style>
 </head>
 <body class="p-8">
@@ -168,13 +221,8 @@ body {
                 </button>
             </div>
     
-            <div id="req-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[1000px]">
-                <div id="champion-grid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-6">
-                    </div>
-            </div>
-            
             <div id="reward-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[1000px]">
-                <div class="rounded-2xl border border-white/5 bg-black/20 overflow-hidden text-left">
+                <div class="table-responsive rounded-2xl border border-white/5 bg-black/20">
                     <table class="w-full border-collapse">
                         <thead class="bg-white/5 border-b border-white/10">
                             <tr>
@@ -226,7 +274,7 @@ body {
         </div>
         
         <div id="enemy-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[5000px]">
-            <div class="rounded-2xl border border-white/5 bg-black/20">
+            <div class="rounded-2xl border border-white/5 bg-black/20 table-responsive">
                 <table class="w-full text-left border-collapse">
                     <thead class="bg-white/5 border-b border-white/10">
                         <tr>

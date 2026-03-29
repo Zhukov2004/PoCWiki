@@ -132,37 +132,7 @@
     </style>
 </head>
 <body class="pb-20">
-    <div id="loader" class="fixed inset-0 z-[10000] bg-[#04060b] flex flex-col items-center justify-center transition-opacity duration-700">
-        <div class="relative">
-            <div class="absolute inset-0 bg-lor-gold/20 blur-xl rounded-full animate-pulse"></div>
-            
-            <div class="w-16 h-16 bg-lor-gold rounded-xl flex items-center justify-center text-black font-black text-4xl shadow-[0_0_30px_rgba(200,155,60,0.6)] animate-bounce">
-                P
-            </div>
-        </div>
-        <div class="mt-8 text-lor-gold font-bold tracking-[0.5em] uppercase text-[10px] animate-pulse">
-            Loading Assets...
-        </div>
-        <div class="mt-4 w-48 h-[2px] bg-white/5 rounded-full overflow-hidden">
-            <div class="h-full bg-lor-gold animate-[loading_2s_ease-in-out_infinite]"></div>
-        </div>
-    </div>
-    <nav class="glass-header fixed top-0 left-0 w-full flex items-center justify-between px-6 md:px-12 py-4">
-        <a href="index.html" class="flex items-center gap-3 group">
-            <div class="logo-gold w-10 h-10 bg-lor-gold rounded-md flex items-center justify-center text-black font-extrabold text-2xl shadow-[0_0_15px_rgba(200,155,60,0.5)] transition-all group-hover:scale-105">
-                P
-            </div>
-            
-            <span class="text-lor-gold text-2xl tracking-tighter uppercase font-bold font-primary group-hover:text-white transition-colors">
-                PoC Guide
-            </span>
-        </a>
-        <div class="hidden lg:flex gap-10 items-center">
-            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i> Tướng</a>
-            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="database" class="w-4 h-4"></i> Dữ liệu</a>
-            <a href="#" class="text-white/80 hover:text-lor-gold font-semibold transition-colors flex items-center gap-2"><i data-lucide="wrench" class="w-4 h-4"></i> Công cụ</a>
-        </div>
-    </nav>
+    
 
     <div class="max-w-6xl mx-auto px-6">
         <script src="components.js"></script>
@@ -411,11 +381,7 @@ function toggleTable() {
 
 // 4. KHỞI CHẠY KHI TRANG LOAD XONG
 window.addEventListener('DOMContentLoaded', () => {
-    // Ẩn loader sau 1.5s
-    setTimeout(() => {
-        const loader = document.getElementById('loader');
-        if(loader) loader.classList.add('loader-hidden');
-    }, 1500);
+    
 
     // Load dữ liệu
     loadMutatorData();
