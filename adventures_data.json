@@ -4,8 +4,7 @@
     "region": "Ionia",
     "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01PZ008T2-full.png?a20a9",
     "mapimages": "image/Teemo_PoC_Map.png",
-    "stars": 1,
-    "difficulty_icon": "https://raw.githubusercontent.com/RiotGames/LoR-Adventure-Data/main/assets/stars/star_1.png",
+    "stars": 0,
     "completion_xp": 100,
     "adventure_type": "Phiêu Lưu Khắp Thế Giới",
     "required_champions": [
@@ -45,8 +44,7 @@
   }
 ],
     "adventure_powers": [
-      { "powerCode": "P0492" }, 
-      { "powerCode": "P1015" }
+      
     ],
 
     "nodes": {
@@ -81,7 +79,7 @@
           {
             "cardCode": "05PZ035",
             "powers": [
-              { "name": "Trạm chán với chồn rác", "description": "Khi một bài quân của người chơi hi sinh, gài 1 lá Nấm Độc lên bộ bài của người chơi" }
+              { "name": "Trạm Chán Với Chồn Rác", "description": "Khi một bài quân của người chơi hi sinh, gài 1 lá Nấm Độc lên bộ bài của người chơi" }
       
             ],
             "note": ""
@@ -121,6 +119,472 @@
             "cardCode": "01PZ008",
             "powers": [
               { "name": "Đội Trinh Sát Bandle", "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Xưởng Chế Lõi Công Nghệ " }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M002": {
+    "name": "Thợ Săn Tiền Thưởng",
+    "region": "Bilgewater",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/02BW022T2-full.png?a5939",
+    "mapimages": "image/Miss_Fortune_PoC_Map.png",
+    "stars": 0.5,
+    "difficulty_icon": "https://raw.githubusercontent.com/RiotGames/LoR-Adventure-Data/main/assets/stars/star_1.png",
+    "completion_xp": 100,
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 2",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 3",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 4",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      
+    ],
+
+    "nodes": {
+      "node1": {
+        "title": "Hải Tặc Thiện Xạ",
+        "enemies": [
+          {
+            "cardCode": "02BW060",
+            
+            "powers": [
+              
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "title": "Thợ Săn Tiền Thưởng",
+        "enemies": [
+          {
+            "cardCode": "02BW005",
+            "powers": [
+              { "name": "Chào Mừng Đến Với Tiểu Đội", "description": "Bắt Đầu Vòng Đấu: Trao Kích Động cho bài quân mạnh nhất của Người Chơi trong vòng này." }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "title": "Tượng Thần Đầu Khỉ",
+        "enemies": [
+          {
+            "cardCode": "02BW034",
+            "powers": [
+              { "name": "Kéc Kéc", "description": "Bắt Đầu Trận Đấu: Triệu hồi 1 lá Tượng Thần Đầu Khỉ " }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "title": "Thằn Lằn Lịch Lãm",
+        "enemies": [
+          {
+            "cardCode": "03BW002",
+            "powers": [
+              { "name": "Lén Lén Lút Lút", "description": "Bắt Đầu Vòng Đấu: Trao Huyền Ảo cho bài quân mạnh nhất của mỗi Người Chơi trong vòng này " }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "title": "Kẻ Đánh Bạc Hăng Hái",
+        "enemies": [
+          {
+            "cardCode": "02BW007",
+            "powers": [
+              { "name": "Tráo Bài Gian Lận", "description": "Khi Địch Thủ tấn công, chúng rút 1 lá bài và trao Phù Du cho lá bài đó " }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "title": "Miss Fortune",
+        "enemies": [
+          {
+            "cardCode": "02BW022T2",
+            "powers": [
+              { "powerCode": "P0688" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M003": {
+    "name": "Sức Mạnh Của Demacia",
+    "region": "Demacia",
+    "bg_image": "http://dd.b.pvp.net/7_3_0/set1/vi_vn/img/cards/01DE012T1-full.png",
+    "mapimages": "image/Garen_PoC_Map.png",
+    "stars": 1,
+    "completion_xp": 305,
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  }
+],
+    "adventure_powers": [
+      
+    ],
+
+    "nodes": {
+      "node1": {
+        "title": "Thạch Linh Giám",
+        "enemies": [
+          {
+            "cardCode": "03DE015",
+            
+            "powers": [
+              
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "title": "Poro Can Đảm",
+        "enemies": [
+          {
+            "cardCode": "01DE049",
+            "powers": [
+              { "name": "Đám Bông Cường Hóa", "description": "Khi một bài quân của Địch Thủ nhận sát thương và sống sót, ban +1|+0 cho bài quân đó" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "title": "Diều Hâu Tiền Báo",
+        "enemies": [
+          {
+            "cardCode": "01FR022",
+            "powers": [
+              { "name": "Tầm Nhin Sức Mạnh", "description": "Bắt Đầu Vòng Đấu: Ban +1|+0 cho bài quân gần nhất trong bộ bài của Địch Thủ" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "title": "Phi Ưng Truy Sát",
+        "enemies": [
+          {
+            "cardCode": "01DE029",
+            "powers": [
+              { "name": "Móng Vuốt Sắc Bén", "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Phi Ưng Truy Sát" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "title": "Bạch Lang",
+        "enemies": [
+          {
+            "cardCode": "02FR009",
+            "powers": [
+              { "name": "Truy Lùng", "description": "Kết Thúc Vòng Đấu: Nếu Địch Thủ đã gây sát thương lên Nhà Chính của người chơi trong vòng này, gây 1 sát thương lên bài quân yếu nhất của người chơi." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "title": "Ashe",
+        "enemies": [
+          {
+            "cardCode": "01FR038",
+            "powers": [
+              { "powerCode": "P0679" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "title": "Diễn Giả Rạng Đông",
+        "enemies": [
+          {
+            "cardCode": "01DE031",
+            "powers": [
+              { "name": "Ngôn Từ Truyền Cảm Hứng", "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Diễn Giả Rạng Đông" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "title": "Nữ Tặc Tay Mơ",
+        "enemies": [
+          {
+            "cardCode": "01FR035",
+            "powers": [
+              { "name": "Thao Trường", "description": "Bài quân của Địch Thủ có +0|+1." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "title": "Thợ Rèn Vũ Khí",
+        "enemies": [
+          {
+            "cardCode": "01DE034",
+            "powers": [
+              { "name": "Thép Demacia Thượng Hạng", "description": "Khi Địch Thủ triệu hồi 1 bài quân Tinh Nhuệ, ban +1|+0 cho bài quân đó." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node9": {
+        "title": "Chủ Quán Tốt Bụng",
+        "enemies": [
+          {
+            "cardCode": "01FR050",
+            "powers": [
+              { "name": "Lò Sưởi Ấm Áp", "description": "Kết Thúc Vòng Đấu: Bài quân của Địch Thủ hồi 1 máu." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "title": "Garen",
+        "enemies": [
+          {
+            "cardCode": "01DE012",
+            "powers": [
+              { "name": "Vì Demacia!", "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, ban +1|+0 cho bài quân của Địch Thủ" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M004": {
+    "name": "Pháp Sư Tinh Linh",
+    "region": "Ionia",
+    "bg_image": "https://dd.b.pvp.net/7_3_0/set3/vi_vn/img/cards/03IO002-full.png",
+    "mapimages": "image/Lulu_PoC_Map.png",
+    "stars": 1,
+    "completion_xp": 305,
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  }
+],
+    "adventure_powers": [
+      
+    ],
+
+    "nodes": {
+      "node1": {
+        "title": "Môn Sinh Võ Học",
+        "enemies": [
+          {
+            "cardCode": "01IO042",
+            
+            "powers": [
+              
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "title": "Cún Nấm Độc",
+        "enemies": [
+          {
+            "cardCode": "05BC100",
+            "powers": [
+              { "powerCode": "P0673" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "title": "Tinh Linh Lốc Xoáy",
+        "enemies": [
+          {
+            "cardCode": "01IO008",
+            "powers": [
+              { "powerCode": "P0674" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "title": "Tảo Nữ",
+        "enemies": [
+          {
+            "cardCode": "05BC005",
+            "powers": [
+              { "powerCode": "P0675" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "title": "Fizz",
+        "enemies": [
+          {
+            "cardCode": "02BW046",
+            "powers": [
+              { "powerCode": "P0676" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "05BC098",
+            "powers": [
+              { "name": "Bóng Tối Lan Tràn", "description": "Bắt Đầu Vòng Đấu: Ban thêm 1 sát thương cho Bóng Tối của Địch Thủ ở mọi nơi" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "title": "Sóc Đô Con",
+        "enemies": [
+          {
+            "cardCode": "03IO011",
+            "powers": [
+              { "powerCode": "P0677" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "title": "Pháp Sư Phản Chiếu",
+        "enemies": [
+          {
+            "cardCode": "05BC151",
+            "powers": [
+              { "powerCode": "P0678" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "title": "Người Chăm Lo Greenglade",
+        "enemies": [
+          {
+            "cardCode": "01IO019",
+            "powers": [
+              { "name": "Trảng Rừng Trú Ẩn", "description": "Khi người chơi bất kì triệu hồi 1 bài quân, trao Lá Chắn cho bài quân đó." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node9": {
+        "title": "Dấu Hiệu Xuân Sang",
+        "enemies": [
+          {
+            "cardCode": "01IO045",
+            "powers": [
+              { "name": "Nhóm Hỗ Trợ", "description": "Khi 1 bài quân của Địch Thủ được Hỗ Trợ, ban +1|+0 cho bài quân đó." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "title": "Lulu",
+        "enemies": [
+          {
+            "cardCode": "03IO002",
+            "powers": [
+              { "powerCode": "P0672" }
       
             ],
             "note": ""

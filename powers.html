@@ -26,48 +26,85 @@
             background-attachment: fixed;
             background-position: center;
             background-size: cover;
-            background-image: linear-gradient(to bottom, #04060b 0%, rgba(4, 6, 11, 0.9) 50%, #04060b 100%), 
+            background-image: linear-gradient(to bottom, #04060b 0%, rgba(4, 6, 11, 0.7) 50%, #04060b 100%), 
                               url('https://images.contentstack.io/v3/assets/blt0eb2a29869260172/LoR_WorldMap_Background.jpg');
         }
 
-        .power-card {
-            background: rgba(10, 18, 35, 0.8);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 24px;
-            backdrop-filter: blur(16px);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        /* --- CSS MỚI CHO GIAO DIỆN ICON --- */
+        .power-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s ease;
         }
 
-        .power-card:hover { 
-            transform: translateY(-6px); 
-            background: rgba(16, 28, 55, 0.95);
-            border-color: rgba(200, 155, 60, 0.4);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        .power-item:hover {
+            transform: translateY(-5px);
         }
 
-        /* Viền độ hiếm đặc thù cho Power */
-        .border-Legendary { border-top: 5px solid #fde047; }
-        .border-Epic { border-top: 5px solid #a855f7; }
-        .border-Rare { border-top: 5px solid #06b6d4; }
-        .border-Common { border-top: 5px solid #94a3b8; }
+        /* Container chứa ảnh, xử lý bo góc và viền độ hiếm */
+        .power-icon-container {
+            position: relative;
+            width: 100px; /* Kích thước icon giống trong ảnh mẫu */
+            height: 100px;
+            margin-bottom: 1rem;
+            border-radius: 16px; /* Bo góc nhẹ cho ảnh */
+            overflow: hidden; /* Để ảnh không tràn khỏi viền bo */
+            border: 2px solid rgba(255,255,255,0.1); /* Viền mặc định */
+            transition: all 0.3s ease;
+            background: #0a1223; /* Nền tối cho icon */
+        }
+
+        .power-item:hover .power-icon-container {
+            box-shadow: 0 0 20px rgba(200, 155, 60, 0.3);
+        }
+
+        /* Màu viền độ hiếm phát sáng (Glow) quanh ảnh */
+        .border-Legendary .power-icon-container { border-color: #fde047; box-shadow: 0 0 15px rgba(253, 224, 71, 0.2); }
+        .border-Epic .power-icon-container { border-color: #a855f7; box-shadow: 0 0 15px rgba(168, 85, 247, 0.2); }
+        .border-Rare .power-icon-container { border-color: #06b6d4; box-shadow: 0 0 15px rgba(6, 182, 212, 0.2); }
+        .border-Common .power-icon-container { border-color: #94a3b8; box-shadow: 0 0 10px rgba(148, 163, 184, 0.1); }
+
+        /* Typography cho tên và mô tả */
+        .power-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 2px;
+            color: white;
+        }
+
+        .power-rarity-text {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 8px;
+        }
+
+        .power-description {
+            font-size: 12px;
+            color: #94a3b8; /* slate-400 */
+            line-height: 1.6;
+            max-width: 250px; /* Giới hạn độ rộng mô tả để dễ đọc */
+        }
+
+        /* Màu chữ độ hiếm */
+        .text-Legendary { color: #fde047; }
+        .text-Epic { color: #c084fc; } /* purple-400 */
+        .text-Rare { color: #22d3ee; } /* cyan-400 */
+        .text-Common { color: #94a3b8; } /* slate-400 */
+
+        /* -------------------------------------- */
 
         .filter-btn.active {
             background-color: #c89b3c !important;
             color: black !important;
             border-color: #c89b3c !important;
         }
-
-        /* Tooltip System */
-        .tooltip-container { position: relative; display: inline; cursor: help; border-bottom: 1px dashed rgba(255,255,255,0.3); }
-        .tooltip-text {
-            visibility: hidden; width: 220px; background: #1a2235; color: #f8fafc;
-            border: 1px solid #c89b3c; border-radius: 8px; padding: 12px;
-            position: absolute; z-index: 100; bottom: 130%; left: 50%;
-            transform: translateX(-50%); opacity: 0; transition: 0.3s;
-            font-size: 12px; line-height: 1.5; pointer-events: none;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.8); font-style: normal;
-        }
-        .tooltip-container:hover .tooltip-text { visibility: visible; opacity: 1; bottom: 120%; }
 
         /* Pagination */
         .page-btn { transition: 0.3s; border: 1px solid rgba(255,255,255,0.1); }
@@ -82,7 +119,7 @@
     <div class="bg-fixed-section min-h-screen pt-32 pb-24">
         <div class="max-w-[1400px] mx-auto px-6">
             
-            <div class="flex flex-col lg:flex-row justify-between items-end mb-12 gap-8">
+            <div class="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8">
                 <div class="max-w-2xl">
                     <h1 class="text-4xl md:text-5xl font-bold uppercase mb-4 tracking-tight">Hệ Thống <span class="text-lor-gold">Kỹ Năng</span></h1>
                     <p class="text-slate-400 text-base border-l-2 border-lor-gold/50 pl-4 py-1 italic">
@@ -106,7 +143,7 @@
                 </div>
             </div>
 
-            <div id="power-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-12"></div>
+            <div id="power-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-10 gap-y-16 mb-16 px-4"></div>
 
             <div id="pagination" class="flex justify-center items-center gap-2"></div>
         </div>
@@ -118,9 +155,9 @@
         let dictionary = { vocabTerms: [], keywords: [] };
         let currentRarity = 'all';
         
-        // Phân trang
+        // Phân trang - Tăng số lượng item mỗi trang vì giao diện icon nhỏ hơn
         let currentPage = 1;
-        const itemsPerPage = 12;
+        const itemsPerPage = 20; 
 
         async function init() {
             try {
@@ -136,31 +173,15 @@
             }
         }
 
-        function getDefinition(term) {
-            const lowerTerm = term.toLowerCase().trim();
-            const findIn = (list) => list.find(i => i.name.toLowerCase() === lowerTerm);
-            const result = findIn(dictionary.vocabTerms) || findIn(dictionary.keywords);
-            return result ? result.description : "Thông tin đang được cập nhật...";
-        }
-
+        // Giữ nguyên hàm cleanText của bạn
         function cleanText(text) {
             if (!text) return "";
             return text
-                .replace(/<(style=Keyword|style=Vocab)>(.*?)<\/style>/g, (match, type, content) => {
-                    const desc = getDefinition(content);
-                    const colorClass = type.includes('Vocab') ? 'text-lor-gold italic' : 'text-cyan-400';
-                    return `
-                        <span class="tooltip-container ${colorClass} font-bold">
-                            ${content}
-                            <span class="tooltip-text font-normal text-slate-300">
-                                <b class="text-lor-gold block mb-1 border-b border-lor-gold/20 pb-1 font-bold">${content}</b>
-                                ${desc}
-                            </span>
-                        </span>`;
-                })
-                .replace(/<link=.*?>(.*?)<\/link>/g, '<span class="text-white font-semibold">$1</span>')
-                .replace(/<sprite.*?>/g, '')
-                .replace(/<br>/g, '<br class="mb-2 block">');
+                .replace(/<style=[^>]*>(.*?)<\/style>/g, '$1')
+                .replace(/<link=[^>]*>(.*?)<\/link>/g, '$1')
+                .replace(/<sprite[^>]*>/g, '')
+                .replace(/<br>/g, ' ') // Chuyển br thành khoảng trắng cho giao diện gọn
+                .trim();
         }
 
         function updateFiltered() {
@@ -187,23 +208,25 @@
                 return;
             }
 
+            // --- CẤU TRÚC HTML MỚI TRONG MAP ---
             grid.innerHTML = paginatedItems.map(item => `
-                <div class="power-card group p-7 pb-10 border-${item.rarityRef} flex flex-col h-full shadow-2xl">
-                    <div class="relative w-full aspect-square mb-6 bg-gradient-to-b from-white/5 to-transparent rounded-full flex items-center justify-center overflow-hidden border border-white/5 shadow-inner">
-                        <img src="${item.assetAbsolutePath}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" loading="lazy">
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#04060b]/80 via-transparent to-transparent"></div>
-                        <span class="absolute bottom-4 px-3 py-1 bg-black/60 rounded-full text-[8px] font-black tracking-[0.2em] border border-white/10 uppercase text-white">
-                            ${item.rarity}
-                        </span>
+                <div class="power-item border-${item.rarityRef}">
+                    <div class="power-icon-container shadow-xl">
+                        <img src="${item.assetAbsolutePath}" class="w-full h-full object-cover" loading="lazy">
+                        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/50 to-transparent"></div>
                     </div>
 
-                    <h3 class="text-xl font-bold text-white mb-4 group-hover:text-lor-gold transition-colors leading-tight min-h-[56px] flex items-center">
+                    <h3 class="power-name group-hover:text-lor-gold transition-colors">
                         ${item.name}
                     </h3>
-
-                    <div class="text-[14px] text-slate-300 leading-relaxed italic flex-grow">
-                        ${cleanText(item.description)}
+                    
+                    <div class="power-rarity-text text-${item.rarityRef}">
+                        ${item.rarity}
                     </div>
+
+                    <p class="power-description">
+                        ${cleanText(item.description)}
+                    </p>
                 </div>
             `).join('');
 
@@ -218,10 +241,11 @@
             let btns = [];
             btns.push(`<button onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} class="page-btn px-4 py-2 rounded-lg bg-white/5 disabled:opacity-20"><i data-lucide="chevron-left" class="w-5 h-5"></i></button>`);
 
+            // Logic phân trang đơn giản
             for (let i = 1; i <= totalPages; i++) {
-                if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
                     btns.push(`<button onclick="changePage(${i})" class="page-btn w-10 h-10 rounded-lg font-bold ${i === currentPage ? 'active' : 'bg-white/5'}">${i}</button>`);
-                } else if (i === currentPage - 2 || i === currentPage + 2) {
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
                     btns.push(`<span class="text-slate-600 px-2">...</span>`);
                 }
             }

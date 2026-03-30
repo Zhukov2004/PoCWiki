@@ -6868,5 +6868,71 @@
     "powerCode": "P0671",
     "rarity": "SỬ THI",
     "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01022.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0671-full.png",
+    "description": "Bắt Đầu Vòng Đấu: Biến đổi tùy tùng mạnh nhất của người chơi thành 1 lá Sóc 1|1 và Câm Lặng nó trong vòng này.",
+    "name": "ADORIBUS!",
+    "powerCode": "P0672",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0860.png",
+    "description": "Bắt Đầu Vòng Đấu: Gài 1 Nấm Độc lên bộ bài của người chơi",
+    "name": "Nấm Độc Sinh Sôi",
+    "powerCode": "P0673",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0083.png",
+    "description": "Bắt Đầu Vòng Đấu: Làm Choáng bài quân Yếu Nhất của người chơi",
+    "name": "Sắt Thép Sáng Lóa",
+    "powerCode": "P0674",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/giaidieuphantam.png",
+    "description": "Bắt Đầu Vòng Đấu: 1 lá bài ngẫu nhiên trên tay Người Chơi sẽ tăng 2 tiêu hao trong vòng này",
+    "name": "Giai Điệu Phân Tâm",
+    "powerCode": "P0675",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01002.png",
+    "description": "Bắt Đầu Vòng Đấu: Hồi lại năng lượng bài phép của TẤT CẢ Người Chơi.",
+    "name": "Hung Thần Đại Dương",
+    "powerCode": "P0676",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01017.png",
+    "description": "TẤT CẢ bài quân có \"Ra Đòn: Nhân đôi Sức Mạnh của ta.\"",
+    "name": "Tập Luyện Trong Rừng",
+    "powerCode": "P0677",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01018.png",
+    "description": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 1 lá Pháp Sư Phản Chiếu.",
+    "name": "Ảo Ảnh Ánh Sáng",
+    "powerCode": "P0678",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0874.png",
+    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, Đóng Băng bài quân yếu nhất của Người Chơi",
+    "name": "Buốt Da Thấu Thịt",
+    "powerCode": "P0679",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
   }
+  
 ]
