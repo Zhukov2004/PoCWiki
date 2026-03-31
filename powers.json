@@ -6989,5 +6989,46 @@
     "powerCode": "P0686",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/dieubinh.png",
+    "description": "Khi một bài quân của Địch Thủ ra đòn gây 5+ sát thương, ban +2|+1 cho bài quân đó",
+    "name": "Diễu Binh",
+    "powerCode": "P0687",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/chungsucdonglong.png",
+    "description": "Bắt Đầu Vòng Đấu: Tạo 1 lá Châm Lửa trên tay Địch Thủ",
+    "name": "Chung Sức Đồng Lòng",
+    "powerCode": "P0688",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/donhumoinang.png",
+    "description": "Bắt Đầu Vòng Đấu: Gây 1 sát thương lên tất cả các bài quân, sau đó ban +0|+1 cho bài quân của Địch Thủ",
+    "name": "Đỏ Như Môi Nàng",
+    "powerCode": "P0689",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/muadan.png",
+    "description": "Bắt Đầu Vòng Đấu: Gây 2 sát thương lên 1 bài quân BẤT KỲ",
+    "name": "Mưa Đạn",
+    "powerCode": "P0690",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/hiemhoavungsaltwater.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 1 Thùng Thuốc Súng.\nLần đầu Địch Thủ bắt đầu vòng đấu khi còn ít hơn 15 máu, chúng tạo trên tay 1 lá Tàu Dreadway.",
+    "name": "Hiểm Họa Vùng Saltwater",
+    "powerCode": "P0691",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
   }
+
 ]

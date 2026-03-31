@@ -339,7 +339,7 @@ body {
                 <img src="${getSmartSrc(p.assetAbsolutePath)}" class="w-14 h-14 rounded-full border-2 border-cyan-400 bg-slate-800 flex-shrink-0 shadow-lg shadow-cyan-500/20">
                 <div>
                     <div class="text-[15px] font-black text-white tracking-tight">${p.name}</div>
-                    <div class="text-[13px] text-slate-300 mt-2 leading-relaxed font-medium">${p.description}</div>
+                    <div class="text-[13px] text-slate-300 mt-2 leading-relaxed font-medium whitespace-pre-line">${p.description}</div>
                 </div>
             </div>`;
     }).join('');
@@ -388,7 +388,7 @@ body {
                     ${powerIcon}
                     <div>
                         <div class="text-[11px] font-black text-white leading-none">${pName}</div>
-                        <div class="text-[12px] text-slate-400 leading-snug mt-1">${pDesc}</div>
+                        <div class="text-[12px] text-slate-400 leading-snug mt-1 whitespace-pre-line">${pDesc}</div>
                     </div>
                 </div>`;
         }).join('');

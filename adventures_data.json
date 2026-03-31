@@ -593,6 +593,189 @@
       }
     }
 },
+"M006": {
+    "name": "Cơn Thịnh Nộ Xứ Zaun",
+    "region": "Piltover & Zaun",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/98PZ001-full.png?4d749",
+    "mapimages": "image/Warwick_PoC_Map.png",
+    "stars": 1.5,
+    "completion_xp": 210,
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" }
+      
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 2",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 3",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 4",
+    "items": [
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/15px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x10" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P0680"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "02BW055",
+            
+            "powers": [
+              {"powerCode": "P0681"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01NX024",
+            "powers": [
+              { "powerCode": "P0682" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "02BW058",
+            "powers": [
+              { "powerCode": "P0683" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01NX021",
+            "powers": [
+              { "powerCode": "P0684" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "02BW034",
+            "powers": [
+              { "powerCode": "P0685" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "02NX007",
+            "powers": [
+              { "powerCode": "P0686" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "01NX031",
+            "powers": [
+              { "powerCode": "P0687" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "02BW008",
+            "powers": [
+              { "powerCode": "P0688" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "01NX030",
+            "powers": [
+              { "powerCode": "P0689" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node9": {
+        "enemies": [
+          {
+            "cardCode": "02BW028",
+            "powers": [
+              { "powerCode": "P0690" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "02BW032",
+            "powers": [
+              { "powerCode": "P0691" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
 "M005": {
     "name": "Hiểm Họa Vùng Saltwater",
     "region": "Bilgewater",
@@ -742,7 +925,7 @@
           {
             "cardCode": "01NX031",
             "powers": [
-              { "powerCode": "P0677" }
+              { "powerCode": "P0687" }
       
             ],
             "note": ""
@@ -750,12 +933,11 @@
         ]
       },
       "node7": {
-        "title": "Pháp Sư Phản Chiếu",
         "enemies": [
           {
-            "cardCode": "05BC151",
+            "cardCode": "02BW008",
             "powers": [
-              { "powerCode": "P0678" }
+              { "powerCode": "P0688" }
       
             ],
             "note": ""
@@ -763,12 +945,11 @@
         ]
       },
       "node8": {
-        "title": "Người Chăm Lo Greenglade",
         "enemies": [
           {
-            "cardCode": "01IO019",
+            "cardCode": "01NX030",
             "powers": [
-              { "name": "Trảng Rừng Trú Ẩn", "description": "Khi người chơi bất kì triệu hồi 1 bài quân, trao Lá Chắn cho bài quân đó." }
+              { "powerCode": "P0689" }
       
             ],
             "note": ""
@@ -776,12 +957,11 @@
         ]
       },
       "node9": {
-        "title": "Dấu Hiệu Xuân Sang",
         "enemies": [
           {
-            "cardCode": "01IO045",
+            "cardCode": "02BW028",
             "powers": [
-              { "name": "Nhóm Hỗ Trợ", "description": "Khi 1 bài quân của Địch Thủ được Hỗ Trợ, ban +1|+0 cho bài quân đó." }
+              { "powerCode": "P0690" }
       
             ],
             "note": ""
@@ -789,12 +969,11 @@
         ]
       },
       "node10": {
-        "title": "Lulu",
         "enemies": [
           {
-            "cardCode": "03IO002",
+            "cardCode": "02BW032",
             "powers": [
-              { "powerCode": "P0672" }
+              { "powerCode": "P0691" }
       
             ],
             "note": ""
