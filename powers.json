@@ -6176,7 +6176,7 @@
     "descriptionRaw": "Khi Địch Thủ triệu hồi một bài quân, tăng gấp ba chỉ số của nó.\r\nBài phép và kỹ năng của Địch Thủ gây gấp ba lần sát thương.",
     "name": "Hủy Diệt",
     "powerCode": "P0999",
-    "rarity": "Missing Translation",
+    "rarity": "ĐẶC BIỆT",
     "rarityRef": "Special"
   },
   {
@@ -7061,6 +7061,149 @@
     "powerCode": "P2003",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/lamviecngoaigio.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi một lá Xưởng Chế Lõi Công Nghệ.",
+    "name": "Làm Việc Ngoài Giờ",
+    "powerCode": "P2004",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/vucuopnhenhang.png",
+    "description": "Bắt Đầu Vòng Đấu: Người chơi rút một lá bài, và ban Phù Du cho một lá bài ngẫu nhiên trên tay mà họ có đủ tiêu hao để dùng",
+    "name": "Vụ Cướp Nhẹ Nhàng",
+    "powerCode": "P2005",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/matkhaulagi.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi một lá Gác Cổng Zaun với Sức Mạnh bằng 0 nếu chưa có lá nào",
+    "name": "Mật Khẩu Là Gì?",
+    "powerCode": "P2006",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/kethuhiemdoc.png",
+    "description": "+10 máu Nhà Chính, +1 năng lượng khởi điểm, +1 lá bài khởi đầu.",
+    "name": "Kẻ Thù Hiểm Độc",
+    "powerCode": "P2007",
+    "rarity": "ĐẶC BIỆT",
+    "rarityRef": "Special"
+  },
+  {
+    "assetAbsolutePath": "image/phelieudanhcap.png",
+    "description": "Khi BẤT KỲ người chơi nào bỏ 1 lá bài, người chơi đó sẽ triệu hồi 1 lá Cua Phế Liệu.",
+    "name": "Phế Liệu Đánh Cắp",
+    "powerCode": "P2008",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0447.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ tạo trên tay 1 lá Mùi Máu, hoặc nếu đã có sẵn, giảm 1 tiêu hao của lá bài đó.",
+    "name": "Đói Khát",
+    "powerCode": "P2009",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/quaybardaichien.png",
+    "description": "Khi một bài quân được triệu hồi, tráo đổi chỉ số của lá bài đó",
+    "name": "Quầy Bar Đại Chiến",
+    "powerCode": "P2010",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/bachphatbachtrung.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ rút 1 bài phép.",
+    "name": "Bách Phát Bách Trúng",
+    "powerCode": "P2010",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01007.png",
+    "description": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 1 lá Đài Thiên Văn Hextech.",
+    "name": "Sức Mạnh Quan Sát",
+    "powerCode": "P2011",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0836.png",
+    "description": "Bắt Đầu Vòng Đấu: Tạo 1 lá Bản Đồ Địa Đạo Hầm Thải, Pháp Lực Gia Tăng hoặc Lên Đồ! Phù Du trên tay TẤT CẢ người chơi. Những lá bài đó có 1 tiêu hao.",
+    "name": "Trang Bị Đồ Nghề",
+    "powerCode": "P2012",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0091.png",
+    "description": "Khi Địch Thủ dùng bài phép đầu tiên mỗi vòng đấu, triệu hồi 1 lá Tiểu Long. Rồng Nhí của Địch Thủ có +1|+0.",
+    "name": "Lời Dạy Của Rồng Thiêng",
+    "powerCode": "P2013",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thietkethunghiem.png",
+    "description": "Bắt Đầu Vòng Đấu: Mỗi bài quân với 2- Sức Mạnh có 50% cơ hội Bị Choáng và 50% cơ hội nhận được Huyền Ảo trong vòng này.",
+    "name": "Thiết Kế Thử Nghiệm",
+    "powerCode": "P2014",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01019.png",
+    "description": "Khi 1 bài quân hy sinh, ban +1|+0 cho 1 bài quân ngẫu nhiên trên tay người chơi sở hữu bài quân đó.",
+    "name": "Bóng Tối Dai Dẳng",
+    "powerCode": "P2015",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thienhuong.png",
+    "description": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi bắt đầu với 10 ngọc năng lượng.",
+    "name": "Thiền Hướng",
+    "powerCode": "P2016",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/kientritimkiem.png",
+    "description": "Bắt Đầu Vòng Đấu: Người chơi tráo bài trên tay vào bộ bài và rút số lượng bài tương ứng.",
+    "name": "Kiên Trì Tìm Kiếm",
+    "powerCode": "P2017",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/ngaynaocungtienbo.png",
+    "description": "Những lá bài Địch Thủ rút được giảm 2 tiêu hao trong vòng này.",
+    "name": "Ngày Nào Cũng Tiến Bộ",
+    "powerCode": "P2018",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nhomhotro.png",
+    "description": "Khi 1 bài quân của Địch Thủ được Hỗ Trợ, ban +1|+0 cho bài quân đó.",
+    "name": "Nhóm Hỗ Trợ",
+    "powerCode": "P2019",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/luyenngammuctieu.png",
+    "description": "Bài phép của Địch Thủ có 1 tiêu hao. Bắt Đầu Vòng Đấu: Tạo 1 lá Sốc Điện Phù Du vào bài trên tay của Địch Thủ. Nếu Địch Thủ đã thăng cấp 1 anh hùng, thay vào đó, tạo 1 lá Cung Ánh Sáng Phù Du vào bài trên tay của Địch Thủ.",
+    "name": "Luyện Ngắm Mục Tiêu",
+    "powerCode": "P2020",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
   }
-
 ]

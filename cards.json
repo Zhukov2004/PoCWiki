@@ -128279,5 +128279,148 @@
       "client_Deckbuilder_RulesFilters_Singleton",
       "client_Formats_Standard_name"
     ]
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "98NX003"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98NX003.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NX003-full.webp"
+      }
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "regionRefs": [
+      "Noxus"
+    ],
+    "cost": 4,
+    "description": "Mỗi vòng đấu, lần đầu ta tiêu diệt kẻ địch, tạo một lá Đột Kích Nửa Đêm trên tay.",
+
+
+    "name": "Ambessa",
+    "cardCode": "98NX003",
+    "keywords": [
+      "Đột Kích"
+    ],
+    "keywordRefs": [
+      "QuickStrike"
+    ],
+    "rarity": "Anh Hùng",
+    "rarityRef": "Champion",
+    "supertype": "Anh hùng",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "98NX003T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98NX003T1.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NX003T1-full.webp"
+      }
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "regionRefs": [
+      "Noxus"
+    ],
+    "cost": 4,
+    "description": "Mỗi vòng đấu, lần đầu ta tiêu diệt kẻ địch, Tiến Công.",
+
+
+    "name": "Ambessa",
+    "cardCode": "98NX003T1",
+    "keywords": [
+      "Đột Kích"
+    ],
+    "keywordRefs": [
+      "QuickStrike"
+    ],
+    "rarity": "Anh Hùng",
+    "rarityRef": "Champion",
+    "supertype": "Anh hùng",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "98PZ001"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ001.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ001-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "cost": 3,
+    "name": "Warwick",
+    "cardCode": "98PZ001",
+    "rarity": "Anh Hùng",
+    "rarityRef": "Champion",
+    "supertype": "Anh hùng",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "98PZ001"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ001.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ001-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "cost": 3,
+    "name": "Warwick",
+    "cardCode": "98PZ001",
+    "rarity": "Anh Hùng",
+    "rarityRef": "Champion",
+    "supertype": "Anh hùng",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "99PZ115"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/thumb/99PZ115-full.png/800px-99PZ115-full.png?a26b9&20211129063517"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "cost": 3,
+    "name": "Đài Thiên Văn Hextech",
+    "cardCode": "99PZ115",
+    "rarity": "",
+    "rarityRef": "None",
+    "supertype": "Anh hùng",
+    "type": "Địa Danh"
   }
 ]

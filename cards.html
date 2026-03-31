@@ -199,6 +199,7 @@
     </main>
 
     <script>
+        const LOCAL_IMAGE_PATH = 'image/'; // Thư mục chứa ảnh trong project của bạn
         const regionData = [
             { id: 'Bilgewater', name: 'Bilgewater', color: '#ff7b00', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bilgewater.png' },
             { id: 'Demacia', name: 'Demacia', color: '#fff5d1', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-demacia.png' },
@@ -317,30 +318,46 @@
 
         // --- DISPLAY ---
         function displayCards(cards) {
-            const grid = document.getElementById('cardsGrid');
-            if(cards.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-20 text-slate-500">Không tìm thấy lá bài nào.</div>`;
-                return;
-            }
-            grid.innerHTML = cards.map(card => {
-                const rInfo = rarityData.find(r => r.id === card.rarity);
-                const hoverColor = rInfo ? rInfo.color : '#c89b3c';
-                // Tìm đoạn này trong hàm displayCards và sửa lại:
-return `
-    <div class="card-item bg-[#0a0e1a] rounded-2xl overflow-hidden group shadow-lg" style="--hover-color: ${hoverColor}">
-        <div class="aspect-[2/3] overflow-hidden bg-black">
-            <img src="${card.assets[0].gameAbsolutePath}" class="w-full h-full object-cover transition-transform duration-700" loading="lazy">
-        </div>
-        <div class="p-3 bg-gradient-to-t from-black pt-2">
-            <h3 class="text-white font-bold text-xs truncate">${card.name}</h3>
-            <div class="flex justify-between items-center mt-2 opacity-60">
-                <span class="text-[9px] font-bold uppercase">${card.regions[0] || ''}</span>
-                <span class="text-[9px]">${card.cost} Mana</span>
-            </div>
-        </div>
-    </div>`;
-            }).join('');
+    const grid = document.getElementById('cardsGrid');
+    if(cards.length === 0) {
+        grid.innerHTML = `<div class="col-span-full text-center py-20 text-slate-500">Không tìm thấy lá bài nào.</div>`;
+        return;
+    }
+
+    grid.innerHTML = cards.map(card => {
+        const rInfo = rarityData.find(r => r.id === card.rarity);
+        const hoverColor = rInfo ? rInfo.color : '#c89b3c';
+        
+        // Lấy đường dẫn gốc từ JSON
+        let rawPath = card.assets[0].gameAbsolutePath;
+        
+        // LOGIC KIỂM TRA NGUỒN ẢNH
+        let imgSrc = "";
+        if (rawPath.startsWith('http://') || rawPath.startsWith('https://')) {
+            // Nếu là link web thì giữ nguyên
+            imgSrc = rawPath;
+        } else {
+            // Nếu là file cục bộ, nối thêm thư mục project (ví dụ: image/ten-anh.png)
+            // Lưu ý: Đảm bảo trong JSON chỉ để tên file hoặc path tương đối
+            imgSrc = LOCAL_IMAGE_PATH + rawPath;
         }
+
+        return `
+            <div class="card-item bg-[#0a0e1a] rounded-2xl overflow-hidden group shadow-lg" style="--hover-color: ${hoverColor}">
+                <div class="aspect-[2/3] overflow-hidden bg-black">
+                    <img src="${imgSrc}" class="w-full h-full object-cover transition-transform duration-700" 
+                         onerror="this.src='https://via.placeholder.com/300x450?text=No+Image'" loading="lazy">
+                </div>
+                <div class="p-3 bg-gradient-to-t from-black pt-2">
+                    <h3 class="text-white font-bold text-xs truncate">${card.name}</h3>
+                    <div class="flex justify-between items-center mt-2 opacity-60">
+                        <span class="text-[9px] font-bold uppercase">${card.regions[0] || ''}</span>
+                        <span class="text-[9px]">${card.cost} Mana</span>
+                    </div>
+                </div>
+            </div>`;
+    }).join('');
+}
 
         // --- EVENT HELPERS ---
         function setupDropdownEvents(wrapperId, labelId, filterKey) {
