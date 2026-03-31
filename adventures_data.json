@@ -592,5 +592,215 @@
         ]
       }
     }
+},
+"M005": {
+    "name": "Hiểm Họa Vùng Saltwater",
+    "region": "Bilgewater",
+    "bg_image": "http://dd.b.pvp.net/7_3_0/set2/vi_vn/img/cards/02BW032-full.png",
+    "mapimages": "image/Gangplank_PoC_Map.png",
+    "stars": 1.5,
+    "completion_xp": 605,
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 2",
+    "items": [
+      { "name": "Hòm Thần Tích Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Reliquary_icon.png/25px-PoC_Bronze_Reliquary_icon.png?966f1", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 3",
+    "items": [
+      { "name": "Hòm Thần Tích Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 4",
+    "items": [
+      { "name": "Hòm Thần Tích Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 5",
+    "items": [
+      { "name": "Hòm Thần Tích Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 6",
+    "items": [
+      { "name": "Hòm Thần Tích Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 7",
+    "items": [
+      { "name": "Hòm Thần Tích Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P0680"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "02BW055",
+            
+            "powers": [
+              {"powerCode": "P0681"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01NX024",
+            "powers": [
+              { "powerCode": "P0682" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "02BW058",
+            "powers": [
+              { "powerCode": "P0683" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01NX021",
+            "powers": [
+              { "powerCode": "P0684" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "02BW034",
+            "powers": [
+              { "powerCode": "P0685" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "02NX007",
+            "powers": [
+              { "powerCode": "P0686" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "01NX031",
+            "powers": [
+              { "powerCode": "P0677" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "title": "Pháp Sư Phản Chiếu",
+        "enemies": [
+          {
+            "cardCode": "05BC151",
+            "powers": [
+              { "powerCode": "P0678" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "title": "Người Chăm Lo Greenglade",
+        "enemies": [
+          {
+            "cardCode": "01IO019",
+            "powers": [
+              { "name": "Trảng Rừng Trú Ẩn", "description": "Khi người chơi bất kì triệu hồi 1 bài quân, trao Lá Chắn cho bài quân đó." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node9": {
+        "title": "Dấu Hiệu Xuân Sang",
+        "enemies": [
+          {
+            "cardCode": "01IO045",
+            "powers": [
+              { "name": "Nhóm Hỗ Trợ", "description": "Khi 1 bài quân của Địch Thủ được Hỗ Trợ, ban +1|+0 cho bài quân đó." }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "title": "Lulu",
+        "enemies": [
+          {
+            "cardCode": "03IO002",
+            "powers": [
+              { "powerCode": "P0672" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
 }
 }

@@ -6933,6 +6933,61 @@
     "powerCode": "P0679",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/mohoivaxuongmau.png",
+    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, Đóng Băng bài quân yếu nhất của Người Chơi",
+    "name": "Mồ Hôi Và Xương Máu",
+    "powerCode": "P0680",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/camlaolennao.png",
+    "description": "Khi Địch Thủ tấn công, ban +1|+0 cho bài quân 1 tiêu hao của chúng",
+    "name": "Cầm Lao Lên Nào",
+    "powerCode": "P0681",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/capdoiquyenluc.png",
+    "description": "Bài quân Áp Đảo của Địch Thủ được nhận +2|+0",
+    "name": "Cặp Đôi Quyền Lực",
+    "powerCode": "P0682",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01006.png",
+    "description": "TẤT CẢ bài quân có \"Cưỡng Đoạt: Ban cho ta +1|+1.\"",
+    "name": "Đồ Tể Chặn Đòn",
+    "powerCode": "P0683",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0220.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ tạo trên tay 1 lá Quân Đoàn Cướp Bóc.",
+    "name": "Chúng Tới Này",
+    "powerCode": "P0684",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01009.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Khỉ Đuôi Nổ.",
+    "name": "Kéc Kéc",
+    "powerCode": "P0685",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thongkho.png",
+    "description": "Bắt Đầu Vòng Đấu: Gây 1 sát thương lên tất cả các bài quân bị thương của người chơi",
+    "name": "Thống Khổ",
+    "powerCode": "P0686",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
   }
-  
 ]
