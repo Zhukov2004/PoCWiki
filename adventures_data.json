@@ -598,7 +598,7 @@
     "region": "Piltover & Zaun",
     "bg_image": "https://wiki.leagueoflegends.com/en-us/images/98PZ001-full.png?4d749",
     "mapimages": "image/Warwick_PoC_Map.png",
-    "stars": 1.5,
+    "stars": 1,
     "completion_xp": 210,
     "adventure_type": "Phiêu Lưu Khắp Thế Giới",
     "required_champions": [
@@ -639,17 +639,17 @@
   }
 ],
     "adventure_powers": [
-      {"powerCode": "P0680"}
+      
     ],
 
     "nodes": {
       "node1": {
         "enemies": [
           {
-            "cardCode": "02BW055",
+            "cardCode": "01PZ018",
             
             "powers": [
-              {"powerCode": "P0681"}
+              {"powerCode": "P2000"}
             ],
             "note": ""
           }
@@ -658,9 +658,9 @@
       "node2": {
         "enemies": [
           {
-            "cardCode": "01NX024",
+            "cardCode": "02PZ005",
             "powers": [
-              { "powerCode": "P0682" }
+              { "powerCode": "P2001" }
             ],
             "note": ""
           }
@@ -669,9 +669,9 @@
       "node3": {
         "enemies": [
           {
-            "cardCode": "02BW058",
+            "cardCode": "03PZ001",
             "powers": [
-              { "powerCode": "P0683" }
+              { "powerCode": "P2002" }
       
             ],
             "note": ""
@@ -681,9 +681,9 @@
       "node11": {
         "enemies": [
           {
-            "cardCode": "01NX021",
+            "cardCode": "98NX003",
             "powers": [
-              { "powerCode": "P0684" }
+              { "powerCode": "P2003" }
       
             ],
             "note": ""

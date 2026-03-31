@@ -72,12 +72,21 @@
     padding-left: 10px;
 }
         /* Class này sẽ được thêm vào bằng JavaScript */
+/* Tìm và sửa lại class map-hidden */
 .map-hidden {
     max-height: 0 !important;
     opacity: 0 !important;
     margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     pointer-events: none;
-    border-color: transparent !important;
+    overflow: hidden; /* Quan trọng để giấu nội dung khi đóng */
+}
+
+/* Đảm bảo container chính linh hoạt */
+#map-container {
+    transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: 5000px; /* Tăng con số này lên thật cao để chứa được ảnh rất dài */
 }
 body { 
     font-family: 'Inter', sans-serif; 

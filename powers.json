@@ -7029,6 +7029,38 @@
     "powerCode": "P0691",
     "rarity": "HIẾM",
     "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/dengiohoc.png",
+    "description": "Nếu Địch Thủ tấn công một bài quân với Đột Kích, các bài quân ở vị trí tấn công của chúng có +1|+0",
+    "name": "Đến Giờ Học",
+    "powerCode": "P2000",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thamvan.png",
+    "description": "Khi Địch Thủ rút 1 lá, bài quân đó được giảm 1 tiêu hao trong vòng này.",
+    "name": "Thẩm Vấn",
+    "powerCode": "P2001",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/baikiemtracuoicung.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi Đại Học Piltover",
+    "name": "Bài Kiểm Tra Cuối Cùng",
+    "powerCode": "P2002",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0843.png",
+    "description": "Khi 1 bài quân của Địch Thủ ra đòn, ban +1|+1 cho bài quân đó.",
+    "name": "Dày Dạn Trận Mạc",
+    "powerCode": "P2003",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
   }
 
 ]
