@@ -7205,5 +7205,93 @@
     "powerCode": "P2020",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01026.png",
+    "description": "Bài quân ở vị trí tấn công của Địch Thủ được nhận +1|+0.",
+    "name": "Đón Nhận Bóng Tối",
+    "powerCode": "P2021",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/thaotactapsan.png",
+    "description": "Khi 1 bài quân được triệu hồi, ban +1|+1 cho đồng minh yếu nhất của bài quân đó trong vòng này.",
+    "name": "Thao tác tập sẵn",
+    "powerCode": "P2022",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01026.png",
+    "description": "Bài quân của Địch Thủ sở hữu: \"Tấn Công Nhà Chính: Tạo trên tay 1 lá Quỷ Dữ Bóng Tối.\"",
+    "name": "Bóng Tối Ập Đến",
+    "powerCode": "P2023",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/giuongkhien.png",
+    "description": "Bắt Đầu Vòng Đấu: Trao Lá Chắn cho bài quân mạnh nhất của Địch Thủ.",
+    "name": "Giương Khiên!",
+    "powerCode": "P2024",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thoikhacdoidau.png",
+    "description": "Khi 1 đồng minh của Địch Thủ Thách Đấu 1 kẻ địch, trao Kiên Cường cho đồng minh đó trong vòng này.",
+    "name": "Thời Khắc Đối Đầu",
+    "powerCode": "P2025",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0857.png",
+    "description": "Sau khi Địch Thủ đã sử dụng 1 bài phép 6+ tiêu hao trong trận đấu, bài phép của chúng được giảm 2 tiêu hao.",
+    "name": "Mọi Ma Thuật Đều Nguy Hiểm",
+    "powerCode": "P2026",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/tapkichtrencay.png",
+    "description": "Bắt Đầu Vòng Đấu: Trao Thách Đấu cho bài quân mạnh nhất của Địch Thủ và Huyền Ảo cho bài quân yếu nhất của Địch Thủ trong vòng này.",
+    "name": "Tập Kích Trên Cây",
+    "powerCode": "P2027",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/kiucnhandoi.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ tạo 1 bản sao Phù Du y hệt của bài quân có tiêu hao thấp nhất trên tay chúng.",
+    "name": "Ký Ức Nhân Đôi",
+    "powerCode": "P2028",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/vutbay.png",
+    "description": "Khi Địch Thủ nhận lượt tấn công, chúng triệu hồi 1 lá Phi Ưng Truy Sát.",
+    "name": "Vút Bay",
+    "powerCode": "P2029",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://images.pocguide.top/powers/P01065.webp",
+    "description": "Kết Thúc Vòng Đấu: Nếu Nhà Chính của Người Chơi đã nhận sát thương trong vòng này, bài quân mạnh nhất của Địch Thủ sẽ ra đòn lên nó.",
+    "name": "Lưỡi Gươm Trong Bóng Tối",
+    "powerCode": "P2030",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/daydantranmac.png",
+    "description": "Khi 1 bài quân của Địch Thủ tiêu diệt 1 bài quân khác và sống sót, biến đổi nó thành Cithiria mạnh nhất kế tiếp.",
+    "name": "Dày Dạn Trận Mạc",
+    "powerCode": "P2031",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
   }
 ]

@@ -11,13 +11,14 @@
             background: #010a13; color: #f0f0f0; 
             font-family: 'Be Vietnam Pro', sans-serif;
             background-image: radial-gradient(circle at 50% -20%, #051622 0%, #010a13 80%);
+            padding-top: 40px;
         }
         .font-header { font-family: 'Space Grotesk', sans-serif; }
         .title-underline { height: 2px; background: linear-gradient(90deg, transparent, var(--lor-gold), transparent); width: 100%; margin-top: 0.5rem; }
 
         .tab-btn {
-            position: relative; padding: 1rem 2rem; color: #888;
-            text-transform: uppercase; letter-spacing: 2px; font-weight: 700;
+            position: relative; padding: 0.75rem 1rem; color: #888;
+            text-transform: uppercase; letter-spacing: 1px; font-weight: 700;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .tab-btn.active { color: var(--lor-gold); background: rgba(200, 155, 60, 0.05); }
@@ -33,10 +34,11 @@
         @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
         .animate-fade-in { animation: fadeIn 0.4s ease forwards; }
+        
     </style>
 </head>
 <body class="pb-20">
-
+    <script src="components.js"></script>
     <header class="relative pt-20 pb-16 px-6 overflow-hidden text-center">
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
         <div class="relative z-10 max-w-4xl mx-auto">
@@ -51,8 +53,12 @@
     <main class="max-w-7xl mx-auto px-6">
         <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-12 border-b border-white/5">
             <button class="tab-btn active" onclick="switchTab(event, 'stardust.html')">Bụi Tinh Tú</button>
-            <button class="tab-btn" onclick="switchTab(event, 'fragments.html')">Mảnh ghép</button>
-            <button class="tab-btn" onclick="switchTab(event, 'chests.html')">Kho Báu & Rương</button>
+            <button class="tab-btn" onclick="switchTab(event, 'fragments.html')">Mảnh Ghép</button>
+            <button class="tab-btn" onclick="switchTab(event, 'wildfragments.html')">Mảnh Ghép Bí Ẩn</button>
+            <button class="tab-btn" onclick="switchTab(event, 'glory.html')">Xu Vinh Danh</button>
+            <button class="tab-btn" onclick="switchTab(event, 'starcrystal.html')">Pha Lê Tinh Tú</button>
+            <button class="tab-btn" onclick="switchTab(event, 'novacrystal.html')">Pha Lê Sao Băng</button>
+            <button class="tab-btn" onclick="switchTab(event, 'gemstone.html')">Đá Quý</button>
             <div id="data-container" class="min-h-[400px]">
             </div>
         </div>
