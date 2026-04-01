@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tài Nguyên & Báu Vật | Path of Champions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Be+Vietnam+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --lor-gold: #c89b3c; --lor-blue: #00d2ff; }
+        body { 
+            background: #010a13; color: #f0f0f0; 
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-image: radial-gradient(circle at 50% -20%, #051622 0%, #010a13 80%);
+        }
+        .font-header { font-family: 'Space Grotesk', sans-serif; }
+        .title-underline { height: 2px; background: linear-gradient(90deg, transparent, var(--lor-gold), transparent); width: 100%; margin-top: 0.5rem; }
+
+        .tab-btn {
+            position: relative; padding: 1rem 2rem; color: #888;
+            text-transform: uppercase; letter-spacing: 2px; font-weight: 700;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .tab-btn.active { color: var(--lor-gold); background: rgba(200, 155, 60, 0.05); }
+        .tab-btn::after { content: ''; position: absolute; bottom: 0; left: 50%; width: 0; height: 2px; background: var(--lor-gold); transition: all 0.4s; transform: translateX(-50%); }
+        .tab-btn.active::after { width: 100%; }
+
+        /* Style này sẽ áp dụng cho các thẻ nội dung được load vào */
+        .item-card {
+            background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px); transition: 0.3s;
+        }
+        .floating { animation: float 3s ease-in-out infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade-in { animation: fadeIn 0.4s ease forwards; }
+    </style>
+</head>
+<body class="pb-20">
+
+    <header class="relative pt-20 pb-16 px-6 overflow-hidden text-center">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h4 class="text-lor-blue tracking-[0.5em] uppercase text-sm font-bold mb-4 opacity-80">The Path of Champions</h4>
+            <h1 class="font-header text-5xl md:text-7xl font-bold text-white uppercase italic tracking-tighter">
+                Hệ Thống <span class="text-lor-gold">Vật Phẩm</span>
+            </h1>
+            <div class="title-underline"></div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-12 border-b border-white/5">
+            <button class="tab-btn active" onclick="switchTab(event, 'stardust.html')">Bụi Tinh Tú</button>
+            <button class="tab-btn" onclick="switchTab(event, 'fragments.html')">Mảnh ghép</button>
+            <button class="tab-btn" onclick="switchTab(event, 'chests.html')">Kho Báu & Rương</button>
+            <div id="data-container" class="min-h-[400px]">
+            </div>
+        </div>
+
+        
+    </main>
+
+    <script>
+        // Hàm load file HTML
+        async function loadHTML(fileName) {
+            const container = document.getElementById('data-container');
+            
+            try {
+                const response = await fetch(fileName);
+                if (!response.ok) throw new Error("Không tìm thấy file " + fileName);
+                
+                const html = await response.text();
+                container.innerHTML = html;
+            } catch (err) {
+                container.innerHTML = `
+                    <div class="text-center py-20 text-red-400">
+                        <p>Không thể tải nội dung: <b>${fileName}</b></p>
+                        <p class="text-xs text-slate-500 mt-2">Lưu ý: Bạn cần chạy bằng Live Server để trình duyệt cho phép đọc file HTML.</p>
+                    </div>`;
+            }
+        }
+
+        function switchTab(evt, fileName) {
+            // Đổi trạng thái active cho nút
+            const btns = document.querySelectorAll('.tab-btn');
+            btns.forEach(btn => btn.classList.remove('active'));
+            evt.currentTarget.classList.add('active');
+
+            // Load file HTML tương ứng
+            loadHTML(fileName);
+        }
+
+        // Mặc định load file stardust khi mở trang
+        window.onload = () => loadHTML('stardust.html');
+    </script>
+</body>
+</html>
