@@ -128422,5 +128422,798 @@
     "rarityRef": "None",
     "supertype": "Anh hùng",
     "type": "Địa Danh"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/5_10_0/tpoc/vi_vn/img/cards/98BC001.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98BC001-full.webp"
+      }
+    ],
+    "regions": [
+      "Thành Phố Bandle"
+    ],
+    "regionRefs": [
+      "BandleCity"
+    ],
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Tấn Công: Trao -1|-0 cho kẻ địch trong vòng này.",
+    "descriptionRaw": "Tấn Công: Trao -1|-0 cho kẻ địch trong vòng này.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ngươi nghĩ mình đủ tư cách để tự xưng là một thành viên của băng Móc Câu sao? Để rồi xem, đồ vô lại. Khi hết giá trị lợi dụng, ngươi hoặc sẽ nhận được những gì xứng đáng, hoặc sẽ bị chìm xuống biển, làm mồi cho lũ quái thú!\" - Thủy Thủ Nhỏ Mọn",
+    "name": "Bạn Xấu",
+    "cardCode": "98BC001",
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98BW002.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98BW002-full.webp"
+      }
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "regionRefs": [
+      "Bilgewater"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Khi ngươi rút một lá bài, gây Khiếp Hãi 1.",
+    "descriptionRaw": "Khi ngươi rút một lá bài, gây Khiếp Hãi 1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ngươi nghĩ mình đủ tư cách để tự xưng là một thành viên của băng Móc Câu sao? Để rồi xem, đồ vô lại. Khi hết giá trị lợi dụng, ngươi hoặc sẽ nhận được những gì xứng đáng, hoặc sẽ bị chìm xuống biển, làm mồi cho lũ quái thú!\" - Thủy Thủ Nhỏ Mọn",
+    "name": "Tiên Cá Vùng Nước Cạn",
+    "cardCode": "98BW002",
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98BW003.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98BW003-full.webp"
+      }
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "regionRefs": [
+      "Ionia"
+    ],
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Sử dụng 1 lá Định Mệnh.",
+    "descriptionRaw": "Sử dụng 1 lá Định Mệnh.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Lá Bài Bí Ẩn",
+    "cardCode": "98BW003",
+    "keywords": [
+      "Siêu Tốc"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Siêu Tốc",
+    "spellSpeedRef": "Burst",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98BW004.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98BW004-full.webp"
+      }
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "regionRefs": [
+      "Bilgewater"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Gây 7 sát thương và Làm Choáng kẻ địch Mạnh Nhất.",
+    "descriptionRaw": "Gây 7 sát thương và Làm Choáng kẻ địch Mạnh Nhất.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Bài Vàng",
+    "cardCode": "98BW004",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98BW005.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98BW005-full.webp"
+      }
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "regionRefs": [
+      "Bilgewater"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Hồi lại 2 năng lượng bài phép. Rút 2 lá bài.",
+    "descriptionRaw": "Hồi lại 2 năng lượng bài phép. Rút 2 lá bài.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Bài Xanh",
+    "cardCode": "98BW005",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98BW006.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98BW006-full.webp"
+      }
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "regionRefs": [
+      "Bilgewater"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Gây 2 sát thương lên tất cả kẻ địch và Nhà Chính của đối thủ.",
+    "descriptionRaw": "Gây 2 sát thương lên tất cả kẻ địch và Nhà Chính của đối thủ.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Bài Đỏ",
+    "cardCode": "98BW006",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/5_10_0/tpoc/vi_vn/img/cards/98DE001.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98DE001-full.webp"
+      }
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "regionRefs": [
+      "Demacia"
+    ],
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Ra Đòn: Tạo 1 bản sao của ta trong bộ bài của kẻ địch như là Ác Mộng.",
+    "descriptionRaw": "Ra Đòn: Tạo 1 bản sao của ta trong bộ bài của kẻ địch như là Ác Mộng.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Người Kém May Mắn",
+    "cardCode": "98DE001",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98FR003.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR003-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Thổi bay 1 để triệu hồi đồng minh ở trên cùng của bộ bài.",
+    "descriptionRaw": "Thổi bay 1 để triệu hồi đồng minh ở trên cùng của bộ bài.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Lệnh Nhập Ngũ",
+    "cardCode": "98FR003",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR016.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR016-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Xuất Trận: Ta ra đòn lên 1 kẻ địch.",
+    "descriptionRaw": "Xuất Trận: Ta ra đòn lên 1 kẻ địch.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Hiện Thân Băng Đen",
+    "cardCode": "98FR016",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR017.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR017-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Xuất Trận: Ban cho 1 đồng minh chỉ số và các đặc điểm của ta.",
+    "descriptionRaw": "Xuất Trận: Ban cho 1 đồng minh chỉ số và các đặc điểm của ta.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Người Điều Khiển Rối Notai",
+    "cardCode": "98FR017",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR018.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR018-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Xuất Trận: Đóng Băng một kẻ địch. Nếu kẻ địch đó có ít Máu hơn ta, ban cho kẻ địch đó Kích Động trong vòng này.",
+    "descriptionRaw": "Xuất Trận: Đóng Băng một kẻ địch. Nếu kẻ địch đó có ít Máu hơn ta, ban cho kẻ địch đó Kích Động trong vòng này.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Yeti Vực Thẳm",
+    "cardCode": "98FR018",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR019.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR019-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Xuất Trận: Thổi Bay 1 lá bài để rút một lá bài cùng loại (bài quân, bài phép, địa danh hoặc trang bị).",
+    "descriptionRaw": "Xuất Trận: Thổi Bay 1 lá bài để rút một lá bài cùng loại (bài quân, bài phép, địa danh hoặc trang bị).",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Người Giữ Truyện Freljord",
+    "cardCode": "98FR019",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR020.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR020-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Gây 1 sát thương lên 1 bài quân. Lặp lại với mỗi đồng minh Yeti ngươi có.",
+    "descriptionRaw": "Gây 1 sát thương lên 1 bài quân. Lặp lại với mỗi đồng minh Yeti ngươi có.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Pháo Tuyết",
+    "cardCode": "98FR020",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR021T2.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR021T2-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Đóng Băng 1 kẻ địch. Tạo Cầu Tuyết. Tạo 1 lá Nunu & Willump trong bộ bài.",
+    "descriptionRaw": "Đóng Băng 1 kẻ địch. Tạo Cầu Tuyết. Tạo 1 lá Nunu & Willump trong bộ bài.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Cơn Bão Tuyết Của Nunu & Willump",
+    "cardCode": "98FR021",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR022.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR022-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Khi ta được triệu hồi, Tạo Cầu Tuyết và ban cho lá bài Cầu Tuyết chỉ số của ta.",
+    "descriptionRaw": "Khi ta được triệu hồi, Tạo Cầu Tuyết và ban cho lá bài Cầu Tuyết chỉ số của ta.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Yeti Tan Băng Mùa Xuân",
+    "cardCode": "98FR022",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR023.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR023-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Trăng Trối: Tạo Cầu Tuyết.",
+    "descriptionRaw": "Trăng Trối: Tạo Cầu Tuyết.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Snownu & Ballump",
+    "cardCode": "98FR023",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR024.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR024-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Đóng Băng 1 kẻ địch. Tạo Cầu Tuyết.",
+    "descriptionRaw": "Đóng Băng 1 kẻ địch. Tạo Cầu Tuyết.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Bão Tuyết",
+    "cardCode": "98FR024",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR025.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98FR025-full.webp"
+      }
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "regionRefs": [
+      "Freljord"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Khi ta được triệu hồi, rút 1 lá bài.",
+    "descriptionRaw": "Khi ta được triệu hồi, rút 1 lá bài.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Cầu Tuyết",
+    "cardCode": "98FR025",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98MT009.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98MT009-full.webp"
+      }
+    ],
+    "regions": [
+      "Targon"
+    ],
+    "regionRefs": [
+      "Targon"
+    ],
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Gây 2 sát thương lên 1 đồng minh để Làm Choáng 1 kẻ địch.",
+    "descriptionRaw": "Gây 2 sát thương lên 1 đồng minh để Làm Choáng 1 kẻ địch.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Tinh Tú Khuếch Tán",
+    "cardCode": "98MT009",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98NE001.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NE001-full.webp"
+      }
+    ],
+    "regions": [
+      "Trung Lập"
+    ],
+    "regionRefs": [
+      "Trung Lập"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Đếm Ngược 2 Nhà Chính của ngươi có Kiên Cường. Giảm một nửa sát thương nhận vào tiếp theo.",
+    "descriptionRaw": "Đếm Ngược 2 Nhà Chính của ngươi có Kiên Cường. Giảm một nửa sát thương nhận vào tiếp theo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Giáp Phụ",
+    "cardCode": "98NE001",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Địa Danh"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98NX004.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NX004-full.webp"
+      }
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "regionRefs": [
+      "Noxus"
+    ],
+    "attack": 0,
+    "cost": 6,
+    "health": 0,
+    "description": "1 đồng minh ra đòn lên 1 kẻ địch. Nếu kẻ địch bị tiêu diệt, Tiến Công.",
+    "descriptionRaw": "1 đồng minh ra đòn lên 1 kẻ địch. Nếu kẻ địch bị tiêu diệt, Tiến Công.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Hành Quyết Công Khai",
+    "cardCode": "98NX004",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98NX005.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NX005-full.webp"
+      }
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "regionRefs": [
+      "Noxus"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Làm Choáng 1 kẻ địch. Tạo trên tay 1 lá Cú Đập Phân Tách.",
+    "descriptionRaw": "Làm Choáng 1 kẻ địch. Tạo trên tay 1 lá Cú Đập Phân Tách.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Đòn Quét Xảo Quyệt",
+    "cardCode": "98NX005",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98NX006.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NX006-full.webp"
+      }
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "regionRefs": [
+      "Noxus"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Làm Choáng 1 kẻ địch. Nếu kẻ địch đã Bị Choáng sẵn, gây 6 sát thương lên lá bài đó.",
+    "descriptionRaw": "Làm Choáng 1 kẻ địch. Nếu kẻ địch đã Bị Choáng sẵn, gây 6 sát thương lên lá bài đó.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Cú Đập Phân Tách",
+    "cardCode": "98NX006",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98NX007.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NX007-full.webp"
+      }
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "regionRefs": [
+      "Noxus"
+    ],
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Triệu hồi 1 bản sao y hệt của 1 tùy tùng đồng minh.",
+    "descriptionRaw": "Triệu hồi 1 bản sao y hệt của 1 tùy tùng đồng minh.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Quân Dịch",
+    "cardCode": "98NX007",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98NX008.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98NX008-full.webp"
+      }
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "regionRefs": [
+      "Noxus"
+    ],
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Tấn Công: Làm Choáng kẻ địch mạnh nhất ở hàng sau của địch thủ.",
+    "descriptionRaw": "Tấn Công: Làm Choáng kẻ địch mạnh nhất ở hàng sau của địch thủ.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Rictus",
+    "cardCode": "98NX008",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ004.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ004-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Gây 10 sát thương lên 1 kẻ địch. Nếu không có kẻ địch nào, gây 10 sát thương lên Nhà Chính của đối thủ.+50% cơ hội gây Chí Mạng.",
+    "descriptionRaw": "Gây 10 sát thương lên 1 kẻ địch. Nếu không có kẻ địch nào, gây 10 sát thương lên Nhà Chính của đối thủ.+50% cơ hội gây Chí Mạng.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Bách Phát Bách Trúng",
+    "cardCode": "98PZ004",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
   }
+  
 ]
