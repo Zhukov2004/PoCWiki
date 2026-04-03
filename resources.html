@@ -34,7 +34,65 @@
         @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
         .animate-fade-in { animation: fadeIn 0.4s ease forwards; }
-        
+        .tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    min-width: 100px;
+    color: #a4a4a8; /* Màu chữ xám mặc định */
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.tab-item img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    /* KHÔNG dùng grayscale nữa để hiện màu luôn */
+    filter: opacity(0.8); 
+    transition: all 0.3s ease;
+}
+
+.tab-item span {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    color: #a4a4a8; /* Chữ mặc định vẫn hơi xám để làm nổi bật cái đang chọn */
+}
+
+/* Khi Hover: Chỉ làm sáng lên một chút và nhấc nhẹ icon */
+.tab-item:hover img {
+    filter: opacity(1) brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.tab-item:hover span {
+    color: #ffffff;
+}
+
+/* Trạng thái ACTIVE (Được chọn): Giữ nguyên để có gạch vàng rực rỡ */
+.tab-item.active img {
+    filter: opacity(1) drop-shadow(0 0 8px rgba(240, 208, 160, 0.6));
+    transform: scale(1.1);
+}
+
+.tab-item.active span {
+    color: #f0d0a0; /* Chữ chuyển sang vàng kim loại */
+}
+@media (max-width: 768px) {
+    .tab-text {
+        display: none; /* Chỉ hiện icon trên điện thoại */
+    }
+    .tab-item {
+        padding: 10px 0;
+    }
+}
     </style>
 </head>
 <body class="pb-20">
@@ -51,53 +109,132 @@
     </header>
 
     <main class="max-w-7xl mx-auto px-6">
-        <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-12 border-b border-white/5">
-            <button class="tab-btn active" onclick="switchTab(event, 'stardust.html')">Bụi Tinh Tú</button>
-            <button class="tab-btn" onclick="switchTab(event, 'fragments.html')">Mảnh Ghép</button>
-            <button class="tab-btn" onclick="switchTab(event, 'wildfragments.html')">Mảnh Ghép Bí Ẩn</button>
-            <button class="tab-btn" onclick="switchTab(event, 'glory.html')">Xu Vinh Danh</button>
-            <button class="tab-btn" onclick="switchTab(event, 'starcrystal.html')">Pha Lê Tinh Tú</button>
-            <button class="tab-btn" onclick="switchTab(event, 'novacrystal.html')">Pha Lê Sao Băng</button>
-            <button class="tab-btn" onclick="switchTab(event, 'gemstone.html')">Đá Quý</button>
-            <div id="data-container" class="min-h-[400px]">
-            </div>
+        <div class="grid grid-cols-7 lg:grid-cols-13 gap-1 mb-8 border-b border-white/10 w-full pb-2">
+            <button class="tab-item active" onclick="switchTab(event, 'stardust.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Stardust.png/200px-PoC_Stardust.png?3c1ec" alt="Stardust">
+                <span>Bụi Tinh Tú</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'fragments.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/Champion_Fragment_LoR_icon.png?9ab1f" alt="Fragment">
+                <span>Mảnh Ghép</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'wildfragments.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Wild_Fragment_LoR_icon.png/200px-Wild_Fragment_LoR_icon.png?6d246" alt="Wild Fragment">
+                <span>Mảnh Ghép Bí Ẩn</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'glory.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/PoC_Glory_icon.png?b111d" alt="Glory Coin">
+                <span>Xu Vinh Danh</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'starcrystal.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Star_Crystal_LoR_Icon.png/200px-Star_Crystal_LoR_Icon.png?74e26" alt="Star Crystal">
+                <span>Pha Lê Tinh Tú</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'novacrystal.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Nova_Crystal_LoR_Icon.png/200px-Nova_Crystal_LoR_Icon.png?8a9e8" alt="Nova">
+                <span>Pha Lê Sao Băng</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'gemstone.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Gemstone_LoR_Icon.png/200px-Gemstone_LoR_Icon.png?68919" alt="Gemstone">
+                <span>Đá Quý</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'reliquary.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Gold_Reliquary.png/80px-PoC_Gold_Reliquary.png?3ab7e" alt="Reliquary">
+                <span>Hòm Thần Tích</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'khobau.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Diamond_Vault.png/40px-PoC_Diamond_Vault.png" alt="Vault">
+                <span>Kho Báu</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'thungngoc.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Nova_Crystal_Vessel.png/120px-PoC_Nova_Crystal_Vessel.png?7c3f3" alt="Cosmic Vault">
+                <span>Thùng Tinh Tú</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'thungdaquy.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Major_Gemstone_Vessel.png/80px-PoC_Major_Gemstone_Vessel.png?73ffd" alt="Gemstone Vessel">
+                <span>Thùng Đá Quý</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'thungngochoalinh.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Spirit_Blossom_Runic_Vessel.png/120px-PoC_Spirit_Blossom_Runic_Vessel.png?7251c" alt="SB Vault">
+                <span>Thùng Ngọc Hoa Linh</span>
+            </button>
+        
+            <button class="tab-item" onclick="switchTab(event, 'ruonghoalinh.html')">
+                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Spirit_Blossom_Chest.png/120px-PoC_Spirit_Blossom_Chest.png?95719" alt="SB Chest">
+                <span>Rương Hoa Linh</span>
+            </button>
         </div>
-
+<div id="data-container" class="min-h-[400px]">
+            </div>
         
     </main>
 
     <script>
-        // Hàm load file HTML
-        async function loadHTML(fileName) {
-            const container = document.getElementById('data-container');
-            
-            try {
-                const response = await fetch(fileName);
-                if (!response.ok) throw new Error("Không tìm thấy file " + fileName);
-                
-                const html = await response.text();
-                container.innerHTML = html;
-            } catch (err) {
-                container.innerHTML = `
-                    <div class="text-center py-20 text-red-400">
-                        <p>Không thể tải nội dung: <b>${fileName}</b></p>
-                        <p class="text-xs text-slate-500 mt-2">Lưu ý: Bạn cần chạy bằng Live Server để trình duyệt cho phép đọc file HTML.</p>
-                    </div>`;
-            }
-        }
+        function switchTab(event, url) {
+    // 1. Ngăn chặn hành động mặc định
+    if (event) event.preventDefault();
 
-        function switchTab(evt, fileName) {
-            // Đổi trạng thái active cho nút
-            const btns = document.querySelectorAll('.tab-btn');
-            btns.forEach(btn => btn.classList.remove('active'));
-            evt.currentTarget.classList.add('active');
+    // 2. Xóa class 'active' khỏi tất cả các tab
+    const tabs = document.querySelectorAll('.tab-item');
+    tabs.forEach(tab => tab.classList.remove('active'));
 
-            // Load file HTML tương ứng
-            loadHTML(fileName);
-        }
+    // 3. Xử lý logic chọn Tab
+    if (event && event.currentTarget) {
+        // Nếu nhấn trực tiếp vào tab
+        event.currentTarget.classList.add('active');
+    } else {
+        // Nếu gọi mặc định lúc mở trang (tìm tab đầu tiên)
+        const firstTab = document.querySelector('.tab-item');
+        if (firstTab) firstTab.classList.add('active');
+    }
 
-        // Mặc định load file stardust khi mở trang
-        window.onload = () => loadHTML('stardust.html');
+    // 4. Load nội dung vào container
+    loadHTML(url);
+}
+
+// SỬA LẠI ĐOẠN NÀY: Khi mở trang, gọi switchTab cho stardust.html
+window.onload = () => {
+    // Tìm phần tử tab đầu tiên (Bụi Tinh Tú) và giả lập cú click hoặc gọi hàm
+    const defaultTab = document.querySelector('.tab-item');
+    if (defaultTab) {
+        // Gọi hàm và truyền đối tượng giả lập event để lấy currentTarget
+        switchTab({ currentTarget: defaultTab, preventDefault: () => {} }, 'stardust.html');
+    }
+};
+
+// Giữ nguyên hàm loadHTML của bạn để nó thực hiện fetch dữ liệu
+async function loadHTML(fileName) {
+    const container = document.getElementById('data-container');
+    // Hiệu ứng load nhẹ để người dùng biết đang tải
+    container.style.opacity = '0.5'; 
+    
+    try {
+        const response = await fetch(fileName);
+        if (!response.ok) throw new Error("Không tìm thấy file " + fileName);
+        
+        const html = await response.text();
+        container.innerHTML = html;
+        container.style.opacity = '1'; // Hiện lại nội dung
+    } catch (err) {
+        container.innerHTML = `
+            <div class="text-center py-20 text-red-400">
+                <p>Không thể tải nội dung: <b>${fileName}</b></p>
+                <p class="text-xs text-slate-500 mt-2">Lưu ý: Bạn cần chạy bằng Live Server (VS Code) để xem được nội dung.</p>
+            </div>`;
+        container.style.opacity = '1';
+    }
+}
     </script>
 </body>
 </html>
