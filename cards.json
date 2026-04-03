@@ -129214,6 +129214,848 @@
     "subtypes": [],
     "supertype": "",
     "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ005.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ005-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Gây sát thương lên 1 kẻ địch bằng Sức mạnh của nó.",
+    "descriptionRaw": "Gây sát thương lên 1 kẻ địch bằng Sức mạnh của nó.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Phản Quang Chiết Kính",
+    "cardCode": "98PZ005",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ006T3.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ006T3-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Gây sát thương lên 1 kẻ địch bằng Sức mạnh của nó. Tạo 1 lá Mel trong bộ bài.",
+    "descriptionRaw": "Gây sát thương lên 1 kẻ địch bằng Sức mạnh của nó. Tạo 1 lá Mel trong bộ bài.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Phản Quang Chiết Kính Của Mel",
+    "cardCode": "98PZ006T3",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ007.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ007-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Xuất trận: Tạo 1 bản sao y hệt của 1 bài phép trên tay.",
+    "descriptionRaw": "Xuất trận: Tạo 1 bản sao y hệt của 1 bài phép trên tay.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Elora",
+    "cardCode": "98PZ007",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ009.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ008-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Gây 1 sát thương phép lên 1 bài quân hoặc Nhà chính của đối thủ, và một lần nữa, và một lần nữa.",
+    "descriptionRaw": "Gây 1 sát thương phép lên 1 bài quân hoặc Nhà chính của đối thủ, và một lần nữa, và một lần nữa.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Phi Luân Dương Viêm",
+    "cardCode": "98PZ008",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98PZ009.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98PZ009-full.webp"
+      }
+    ],
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "regionRefs": [
+      "Piltover & Zaun"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Trăng Trối: Hồi lại 2 năng lượng bài phép.",
+    "descriptionRaw": "Trăng Trối: Hồi lại 2 năng lượng bài phép.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Lest",
+    "cardCode": "98PZ009",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/5_10_0/tpoc/vi_vn/img/cards/98RU001.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU001-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Gây 1 sát thương lên tất cả kẻ địch và Nhà Chính của đối thủ. Tăng thêm 1 với mỗi đồng minh nhóm phụ ở vị trí tấn công.",
+    "descriptionRaw": "Gây 1 sát thương lên tất cả kẻ địch và Nhà Chính của đối thủ. Tăng thêm 1 với mỗi đồng minh nhóm phụ ở vị trí tấn công.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Nổ Hoa",
+    "cardCode": "98RU001",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/5_10_0/tpoc/vi_vn/img/cards/98RU003.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU003-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 7,
+    "health": 0,
+    "description": "Ban cho đối thủ 2 Buồn Bã. Gây Khiếp Hãi 2.",
+    "descriptionRaw": "Ban cho đối thủ 2 Buồn Bã. Gây Khiếp Hãi 2.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Bão Quạ",
+    "cardCode": "98RU003",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/5_10_0/tpoc/vi_vn/img/cards/98RU004T3.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU004T3-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Kẻ địch triệu hồi 1 bài quân từ Ác Mộng của ngươi. Nếu chúng có một anh hùng hoặc bàn đấu đã đầy, thì chúng sẽ tạo 1 bản sao của lá bài đó trên tay.",
+    "descriptionRaw": "Kẻ địch triệu hồi 1 bài quân từ Ác Mộng của ngươi. Nếu chúng có một anh hùng hoặc bàn đấu đã đầy, thì chúng sẽ tạo 1 bản sao của lá bài đó trên tay.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Ác Mộng",
+    "cardCode": "98RU004",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài Bẫy"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU005.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU005-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Ban +0|+3, Khiên Phép, và Thách Đấu.",
+    "descriptionRaw": "Ban +0|+3, Khiên Phép, và Thách Đấu.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Linh Hồn Rồng Gió",
+    "cardCode": "98RU005",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU007.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU007-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Ban +0|+3 và hồi 6 máu cho các đồng minh và Nhà Chính của ngươi.",
+    "descriptionRaw": "Ban +0|+3 và hồi 6 máu cho các đồng minh và Nhà Chính của ngươi.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Linh Hồn Rồng Nước",
+    "cardCode": "98RU007",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU008.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU008-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Ban +3|+0 và \"Trăng Trối: Hồi sinh ta\".",
+    "descriptionRaw": "Ban +3|+0 và \"Trăng Trối: Hồi sinh ta\".",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Linh Hồn Rồng Hóa Kỹ",
+    "cardCode": "98RU008",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU009.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU009-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Ban +3|+0, Đột Kích, và 3 Khí Lực.",
+    "descriptionRaw": "Ban +3|+0, Đột Kích, và 3 Khí Lực.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Linh Hồn Rồng Công Nghệ",
+    "cardCode": "98RU009",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU010.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU010-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Ban +3|+0, Đáng Sợ, và Áp Đảo.",
+    "descriptionRaw": "Ban +3|+0, Đáng Sợ, và Áp Đảo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Linh Hồn Rồng Lửa",
+    "cardCode": "98RU010",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Kỹ năng"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU011.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU011-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Đón nhận tri thức và chiêm ngưỡng những gì nó đã từng, đang và sẽ trở thành.",
+    "descriptionRaw": "Đón nhận tri thức và chiêm ngưỡng những gì nó đã từng, đang và sẽ trở thành.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Mảnh Ghép Vô Tận",
+    "cardCode": "98RU011",
+    "rarity": "Không có",
+    "rarityRef": "None",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU014.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU014-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 9,
+    "health": 0,
+    "description": "Ta không thể bị Câm Lặng, Thu Về hoặc bị tiêu diệt trừ khi bị sát thương. Kết Thúc Vòng Đấu: Tất cả kẻ địch Ra Đòn lên ta và ta Ra Đòn lên chúng. Ban cho ta +2|+0.",
+    "descriptionRaw": "Ta không thể bị Câm Lặng, Thu Về hoặc bị tiêu diệt trừ khi bị sát thương. Kết Thúc Vòng Đấu: Tất cả kẻ địch Ra Đòn lên ta và ta Ra Đòn lên chúng. Ban cho ta +2|+0.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Baron Nashor",
+    "cardCode": "98RU014",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU015.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU015-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Triệu hồi 1 bản sao chính xác của 1 Anh Hùng đồng minh có 3 tiêu hao hoặc ít hơn.",
+    "descriptionRaw": "Triệu hồi 1 bản sao chính xác của 1 Anh Hùng đồng minh có 3 tiêu hao hoặc ít hơn.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Máy Sao Chép Tướng Cỡ Nhỏ",
+    "cardCode": "98RU015",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/98RU016.webp",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98RU016-full.webp"
+      }
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "regionRefs": [
+      "Runeterra"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Triệu hồi 1 bản sao chính xác của 1 Anh Hùng đồng minh.",
+    "descriptionRaw": "Triệu hồi 1 bản sao chính xác của 1 Anh Hùng đồng minh.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Máy Nhân Bản",
+    "cardCode": "98RU016",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB001.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB001-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Đồng minh bị cướp có +1|+1. Đồng minh Cảm Tử có +1|+1.",
+    "descriptionRaw": "Đồng minh bị cướp có +1|+1. Đồng minh Cảm Tử có +1|+1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Kẻ Cắp Bóng Đêm",
+    "cardCode": "98SB001",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB002.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB002-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Khi ta được triệu hồi, gài 1 lá Nấm Độc lên lá bài trên cùng của bộ bài của đối thủ.",
+    "descriptionRaw": "Khi ta được triệu hồi, gài 1 lá Nấm Độc lên lá bài trên cùng của bộ bài của đối thủ.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Roo, Ma Trơi",
+    "cardCode": "98SB002",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB003.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB003-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Chọn 1 trong 3 lá bài không phải anh hùng trên tay của đối thủ để rút. Họ rút 1 lá.",
+    "descriptionRaw": "Chọn 1 trong 3 lá bài không phải anh hùng trên tay của đối thủ để rút. Họ rút 1 lá.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Trong Chớp Mắt!",
+    "cardCode": "98SB002",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB004.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB004-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Chọn 1 trong 3 lá bài không phải anh hùng trên tay của đối thủ để rút. Họ rút 1 lá.",
+    "descriptionRaw": "Chọn 1 trong 3 lá bài không phải anh hùng trên tay của đối thủ để rút. Họ rút 1 lá.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Bà Enoki",
+    "cardCode": "98SB004",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB006.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB006-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Bỏ một lá bài để gây 4 sát thương phép cho đối thủ và gài 4 Nấm Độc vào các bản sao của nó trong bộ bài của đối thủ.",
+    "descriptionRaw": "Bỏ một lá bài để gây 4 sát thương phép cho đối thủ và gài 4 Nấm Độc vào các bản sao của nó trong bộ bài của đối thủ.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Nấm Bùng Nổ!",
+    "cardCode": "98SB006",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB007.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB007-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Lửa Hồ Ly",
+    "cardCode": "98SB007",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB008.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB008-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Ban cho đồng minh Cảm Tử Ở Mọi Nơi +1|+1.",
+    "descriptionRaw": "Ban cho đồng minh Cảm Tử Ở Mọi Nơi +1|+1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Phước Lành Cuối Cùng",
+    "cardCode": "98SB008",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB009.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB009-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa",
+      "Ionia"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa",
+      "Ionia"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Tấn Công Nhà Chính: Hồi đầy Năng lượng bài phép.",
+    "descriptionRaw": "Tấn Công Nhà Chính: Hồi đầy Năng lượng bài phép.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Linh Hồn Thanh Tịnh",
+    "cardCode": "98SB009",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài quân"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB010.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB010-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Rút 1 lá bài và ban cho nó một vật phẩm Thường ngẫu nhiên, hoặc dùng 3 năng lượng để rút 1 lá và ban cho nó một vật phẩm Sử thi ngẫu nhiên.",
+    "descriptionRaw": "Rút 1 lá bài và ban cho nó một vật phẩm Thường ngẫu nhiên, hoặc dùng 3 năng lượng để rút 1 lá và ban cho nó một vật phẩm Sử thi ngẫu nhiên.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Cánh Hoa Số Phận",
+    "cardCode": "98SB010",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB010T2.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB010T2-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Rút 1 lá bài và ban cho nó một vật phẩm Thường ngẫu nhiên.",
+    "descriptionRaw": "Rút 1 lá bài và ban cho nó một vật phẩm Thường ngẫu nhiên.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Cánh Hoa Số Phận",
+    "cardCode": "98SB010T2",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB010T1.png",
+        "fullAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/en_us/98SB010T1-full.webp"
+      }
+    ],
+    "regions": [
+      "Hoa Linh Lục Địa"
+    ],
+    "regionRefs": [
+      "Hoa Linh Lục Địa"
+    ],
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Rút 1 lá bài và ban cho nó một vật phẩm Sử Thi ngẫu nhiên.",
+    "descriptionRaw": "Rút 1 lá bài và ban cho nó một vật phẩm Sử Thi ngẫu nhiên.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "name": "Cánh Hoa Số Phận",
+    "cardCode": "98SB010T1",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Bài phép"
   }
-  
+
 ]
