@@ -105,7 +105,15 @@
     font-weight: 700;
     font-size: 13px;
 }
-
+.reward-items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+#reward-container:not(.map-hidden) {
+    max-height: 5000px !important; /* Tăng lên để chứa được nhiều mốc thưởng */
+    opacity: 1;
+}
 .reward-item-qty {
     color: #1e293b;
     font-weight: 800;

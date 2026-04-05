@@ -3522,7 +3522,7 @@
   {
     "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0714.png",
     "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0714-full.png",
-    "description": "Bắt Đầu Trận Đấu: <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> triệu hồi <link=card.self><style=AssociatedCard>Đồng Hồ Cai Quản</style></link> và người chơi triệu hồi <style=Variable>CardRef</style>. Hãy dùng đúng những lá bài để mở nó và chiến thắng trận đấu!",
+    "description": "Bắt Đầu Trận Đấu: <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> triệu hồi <link=card.self><style=AssociatedCard>Đồng Hồ Cai Quản</style></link> và người chơi triệu hồi <style=Variable>Kho Báu</style>. Hãy dùng đúng những lá bài để mở nó và chiến thắng trận đấu!",
     "descriptionRaw": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi Đồng Hồ Cai Quản và người chơi triệu hồi CardRef. Hãy dùng đúng những lá bài để mở nó và chiến thắng trận đấu!",
     "name": "Giám Hộ Thời Gian",
     "powerCode": "P0714",
@@ -4882,8 +4882,8 @@
   {
     "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0523.png",
     "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0523-full.png",
-    "description": "Ki kết thúc vòng đấu thứ 7, gây 77 sát thương cho Nhà Chính của người chơi.",
-    "descriptionRaw": "Ki kết thúc vòng đấu thứ 7, gây 77 sát thương cho Nhà Chính của người chơi.",
+    "description": "Khi kết thúc vòng đấu thứ 7, gây 77 sát thương cho Nhà Chính của người chơi.",
+    "descriptionRaw": "Khi kết thúc vòng đấu thứ 7, gây 77 sát thương cho Nhà Chính của người chơi.",
     "name": "Rơi Tự Do",
     "powerCode": "P0523",
     "rarity": "HIẾM",
@@ -7839,9 +7839,9 @@
     "rarityRef": "Epic"
   },
   {
-    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0623.png",
-    "description": "Khi Địch Thủ sử dụng bài quân có 6+ tiêu hao cơ bản, sử dụng 1 Ân Huệ Rồng ngẫu nhiên lên bài quân đó. Địch Thủ được +10 Máu Nhà Chính.",
-    "name": "Cơn Thịnh Nộ Của Rồng",
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01071.png",
+    "description": "Bắt Đầu Vòng Đấu: Ban +0|+1 cho bài quân của Địch Thủ.",
+    "name": "Chống Chọi",
     "powerCode": "P3001",
     "rarity": "SỬ THI",
     "rarityRef": "Epic"
@@ -7933,5 +7933,117 @@
     "powerCode": "P3012",
     "rarity": "SỬ THI",
     "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/baothuchonguoidakhuat.png",
+    "description": "Kết Thúc Vòng Đấu: Nếu 1 bài quân của người chơi hy sinh trong vòng này, Địch Thủ triệu hồi 1 lá Tiên Phong Bất Khuất.",
+    "name": "Báo Thù Cho Người Đã Khuất",
+    "powerCode": "P3013",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/cochithinen.png",
+    "description": "Khi Địch Thủ tấn công, giảm 1 tiêu hao cho lá Tianna Crownguard của chúng ở mọi nơi.",
+    "name": "Có Chí Thì Nên",
+    "powerCode": "P3014",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/tantrung1.png",
+    "description": "Bài quân Cảm Tử của Địch Thủ được nhận +2|+2.",
+    "name": "Tận Trung",
+    "powerCode": "P3015",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/monquatinhtu.webp",
+    "description": "Bài quân của Địch Thủ được nhận +0|+1.\nBắt Đầu Vòng Đấu: Tạo 1 lá Món Quà Từ Suối Tiên Phù Du trên tay Địch Thủ.",
+    "name": "Món Quà Tinh Tú",
+    "powerCode": "P3016",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/hoangdethongtri.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 1 bản sao Cảm Tử của tùy tùng mạnh nhất đã hy sinh trong vòng trước của người chơi.",
+    "name": "Hoàng Đế Thống Trị",
+    "powerCode": "P3017",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/cunkhonggian1.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi Sứ Giả Khuyển Linh. Sau đó, nếu <style=Vocab>Địch Thủ</style> có 3+ <link=card>Sứ Giả Khuyển Linh, chúng tạo ra 1 lá Phước Lành Khuyển Linh Phù Du trên tay.",
+    "name": "Cún Không Gian",
+    "powerCode": "P3018",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/ngontutruyencamhung.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 2 lá Diễn Giả Rạng Đông.",
+    "name": "Ngôn Từ Truyền Cảm Hứng",
+    "powerCode": "P3019",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01057.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 1 lá Đường Núi Lở nếu chưa có lá bài này.",
+    "name": "Quậy Tưng Nào",
+    "powerCode": "P3020",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/chonaingangcovoita.png",
+    "description": "Kết Thúc Vòng Đấu: Nếu các đồng minh của Địch Thủ có 20+ tổng Máu, Địch Thủ triệu hồi Galio nếu chưa có lá bài đó và ban Khiên Phép cho các anh hùng đồng minh.",
+    "name": "Chọn Ai Ngang Cỡ Với Ta",
+    "powerCode": "P3021",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/thepdemaciathuonghang.png",
+    "description": "Khi Địch Thủ triệu hồi 1 bài quân Tinh Nhuệ, ban +1|+0 cho bài quân đó.",
+    "name": "Thép Demacia Thượng Hạng",
+    "powerCode": "P3022",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "",
+    "description": "Khi Địch Thủ triệu hồi 1 bài quân Tinh Nhuệ, ban +2|+2 cho bài quân đó.",
+    "name": "Thép Demacia Thượng Hạng",
+    "powerCode": "P3023",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/losuoiamap.png",
+    "description": "Kết Thúc Vòng Đấu: Bài quân của Địch Thủ hồi 1 máu.",
+    "name": "Lò Sưởi Ấm Áp",
+    "powerCode": "P3024",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/videmacia.png",
+    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, ban +1|+0 cho bài quân của Địch Thủ",
+    "name": "Vì Demacia!",
+    "powerCode": "P3025",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/acmongbattan1.png",
+    "description": "Bắt đầu trận đấu, kẻ địch gài 8 bài quân có Ác Mộng vào bộ bài của người chơi. Kết thúc vòng đấu, kẻ địch gây Khiếp Hãi 1 với mỗi lá bài người chơi thêm vào tay trong vòng này.",
+    "name": "Ác Mộng Bất Tận",
+    "powerCode": "P3026",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
   }
 ]
