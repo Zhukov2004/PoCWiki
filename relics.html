@@ -198,7 +198,10 @@
             const searchVal = document.getElementById('searchInput').value.toLowerCase();
             filteredRelics = allRelics.filter(item => {
                 const matchesRarity = currentRarity === 'all' || item.rarityRef === currentRarity;
-                const matchesSearch = item.name.toLowerCase().includes(searchVal);
+                const nameMatch = item.name.toLowerCase().includes(searchVal);
+                const descMatch = (item.description || "").toLowerCase().includes(searchVal);
+                const descMatchRaw = (item.descriptionRaw || "").toLowerCase().includes(searchVal);
+                const matchesSearch = nameMatch || descMatch || descMatchRaw;
                 return matchesRarity && matchesSearch;
             });
             currentPage = 1;

@@ -7661,5 +7661,277 @@
     "powerCode": "P2077",
     "rarity": "SỬ THI",
     "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0805.png",
+    "description": "Kết Thúc Vòng Đấu: Địch thủ gài 1 lá Nấm Độc tương ứng với MỖI bài quân trên bàn vào bộ bài của ngươi.",
+    "name": "Ăn Ngoan Nào Cưng!",
+    "powerCode": "P2078",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/thichnghivinhhang.png",
+    "description": "Khi Địch Thủ tấn công, ban 1 đặc điểm ngẫu nhiên cho bài quân mạnh nhất ở vị trí tấn công của chúng.",
+    "name": "Thích Nghi Vĩnh Hằng",
+    "powerCode": "P2079",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/truotcat.png",
+    "description": "Khi Địch Thủ nhận lượt tấn công, chúng triệu hồi 1 lá Cát Đục.",
+    "name": "Trượt Cát",
+    "powerCode": "P2080",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/amhuonghoanmy.webp",
+    "description": "Kết Thúc Vòng Đấu: Nếu Địch Thủ có 3+ bài quân, ban cho chúng +2|+2.",
+    "name": "Âm Hưởng Hoàn Mỹ",
+    "powerCode": "P2081",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01003.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Tư Dinh Chiến Tướng. Khi lá Tu Dinh Chiến Tướng của Địch Thủ hoàn thành đếm ngược, Địch Thủ trộm 1 ngọc năng lượng từ người chơi và triệu hồi 1 lá Kho Báu Của Chiến Tướng.",
+    "name": "Đánh Cắp Quân Lương",
+    "powerCode": "P2082",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/luoikiemvotan.webp",
+    "description": "Khi Địch Thủ có Vũ Kiếm, ban +1|+1 cho bài quân mạnh nhất của chúng và bài quân đó tấn công với Lưỡi Kiếm.",
+    "name": "Vũ Kiếm Vô Tận",
+    "powerCode": "P2083",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/nhatientrisamac.png",
+    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có 1 địa danh, ban +3|+3 cho bài quân mạnh nhất của Địch Thủ.",
+    "name": "Nhà Tiên Tri Sa Mạc",
+    "powerCode": "P2084",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0811.png",
+    "description": "Khi Địch Thủ tấn công, ban +1|+1 và Lá Chắn cho bài quân tấn công của chúng trong vòng này.",
+    "name": "Trảng Rừng Trú Ẩn",
+    "powerCode": "P2085",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0384.png",
+    "description": "Khi Địch Thủ triệu hồi 1 lá Gấu Đá Cục Cằn, ban +3|+2 cho lá bài đó, sau đó triệu hồi 1 lá Gấu Đá Ngủ Đông.",
+    "name": "Sức Mạnh Của Đá",
+    "powerCode": "P2086",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/vudieucuoicung.webp",
+    "description": "Bài quân của Địch Thủ có: \"Tấn Công Nhà Chính: Giảm 2 tiêu hao cho Zinneia - Khúc Cao Trào Đanh Thép đồng minh ở mọi nơi\".",
+    "name": "Vũ Điệu Cuối Cùng",
+    "powerCode": "P2087",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/tienhoavuotbac.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ ban +1|+1 và 1 đặc điểm ngẫu nhiên cho từng bài quân của chúng.",
+    "name": "Tiến Hóa Vượt Bậc",
+    "powerCode": "P2088",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/linhhontroibuoc.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 1 lá Hầm Mộ Ma Ám nếu chưa có lá bài này.",
+    "name": "Linh Hồn Trói Buộc",
+    "powerCode": "P2089",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/chienthuatbaydan.png",
+    "description": "Khi Địch Thủ tấn công, chúng sẽ triệu hồi 1 lá Nhền Nhện Ghê Rợn Cảm Tử ở vị trí tấn công.",
+    "name": "Chiến Thuật Bầy Đàn",
+    "powerCode": "P2090",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/tantrung.png",
+    "description": "Bài quân Cảm Tử của Địch Thủ được nhận +3|+3.",
+    "name": "Tận Trung",
+    "powerCode": "P2091",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/bangdia.png",
+    "description": "Bắt Đầu Vòng Đấu: Trao Kích Động cho đồng minh mạnh nhất của người chơi trong vòng này.",
+    "name": "Băng Địa",
+    "powerCode": "P2092",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/noikinhhoangbattan.png",
+    "description": "Khi lá Bóng Ma của Địch Thủ hy sinh, tráo lại lá bài đó vào bộ bài của chúng và Địch Thủ rút 1 lá.",
+    "name": "Nỗi Kinh Hoàng Bất Tận",
+    "powerCode": "P2094",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/tuchoituthan.png",
+    "description": "Mỗi vòng đấu, lần đầu tiên bài quân của Địch Thủ hy sinh, ban cho bài quân đó Kiên Cường, Áp Đảo và Đáng Sợ.",
+    "name": "Từ Chối Tử Thần",
+    "powerCode": "P2095",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/vodang.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ hy sinh đồng minh yếu nhất để triệu hồi 1 tùy tùng ngẫu nhiên có +2 tiêu hao.",
+    "name": "Vô Dạng",
+    "powerCode": "P2096",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01034.png",
+    "description": "Bài quân của Địch Thủ được nhận Hồi Phục.",
+    "name": "Nghỉ Xả Hơi",
+    "powerCode": "P2097",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/acmongbattan.png",
+    "description": "Bài quân của Địch Thủ có \"Chạng Vạng: Triệu hồi 1 bản sao Cảm Tử y hệt của ta\".",
+    "name": "Ác Mộng Bất Tận",
+    "powerCode": "P2098",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/yetigiandu.webp",
+    "description": "Khi 1 Yeti của Địch Thủ hy sinh, tạo 1 lá Yeti Dữ Tợn trong 3 lá bài trên cùng ở bộ bài của Địch Thủ, đồng thời ban +1|+1 và giảm 1 tiêu hao cho Yeti của Địch Thủ Ở MỌI NƠI.",
+    "name": "Yeti Giận Dữ",
+    "powerCode": "P2099",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/doaday.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Kho Tàng Helia. Khi Thresh thăng cấp, Địch Thủ tạo 3 anh hùng Quần Đảo Bóng Đêm trong bộ bài.",
+    "name": "Đọa Đày",
+    "powerCode": "P3000",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0623.png",
+    "description": "Khi Địch Thủ sử dụng bài quân có 6+ tiêu hao cơ bản, sử dụng 1 Ân Huệ Rồng ngẫu nhiên lên bài quân đó. Địch Thủ được +10 Máu Nhà Chính.",
+    "name": "Cơn Thịnh Nộ Của Rồng",
+    "powerCode": "P3001",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/thuhoachngoclaudai.webp",
+    "description": "Khi một trong các bài quân của Địch Thủ sống sót sau sát thương, Địch Thủ tạo ra một lá 0 tiêu hao Ngọc Thạch trên tay.",
+    "name": "Thu Hoạch Ngọc Lâu Dài",
+    "powerCode": "P3002",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/phaodaividai.png",
+    "description": "Bài quân của Địch Thủ và Nhà Chính có Kiên Cường.",
+    "name": "Pháo Đài Vĩ Đại",
+    "powerCode": "P3003",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/hoanguccuongno.png",
+    "description": "Khi Địch Thủ tấn công, chúng sẽ sử dụng Cuồng Hỏa.",
+    "name": "Hỏa Ngục Cuồng Nộ",
+    "powerCode": "P3004",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/luoikiemhoanghon.png",
+    "description": "Khi Địch Thủ kích hoạt Hừng Đông, chúng sẽ triệu hồi Tiểu Long.\nKhi Địch Thủ kích hoạt Chạng Vạng, chúng ban cho Rồng ở mọi nơi +1|+0.",
+    "name": "Lưỡi Kiếm Hoàng Hôn",
+    "powerCode": "P3005",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/buatiectinhhoa.png",
+    "description": "Khi Địch Thủ thủ tiêu một trong các đồng minh, ban cho Rồng của Địch Thủ ở mọi nơi +1|+1.",
+    "name": "Bữa Tiệc Tinh Hoa",
+    "powerCode": "P3006",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/banhquyngon.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 1 lá Long Thực nếu chưa có lá bài này.",
+    "name": "Bánh Quy Ngon",
+    "powerCode": "P3007",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/phuoclanhcuagio.png",
+    "description": "Khi Địch Thủ sử dụng một bài phép Nguyên Tố hoặc Kỹ Năng, giảm 1 tiêu hao của các bài quân trên tay.",
+    "name": "Phước Lành Của Gió",
+    "powerCode": "P3008",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/songthan.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ sử dụng Tràn Ngập.",
+    "name": "Sóng Thần",
+    "powerCode": "P3009",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/hoitubian.png",
+    "description": "Bắt Đầu Trận Đấu: Đặt chỉ số cơ bản cho mỗi bài quân trên tay và trong bộ bài của Địch Thủ là 1|1 và tiêu hao là 1.",
+    "name": "Hội Tụ Bí Ẩn",
+    "powerCode": "P3010",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/cuongnobanggia.png",
+    "description": "Khi Địch Thủ Đóng Băng một kẻ địch, chúng triệu hồi 1 Biểu Tượng Bão Tố.",
+    "name": "Cuồng Nộ Băng Giá",
+    "powerCode": "P3011",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/kynguyencuarong.webp",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi hai lá Sứ Giả Rồng Thiêng.",
+    "name": "Kỷ Nguyên Của Rồng",
+    "powerCode": "P3012",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
   }
 ]

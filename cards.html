@@ -280,7 +280,12 @@
         function handleFilters() {
             filters.search = document.getElementById('searchInput').value.toLowerCase().trim();
             filteredCards = allCards.filter(card => {
-                const nameMatch = (card.name || "").toLowerCase().includes(filters.search);
+                const searchTerms = filters.search;
+        const nameText = (card.name || "").toLowerCase();
+        const descText = (card.description || "").toLowerCase(); // Lấy trường description từ JSON
+        const descTextRaw = (card.descriptionRaw || "").toLowerCase();
+        // Nếu tên hoặc mô tả chứa từ khóa thì trả về true
+        const nameMatch = nameText.includes(searchTerms) || descText.includes(searchTerms) || descTextRaw.includes(searchTerms);
                 const cardCost = parseInt(card.cost);
                 const filterMana = filters.mana === 'all' ? 'all' : parseInt(filters.mana);
                 const manaMatch = filterMana === 'all' || (filterMana === 7 ? cardCost >= 7 : cardCost === filterMana);

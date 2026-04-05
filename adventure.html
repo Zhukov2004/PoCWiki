@@ -34,11 +34,53 @@
             box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
         }
 
-        .rule-card {
-            background: linear-gradient(135deg, rgba(34, 211, 238, 0.12) 0%, rgba(15, 23, 42, 0.6) 100%);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            transition: all 0.3s ease;
-        }
+        /* Làm cho card luật chơi rộng và thoáng hơn */
+.rule-card {
+    background: linear-gradient(135deg, rgba(34, 211, 238, 0.08) 0%, rgba(15, 23, 42, 0.4) 100%);
+    border: none; /* Bỏ viền bao quanh card */
+    border-left: 4px solid #22d3ee; /* Giữ lại thanh màu bên trái cho đẹp */
+    transition: all 0.3s ease;
+    padding: 1.5rem !important; /* Tăng padding cho to ra */
+}
+
+/* Style cho ảnh sức mạnh: Bỏ vòng tròn, chuyển thành hình vuông bo góc nhẹ */
+.power-img-custom {
+    width: 64px !important; /* Tăng kích thước ảnh */
+    height: 64px !important;
+    border-radius: 12px !important; /* Bo góc nhẹ thay vì hình tròn */
+    border: none !important; /* Bỏ viền trắng/cyan bao quanh ảnh */
+    object-fit: cover;
+    background: #0f172a;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+.champ-card-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Ảnh tướng: Bỏ grayscale (hiện màu luôn), bỏ vòng tròn viền */
+.champ-img-custom {
+    width: 72px !important; /* Tăng kích thước ảnh tướng */
+    height: 72px !important;
+    border-radius: 12px !important; /* Hình vuông bo góc */
+    object-fit: cover;
+    filter: none !important; /* Hiện màu luôn, không cần hover */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    transition: transform 0.2s;
+}
+
+.champ-img-custom:hover {
+    transform: scale(1.05);
+}
+/* Container cho Boss Powers trong bảng */
+.boss-power-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: none !important; /* Bỏ viền */
+    padding: 12px !important;
+    margin-bottom: 8px;
+}
         /* Ô bọc từng vật phẩm thưởng */
 .reward-item-card {
     display: flex;
@@ -341,17 +383,18 @@ body {
     // --- 2. Render Luật chơi bản đồ (Adventure Powers) ---
     const rulesContainer = document.getElementById('special-rules-container');
     const advPowers = adv.adventure_powers || [];
-    rulesContainer.innerHTML = advPowers.map(pInfo => {
-        const p = state.powers[pInfo.powerCode] || { name: "Sức mạnh ẩn", description: "...", assetAbsolutePath: "" };
-        return `
-            <div class="rule-card flex items-start gap-5 p-5 rounded-xl border border-white/5 shadow-inner">
-                <img src="${getSmartSrc(p.assetAbsolutePath)}" class="w-14 h-14 rounded-full border-2 border-cyan-400 bg-slate-800 flex-shrink-0 shadow-lg shadow-cyan-500/20">
-                <div>
-                    <div class="text-[15px] font-black text-white tracking-tight">${p.name}</div>
-                    <div class="text-[13px] text-slate-300 mt-2 leading-relaxed font-medium whitespace-pre-line">${p.description}</div>
-                </div>
-            </div>`;
-    }).join('');
+    // Tìm đoạn này trong renderAll()
+rulesContainer.innerHTML = advPowers.map(pInfo => {
+    const p = state.powers[pInfo.powerCode] || { name: "Sức mạnh ẩn", description: "...", assetAbsolutePath: "" };
+    return `
+        <div class="rule-card flex items-center gap-6 p-6 rounded-2xl shadow-inner">
+            <img src="${getSmartSrc(p.assetAbsolutePath)}" class="power-img-custom flex-shrink-0">
+            <div>
+                <div class="text-lg font-black text-cyan-400 tracking-tight">${p.name}</div>
+                <div class="text-[14px] text-slate-300 mt-1 leading-relaxed font-medium whitespace-pre-line">${p.description}</div>
+            </div>
+        </div>`;
+}).join('');
 
     // --- 3. Render Bảng Kẻ Địch (Ảnh vuông bé bên cạnh tên) ---
     const tableBody = document.getElementById('boss-table-body');
@@ -387,20 +430,20 @@ body {
 
             // Xử lý Icon: Nếu có ảnh thì hiện ảnh, không có thì hiện icon ngôi sao lấp lánh
             const powerIcon = pImg 
-                ? `<img src="${pImg}" class="w-7 h-7 rounded-full bg-slate-800 border border-white/10 flex-shrink-0">`
-                : `<div class="w-7 h-7 rounded-full bg-cyan-950 border border-cyan-500/30 flex items-center justify-center flex-shrink-0">
-                     <i data-lucide="sparkles" class="w-3.5 h-3.5 text-cyan-400"></i>
-                   </div>`;
+        ? `<img src="${pImg}" class="power-img-custom w-12 h-12">` // Tăng size lên w-12
+        : `<div class="w-12 h-12 rounded-xl bg-cyan-950 flex items-center justify-center flex-shrink-0">
+             <i data-lucide="sparkles" class="w-6 h-6 text-cyan-400"></i>
+           </div>`;
 
-            return `
-                <div class="flex items-start gap-3 mb-3 last:mb-0 bg-white/5 p-2 rounded-lg border border-white/5 hover:bg-white/[0.08] transition-all">
-                    ${powerIcon}
-                    <div>
-                        <div class="text-[11px] font-black text-white leading-none">${pName}</div>
-                        <div class="text-[12px] text-slate-400 leading-snug mt-1 whitespace-pre-line">${pDesc}</div>
-                    </div>
-                </div>`;
-        }).join('');
+    return `
+        <div class="flex items-center gap-4 mb-4 boss-power-item rounded-xl transition-all">
+            ${powerIcon}
+            <div>
+                <div class="text-[13px] font-black text-white leading-none">${pName}</div>
+                <div class="text-[13px] text-slate-400 leading-snug mt-1.5 whitespace-pre-line">${pDesc}</div>
+            </div>
+        </div>`;
+}).join('');
 
         return `
             <tr class="hover:bg-white/[0.03] transition-colors border-b border-white/5 last:border-0">
@@ -436,17 +479,15 @@ body {
     const reqChamps = adv.required_champions || [];
     
     if (reqChamps.length > 0) {
-        champGrid.innerHTML = reqChamps.map(champ => `
-            <div class="flex flex-col items-center gap-2 group cursor-pointer">
-                <div class="w-16 h-16 rounded-full border-2 border-slate-700 p-0.5 group-hover:border-cyan-400 transition-all duration-300 shadow-lg bg-slate-900">
-                    <img src="${champ.thumb}" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all">
-                </div>
-                <span class="text-[10px] font-bold text-slate-500 group-hover:text-cyan-400 transition-colors uppercase tracking-tighter text-center">
-                    ${champ.name}
-                </span>
-            </div>
-        `).join('');
-    } else {
+    champGrid.innerHTML = reqChamps.map(champ => `
+        <div class="champ-card-custom group">
+            <img src="${champ.thumb}" class="champ-img-custom shadow-lg">
+            <span class="text-[11px] font-black text-slate-300 group-hover:text-cyan-400 transition-colors uppercase tracking-tighter text-center">
+                ${champ.name}
+            </span>
+        </div>
+    `).join('');
+} else {
         champGrid.innerHTML = `<p class="text-slate-600 italic text-sm col-span-full">Không có yêu cầu đặc biệt</p>`;
     }
 

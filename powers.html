@@ -197,8 +197,12 @@
             const searchVal = document.getElementById('searchInput').value.toLowerCase();
             filteredPowers = allPowers.filter(item => {
                 const matchesRarity = currentRarity === 'all' || item.rarityRef === currentRarity;
-                const matchesSearch = item.name.toLowerCase().includes(searchVal);
-                return matchesRarity && matchesSearch;
+                const nameMatch = item.name.toLowerCase().includes(searchVal);
+                const pureDesc = (item.description || "").replace(/<[^>]*>?/gm, '').toLowerCase();
+                const pureDescRaw = (item.descriptionRaw || "").replace(/<[^>]*>?/gm, '').toLowerCase();
+                const descMatch = pureDesc.includes(searchVal);
+                const descMatchRaw = pureDescRaw.includes(searchVal);
+                return matchesRarity && (nameMatch || descMatch || descMatchRaw);
             });
             currentPage = 1;
             render();
