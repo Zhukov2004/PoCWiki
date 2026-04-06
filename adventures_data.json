@@ -3894,5 +3894,625 @@
         ]
       }
     }
+},
+"M020": {
+    "name": "Ác Long Thượng Giới",
+    "region": "Targon",
+    "bg_image": "https://dd.b.pvp.net/7_3_0/set3/vi_vn/img/cards/03MT087T1-full.png",
+    "mapimages": "image/Aurelion_Sol_PoC_Map.png",
+    "stars": 4,
+    "completion_xp": 4505,
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Targon_LoR_Region.png/20px-Targon_LoR_Region.png?b603e" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Demacia_LoR_Region.png/20px-Demacia_LoR_Region.png?ad4ab" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bilgewater_LoR_Region.png/20px-Bilgewater_LoR_Region.png?eb207" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Runeterra_LoR_Region.png/20px-Runeterra_LoR_Region.png?4ed4b" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Shurima_LoR_Region.png/20px-Shurima_LoR_Region.png?3b0af" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bandle_City_LoR_Region.png/20px-Bandle_City_LoR_Region.png?65090" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Freljord_LoR_Region.png/20px-Freljord_LoR_Region.png?5009f" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Noxus_LoR_Region.png/20px-Noxus_LoR_Region.png?16af0" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Shadow_Isles_LoR_Region.png/20px-Shadow_Isles_LoR_Region.png?73d7b" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Runeterra_LoR_Region.png/20px-Runeterra_LoR_Region.png?4ed4b" }
+    ],
+    "legendary_powers": [
+      {"powerCode": "P0078"},
+      {"powerCode": "P0074"},
+      {"powerCode": "P0076"},
+      {"powerCode": "P0075"},
+      {"powerCode": "P0077"},
+      {"powerCode": "P0080"}
+  ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Vàng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Gold_Vault_icon.png/25px-PoC_Gold_Vault_icon.png?a3670", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" },
+      { "name": "Bụi Tinh Tú", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stardust_icon.png/20px-Stardust_icon.png?7dd59", "qty": "x1000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 2",
+    "items": [
+      { "name": "Kho Báu Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 3",
+    "items": [
+      { "name": "Kho Báu Bạch Kim", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Platinum_Vault_icon.png/25px-PoC_Platinum_Vault_icon.png?c3f16", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x3000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 4",
+    "items": [
+      { "name": "Hòm Thần Tích Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 5",
+    "items": [
+      { "name": "Hòm Thần Tích Bạc", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Reliquary_icon.png/25px-PoC_Silver_Reliquary_icon.png?d0984", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" },
+      { "name": "Kho Báu Bạch Kim", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Platinum_Vault_icon.png/25px-PoC_Platinum_Vault_icon.png?c3f16", "qty": "x1" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 6",
+    "items": [
+      { "name": "Thùng Tinh Tú Bạc Bilgewater", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Star_Vessel_icon.png/25px-PoC_Silver_Star_Vessel_icon.png?0ea8b", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 7",
+    "items": [
+      { "name": "Thùng Tinh Tú Bạc Piltover & Zaun", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Star_Vessel_icon.png/25px-PoC_Silver_Star_Vessel_icon.png?0ea8b", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 8",
+    "items": [
+      { "name": "Thùng Tinh Tú Bạc Demacia", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Star_Vessel_icon.png/25px-PoC_Silver_Star_Vessel_icon.png?0ea8b", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 9",
+    "items": [
+      { "name": "Thùng Tinh Tú Bạc Ionia", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Star_Vessel_icon.png/25px-PoC_Silver_Star_Vessel_icon.png?0ea8b", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 10",
+    "items": [
+      { "name": "Thùng Tinh Tú Bạc Noxus", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Star_Vessel_icon.png/25px-PoC_Silver_Star_Vessel_icon.png?0ea8b", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 11",
+    "items": [
+      { "name": "Thùng Tinh Tú Bạc Quần Đảo Bóng Đêm", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Silver_Star_Vessel_icon.png/25px-PoC_Silver_Star_Vessel_icon.png?0ea8b", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1500" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P3027"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "01DE045",
+            
+            "powers": [
+              {"powerCode": "P2025"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "05PZ006",
+            "powers": [
+              { "powerCode": "P3028" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "03MT009",
+            "powers": [
+              { "powerCode": "P2050" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "06RU002",
+            "powers": [
+              { "powerCode": "P3029" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "03BW004",
+            "powers": [
+              { "powerCode": "P3030" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "02BW032",
+            "powers": [
+              { "powerCode": "P0691" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "01FR038",
+            "powers": [
+              { "powerCode": "P3031" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "02FR002",
+            "powers": [
+              { "powerCode": "P2038" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "05BC041",
+            "powers": [
+              { "powerCode": "P3032" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "01PZ036",
+            "powers": [
+              { "powerCode": "P2020" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node9": {
+        "enemies": [
+          {
+            "cardCode": "02BW022",
+            "powers": [
+              { "powerCode": "P3033" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "01NX038",
+            "powers": [
+              { "powerCode": "P2055" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node13": {
+        "enemies": [
+          {
+            "cardCode": "04SI055",
+            "powers": [
+              { "powerCode": "P3017" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node14": {
+        "enemies": [
+          {
+            "cardCode": "02IO006",
+            "powers": [
+              { "powerCode": "P2071" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node15": {
+        "enemies": [
+          {
+            "cardCode": "02NX007",
+            "powers": [
+              { "powerCode": "P3034" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node16": {
+        "enemies": [
+          {
+            "cardCode": "02BW046",
+            "powers": [
+              { "powerCode": "P3035" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node17": {
+        "enemies": [
+          {
+            "cardCode": "01NX042T2",
+            "powers": [
+              { "powerCode": "P3036" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node18": {
+        "enemies": [
+          {
+            "cardCode": "03MT087",
+            "powers": [
+              { "powerCode": "P3037" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node19": {
+        "enemies": [
+          {
+            "cardCode": "01IO041",
+            "powers": [
+              { "powerCode": "P2016" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node20": {
+        "enemies": [
+          {
+            "cardCode": "01NX020",
+            "powers": [
+              { "powerCode": "P2076" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node21": {
+        "enemies": [
+          {
+            "cardCode": "03IO002",
+            "powers": [
+              { "powerCode": "P0672" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node22": {
+        "enemies": [
+          {
+            "cardCode": "04SH003",
+            "powers": [
+              { "powerCode": "P2062" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node23": {
+        "enemies": [
+          {
+            "cardCode": "01PZ040",
+            "powers": [
+              { "powerCode": "P3038" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node24": {
+        "enemies": [
+          {
+            "cardCode": "02BW053",
+            "powers": [
+              { "powerCode": "P2043" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node25": {
+        "enemies": [
+          {
+            "cardCode": "03PZ003",
+            "powers": [
+              { "powerCode": "P2067" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node26": {
+        "enemies": [
+          {
+            "cardCode": "01IO009",
+            "powers": [
+              { "powerCode": "P2030" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node27": {
+        "enemies": [
+          {
+            "cardCode": "01IO015",
+            "powers": [
+              { "powerCode": "P3039" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M021": {
+    "name": "Kẻ Bất Dung Thứ",
+    "region": "Ionia",
+    "bg_image": "http://dd.b.pvp.net/7_3_0/set1/vi_vn/img/cards/01IO015T1-full.png",
+    "mapimages": "image/Yasuo_PoC_Map.png",
+    "stars": 4.5,
+    "completion_xp": 4470,
+    "adventure_type": "Phiêu Lưu Khắp Thế Giới",
+    "required_champions": [
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Neutral_LoR_Region.png/20px-Neutral_LoR_Region.png?d0a22" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ionia_LoR_Region.png/20px-Ionia_LoR_Region.png?ff9d4" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ionia_LoR_Region.png/20px-Ionia_LoR_Region.png?ff9d4" },
+      { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Shadow_Isles_LoR_Region.png/20px-Shadow_Isles_LoR_Region.png?73d7b" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Mảnh Ghép Yasuo", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Champion_Fragment_icon.png/15px-PoC_Champion_Fragment_icon.png?ee731", "qty": "x40" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 2",
+    "items": [
+      { "name": "Bụi Tinh Tú", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stardust_icon.png/20px-Stardust_icon.png?7dd59", "qty": "x1000" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 3",
+    "items": [
+      { "name": "Kho Báu Bạch Kim", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Platinum_Vault_icon.png/25px-PoC_Platinum_Vault_icon.png?c3f16", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 4",
+    "items": [
+      { "name": "Bụi Tinh Tú", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Stardust_icon.png/20px-Stardust_icon.png?7dd59", "qty": "x1000" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" }
+    ]
+  },
+  {
+    "milestone": "Mốc thưởng 5",
+    "items": [
+      { "name": "Thùng Tinh Tú Vàng Ionia", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Gold_Star_Vessel_icon.png/25px-PoC_Gold_Star_Vessel_icon.png?69b84", "qty": "x1" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x2000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P0492"},
+      {"powerCode": "P3040"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "01IO042",
+            
+            "powers": [
+              {"powerCode": "P3041"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01IO057",
+            "powers": [
+              { "powerCode": "P3042" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01FR049",
+            "powers": [
+              { "powerCode": "P2092" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "01IO048",
+            "powers": [
+              { "powerCode": "P2027" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "05BC140",
+            "powers": [
+              { "powerCode": "P3043" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "01FR038",
+            "powers": [
+              { "powerCode": "P3031" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "04IO002",
+            "powers": [
+              { "powerCode": "P2087" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "01FR014",
+            "powers": [
+              { "powerCode": "P2099" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "01IO016",
+            "powers": [
+              { "powerCode": "P3044" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node9": {
+        "enemies": [
+          {
+            "cardCode": "01FR047",
+            "powers": [
+              { "powerCode": "P2041" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "01IO015",
+            "powers": [
+              { "powerCode": "P3039" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
 }
 }
