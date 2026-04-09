@@ -443,7 +443,7 @@
     "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0038.png",
     "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0038-full.png",
     "description": "-1|-0<br><link=vocab.Play><style=Vocab>Xuất Trận</style></link>: Ta <link=vocab.Strike><style=Vocab>ra đòn</style></link> lên Nhà Chính của đối thủ.",
-    "descriptionRaw": "-1|-0Xuất Trận: Ta ra đòn lên Nhà Chính của đối thủ.",
+    "descriptionRaw": "-1|-0\nXuất Trận: Ta ra đòn lên Nhà Chính của đối thủ.",
     "name": "Nhà Thông Thái Phá Thành",
     "relicCode": "R0038",
     "rarity": "HIẾM",

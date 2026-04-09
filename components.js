@@ -11,7 +11,7 @@ function injectNavbar() {
         .glow-scrollbar::-webkit-scrollbar-thumb { background: rgba(200, 155, 60, 0.3); border-radius: 10px; }
     </style>
 
-    <nav class="fixed top-0 w-full z-[100] flex items-center justify-between px-6 md:px-12 py-4 bg-[#04060b]/95 backdrop-blur-xl border-b border-white/5 transition-all duration-300" id="mainNav">
+    <nav class="fixed top-0 left-0 right-0 w-full z-[100] flex items-center justify-between px-6 md:px-12 py-4 bg-[#04060b]/95 backdrop-blur-xl border-b border-white/5 transition-all duration-300" id="mainNav">
         <a href="index.html" class="flex items-center gap-3 group transition-transform active:scale-95">
             <div class="w-10 h-10 bg-[#c89b3c] rounded-md flex items-center justify-center text-black font-bold text-xl shadow-[0_0_15px_rgba(200,155,60,0.4)]">P</div>
             <span class="text-2xl tracking-tighter uppercase text-white font-bold group-hover:text-[#c89b3c] transition-colors">PoC Guide</span>

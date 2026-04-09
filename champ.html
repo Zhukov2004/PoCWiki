@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư Viện Anh Hùng | Path of Champions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Sử dụng phông chữ hệ thống bình thường, dễ nhìn */
+        body { 
+            background-color: #050608; 
+            color: #e2e8f0; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            padding: 0 0 50px 0;
+            margin: 0;
+            padding-top: 40px;
+        }
+
+        /* Tiêu đề tiếng Việt đơn giản */
+        .wiki-header {
+            text-align: center;
+            padding: 60px 20px 30px;
+        }
+
+        .wiki-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #c89b3c;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .wiki-subtitle {
+            color: #a0a0a8;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+
+        /* Đường kẻ phân cách đơn giản */
+        .wiki-divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, #c89b3c, transparent);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        /* Bảng điều khiển tìm kiếm */
+        .control-panel {
+            background: #0d0e12;
+            border: 1px solid #2d2f36;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto 40px;
+        }
+
+        .hex-label {
+            font-size: 12px;
+            font-weight: bold;
+            color: #c89b3c;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .hex-input {
+            background: #1a1c21;
+            border: 1px solid #3c3c41;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .hex-input:focus { border-color: #c89b3c; }
+
+        /* Bộ lọc biểu tượng vùng */
+        .region-filter-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #2d2f36;
+        }
+
+        .region-btn {
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            transition: 0.2s;
+            filter: grayscale(1);
+            opacity: 0.5;
+        }
+
+        .region-btn:hover, .region-btn.active {
+            filter: grayscale(0);
+            opacity: 1;
+            transform: scale(1.1);
+        }
+
+        /* Lưới hiển thị lá bài */
+        .card-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .card-container {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card-container:hover { transform: scale(1.05); }
+
+        .card-container img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <script src="components.js"></script>
+    <header class="wiki-header">
+        <h1 class="wiki-title">Danh Sách Anh Hùng</h1>
+        <div class="wiki-divider"></div>
+    </header>
+
+    <section class="control-panel">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <label class="hex-label">Tìm theo tên</label>
+                <input type="text" id="searchName" placeholder="Ví dụ: Lux, Garen..." class="hex-input" oninput="filterChampions()">
+            </div>
+            <div>
+                <label class="hex-label">Mana</label>
+                <select id="filterMana" class="hex-input" onchange="filterChampions()">
+                    <option value="all">Tất cả Mana</option>
+                    <option value="1">1 Mana</option>
+                    <option value="2">2 Mana</option>
+                    <option value="3">3 Mana</option>
+                    <option value="4">4 Mana</option>
+                    <option value="5">5 Mana</option>
+                    <option value="6">6+ Mana</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="regionFilter" class="region-filter-container">
+            </div>
+    </section>
+
+    <main>
+        <div id="cardGrid" class="card-gallery"></div>
+    </main>
+
+    <script>
+        const regionData = [
+            { id: 'Bilgewater', name: 'Bilgewater', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bilgewater.png' },
+            { id: 'Demacia', name: 'Demacia', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-demacia.png' },
+            { id: 'Noxus', name: 'Noxus', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-noxus.png' },
+            { id: 'Ionia', name: 'Ionia', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-ionia.png' },
+            { id: 'Freljord', name: 'Freljord', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-freljord.png' },
+            { id: 'Piltover & Zaun', name: 'Piltover & Zaun', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-piltoverzaun.png' },
+            { id: 'Quần Đảo Bóng Đêm', name: 'Quần Đảo Bóng Đêm', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-shadowisles.png' },
+            { id: 'Shurima', name: 'Shurima', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-shurima.png' },
+            { id: 'Targon', name: 'Targon', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-targon.png' },
+            { id: 'Thành Phố Bandle', name: 'Thành Phố Bandle', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bandlecity.png' },
+            { id: 'Runeterra', name: 'Runeterra', icon: 'https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-runeterra.png' },
+            { id: 'Hoa Linh Lục Địa', name: 'Hoa Linh Lục Địa', color: '#ffffff', icon: 'http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-spiritblossom.png' }
+        ];
+
+        let currentRegion = 'all';
+        let champions = [];
+
+        function initRegionFilter() {
+            const container = document.getElementById('regionFilter');
+            container.innerHTML = `<img src="https://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-all.png" class="region-btn active" data-id="all" title="Tất cả" onclick="setRegion('all')">` + 
+            regionData.map(r => `
+                <img src="${r.icon}" class="region-btn" data-id="${r.id}" title="${r.name}" onclick="setRegion('${r.id}')">
+            `).join('');
+        }
+
+        function setRegion(id) {
+            currentRegion = id;
+            document.querySelectorAll('.region-btn').forEach(btn => btn.classList.toggle('active', btn.getAttribute('data-id') === id));
+            filterChampions();
+        }
+
+        async function loadChampions() {
+            const response = await fetch('champpower.json');
+            champions = await response.json();
+            displayChampions(champions);
+        }
+
+        function displayChampions(list) {
+            const grid = document.getElementById('cardGrid');
+            grid.innerHTML = list.map(champ => `
+                <div class="card-container" onclick="window.location.href='chitiettuong.html?id=${champ.championID}'">
+                    <img src="${champ.assets[0].gameAbsolutePath}" alt="${champ.name}">
+                </div>
+            `).join('');
+        }
+
+        function filterChampions() {
+            const nameQuery = document.getElementById('searchName').value.toLowerCase();
+            const manaQuery = document.getElementById('filterMana').value;
+            const filtered = champions.filter(champ => {
+                const matchName = champ.name.toLowerCase().includes(nameQuery);
+                const matchRegion = (currentRegion === 'all' || champ.regions.includes(currentRegion));
+                const matchMana = (manaQuery === 'all') ? true : (manaQuery === '6' ? champ.cost >= 6 : champ.cost == manaQuery);
+                return matchName && matchRegion && matchMana;
+            });
+            displayChampions(filtered);
+        }
+
+        initRegionFilter();
+        loadChampions();
+    </script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư Viện Anh Hùng - Path of Champions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --wiki-bg: #0a0b0d;
+            --wiki-card: #14151a;
+            --wiki-border: #2d2f36;
+            --wiki-accent: #c89b3c;
+            --wiki-text: #e2e8f0;
+        }
+
+        body { 
+            background-color: var(--wiki-bg); 
+            color: var(--wiki-text); 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            padding-top: 100px;
+            /* Các thuộc tính cho ảnh nền */
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+                transition: background-image 0.5s ease-in-out; /* Hiệu ứng chuyển cảnh mượt */
+        }
+        /* Thêm lớp phủ tối để nội dung chữ dễ đọc hơn trên nền ảnh */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(10, 11, 13, 0.85); /* Độ đậm nhạt của lớp phủ */
+            z-index: -1;
+        }
+        .container-wiki { max-width: 1200px; margin: 0 auto; padding: 0 20px 50px; }
+
+        /* HEADER */
+        .wiki-header { 
+            display: flex; gap: 30px; background: var(--wiki-card); 
+            border: 1px solid var(--wiki-border); padding: 30px; 
+            border-radius: 12px; margin-bottom: 30px; align-items: flex-start;
+        }
+        
+        h1 { font-size: 3.5rem !important; font-weight: 900; color: var(--wiki-accent); text-transform: uppercase; line-height: 1; margin: 10px 0; }
+        
+        .info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 20px; }
+        .info-item { background: #1c1e24; padding: 12px; border-radius: 6px; border: 1px solid var(--wiki-border); }
+        .info-label { font-size: 0.7rem; font-weight: 800; color: #64748b; text-transform: uppercase; display: block; margin-bottom: 4px; }
+        .info-value { font-weight: 700; }
+
+        /* TAB SYSTEM */
+        .tab-container { display: flex; gap: 10px; margin-bottom: -1px; position: relative; z-index: 10; margin-top: 40px; }
+        .tab-btn {
+            padding: 14px 28px;
+            background: #1c1e24;
+            border: 1px solid var(--wiki-border);
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+            color: #64748b;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .tab-btn:hover { color: #fff; background: #252830; }
+        .tab-btn.active {
+            background: var(--wiki-card);
+            color: var(--wiki-accent);
+            border-top: 3px solid var(--wiki-accent);
+            padding-top: 12px;
+        }
+
+        /* TABLES */
+        .wiki-table { width: 100%; border-collapse: collapse; background: var(--wiki-card); border: 1px solid var(--wiki-border); border-radius: 0 8px 8px 8px; overflow: hidden; }
+        .wiki-table th { background: #0d0e12; padding: 15px; color: #64748b; font-size: 0.75rem; text-transform: uppercase; text-align: left; border-bottom: 1px solid var(--wiki-border); }
+        .wiki-table td { padding: 20px 15px; border-bottom: 1px solid var(--wiki-border); vertical-align: middle; }
+        
+        .star-col { width: 80px; text-align: center; font-size: 1.5rem; font-weight: 900; color: #c89b3c; border-right: 1px solid var(--wiki-border); }
+        .req-col { width: 220px; background: rgba(255,255,255,0.02); border-right: 1px solid var(--wiki-border); }
+        
+        .req-flex { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1.1rem; }
+        .req-icon { width: 22px; height: 22px; object-fit: contain; }
+        .nova-icon { width: 28px; height: 28px; object-fit: contain; }
+        .gem-icon { width: 26px; height: 26px; object-fit: contain; filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.5)); }
+        .plus { color: #4a5568; margin: 0 2px; }
+
+        /* DATA CARDS (Relics, Items) */
+        .section-title { font-size: 1.6rem; font-weight: 800; border-left: 5px solid var(--wiki-accent); padding-left: 15px; margin: 50px 0 25px; text-transform: uppercase; color: #fff; }
+        .wiki-grid-equal { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+        .data-card { background: #1c1e24; border: 1px solid var(--wiki-border); padding: 15px; border-radius: 8px; display: flex; gap: 15px; height: 100%; }
+        .icon-clean { width: 56px; height: 56px; object-fit: contain; flex-shrink: 0; }
+        .data-title { font-weight: 800; color: #fff; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 5px; }
+        .data-desc { font-size: 0.85rem; color: #94a3b8; line-height: 1.5; }
+    </style>
+</head>
+<body>
+    <script src="components.js"></script>
+    <div id="app" class="container-wiki">
+        <div class="p-20 text-center text-gray-500 italic text-xl">Đang khởi tạo dữ liệu anh hùng...</div>
+    </div>
+
+    <script>
+        let hero, allPowers, allItems, allRelics, allCards; // Thêm allCards vào đây
+        let activeTab = 'main'; // Mặc định hiện bảng Sức Mạnh Sao
+
+        const ICON = {
+            FRAG: "https://wiki.leagueoflegends.com/en-us/images/Champion_Fragment_LoR_icon.png?9ab1f", 
+            CRYSTAL: "https://wiki.leagueoflegends.com/en-us/images/thumb/Star_Crystal_LoR_Icon.png/200px-Star_Crystal_LoR_Icon.png?74e26", // Ngọc vàng
+            NOVA: "https://wiki.leagueoflegends.com/en-us/images/thumb/Nova_Crystal_LoR_Icon.png/200px-Nova_Crystal_LoR_Icon.png?8a9e8", // Ngọc tím
+            GEM: "https://wiki.leagueoflegends.com/en-us/images/thumb/Gemstone_LoR_Icon.png/200px-Gemstone_LoR_Icon.png?68919" // Đá quý
+        };
+
+        const upgradeData = [
+            { frag: 10 }, { frag: 20 }, { frag: 40 }, 
+            { frag: 60, cry: 10 }, { cry: 40, frag: 80 }, { frag: 100, nova: 1 }
+        ];
+
+        // Hàm chuyển Tab
+        window.switchTab = (tab) => {
+            activeTab = tab;
+            render();
+        };
+
+        function getInfo(id, list, key) {
+            return list.find(item => item[key] === id) || { name: id, assetAbsolutePath: "", descriptionRaw: "Không có dữ liệu chi tiết." };
+        }
+
+        async function init() {
+    try {
+        const [r, p, i, c, cards] = await Promise.all([
+            fetch('relics.json').then(res => res.json()),
+            fetch('powers.json').then(res => res.json()),
+            fetch('items.json').then(res => res.json()),
+            fetch('champpower.json').then(res => res.json()),
+            fetch('cards.json').then(res => res.json()) // Nạp file chứa Varus/Master Yi
+        ]);
+        
+        allRelics = r; 
+        allPowers = p; 
+        allItems = i; 
+        allCards = cards; // <--- THÊM DÒNG NÀY để biến toàn cục có dữ liệu
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const heroId = urlParams.get('id') || "C039";
+        hero = c.find(x => x.championID === heroId) || c[0];
+
+        render();
+    } catch (e) { 
+        console.error("Lỗi tải dữ liệu:", e); 
+    }
+}
+
+        function render() {
+            if (hero.assets && hero.assets[0].fullAbsolutePath) {
+        document.body.style.backgroundImage = `url('${hero.assets[0].fullAbsolutePath}')`;
+    }
+            const totalStars = hero.powerStarIds ? hero.powerStarIds.length : 0;
+            const totalBonus = hero.bonusStars ? hero.bonusStars.length : 0;
+
+            document.getElementById('app').innerHTML = `
+                <header class="wiki-header shadow-2xl">
+                    <img src="${hero.assets[0].gameAbsolutePath}" class="w-64 h-auto rounded-lg shadow-2xl object-contain border-[#2d2f36]">
+                    <div class="flex-1">
+                        <h1>${hero.name}</h1>
+                        <div class="info-grid">
+                            <div class="info-item"><span class="info-label">Khu vực</span><span class="info-value text-blue-400 uppercase">${hero.regions[0]}</span></div>
+                            <div class="info-item"><span class="info-label">Số Sao</span><span class="info-value text-yellow-500">${totalStars} Sao</span></div>
+                            <div class="info-item"><span class="info-label">Mana</span><span class="info-value text-green-500">${hero.cost}</span></div>
+                        </div>
+                        <div class="mt-6 text-lg leading-loose text-gray-300 border-t border-gray-800 pt-5">
+    ${hero.description.replace(/\\n/g, '<br>')}
+</div>
+                    </div>
+                </header>
+
+                <div class="tab-container">
+                    <button class="tab-btn ${activeTab === 'main' ? 'active' : ''}" onclick="switchTab('main')">
+                        Ngôi Sao Sức Mạnh (${totalStars})
+                    </button>
+                    <button class="tab-btn ${activeTab === 'bonus' ? 'active' : ''}" onclick="switchTab('bonus')">
+                        Ngôi Sao Tăng Thưởng (${totalBonus})
+                    </button>
+                </div>
+                
+                ${activeTab === 'main' ? renderMainTable() : renderBonusTable()}
+
+                <h2 class="section-title">Bộ Bài Khởi Đầu</h2>
+                <p class="text-500 text-lg mb-6 ml-4 italic flex items-center gap-2">
+    <i data-lucide="info" class="w-4 h-4"></i>
+    Mỗi bộ bài gồm 9 lá bài khác nhau, mỗi lá có 2 bản sao (Tổng cộng 18 lá), trừ lá Anh Hùng mỗi lá đều có 0-2 vật phẩm đi kèm.
+</p>
+<div class="flex flex-col gap-10 mb-10">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mb-10 items-start">
+    ${hero.startingDeck.baseCards.map((card, index) => renderCardItem(card, index)).join('')}
+</div>
+</div>
+                <h2 class="section-title">Cổ Vật Khuyên Dùng</h2>
+                <div class="space-y-6">
+                    ${hero.relicSets.map((set, idx) => `
+                        <div class="bg-[#111216] border border-gray-800 p-4 rounded-lg">
+                            <span class="text-[10px] font-black text-yellow-600 uppercase mb-3 block">Phương án #${idx + 1}</span>
+                            <div class="wiki-grid-equal">
+                                ${set.map(rId => {
+                                    const r = getInfo(rId, allRelics, "relicCode");
+                                    return `
+                                        <div class="data-card">
+                                            <img src="${r.assetAbsolutePath}" class="icon-clean">
+                                            <div class="flex-1">
+                                                <div class="data-title">${r.name}</div>
+                                                <div class="data-desc">${r.descriptionRaw}</div>
+                                            </div>
+                                        </div>`;
+                                }).join('')}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+                    <div>
+                        <h2 class="section-title mt-0">Sức Mạnh Phụ</h2>
+                        <div class="space-y-3">
+                            ${hero.adventurePowerIds.slice(0, 10).map(id => {
+                                const p = getInfo(id, allPowers, "powerCode");
+                                return `
+                                    <div class="data-card">
+                                        <img src="${p.assetAbsolutePath}" class="icon-clean">
+                                        <div class="flex-1 text-sm"><div class="data-title">${p.name}</div><div class="data-desc">${p.descriptionRaw}</div></div>
+                                    </div>`;
+                            }).join('')}
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="section-title mt-0">Vật Phẩm</h2>
+                        <div class="space-y-3">
+                            ${hero.itemIds.slice(0, 10).map(id => {
+                                const it = getInfo(id, allItems, "itemCode");
+                                return `
+                                    <div class="data-card">
+                                        <img src="${it.assetAbsolutePath}" class="icon-clean">
+                                        <div class="flex-1 text-sm"><div class="data-title">${it.name}</div><div class="data-desc">${it.descriptionRaw}</div></div>
+                                    </div>`;
+                            }).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderMainTable() {
+            return `
+                <table class="wiki-table">
+                    <thead><tr><th class="w-24">Cấp</th><th class="w-56">Yêu Cầu</th><th>Chi Tiết Kỹ Năng</th></tr></thead>
+                    <tbody>
+                        ${hero.powerStarIds.map((id, index) => {
+                            const p = getInfo(id, allPowers, "powerCode");
+                            const req = upgradeData[index] || {};
+                            let reqHTML = "";
+                            if (req.frag || req.cry || req.nova) {
+                                const f = req.frag ? `<div class="req-flex"><img src="${ICON.FRAG}" class="req-icon"> ${req.frag}</div>` : "";
+                                const c = req.cry ? `<div class="req-flex"><img src="${ICON.CRYSTAL}" class="nova-icon"> ${req.cry}</div>` : "";
+                                const n = req.nova ? `<div class="req-flex"><img src="${ICON.NOVA}" class="nova-icon"> ${req.nova}</div>` : "";
+                                if (index === 4) reqHTML = `<div class="req-flex">${c}<span class="plus">+</span>${f}</div>`;
+                                else if (index === 5) reqHTML = `<div class="req-flex">${f}<span class="plus">+</span>${n}</div>`;
+                                else reqHTML = `<div class="req-flex">${f}${ (req.frag && req.cry) ? '<span class="plus">+</span>' : '' }${c}</div>`;
+                            } else { reqHTML = `<span class="text-gray-600 italic text-xs">Mặc định</span>`; }
+
+                            return `
+                                <tr>
+                                    <td class="star-col">${index + 1}★</td>
+                                    <td class="req-col">${reqHTML}</td>
+                                    <td>
+                                        <div class="flex items-center gap-6">
+                                            <img src="${p.assetAbsolutePath}" class="w-16 h-16 object-contain">
+                                            <div><div class="text-lg font-bold text-white uppercase">${p.name}</div><div class="text-sm text-gray-400 mt-1">${p.descriptionRaw}</div></div>
+                                        </div>
+                                    </td>
+                                </tr>`;
+                        }).join('')}
+                    </tbody>
+                </table>`;
+        }
+        // Hàm tìm thông tin card từ cardCode
+        function getCardInfo(code) {
+    if (allCards && allCards.length > 0) {
+        const card = allCards.find(c => c.cardCode === code);
+        if (card) {
+            // Chuyển http thành https để tránh lỗi bảo mật trình duyệt
+            const secureImage = card.assets[0].gameAbsolutePath.replace("http://", "https://");
+            return {
+                name: card.name,
+                image: secureImage
+            };
+        }
+    }
+    return { name: "Thẻ " + code, image: "" };
+}
+        // Hàm render từng lá bài riêng biệt
+        function renderCardItem(card, index) {
+    if (!card) return '';
+    const cardDetail = getCardInfo(card.cardCode);
+    return `
+        <div class="flex flex-col group w-full flex-shrink-0">
+            <div class="relative aspect-[2/3] w-full bg-transparent rounded-xl overflow-hidden transition-all duration-300 group-hover:scale-105 group-hover:shadow-[0_0_20px_rgba(200,155,60,0.3)] border border-gray-800 group-hover:border-[#c89b3c]">
+                ${cardDetail.image ? 
+                    `<img src="${cardDetail.image}" class="w-full h-full object-contain transform" alt="${cardDetail.name}">` : 
+                    `<div class="w-full h-full flex items-center justify-center text-xs text-gray-700 font-mono">NO IMAGE</div>`
+                }
+                
+            </div>
+
+            <div class="mt-2 px-1 text-center">
+                <div class="text-white font-bold text-[10px] sm:text-[12px] truncate group-hover:text-[#c89b3c] mb-1" title="${cardDetail.name}">
+                    ${cardDetail.name}
+                </div>
+                <div class="flex justify-center gap-1 mt-1 flex-wrap">
+                    ${card.itemCodes.length > 0 ? card.itemCodes.map(itemId => {
+                        const item = getInfo(itemId, allItems, "itemCode");
+                        return `
+                            <div class="relative group/item">
+                                <img src="${item.assetAbsolutePath}" class="w-9 h-9 object-contain bg-[#1c1e24]/90 border border-gray-700 rounded-lg p-1 hover:border-[#c89b3c]">
+                                <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/item:block bg-black text-[9px] text-white px-2 py-1 rounded border border-gray-700 whitespace-nowrap z-50 shadow-2xl">
+                                    ${item.name}
+                                </span>
+                            </div>`;
+                    }).join('') : '<span class="text-[9px] text-gray-700 italic uppercase">Cơ bản</span>'}
+                </div>
+            </div>
+        </div>`;
+}
+        function renderBonusTable() {
+    // Kiểm tra nếu tướng không có sao bổ sung nào trong JSON
+    if (!hero.bonusStars || hero.bonusStars.length === 0) {
+        return `<div class="p-10 text-center text-gray-500 bg-[#14151a] border border-dashed border-gray-800 rounded-b-lg">
+                    Anh hùng này hiện chưa có dữ liệu Ngôi Sao Tăng Thưởng.
+                </div>`;
+    }
+    
+    return `
+        <table class="wiki-table">
+            <thead><tr><th class="w-56">Yêu Cầu Nâng Cấp</th><th>Nội dung tăng thưởng</th></tr></thead>
+            <tbody>
+                ${hero.bonusStars.map(s => {
+                    // Logic hiển thị icon linh hoạt theo dữ liệu JSON
+                    let reqHTML = "";
+                    if (s.req.gemstone) {
+                        reqHTML = `<div class="req-flex"><img src="${ICON.GEM}" class="gem-icon"> ${s.req.gemstone}</div>`;
+                    } else if (s.req.frag) {
+                        reqHTML = `<div class="req-flex"><img src="${ICON.FRAG}" class="req-icon"> ${s.req.frag}</div>`;
+                    }
+
+                    return `
+                        <tr>
+                            <td class="req-col">${reqHTML}</td>
+                            <td>
+                                <div class="flex items-center gap-6">
+                                    <img src="${s.icon}" class="w-16 h-16 object-contain">
+                                    <div>
+                                        <div class="text-lg font-bold text-white uppercase">${s.name}</div>
+                                        <div class="text-[13px] text-gray-400 mt-1 leading-relaxed">${s.desc}</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>`;
+                }).join('')}
+            </tbody>
+        </table>`;
+}
+
+        init();
+    </script>
+</body>
+</html>
