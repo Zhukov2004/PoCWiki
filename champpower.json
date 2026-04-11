@@ -1487,13 +1487,12 @@
 
 	},
 	{
-		"championID": "C079",
+		"championID": "C13",
 		"name": "Jinx",
 		"cost": 4,
 		"maxStar": 6,
 		"regions": ["Piltover & Zaun"],
-		"tags": [],
-		"description": "-Jinx mang lối chơi độc đáo với việc gây DMG lên nhà chính kẻ địch khi sử dụng hoặc bỏ 1 lá bài. Sở hữu riêng cho bản thân 1 cổ vật siêu mạnh mà nếu bạn chơi Jinx bắt buộc phải có.\\n-Các lá bài mạnh: Bằng chíu, Máy biến cua, Tiểu quỷ xứ Zaun. Các lá bài mang khả năng bổ trợ mạnh mẽ cho lối vận hành của Jinx.\\n-Mang cho mình sức mạnh độc đáo là gây sát thương trực tiếp lên nhà chính đối thủ với mỗi lá bài sử dụng hoặc bỏ đi, Jinx mang lối chơi cấu rỉa cực kì khó chịu và có lượng sát thương cực kì dồi dào. Với việc sở hữu 1 cổ vật riêng dành cho mình là Hỏa lực của khẩu pháo nổi loạn nó tương tác cực kì tốt với sức mạnh của Jinx và giúp cô thăng cấp ngay khi triệu hồi vừa gây 1 lượng sát thương lớn lên nhà chính của kẻ địch vừa có trên tay những bài phép mạnh mẽ.\\n-Các sức mạnh nên chọn là các sức mạnh giúp tăng sát thương bài phép và giảm tiêu hao hoặc gây sát thương lên nhà chính của kẻ địch.\\n-Kết hợp Combo máy biến của cùng sức mạnh của Jinx và Cưỡng đoạt giảm 2 tiêu hao bạn có thể triệu hồi Jinx ngay vòng 1 nếu có sức mạnh phù hợp hoặc đã lên 4 sao, Jinx được triệu hồi sớm giúp bạn đẩy nhanh nhịp độ đánh nhanh thắng nhanh.",
+		"description": "Jinx sở hữu lối chơi bùng nổ bậc nhất với khả năng gây sát thương trực tiếp lên nhà chính đối thủ mỗi khi sử dụng hoặc bỏ đi một lá bài. Chìa khóa sức mạnh nằm ở cổ vật độc quyền Hỏa Lực Của Khẩu Pháo Nổi Loạn, giúp Jinx thăng cấp ngay lập tức và dọn sạch bàn đấu bằng lượng hỏa lực dồi dào từ các lá bài phép được tạo ra.\nNgười chơi nên ưu tiên các sức mạnh tăng sát thương kỹ năng hoặc giảm chi phí Mana để đẩy nhanh nhịp độ trận đấu, biến Jinx thành một cỗ máy hủy diệt từ vòng 1.\nVới sự kết hợp của Máy Biến Cua và các nâng cấp giảm tiêu hao, bạn có thể thiết lập lối chơi đánh nhanh thắng nhanh, không để đối thủ có cơ hội phản kháng.",
 		"adventurePowerIds": [
 			"P0113",
 			"P0062",
@@ -1526,31 +1525,113 @@
 			["R0017", "R0036", "R0007"],
 			["R0065", "R0111", "R0036"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_3_0/set1/vi_vn/img/cards/01PZ040T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set1/vi_vn/img/cards/01PZ040.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jinx.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set1/vi_vn/img/cards/01PZ040.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Jinx",
-				"regions": ["PiltoverZaun"],
-				"tags": [],
-				"description": "-Jinx mang lối chơi độc đáo với việc gây DMG lên nhà chính kẻ địch khi sử dụng hoặc bỏ 1 lá bài. Sở hữu riêng cho bản thân 1 cổ vật siêu mạnh mà nếu bạn chơi Jinx bắt buộc phải có.\\n-Các lá bài mạnh: Bằng chíu, Máy biến cua, Tiểu quỷ xứ Zaun. Các lá bài mang khả năng bổ trợ mạnh mẽ cho lối vận hành của Jinx.\\n-Mang cho mình sức mạnh độc đáo là gây sát thương trực tiếp lên nhà chính đối thủ với mỗi lá bài sử dụng hoặc bỏ đi, Jinx mang lối chơi cấu rỉa cực kì khó chịu và có lượng sát thương cực kì dồi dào. Với việc sở hữu 1 cổ vật riêng dành cho mình là Hỏa lực của khẩu pháo nổi loạn nó tương tác cực kì tốt với sức mạnh của Jinx và giúp cô thăng cấp ngay khi triệu hồi vừa gây 1 lượng sát thương lớn lên nhà chính của kẻ địch vừa có trên tay những bài phép mạnh mẽ.\\n-Các sức mạnh nên chọn là các sức mạnh giúp tăng sát thương bài phép và giảm tiêu hao hoặc gây sát thương lên nhà chính của kẻ địch.\\n-Kết hợp Combo máy biến của cùng sức mạnh của Jinx và Cưỡng đoạt giảm 2 tiêu hao bạn có thể triệu hồi Jinx ngay vòng 1 nếu có sức mạnh phù hợp hoặc đã lên 4 sao, Jinx được triệu hồi sớm giúp bạn đẩy nhanh nhịp độ đánh nhanh thắng nhanh."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+1 Lượt Đổi, +100 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Tinh Thể Tiêu Điểm",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Bằng Chíu có Phong Ấn Tích Tụ II.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép gây sát thương bạn thu thập trong chuyến phiêu lưu có Phong Ấn Tích Tụ II.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+200 Vàng",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng khởi điểm cho các anh hùng Piltover & Zaun.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Piltover & Zaun.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "01PZ028",
+                    "itemCodes": ["I0006"]
+                },
+                {
+                    "cardCode": "01PZ045",
+                    "itemCodes": ["I0037","I0007"]
+                },
+                {
+                    "cardCode": "01PZ054",
+                    "itemCodes": ["I0012","I0041"]
+                },
+                {
+                    "cardCode": "01PZ019",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "01PZ009",
+                    "itemCodes": ["I0071"]
+                },
+                {
+                    "cardCode": "01PZ038",
+                    "itemCodes": ["I0047"]
+                },
+                {
+                    "cardCode": "01PZ040",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
-		"championID": "C055",
+		"championID": "C14",
 		"name": "Volibear",
 		"cost": 9,
 		"maxStar": 6,
 		"regions": ["Freljord"],
 		"tags": [],
-		"description": "-Volibear có khả năng ra đòn mạnh mẽ khi triệu hồi các bài quân khổng lồ và khi thủ tiêu được kẻ địch bạn còn nhận được 2 Biểu tượng bão tốt giúp triệu hồi các khổng lồ tiếp theo dễ dàng hơn.\\n-Các lá bài mạnh: Lời khấn cầu sấm sét triệu hồi 1 Biểu tượng bão tố rút 1 lá bài, Cung thủ băng địa vừa đóng băng 1 bài quân vừa phong thủ được vừa rút bài được khi ra đòn, Đóng băng siêu tốc giúp bạn phòng thủ và triệu hồi 2 Biểu tượng bão tố cùng 1 lá khổng lồ, Tiên tri của Vahir vừa giúp phong thủ tốt vừa triệu hồi Biểu tượng bão tố.\\n-Các sức mạnh nên chọn khi phiêu lưu: Khổng lồ thức tỉnh, Sức mạnh Trifarix, Thống trị.\\n-Các sức mạnh của Volibear điều hướng đến việc triệu hồi Biểu tượng bão tố giúp gọi ra các bài quân khổn lồ dễ dàng hơn đặc biệt là Volibear nên hãy cố gắng triệu hồi càng nhiều biểu tượng bão tố càng tốt.",
+		"description": "Volibear mang đến sức mạnh sấm sét của vùng Freljord với lối chơi xoay quanh việc triệu hồi các đơn vị khổng lồ thông qua cơ chế tích lũy Biểu Tượng Bão Tố. Bằng cách thủ tiêu kẻ địch hoặc sử dụng các lá bài như Lời Khấn Cầu Sấm Sét và Tiên Tri Của Vahir, bạn có thể giảm chi phí triệu hồi để đưa các mãnh thú và chính Volibear ra sân sớm nhằm áp đảo hoàn toàn bàn đấu.\nNgười chơi nên ưu tiên các sức mạnh như Khổng Lồ Thức Tỉnh hoặc Sức Mạnh Trifarix để tối ưu hóa lượng sát thương từ các đơn vị có chỉ số cao.\nViệc kết hợp khả năng khống chế từ Đóng Băng Siêu Tốc cùng nguồn tài nguyên Bão Tố dồi dào sẽ giúp bạn nghiền nát mọi hàng phòng ngự bằng uy lực của vị thần gấu vĩ đại.",
 		"adventurePowerIds": [
 			"P0451",
 			"P0067",
@@ -1583,35 +1664,122 @@
 			["R0116", "R0114", "R0082"],
 			["R0108", "R0120", "R0082"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_3_0/set8/vi_vn/img/cards/08FR001T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set8/vi_vn/img/cards/08FR001.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Volibear.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set8/vi_vn/img/cards/08FR001.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Volibear",
-				"regions": ["Freljord"],
-				"tags": [],
-				"description": "-Volibear có khả năng ra đòn mạnh mẽ khi triệu hồi các bài quân khổng lồ và khi thủ tiêu được kẻ địch bạn còn nhận được 2 Biểu tượng bão tốt giúp triệu hồi các khổng lồ tiếp theo dễ dàng hơn.\\n-Các lá bài mạnh: Lời khấn cầu sấm sét triệu hồi 1 Biểu tượng bão tố rút 1 lá bài, Cung thủ băng địa vừa đóng băng 1 bài quân vừa phong thủ được vừa rút bài được khi ra đòn, Đóng băng siêu tốc giúp bạn phòng thủ và triệu hồi 2 Biểu tượng bão tố cùng 1 lá khổng lồ, Tiên tri của Vahir vừa giúp phong thủ tốt vừa triệu hồi Biểu tượng bão tố.\\n-Các sức mạnh nên chọn khi phiêu lưu: Khổng lồ thức tỉnh, Sức mạnh Trifarix, Thống trị.\\n-Các sức mạnh của Volibear điều hướng đến việc triệu hồi Biểu tượng bão tố giúp gọi ra các bài quân khổn lồ dễ dàng hơn đặc biệt là Volibear nên hãy cố gắng triệu hồi càng nhiều biểu tượng bão tố càng tốt."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +4 Hồi Phục.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ có Áo Da Tán Đinh, Búa Gỗ hoặc Rìu Nhanh Nhẹn tuy theo tiêu hao của chúng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Tiên Tri Của Vahir có Vật Tổ Bóng Đêm.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu với 6+ tiêu hao có Khẩu Phần Thịnh Soạn và Giáp Lưới.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Tarkaz Vô Tộc có Khẩu Phần Thịnh Soạn.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+10 Máu Nhà Chính cho các anh hùng Freljord.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện sức mạnh Sử Thi cho các anh hùng Freljord.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "08FR012",
+                    "itemCodes": ["I0057"]
+                },
+                {
+                    "cardCode": "01FR035",
+                    "itemCodes": ["I0076"]
+                },
+                {
+                    "cardCode": "01FR011",
+                    "itemCodes": ["I0008","I0111"]
+                },
+                {
+                    "cardCode": "01FR001",
+                    "itemCodes": ["I0121"]
+                },
+                {
+                    "cardCode": "08FR002",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "01FR007",
+                    "itemCodes": ["I0040","I0007"]
+                },
+                {
+                    "cardCode": "01FR020",
+                    "itemCodes": ["I0092"]
+                },
+                {
+                    "cardCode": "01FR021",
+                    "itemCodes": ["I0039"]
+                },
+                {
+                    "cardCode": "08FR001",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
-		"championID": "C005",
+		"championID": "C15",
 		"name": "Norra",
 		"cost": 2,
 		"maxStar": 6,
 		"regions": ["Thành Phố Bandle"],
 		"tags": [],
-		"description": "-Norra sở hữu khả năng triệu hồi các bài quân từ cổng dịch chuyển và các bài quân được tạo ra sẽ nhận được lượng sát thương lớn từ Sức mạnh của Norra.\\n-Các lá bài mạnh mẽ: Chế phẩm phế liệu, Mắt xích không gian, Nghệ nhân trà đạo. Các bài quân có khả năng gài cổng dịch chuyển và Bài phép có khả năng phong thủ.\\n-Các sức mạnh nên chọn là các sức mạnh triệu hồi bài quân khi bắt đầu trận đấu và tăng chỉ số cho bài quân được tạo ra vì Sức mạnh của Norra cung cấp lượng lớn tấn công cho các bài quân đấy giúp bạn có khả năng tấn công mạnh mẽ.\\n",
+		"description": "Norra mang đến lối chơi biến ảo đầy bất ngờ nhờ khả năng gài Cổng Dịch Chuyển để triệu hồi liên tục các đơn vị từ khắp mọi nơi. Điểm mạnh nhất của cô nằm ở việc cường hóa lượng sát thương khổng lồ cho các bài quân được tạo ra, biến những tùy tùng nhỏ bé thành nguồn hỏa lực đáng gờm nhờ sự hỗ trợ từ Nghệ Nhân Trà Đạo và Mắt Xích Không Gian.\nNgười chơi nên ưu tiên các sức mạnh triệu hồi đơn vị khi bắt đầu trận hoặc tăng chỉ số cho quân bài được tạo để tối ưu hóa nội tại của Norra.\nSự kết hợp giữa khả năng tràn sân không ngừng nghỉ và các bài phép phòng thủ như Chế Phẩm Phế Liệu sẽ giúp bạn kiểm soát hoàn toàn nhịp độ và kết liễu đối thủ bằng quân đoàn đa dạng của mình.",
 		"adventurePowerIds": [
 			"P0074",
 			"P0067",
-			"P0451",
 			"P0375",
 			"P0069",
 			"P0116",
@@ -1640,31 +1808,121 @@
 			["R0061", "R0020", "R0113"],
 			["R0080", "R0094", "R0061"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06BC015T2-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06BC015.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Norra.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06BC015.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Norra",
-				"regions": ["BandleCity"],
-				"tags": [],
-				"description": "-Norra sở hữu khả năng triệu hồi các bài quân từ cổng dịch chuyển và các bài quân được tạo ra sẽ nhận được lượng sát thương lớn từ Sức mạnh của Norra.\\n-Các lá bài mạnh mẽ: Chế phẩm phế liệu, Mắt xích không gian, Nghệ nhân trà đạo. Các bài quân có khả năng gài cổng dịch chuyển và Bài phép có khả năng phong thủ.\\n-Các sức mạnh nên chọn là các sức mạnh triệu hồi bài quân khi bắt đầu trận đấu và tăng chỉ số cho bài quân được tạo ra vì Sức mạnh của Norra cung cấp lượng lớn tấn công cho các bài quân đấy giúp bạn có khả năng tấn công mạnh mẽ.\\n"
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+200 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Bằng Hữu Dịch Chuyển.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Yordle Đội Trưởng có Huyết Trượng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu với 4+ tiêu hao có Đồng Xu Cổ Đại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Mắt Xích Không Gian có Phong Ấn Tích Tụ II.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+1 Lượt Đổi cho các anh hùng Thành Phố Bandle.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Thành Phố Bandle.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "06BC021",
+                    "itemCodes": ["I0007", "I0169"]
+                },
+                {
+                    "cardCode": "06BC030",
+                    "itemCodes": ["I0091"]
+                },
+                {
+                    "cardCode": "06BC015",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "05BC175",
+                    "itemCodes": ["I0038"]
+                },
+                {
+                    "cardCode": "06BC044",
+                    "itemCodes": ["I0057"]
+                },
+                {
+                    "cardCode": "06BC019",
+                    "itemCodes": ["I0078"]
+                },
+                {
+                    "cardCode": "05BC120",
+                    "itemCodes": ["I0037","I0140"]
+                },
+                {
+                    "cardCode": "06BC017",
+                    "itemCodes": ["I0085"]
+                },
+                {
+                    "cardCode": "06BC024",
+                    "itemCodes": ["I0040"]
+                }
+            ]
+        }
+
+
 	},
 	{
-		"championID": "C017",
+		"championID": "C16",
 		"name": "Ambessa",
 		"cost": 4,
 		"maxStar": 6,
 		"regions": ["Noxus"],
 		"tags": [],
-		"description": "-Ambessa sở hữu sức mạnh vượt trội với khả năng tăng tiến sức mạnh nhanh chóng cho các bài quân cùng loại.\\n-Sở hữu sức mạnh Huấn Luyện Đội Hình cho phép bài quân cùng tên nhận thêm máu và sức mạnh mỗi lần tấn công. Tấn công với càng nhiều bài quân cùng tên bài quân đó càng mạnh.\\n-Sức mạnh phù hợp cho Ambessa là các sức mạnh triệu hồi 2 bài quân khi bắt đầu trận, Chậm Mà Chắc, Pháp Thuật, Thống Trị,...\\n- Cổ vật Kéo Cắt Ma Quái, Bộ Bài Đầy Ấp kết hợp cực tốt với khả năng tăng tiến sức mạnh của Ambessa.",
+		"description": "Ambessa sở hữu lối chơi bồi đắp sức mạnh quân đội tàn khốc nhờ cơ chế Huấn Luyện Đội Hình, cho phép các đơn vị cùng tên nhận thêm chỉ số vĩnh viễn sau mỗi đợt tấn công. Chiến thuật của bà tập trung vào việc tạo ra các bản sao đồng nhất để tối ưu hóa lượng máu và sát thương cộng dồn, biến những quân bài Noxus thành những chiến binh bất bại trên chiến trường.\nNgười chơi nên ưu tiên các sức mạnh như Thống Trị hoặc triệu hồi đơn vị khi bắt đầu trận, kết hợp cùng cổ vật Kéo Cắt Ma Quái để nhân bản quân bài liên tục.\nSự kết hợp giữa kỷ luật quân đội và khả năng tăng tiến sức mạnh không giới hạn giúp Ambessa nghiền nát mọi hàng phòng ngự bằng uy lực của một đại tướng thực thụ.",
 		"adventurePowerIds": [
 			"P0113",
 			"P0114",
@@ -1688,7 +1946,6 @@
 			"I0069"
 		],
 		"powerStarIds": ["P0435", "P0843", "P0438", "P0386", "P0067", "P0568"],
-		"runeIds": [],
 		"relicSets": [
 			["R0080", "R0116", "R0040"],
 			["R0013", "R0020", "R0075"],
@@ -1697,31 +1954,120 @@
 			["R0082", "R0092", "R0059"],
 			["R0059", "R0112", "R0089"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_3_0/tpoc/vi_vn/img/cards/98NX003T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/tpoc/vi_vn/img/cards/98NX003.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Ambessa.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/tpoc/vi_vn/img/cards/98NX003.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Ambessa",
-				"regions": ["Noxus"],
-				"tags": [],
-				"description": "-Ambessa sở hữu sức mạnh vượt trội với khả năng tăng tiến sức mạnh nhanh chóng cho các bài quân cùng loại.\\n-Sở hữu sức mạnh Huấn Luyện Đội Hình cho phép bài quân cùng tên nhận thêm máu và sức mạnh mỗi lần tấn công. Tấn công với càng nhiều bài quân cùng tên bài quân đó càng mạnh.\\n-Sức mạnh phù hợp cho Ambessa là các sức mạnh triệu hồi 2 bài quân khi bắt đầu trận, Chậm Mà Chắc, Pháp Thuật, Thống Trị,...\\n- Cổ vật Kéo Cắt Ma Quái, Bộ Bài Đầy Ấp kết hợp cực tốt với khả năng tăng tiến sức mạnh của Ambessa."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +100 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Rựa Thợ Săn.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Kato Tay To có Vật Tổ Bóng Đêm.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu có Đại Trượng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Quân Dịch có Bình Năng Lượng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+5 Máu Nhà Chính cho các anh hùng Noxus.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Noxus.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "98NX005",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "03NX003",
+                    "itemCodes": ["I0017"]
+                },
+                {
+                    "cardCode": "01NX037",
+                    "itemCodes": ["I0078"]
+                },
+                {
+                    "cardCode": "98NX008",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01NX017",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01NX021",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98NX003",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01NX024",
+                    "itemCodes": ["I0007"]
+                },
+                {
+                    "cardCode": "98NX004",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
-		"championID": "C028",
+		"championID": "C17",
 		"name": "Fiddlesticks",
 		"cost": 3,
 		"maxStar": 6,
 		"regions": ["Runeterra"],
-		"tags": [],
-		"description": "-Fiddlesticks với đặc trưng với gài ác mộng và gây kiếp hãi xé bài của kẻ địch. Là tướng đặc biệt không thể xuất hiện từ trên tay khi bắt đầu trận đấu mà sẽ nằm trong bộ bài kẻ địch dưới dạng bẫy Ác mộng.\\n-Các lá bài nổi bật như: Ác mộng rình rập, Gặt hái, Bạn xấu, Tiên cá vùng nước cạn. \\n-Về lối chơi sức mạnh của Fiddlesticks cho khả năng gây khiếp hãi (xé bài) kẻ địch khi kết thúc vòng đấu với số lá bằng với số lần gây sát thương lên nhà chính. Vì vậy bạn cần phải chọn các sức mạnh hoặc cổ vật có khả năng gây nhiều lần sát thương lên nhà chính đối thủ.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh triệu hồi bài quân sớm hoặc gây DMG lên nhà chính của kẻ địch. Qua đó bạn có thể xé sạch bài của đối thủ và dành chiến thắng.",
+		"description": "Fiddlesticks mang đến lối chơi rùng rợn với cơ chế gài Ác Mộng vào bộ bài đối thủ và tiêu biến tài nguyên của chúng thông qua hiệu ứng Khiếp Hãi (xé bài). Thay vì ra sân trực tiếp, hắn sẽ ẩn mình trong bộ bài kẻ địch và xuất hiện bất ngờ để dứt điểm trận đấu khi nhà chính đối phương phải nhận sát thương liên tục từ các đơn vị như Ác Mộng Rình Rập hay Bạn Xấu.\nĐể tối ưu hóa chiến thuật, người chơi nên ưu tiên các sức mạnh hoặc cổ vật có khả năng gây sát thương trực tiếp lên nhà chính để tối đa hóa số lượng bài bị xé mỗi vòng.\nKhi bộ bài của đối thủ dần cạn kiệt dưới sự hiện diện của nỗi kinh hoàng này, chiến thắng sẽ nằm chắc trong tay bạn mà không cần tốn quá nhiều sức lực.",
 		"adventurePowerIds": [
 			"P0375",
 			"P0109",
@@ -1745,7 +2091,6 @@
 			"I0123"
 		],
 		"powerStarIds": ["P0561", "P0560", "P0559", "P0055", "P0067", "P0563"],
-		"runeIds": [],
 		"relicSets": [
 			["R0100", "R0121", "R0094"],
 			["R0100", "R0121", "R0122"],
@@ -1754,22 +2099,112 @@
 			["R0061", "R0100", "R0115"],
 			["R0028", "R0021", "R0050"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_3_0/tpoc/vi_vn/img/cards/98RU004T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/tpoc/vi_vn/img/cards/98RU004.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Fiddlesticks.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/tpoc/vi_vn/img/cards/98RU004.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Fiddlesticks",
-				"regions": ["Runeterra"],
-				"tags": [],
-				"description": "-Fiddlesticks với đặc trưng với gài ác mộng và gây kiếp hãi xé bài của kẻ địch. Là tướng đặc biệt không thể xuất hiện từ trên tay khi bắt đầu trận đấu mà sẽ nằm trong bộ bài kẻ địch dưới dạng bẫy Ác mộng.\\n-Các lá bài nổi bật như: Ác mộng rình rập, Gặt hái, Bạn xấu, Tiên cá vùng nước cạn. \\n-Về lối chơi sức mạnh của Fiddlesticks cho khả năng gây khiếp hãi (xé bài) kẻ địch khi kết thúc vòng đấu với số lá bằng với số lần gây sát thương lên nhà chính. Vì vậy bạn cần phải chọn các sức mạnh hoặc cổ vật có khả năng gây nhiều lần sát thương lên nhà chính đối thủ.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh triệu hồi bài quân sớm hoặc gây DMG lên nhà chính của kẻ địch. Qua đó bạn có thể xé sạch bài của đối thủ và dành chiến thắng."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+1 Lượt Đổi, +100 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Người Phá Thành Sa Ngã.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Người Kém May Mắn có Người Phá Thành Sa Ngã.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu có Giấc Mơ Của Yordle.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Nỗi Sợ Hãi Bị Lãng Quên có Bất Tử.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng Khởi Điểm cho các anh hùng Runeterra",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Runeterra.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "98SH001",
+                    "itemCodes": ["I0012"]
+                },
+                {
+                    "cardCode": "98SI002",
+                    "itemCodes": ["I0055","I0116"]
+                },
+                {
+                    "cardCode": "98BC001",
+                    "itemCodes": ["I0125"]
+                },
+                {
+                    "cardCode": "01SI039",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98RU004",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98BW002",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "98DE001",
+                    "itemCodes": ["I0038"]
+                },
+                {
+                    "cardCode": "98RU003",
+                    "itemCodes": ["I0108"]
+                },
+                {
+                    "cardCode": "98SI003",
+                    "itemCodes": ["I0081","I0070"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C074",
@@ -1777,8 +2212,7 @@
 		"cost": 3,
 		"maxStar": 6,
 		"regions": ["Ionia"],
-		"tags": [],
-		"description": "-Lillia có khả năng cộng dồn linh hồn của mình khi triệu hồi bài quân không thông qua cách đánh ra và cơ chế ru ngũ tương tự Hầm mộ hàn băng của Liss giúp bạn kích hoạt sức mạnh của Lillia và các hiệu ứng triệu hồi nhiều lần.\\n-Các lá bài mạnh: Tiểu tiên linh, Lính canh Greenglade, Thu hoạch sương mộng, Alina ánh sáng ảo mộng.\\n-Các sức mạnh nên chọn khi phiêu lưu: Đại quản trường, Tiến hóa, Túi chứa nấm lùn. Các sức mạnh cộng chỉ số cho bài quân dựa.\\n-Với khả năng cộng dồn sức mạnh siêu khỏe và bài phép ru ngủ có hiệu ứng khống chế khó chịu Lilla có lối đánh vừa mạnh vừa dễ tiếp cận.",
+		"description": "Lillia sở hữu lối chơi biến ảo dựa trên cơ chế Ru Ngủ, cho phép tái kích hoạt các hiệu ứng triệu hồi nhiều lần để tích lũy chỉ số Linh Hồn khổng lồ. Bằng cách kết hợp các đơn vị như Tiểu Tiên Linh hay Lính Canh Greenglade cùng khả năng khống chế khó chịu, Lillia có thể bảo vệ đội hình và tăng tiến sức mạnh vượt trội mà không cần trực tiếp giao tranh quá sớm.\nNgười chơi nên ưu tiên các sức mạnh như Tiến Hóa hoặc Đại Quản Trường để tối ưu hóa lượng chỉ số cộng thêm cho các bài quân mỗi khi thức tỉnh.\nSự kết hợp giữa khả năng hồi phục, khống chế và tăng trưởng sức mạnh vô hạn biến Lillia thành một vị tướng vừa mạnh mẽ, vừa vô cùng dễ tiếp cận trong mọi hành trình.",
 		"adventurePowerIds": [
 			"P0540",
 			"P0375",
@@ -1802,31 +2236,119 @@
 			"I0068"
 		],
 		"powerStarIds": ["P0417", "P0423", "P0419", "P0071", "P0067", "P0468"],
-		"runeIds": [],
 		"relicSets": [
 			["R0059", "R0081", "R0092"],
 			["R0061", "R0052", "R0052"],
 			["R0064", "R0043", "R0043"],
 			["R0040", "R0040", "R0052"],
-			["R0051", "R0051", "R0051"],
 			["R0059", "R0097", "R0096"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/5_4_0/set9/vi_vn/img/cards/09IO052T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/5_4_0/set9/vi_vn/img/cards/09IO052.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lillia.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/5_4_0/set9/vi_vn/img/cards/09IO052.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Lillia",
-				"regions": ["Ionia"],
-				"tags": [],
-				"description": "-Lillia có khả năng cộng dồn linh hồn của mình khi triệu hồi bài quân không thông qua cách đánh ra và cơ chế ru ngũ tương tự Hầm mộ hàn băng của Liss giúp bạn kích hoạt sức mạnh của Lillia và các hiệu ứng triệu hồi nhiều lần.\\n-Các lá bài mạnh: Tiểu tiên linh, Lính canh Greenglade, Thu hoạch sương mộng, Alina ánh sáng ảo mộng.\\n-Các sức mạnh nên chọn khi phiêu lưu: Đại quản trường, Tiến hóa, Túi chứa nấm lùn. Các sức mạnh cộng chỉ số cho bài quân dựa.\\n-Với khả năng cộng dồn sức mạnh siêu khỏe và bài phép ru ngủ có hiệu ứng khống chế khó chịu Lilla có lối đánh vừa mạnh vừa dễ tiếp cận."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +100 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Gươm Truy Tung.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Alina Ánh Sáng Ảo Mộng có Đồng Hồ Không Chờ Đợi.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu với 4+ tiêu hao có Cuốc Chim.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Quyền Trượng Mộng Mị có Đồng Hồ Ngưng Đọng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng khởi điểm cho các anh hùng Ionia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Ionia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "09DE033",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01IO036",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01IO020",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "09IO049",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "09IO052",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01IO057",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04IO006",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "02IO005",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "09DE045",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C038",
@@ -1834,8 +2356,7 @@
 		"cost": 5,
 		"maxStar": 3,
 		"regions": ["Runeterra"],
-		"tags": [],
-		"description": "-Kayn sở hữu một khả năng sinh tồn mạnh mẽ khi cho phép bài quân hồi phục đầy máu khi tiêu diệt kẻ địch và cộng thêm chỉ số.\\n-Các lá bài nổi bật: Lựa chọn then chốt, Cuồng nhân hắc kiếm, VIễn binh phản trắc, Binh sĩ cuồng nộ. Các bài quân mạnh mẽ và bài giúp lật ngược tình thế.\\n-Từ việc hồi phục khi tiêu diệt kẻ địch nên sau mỗi lần trade hãy cố gắng tiêu diệt luôn bài quân kẻ thủ để có thể tăng tiến sức mạnh qua đó chiếm lấy lợi thế.\\n-Các sức mạnh nên chọn là: ban đặc điểm và chỉ số hoặc giảm tiêu hao để có thể triệu hồi Kayn sớm.",
+		"description": "Kayn mang đến lối chơi sinh tồn khắc nghiệt với khả năng hồi phục hoàn toàn sinh lực và nhận thêm chỉ số vĩnh viễn sau mỗi lần tiêu diệt kẻ địch. Chiến thuật chủ đạo xoay quanh việc tận dụng các đơn vị mạnh mẽ như Cuồng Nhân Hắc Kiếm và Viễn Binh Phản Trắc để thực hiện những pha trao đổi quân có lợi, từ đó không ngừng thăng tiến sức mạnh trên bàn đấu.\nNgười chơi nên ưu tiên các sức mạnh ban đặc điểm tấn công hoặc giảm chi phí Mana để Kayn có thể xuất trận và thống trị chiến trường từ sớm.\nKhả năng lật ngược tình thế nhờ Lựa Chọn Then Chốt kết hợp cùng nội tại hồi phục vô song biến Kayn thành một chiến binh bất tử, sẵn sàng nghiền nát mọi kẻ ngáng đường.",
 		"adventurePowerIds": [
 			"P0067",
 			"P0451",
@@ -1844,11 +2365,9 @@
 			"P0146",
 			"P0116",
 			"P0056",
-			"P0389",
-			"P0062"
+			"P0389"
 		],
 		"itemIds": [
-			"I0012",
 			"I0123",
 			"I0070",
 			"I0014",
@@ -1868,22 +2387,58 @@
 			["R0112", "R0080", "R0091"],
 			["R0147", "R0082", "R0091"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
-				"fullAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06RU005T2-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06RU005.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Kayn.png"
+				"fullAbsolutePath": "http://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06RU005-full.png",
+				"gameAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06RU005.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Kayn",
-				"regions": ["Runeterra"],
-				"tags": [],
-				"description": "-Kayn sở hữu một khả năng sinh tồn mạnh mẽ khi cho phép bài quân hồi phục đầy máu khi tiêu diệt kẻ địch và cộng thêm chỉ số.\\n-Các lá bài nổi bật: Lựa chọn then chốt, Cuồng nhân hắc kiếm, VIễn binh phản trắc, Binh sĩ cuồng nộ. Các bài quân mạnh mẽ và bài giúp lật ngược tình thế.\\n-Từ việc hồi phục khi tiêu diệt kẻ địch nên sau mỗi lần trade hãy cố gắng tiêu diệt luôn bài quân kẻ thủ để có thể tăng tiến sức mạnh qua đó chiếm lấy lợi thế.\\n-Các sức mạnh nên chọn là: ban đặc điểm và chỉ số hoặc giảm tiêu hao để có thể triệu hồi Kayn sớm."
-			}
-		}
+		"bonusStars": [
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "05MT005",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06IO034",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06MT006",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "03MT016",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06IO025",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06NX034",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06NX019",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE010",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06RU005",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C012",
@@ -1891,8 +2446,7 @@
 		"cost": 2,
 		"maxStar": 6,
 		"regions": ["Noxus"],
-		"tags": [],
-		"description": "-Samira mang cho mình khả năng giảm tiêu hao mạnh mẽ khi kích cưỡng đoạt, cộng thêm chỉ số cho bài quân khi bạn dùng đủ 3 lá bài.\\n-Các lá bài mạnh: Phát bắn điệu nghệ gây sát thương thẳng vào nhà chính và kích cưỡng đoạt, Pháo binh dũng cảm giúp bạn kích cưỡng đoạt và là 1 bài quân có chỉ số tốt,Bàn tay tử thần gây lượng sát thương tốt.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh cộng thêm DMG bài phép và giảm tiêu hao bài phép vì Samira sỡ hữu rất nhiều bài phép tiêu hao thấp và cũng cần dùng nhiều bài để lên cấp.\\n-Đánh Samira bạn nên kích cưỡng đoạt mỗi vòng đấu để lấy giảm tiêu hao vì buff này có khả năng giữ sang vòng sau và cũng để bạn triệu hồi các bài quân mạnh mẽ sớm. ",
+		"description": "Samira mang đến phong cách chiến đấu hoa mỹ với khả năng giảm chi phí Mana cực mạnh thông qua cơ chế Cưỡng Đoạt và cường hóa chỉ số cho toàn đội hình sau mỗi chuỗi 3 lá bài. Lối chơi của cô xoay quanh việc liên tục tung ra các bài phép chi phí thấp như Phát Bắn Điệu Nghệ hay Bàn Tay Tử Thần để duy trì áp lực và tích lũy điểm thăng cấp thần tốc.\nNgười chơi nên ưu tiên các sức mạnh tăng sát thương kỹ năng hoặc giảm tiêu hao bài phép để tối ưu hóa tần suất sử dụng tài nguyên.\nViệc kích hoạt Cưỡng Đoạt đều đặn mỗi vòng sẽ giúp Samira tích lũy cộng dồn giảm chi phí, cho phép bạn triệu hồi dàn quân chủ lực như Pháo Binh Dũng Cảm để kết liễu đối thủ bằng những chuỗi combo dồn dập.",
 		"adventurePowerIds": [
 			"P0067",
 			"P0059",
@@ -1919,28 +2473,117 @@
 		"runeIds": [],
 		"relicSets": [
 			["R0064", "R0043", "R0043"],
-			["R0061", "R0052", "R0052"],
 			["R0017", "R0021", "R0021"],
 			["R0061", "R0080", "R0062"],
 			["R0086", "R0058", "R0001"],
 			["R0017", "R0017", "R0021"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/07NX007T1-full.png?09b1d",
-				"gameAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/07NX007.png?09b1d",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Samira.png"
+				"gameAbsolutePath": "http://dd.b.pvp.net/4_3_0/set7/vi_vn/img/cards/07NX007.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Samira",
-				"regions": ["Noxus"],
-				"tags": [],
-				"description": "-Samira mang cho mình khả năng giảm tiêu hao mạnh mẽ khi kích cưỡng đoạt, cộng thêm chỉ số cho bài quân khi bạn dùng đủ 3 lá bài.\\n-Các lá bài mạnh: Phát bắn điệu nghệ gây sát thương thẳng vào nhà chính và kích cưỡng đoạt, Pháo binh dũng cảm giúp bạn kích cưỡng đoạt và là 1 bài quân có chỉ số tốt,Bàn tay tử thần gây lượng sát thương tốt.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh cộng thêm DMG bài phép và giảm tiêu hao bài phép vì Samira sỡ hữu rất nhiều bài phép tiêu hao thấp và cũng cần dùng nhiều bài để lên cấp.\\n-Đánh Samira bạn nên kích cưỡng đoạt mỗi vòng đấu để lấy giảm tiêu hao vì buff này có khả năng giữ sang vòng sau và cũng để bạn triệu hồi các bài quân mạnh mẽ sớm. "
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +1 Lượt Đổi.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Bí Chương Thất Truyền.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Phát Bắn Điệu Nghệ có Phong Ấn Tích Tụ II.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài Phép với 4+ tiêu hao bạn thu thập trong chuyến phiêu lưu có Dị Vật Tai Ương.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Ứng Biến có Lư Hương Sôi Sục.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng khởi điểm cho các anh hùng Noxus.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện trang bị Sử Thi cho các anh hùng Noxus.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "07NX008",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "07NX009",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "07NX001",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "07NX007",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "02NX008",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "07NX006",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04NX022",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "02NX006",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "07NX005",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C040",
@@ -1948,8 +2591,7 @@
 		"cost": 4,
 		"maxStar": 6,
 		"regions": ["Bilgewater"],
-		"tags": [],
-		"description": "-Twisted Fate vị tướng với lối chơi xoay quanh việc rút bài, combo giữa các lá bài, càng rút bài nhiều thì TF càng mạnh.\\n-Với Học Vấn Nâng Cao thì TF có thể dàn toàn bộ quân ra sân và combo rút bài liên tục từ đó tăng lượng sát thương lên tối đa.\\n-Định Mệnh cường hóa khả năng của các lá bài định mệnh và một trong những cường hóa mạnh mẽ là bài xanh.\\n-Cổ vật dùng tốt cho TF là Lõi Công Nghệ Hoàn Hảo giúp bạn kích tạo ra được nhiều Lá Bài Bí Ẩn từ sớm.\\n-Sức mạnh nên chọn cho TF là các sức mạnh giảm tiêu hao bài phép, bài được tạo, hồi năng lượng, giảm tiêu hao các lá bài được rút, tăng sát thương bài phép và kỹ năng.",
+		"description": "Twisted Fate là bậc thầy bài bạc với lối chơi xoay quanh việc rút bài liên tục để kích hoạt các chuỗi combo biến ảo và gia tăng sức mạnh cho toàn đội hình. Nhờ nội tại Học Vấn Nâng Cao, TF có thể dàn quân tràn sân và tận dụng các lá bài Định Mệnh được cường hóa — đặc biệt là Bài Xanh — để duy trì nguồn tài nguyên và sát thương áp đảo.\nĐể tối ưu hóa, người chơi nên ưu tiên cổ vật Lõi Công Nghệ Hoàn Hảo cùng các sức mạnh giảm chi phí cho bài phép hoặc bài được rút, giúp vận hành bộ máy xoay bài một cách trơn tru.\nSự kết hợp giữa khả năng hồi năng lượng và sát thương kỹ năng bùng nổ biến Twisted Fate thành một đối thủ cực kỳ khó lường, luôn có sẵn quân bài tẩy để lật ngược thế cờ.",
 		"adventurePowerIds": [
 			"P0113",
 			"P0111",
@@ -1971,8 +2613,7 @@
 			"I0118",
 			"I0067",
 			"I0012",
-			"I0013",
-			"I0068"
+			"I0013"
 		],
 		"powerStarIds": ["P0690", "P0692", "P0691", "P0087", "P0067", "P0693"],
 		"runeIds": [],
@@ -1984,22 +2625,112 @@
 			["R0104", "R0065", "R0012"],
 			["R0080", "R0116", "R0115"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/thumb/02BW026T3-full.png/1920px-02BW026T3-full.png?86695",
-				"gameAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/02BW026.png?b4155",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Twisted+Fate.png"
+				"gameAbsolutePath": "http://dd.b.pvp.net/7_4_0/set2/vi_vn/img/cards/02BW026.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Twisted Fate",
-				"regions": ["Bilgewater"],
-				"tags": [],
-				"description": "-Twisted Fate vị tướng với lối chơi xoay quanh việc rút bài, combo giữa các lá bài, càng rút bài nhiều thì TF càng mạnh.\\n-Với Học Vấn Nâng Cao thì TF có thể dàn toàn bộ quân ra sân và combo rút bài liên tục từ đó tăng lượng sát thương lên tối đa.\\n-Định Mệnh cường hóa khả năng của các lá bài định mệnh và một trong những cường hóa mạnh mẽ là bài xanh.\\n-Cổ vật dùng tốt cho TF là Lõi Công Nghệ Hoàn Hảo giúp bạn kích tạo ra được nhiều Lá Bài Bí Ẩn từ sớm.\\n-Sức mạnh nên chọn cho TF là các sức mạnh giảm tiêu hao bài phép, bài được tạo, hồi năng lượng, giảm tiêu hao các lá bài được rút, tăng sát thương bài phép và kỹ năng."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+20 Máu Nhà Chính. +4 Tầm Nhìn.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Mồi Nhử Hấp Dẫn.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Robot Quay Thưởng có Tiến Hóa Công Nghệ.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Các lá bài 6+ tiêu hao bạn thu thập trong chuyến phiêu lưu có Hợp Âm Sức Mạnh.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Cá Sấu Đại Suy Vong có Bão Tố Luden.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng khởi điểm cho các anh hùng Bilgewater.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Bilgewater.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "02BW009",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "02BW043",
+                    "itemCodes": ["I0000"]
+                },
+                {
+                    "cardCode": "02BW045",
+                    "itemCodes": ["I0064","I0088"]
+                },
+                {
+                    "cardCode": "02BW004",
+                    "itemCodes": ["I0078"]
+                },
+                {
+                    "cardCode": "02BW033",
+                    "itemCodes": ["I0038"]
+                },
+                {
+                    "cardCode": "02BW016",
+                    "itemCodes": ["I0076"]
+                },
+                {
+                    "cardCode": "02BW038",
+                    "itemCodes": ["I0041","I0075"]
+                },
+                {
+                    "cardCode": "02BW026",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04BW016",
+                    "itemCodes": ["I0042"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C047",
@@ -2007,8 +2738,7 @@
 		"cost": 5,
 		"maxStar": 6,
 		"regions": ["Noxus"],
-		"tags": [],
-		"description": "-Swain mang khả năng gây DMG siêu khủng khiếp dựa theo lượng máu đã mất của đối thủ, ban phát dân chủ cực mạnh khi đạt C6 với khả năng đều sát thương cho mọi bài quân đối thủ con nào cũng nhận DMG như nhau.\\n-Các lá bài mạnh: Quân đoàn đặc công là 1 bài quân khá tốt khi gây gây sát thương bằng kĩ năng hoặc dùng để phòng thủ đều hiệu quả, Bàn tay tử thần cho lượng sát thương cực nhiều khi vừa gây sát thương bài quân vừa gây sát thương lên nhà chính, Múa xoay một lá bài cho bạn khả năng ứng biến cực mạnh vừa công tốt nhờ gây sát thương lên nhà chính và choáng siêu tốc.\\n-Các sức mạnh nên chọn là các sức mạnh gây sát thương lên nhà chính hoặc tăng sát thương bài phép và kỹ năng.",
+		"description": "Swain là bậc thầy chiến lược với khả năng dồn sát thương khủng khiếp tỉ lệ thuận với lượng máu đã mất của đối thủ, đặc biệt trở thành nỗi khiếp sợ ở mốc sức mạnh tối thượng khi có thể càn quét toàn bộ đội hình địch cùng lúc. Lối chơi của hắn tập trung vào việc kiểm soát bàn đấu bằng các kỹ năng đa dụng như Bàn Tay Tử Thần và Múa Xoay, vừa gây sát thương trực diện vào nhà chính vừa làm choáng kẻ địch tức thì.\nNgười chơi nên ưu tiên các sức mạnh tăng sát thương kỹ năng hoặc gây sát thương trực tiếp lên nhà chính để tối ưu hóa nội tại của Swain.\nSự kết hợp giữa dàn Quân Đoàn Đặc Công bền bỉ và hỏa lực diện rộng mạnh mẽ biến Swain thành một bạo chúa thực thụ, sẵn sàng nghiền nát mọi sự kháng cự của kẻ thù.",
 		"adventurePowerIds": [
 			"P0444",
 			"P0683",
@@ -2041,22 +2771,112 @@
 			["R0104", "R0065", "R0034"],
 			["R0065", "R0111", "R0034"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_3_0/set2/vi_vn/img/cards/02NX007T2-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set2/vi_vn/img/cards/02NX007.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Swain.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set2/vi_vn/img/cards/02NX007.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Swain",
-				"regions": ["Noxus"],
-				"tags": [],
-				"description": "-Swain mang khả năng gây DMG siêu khủng khiếp dựa theo lượng máu đã mất của đối thủ, ban phát dân chủ cực mạnh khi đạt C6 với khả năng đều sát thương cho mọi bài quân đối thủ con nào cũng nhận DMG như nhau.\\n-Các lá bài mạnh: Quân đoàn đặc công là 1 bài quân khá tốt khi gây gây sát thương bằng kĩ năng hoặc dùng để phòng thủ đều hiệu quả, Bàn tay tử thần cho lượng sát thương cực nhiều khi vừa gây sát thương bài quân vừa gây sát thương lên nhà chính, Múa xoay một lá bài cho bạn khả năng ứng biến cực mạnh vừa công tốt nhờ gây sát thương lên nhà chính và choáng siêu tốc.\\n-Các sức mạnh nên chọn là các sức mạnh gây sát thương lên nhà chính hoặc tăng sát thương bài phép và kỹ năng."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +100 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Tinh Thể Tiêu Điểm",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Rồng Phun Lửa Giận Dữ có Mề Đay Nomad.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép bạn thu thập trong chuyến phiêu lưu có Thức Tỉnh Hỏa Thuật.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Múa Xoay có Cổng Yordle.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng khởi điểm cho các anh hùng Noxus.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Noxus.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "01NX040",
+                    "itemCodes": ["I0012"]
+                },
+                {
+                    "cardCode": "02NX008",
+                    "itemCodes": ["I0055","I0024"]
+                },
+                {
+                    "cardCode": "06NX013",
+                    "itemCodes": ["I0040"]
+                },
+                {
+                    "cardCode": "01NX055",
+                    "itemCodes": ["I0113"]
+                },
+                {
+                    "cardCode": "01NX046",
+                    "itemCodes": ["I0078","I0037"]
+                },
+                {
+                    "cardCode": "07NX014",
+                    "itemCodes": ["I0108"]
+                },
+                {
+                    "cardCode": "08NX024",
+                    "itemCodes": ["I0042"]
+                },
+                {
+                    "cardCode": "02NX007",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "08NX003",
+                    "itemCodes": ["I0039"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C050",
@@ -2064,8 +2884,7 @@
 		"cost": 2,
 		"maxStar": 3,
 		"regions": ["Targon"],
-		"tags": [],
-		"description": "-Diana vị tướng với lỗi chơi chạng vạng, là một trong những tướng siêu mạnh ở mốc 3 sao, sức mạnh chủ yếu của Dina đến từ Lưỡi Kiếm Lưu Lạc khi chạng vạng thì cho bài quân +2|0 và đột kích và sẽ được nâng thành song kích nếu bài quân đã có đột kích trước đó, Nhờ vào song kích giúp Diana khuếc đại cực kì nhiều sát thương gây ra từ bài quân.\\n-Diana cũng có lối chơi đa dạng dễ dàng xây dựng cổ vật như đánh buff bằng Thác Bạc với Linh Hồn Vang Vọng và băng cầu, đánh bằng anh hùng với Lời Thề Hộ Vệ hoặc solo carry với Mảnh Sao Biến Đổi và Quái Thú Bên Trong.",
+		"description": "Diana là một trong những vị tướng mạnh nhất ở mốc 3 sao với lối chơi Chạng Vạng đặc trưng, tập trung vào việc khuếch đại sát thương thông qua đặc điểm Song Kích từ sức mạnh Lưỡi Kiếm Lưu Lạc. Khả năng biến các đơn vị Đột Kích thành những cỗ máy tấn công kép cho phép Diana kết liễu đối thủ chỉ trong một lượt ra quân thần tốc.\nVới sự đa dạng trong cách xây dựng, người chơi có thể linh hoạt sử dụng Linh Hồn Vang Vọng để buff chỉ số liên tục hoặc dùng Mảnh Sao Biến Đổi để biến Diana thành một chủ lực solo gánh đội.\nSự kết hợp giữa lượng sát thương đột biến và khả năng tương tác tốt với nhiều loại cổ vật biến Diana thành một lựa chọn ưu việt cho mọi hành trình phiêu lưu.",
 		"adventurePowerIds": [
 			"P0067",
 			"P0451",
@@ -2092,28 +2911,61 @@
 		"runeIds": [],
 		"relicSets": [
 			["R0080", "R0092", "R0045"],
-			["R0061", "R0052", "R0052"],
 			["R0064", "R0043", "R0043"],
 			["R0080", "R0050", "R0027"],
 			["R0080", "R0085", "R0061"],
 			["R0125", "R0058", "R0085"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_3_0/set3/vi_vn/img/cards/03MT056T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set3/vi_vn/img/cards/03MT056.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Diana.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set3/vi_vn/img/cards/03MT056.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Diana",
-				"regions": ["Targon"],
-				"tags": [],
-				"description": "-Diana vị tướng với lỗi chơi chạng vạng, là một trong những tướng siêu mạnh ở mốc 3 sao, sức mạnh chủ yếu của Dina đến từ Lưỡi Kiếm Lưu Lạc khi chạng vạng thì cho bài quân +2|0 và đột kích và sẽ được nâng thành song kích nếu bài quân đã có đột kích trước đó, Nhờ vào song kích giúp Diana khuếc đại cực kì nhiều sát thương gây ra từ bài quân.\\n-Diana cũng có lối chơi đa dạng dễ dàng xây dựng cổ vật như đánh buff bằng Thác Bạc với Linh Hồn Vang Vọng và băng cầu, đánh bằng anh hùng với Lời Thề Hộ Vệ hoặc solo carry với Mảnh Sao Biến Đổi và Quái Thú Bên Trong."
-			}
-		}
+		"bonusStars": [
+    ],
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "03MT073",
+                    "itemCodes": ["I0037", "I0017"]
+                },
+                {
+                    "cardCode": "04MT015",
+                    "itemCodes": ["I0065"]
+                },
+                {
+                    "cardCode": "03MT220",
+                    "itemCodes": ["I0079"]
+                },
+                {
+                    "cardCode": "03MT092",
+                    "itemCodes": ["I0076"]
+                },
+                {
+                    "cardCode": "03MT056",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "03MT094",
+                    "itemCodes": ["I0078"]
+                },
+                {
+                    "cardCode": "03MT035",
+                    "itemCodes": ["I0086"]
+                },
+                {
+                    "cardCode": "03MT089",
+                    "itemCodes": ["I0042"]
+                },
+                {
+                    "cardCode": "03MT075",
+                    "itemCodes": ["I0007","I0038"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C045",
@@ -2121,8 +2973,7 @@
 		"cost": 3,
 		"maxStar": 6,
 		"regions": ["Demacia"],
-		"tags": [],
-		"description": "-Vayne có khả năng tấn công nhiều lần trong 1 vòng đấu trung bình sẽ là 3 nếu bạn combo quen tay, và nếu Vayne của bạn đủ mạnh bạn có thể dứt điểm ngay trong 1 vòng hoặc là thăng cấp ngay sau vòng 2.\\n-Các lá bài mạnh: Thép Demacia lá trang bị cực tốt để kết hợp cùng Nhào lộn để lấy trinh sát, Chó sói tận trung mang khả năng lấp trang bị nhanh chóng với chỉ số tốt đặc biệt khi có bài quân đòng minh hi sinh thì tiêu hao còn được giảm mạnh, Kết án là bài mạnh mẽ với khả năng ra đòn phủ đầu kẻ địch mà không tốn tiêu hao nếu đã tấn công 2 lần trở lên.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh cộng chỉ số hoặc giảm tiêu hao của bài phép.\\n-Các combo 3 lần công thì bạn hãy tấn công bình thương 1 lần khi có lượt tấn công, sau đó dùng nhàu lộn lắp trang bị để phát động tấn công có trinh sát, sau đó thì tấn công thêm 1 lần nữa. Hoặc là khởi đầu tấn côn bằng các bài quân trinh sát, sau đó tấn công thường, sau đó dùng Nhào lộn.",
+		"description": "Vayne sở hữu lối chơi tấn công dồn dập với khả năng phát động nhiều đợt công kích trong cùng một vòng đấu nhờ kỹ năng Nhào Lộn biến ảo. Bằng cách kết hợp linh hoạt giữa các đơn vị Trinh Sát và trang bị Thép Demacia, cô có thể dễ dàng thiết lập chuỗi combo tấn công ba lần liên tiếp để thăng cấp thần tốc và dứt điểm đối thủ ngay từ những vòng đầu.\nNgười chơi nên ưu tiên các sức mạnh cộng chỉ số hoặc giảm tiêu hao bài phép để tối ưu hóa tần suất sử dụng Nhào Lộn và Kết Án.\nSự phối hợp nhịp nhàng giữa dàn quân bền bỉ như Chó Sói Tận Trung và hỏa lực chuẩn xác biến Vayne thành một thợ săn bóng đêm không thể ngăn cản trên mọi chiến trường.",
 		"adventurePowerIds": [
 			"P0111",
 			"P0062",
@@ -2155,22 +3006,112 @@
 			["R0112", "R0059", "R0113"],
 			["R0112", "R0080", "R0059"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06DE021T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06DE021.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vayne.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/4_2_0/set6cde/vi_vn/img/cards/06DE021.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Vayne",
-				"regions": ["Demacia"],
-				"tags": [],
-				"description": "-Vayne có khả năng tấn công nhiều lần trong 1 vòng đấu trung bình sẽ là 3 nếu bạn combo quen tay, và nếu Vayne của bạn đủ mạnh bạn có thể dứt điểm ngay trong 1 vòng hoặc là thăng cấp ngay sau vòng 2.\\n-Các lá bài mạnh: Thép Demacia lá trang bị cực tốt để kết hợp cùng Nhào lộn để lấy trinh sát, Chó sói tận trung mang khả năng lấp trang bị nhanh chóng với chỉ số tốt đặc biệt khi có bài quân đòng minh hi sinh thì tiêu hao còn được giảm mạnh, Kết án là bài mạnh mẽ với khả năng ra đòn phủ đầu kẻ địch mà không tốn tiêu hao nếu đã tấn công 2 lần trở lên.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh cộng chỉ số hoặc giảm tiêu hao của bài phép.\\n-Các combo 3 lần công thì bạn hãy tấn công bình thương 1 lần khi có lượt tấn công, sau đó dùng nhàu lộn lắp trang bị để phát động tấn công có trinh sát, sau đó thì tấn công thêm 1 lần nữa. Hoặc là khởi đầu tấn côn bằng các bài quân trinh sát, sau đó tấn công thường, sau đó dùng Nhào lộn."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+1 Lượt Đổi, +100 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ có Áo Da Tán Đinh, Búa Gỗ hoặc Rìu Nhanh Nhẹn tuy theo tiêu hao của chúng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Cá Chiến có Hải Đăng Triệu Hồi.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu có Băng Quấn Tốc Độ.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Nhào Lộn có Nước Mắt Nữ Thần.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng khởi điểm cho các anh hùng Demacia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Demacia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "06DE029",
+                    "itemCodes": ["I0038"]
+                },
+                {
+                    "cardCode": "06DE032",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE027",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE017",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE034",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE021",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE019",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE025",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06DE018",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C011",
@@ -2178,8 +3119,7 @@
 		"cost": 5,
 		"maxStar": 3,
 		"regions": ["Demacia"],
-		"tags": [],
-		"description": "-Garen sỡ hữu cách đánh trực diện bằng các bài quân mạnh mẽ thông qua ra đòn và nhận được chỉ số sau mỗi lần ra đòn đó.\\n-Các lá bài mạnh: Phi ưng trinh sát, Tinh mắt, Người giữ gươm Laurent. Các bài quân có các chỉ số vượt trội kèm theo khả năng thăng tiến sức mạnh sau những lần ra đòn.\\n-Sức mạnh của Garen thể hiện ở việc ra đòn nhiều lần qua đó cộng dồn chỉ số, lối đánh dễ tiếp cận và dễ triển khai.\\n-Bạn nên chọn các sức mạnh có khả năng tăng chỉ số cho bài quân hoặc hỗ trợ bài quân ra đòn hoặc dàn sân nhanh.",
+		"description": "Garen đại diện cho sức mạnh quân đội Demacia với lối chơi trực diện, tập trung vào việc áp đảo bàn đấu thông qua cơ chế ra đòn và tăng tiến chỉ số liên tục. Mỗi khi các đơn vị như Người Giữ Gươm Laurent hay Phi Ưng Trinh Sát thực hiện giao tranh, chúng sẽ trở nên cứng cáp và mạnh mẽ hơn, biến đội hình của bạn thành một bức tường thép không thể xuyên phá.\nNgười chơi nên ưu tiên các sức mạnh hỗ trợ dàn sân nhanh hoặc các nâng cấp giúp bài quân ra đòn thường xuyên để tối đa hóa lượng chỉ số cộng dồn.\nVới phong cách đánh đơn giản nhưng hiệu quả, Garen là lựa chọn hoàn hảo để nghiền nát đối thủ bằng ưu thế tuyệt đối về thể hình và sức mạnh vật lý.",
 		"adventurePowerIds": [
 			"P0067",
 			"P0451",
@@ -2212,22 +3152,56 @@
 			["R0116", "R0082", "R0026"],
 			["R0080", "R0116", "R0114"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_3_0/set1/vi_vn/img/cards/01DE012T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set1/vi_vn/img/cards/01DE012.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Garen.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_3_0/set1/vi_vn/img/cards/01DE012.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Garen",
-				"regions": ["Demacia"],
-				"tags": [],
-				"description": "-Garen sỡ hữu cách đánh trực diện bằng các bài quân mạnh mẽ thông qua ra đòn và nhận được chỉ số sau mỗi lần ra đòn đó.\\n-Các lá bài mạnh: Phi ưng trinh sát, Tinh mắt, Người giữ gươm Laurent. Các bài quân có các chỉ số vượt trội kèm theo khả năng thăng tiến sức mạnh sau những lần ra đòn.\\n-Sức mạnh của Garen thể hiện ở việc ra đòn nhiều lần qua đó cộng dồn chỉ số, lối đánh dễ tiếp cận và dễ triển khai.\\n-Bạn nên chọn các sức mạnh có khả năng tăng chỉ số cho bài quân hoặc hỗ trợ bài quân ra đòn hoặc dàn sân nhanh."
-			}
-		}
+		"bonusStars": [
+    ],
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "01DE029",
+                    "itemCodes": ["I0047", "I0037"]
+                },
+                {
+                    "cardCode": "02FR010",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "01DE003",
+                    "itemCodes": ["I0079","I0071"]
+                },
+                {
+                    "cardCode": "03DE014",
+                    "itemCodes": ["I0094"]
+                },
+                {
+                    "cardCode": "01DE009",
+                    "itemCodes": ["I0078"]
+                },
+                {
+                    "cardCode": "01DE011",
+                    "itemCodes": ["I0040"]
+                },
+                {
+                    "cardCode": "01DE054",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "01DE012",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01DE033",
+                    "itemCodes": ["I0083"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C080",
@@ -2235,8 +3209,7 @@
 		"cost": 4,
 		"maxStar": 3,
 		"regions": ["Bilgewater"],
-		"tags": [],
-		"description": "-Illaoi có khả năng tấn công mạnh mẽ từ việc tăng chỉ số cho bản thân và xúc tu. Sở hữu sức mạnh phù hợp cùng khả năng cộng dồn mạnh mẽ Illaoi có thể OTK kẻ địch tron 1 vòng đấu với cổ vật phù hơp.\\n-Các lá bài nổi bật: Lời nguyện cầu được hồi đáp, Âm vang biển cả, Con mắt của Nagakabouros. Những lá bài mạnh mẽ cho phép rút bài, triệu hồi xúc tu để phòng thủ đến lúc triệu hồi được Illaoi.\\n-Các sức mạnh nên chọn khi phiêu lưu là cá sức mạnh giúp triệu hồi được Illaoi sớm và giảm tiêu hao bài phép vì các bài phép cũng đóng một vai trò rất quan trọng trong lối chơi của Illaoi.\\n-Về cách chơi và cách combo bạn hãy phòng thủ cho đến vòng 3 và hãy đảm bảo rằng bạn có sẵn 1 bài quân trên sân để có thể combo cùng Mảnh sao biến đổi nếu có và nếu bài quân đó là xúc tu thì càng tốt. Bạn sẽ triệu hồi Illao và dùng Illaoi hấp thụ 1 bài quân đồng mình để bà ta gây đủ lượng DMG cần thiết để lên cấp sau đó hãy tiến công thêm lần nữa là được lúc đấy hãy hấp thụ xúc tu nếu bạn cảm giác bạn đã đủ sát thương kết thúc ván đấu.",
+		"description": "Illaoi mang đến lối chơi bùng nổ dựa trên sự cộng hưởng sức mạnh giữa bản thân và các Xúc Tu, cho phép dứt điểm đối thủ ngay trong một vòng đấu (OTK) nếu được trang bị cổ vật phù hợp. Giai đoạn đầu trận tập trung vào việc phòng thủ và tích lũy tài nguyên bằng các lá bài như Lời Nguyện Cầu Được Hồi Đáp để chuẩn bị cho màn ra mắt đầy uy lực của Nữ Tu Thủy Thần.\nNgười chơi nên ưu tiên các sức mạnh giúp triệu hồi Illaoi sớm hoặc giảm chi phí bài phép để tối ưu hóa khả năng điều khiển Xúc Tu.\nBằng cách sử dụng Mảnh Sao Biến Đổi để hấp thụ đồng minh hoặc chính Xúc Tu của mình, Illaoi sẽ thăng cấp thần tốc và tung ra những cú đập nghìn cân nghiền nát hoàn toàn nhà chính kẻ địch.",
 		"adventurePowerIds": [
 			"P0067",
 			"P0222",
@@ -2269,22 +3242,56 @@
 			["R0001", "R0045", "R0062"],
 			["R0082", "R0026", "R0048"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/06BW006T1-full.png?d4f10",
-				"gameAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/06BW006.png?3991f",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Illaoi.png"
+				"gameAbsolutePath": "http://dd.b.pvp.net/7_4_0/set6/vi_vn/img/cards/06BW006.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Illaoi",
-				"regions": ["Bilgewater"],
-				"tags": [],
-				"description": "-Illaoi có khả năng tấn công mạnh mẽ từ việc tăng chỉ số cho bản thân và xúc tu. Sở hữu sức mạnh phù hợp cùng khả năng cộng dồn mạnh mẽ Illaoi có thể OTK kẻ địch tron 1 vòng đấu với cổ vật phù hơp.\\n-Các lá bài nổi bật: Lời nguyện cầu được hồi đáp, Âm vang biển cả, Con mắt của Nagakabouros. Những lá bài mạnh mẽ cho phép rút bài, triệu hồi xúc tu để phòng thủ đến lúc triệu hồi được Illaoi.\\n-Các sức mạnh nên chọn khi phiêu lưu là cá sức mạnh giúp triệu hồi được Illaoi sớm và giảm tiêu hao bài phép vì các bài phép cũng đóng một vai trò rất quan trọng trong lối chơi của Illaoi.\\n-Về cách chơi và cách combo bạn hãy phòng thủ cho đến vòng 3 và hãy đảm bảo rằng bạn có sẵn 1 bài quân trên sân để có thể combo cùng Mảnh sao biến đổi nếu có và nếu bài quân đó là xúc tu thì càng tốt. Bạn sẽ triệu hồi Illao và dùng Illaoi hấp thụ 1 bài quân đồng mình để bà ta gây đủ lượng DMG cần thiết để lên cấp sau đó hãy tiến công thêm lần nữa là được lúc đấy hãy hấp thụ xúc tu nếu bạn cảm giác bạn đã đủ sát thương kết thúc ván đấu."
-			}
-		}
+		"bonusStars": [
+    ],
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "06BW007",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06BW015T4",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "05BC106",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "06BW035",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "05BW002",
+                    "itemCodes": ["I0047"]
+                },
+                {
+                    "cardCode": "06BW028",
+                    "itemCodes": ["I0083"]
+                },
+                {
+                    "cardCode": "06BW006",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06BW030",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06BW016",
+                    "itemCodes": ["I0076"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C015",
@@ -2292,8 +3299,7 @@
 		"cost": 2,
 		"maxStar": 6,
 		"regions": ["Shurima"],
-		"tags": [],
-		"description": "-Akshan là tướng có lối chơi đặc biệt với sự kết hợp giữa bài quân và địa danh.\\n-Khi địa danh đếm ngược bài quân được tăng sức mạnh và khi hoàn tất đếm ngược địa danh thì kích hoạt 2 thay vì 1 lần.\\n-Akshan có khả năng ra đòn nhanh nhờ bài phép anh hùng để đẩy nhanh địa danh, giảm tiêu hao, dàn quân, rút bài nhờ tư dinh chiến tướng.\\n-Khả năng ra đòn siêu tốc nếu nâng đủ mốc giúp Ashan công hoặc thủ đều khá toàn diện.\\n-Akshan có thể kết hợp với các cổ vật, sức mạnh chọn mục tiêu như Lõi Công Nghệ Hoàn Hảo, Đặc Ân Người Thợ để đẩy nhanh tốc độ lên cấp của Akshan.",
+		"description": "Akshan sở hữu lối chơi chiến thuật độc đáo nhờ sự kết hợp nhuần nhuyễn giữa các đơn vị đồng minh và Địa Danh cổ xưa. Thông qua cơ chế đếm ngược của Tư Dinh Chiến Tướng, Akshan có thể liên tục rút bài, giảm chi phí và cường hóa sức mạnh toàn đội hình, đặc biệt là khả năng kích hoạt hiệu ứng hai lần giúp tạo ra những lợi thế khổng lồ chỉ trong một lượt đi.\nĐể tối ưu hóa, người chơi nên chọn các cổ vật như Lõi Công Nghệ Hoàn Hảo hoặc Đặc Ân Người Thợ nhằm đẩy nhanh tiến độ hoàn thành Địa Danh mỗi khi chọn mục tiêu đồng minh.\nVới khả năng Ra Đòn Nhanh và bộ kỹ năng hỗ trợ toàn diện, Akshan dễ dàng kiểm soát thế trận, biến mọi cuộc đối đầu thành một chuyến phiêu lưu đầy lợi nhuận và uy lực.",
 		"adventurePowerIds": [
 			"P0111",
 			"P0067",
@@ -2320,28 +3326,117 @@
 		"runeIds": [],
 		"relicSets": [
 			["R0125", "R0109", "R0048"],
-			["R0061", "R0052", "R0052"],
 			["R0064", "R0043", "R0043"],
 			["R0125", "R0113", "R0048"],
 			["R0058", "R0061", "R0125"],
 			["R0061", "R0125", "R0113"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_5_0/set4/vi_vn/img/cards/04SH130T2-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_5_0/set4/vi_vn/img/cards/04SH130.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Akshan.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_5_0/set4/vi_vn/img/cards/04SH130.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Akshan",
-				"regions": ["Shurima"],
-				"tags": [],
-				"description": "-Akshan là tướng có lối chơi đặc biệt với sự kết hợp giữa bài quân và địa danh.\\n-Khi địa danh đếm ngược bài quân được tăng sức mạnh và khi hoàn tất đếm ngược địa danh thì kích hoạt 2 thay vì 1 lần.\\n-Akshan có khả năng ra đòn nhanh nhờ bài phép anh hùng để đẩy nhanh địa danh, giảm tiêu hao, dàn quân, rút bài nhờ tư dinh chiến tướng.\\n-Khả năng ra đòn siêu tốc nếu nâng đủ mốc giúp Ashan công hoặc thủ đều khá toàn diện.\\n-Akshan có thể kết hợp với các cổ vật, sức mạnh chọn mục tiêu như Lõi Công Nghệ Hoàn Hảo, Đặc Ân Người Thợ để đẩy nhanh tốc độ lên cấp của Akshan."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+1 Hồi Sinh",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Năng Lượng Máy Xúc.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Bắn Dây Móc có Đồng Hồ Ngưng Đọng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài quân bạn thu thập trong chuyến phiêu lưu có Đặc Ân Tinh Linh.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Địa Danh bạn thu thập trong chuyến phiêu lưu có Biểu Tượng Sức Mạnh và Bình Năng Lượng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+1 Hồi Sinh cho các anh hùng Shurima.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Shurima.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "04SH054",
+                    "itemCodes": ["I0038", "I0124"]
+                },
+                {
+                    "cardCode": "04SH130",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH109",
+                    "itemCodes": ["I0055"]
+                },
+                {
+                    "cardCode": "04SH138",
+                    "itemCodes": ["I0065"]
+                },
+                {
+                    "cardCode": "08SH012",
+                    "itemCodes": ["I0070"]
+                },
+                {
+                    "cardCode": "04SH131",
+                    "itemCodes": ["I0116"]
+                },
+                {
+                    "cardCode": "04SH128",
+                    "itemCodes": ["I0126"]
+                },
+                {
+                    "cardCode": "04SH125",
+                    "itemCodes": ["I0017"]
+                },
+                {
+                    "cardCode": "04SH129",
+                    "itemCodes": ["I0007","I0042"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C036",
@@ -2349,8 +3444,7 @@
 		"cost": 3,
 		"maxStar": 7,
 		"regions": ["Hoa Linh Lục Địa", "Thành Phố Bandle"],
-		"tags": [],
-		"description": "-Teemo Phong Linh Tiểu Quái hay Teemo Hoa Linh vị tướng có lối chơi gài nấm, xé bài, cướp bài của đối thủ. Teemo Hoa Linh  có thể nói là vị tướng mạnh và có lối chơi thú vị nhất nếu bạn đầu tư tài nguyên đầy đủ cho vị tướng này hoặc tù túng khó triển khai nếu thiếu cổ vật hoặc chòm sao.\\n-Sở hữu cho bản thân khả năng tạo bài của kẻ địch khi lá bài đó dính bẫy giúp cho Teemo tạo bài liên tục với tiêu hao được giảm cực nhiều. Với Hohohoho khi kẻ địch rút 1 lá bài với 5+ bẫy thì địch thủ phải rút thêm, kết hợp cùng cổ vật Súng Máy Công Nghệ gài lại bẫy vào bộ bài và với Cây Sáo Tinh Ranh cho phép Teemo gài nấm bằng với lượng sát thương mà con chồn này gây ra. Ngọc Nấm Sinh Sôi còn cho khả năng gài nấm bằng với sát thương gây lên nhà chính. Từ tất cả những thứ trên bạn có thể tạo ra một vòng lặp rút bài vô hạn cho kẻ địch khiến kẻ địch thua vì hết bài nếu nấm của bạn gài vào bộ bài đối thủ đủ nhiều.\\n",
+		"description": "Teemo Phong Linh Tiểu Quái mang đến lối chơi độc đáo và thú vị bậc nhất dựa trên việc gài Nấm, xé bài và đánh cắp tài nguyên của đối thủ. Thông qua khả năng tạo bản sao bài quân địch khi chúng dính bẫy và cơ chế buộc đối phương rút bài liên tục, Teemo có thể tạo ra một vòng lặp vô hạn khiến kẻ địch tự hủy diệt vì cạn kiệt bộ bài ngay từ những vòng đấu đầu tiên.\nĐể tối ưu hóa sức mạnh, người chơi cần đầu tư các cổ vật như Súng Máy Công Nghệ hoặc Cây Sáo Tinh Ranh để gài nấm dựa trên lượng sát thương gây ra, kết hợp cùng Ngọc Nấm Sinh Sôi để nhân bản bẫy thần tốc.\nSự kết hợp giữa việc giảm chi phí bài tạo ra và khả năng kiểm soát tài nguyên đối phương biến Teemo thành một nỗi khiếp sợ thực sự, biến mọi ván đấu thành một màn trình diễn ma thuật đầy khó chịu.",
 		"adventurePowerIds": [
 			"P0683",
 			"P0083",
@@ -2391,22 +3485,140 @@
 			["R0136", "R0061", "R0090"],
 			["R0136", "R0107", "R0090"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB031-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB031.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/TeemoSB.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_8_0/tpoc/vi_vn/img/cards/98SB031.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Spirit Blossom Teemo",
-				"regions": ["SpiritBlossom", "BandleCity"],
-				"tags": [],
-				"description": "-Teemo Phong Linh Tiểu Quái hay Teemo Hoa Linh vị tướng có lối chơi gài nấm, xé bài, cướp bài của đối thủ. Teemo Hoa Linh  có thể nói là vị tướng mạnh và có lối chơi thú vị nhất nếu bạn đầu tư tài nguyên đầy đủ cho vị tướng này hoặc tù túng khó triển khai nếu thiếu cổ vật hoặc chòm sao.\\n-Sở hữu cho bản thân khả năng tạo bài của kẻ địch khi lá bài đó dính bẫy giúp cho Teemo tạo bài liên tục với tiêu hao được giảm cực nhiều. Với Hohohoho khi kẻ địch rút 1 lá bài với 5+ bẫy thì địch thủ phải rút thêm, kết hợp cùng cổ vật Súng Máy Công Nghệ gài lại bẫy vào bộ bài và với Cây Sáo Tinh Ranh cho phép Teemo gài nấm bằng với lượng sát thương mà con chồn này gây ra. Ngọc Nấm Sinh Sôi còn cho khả năng gài nấm bằng với sát thương gây lên nhà chính. Từ tất cả những thứ trên bạn có thể tạo ra một vòng lặp rút bài vô hạn cho kẻ địch khiến kẻ địch thua vì hết bài nếu nấm của bạn gài vào bộ bài đối thủ đủ nhiều.\\n"
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+20 Máu Nhà Chính",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+		{
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+50 Vàng cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+		{
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+2 Hồi Phục cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Diện Mạo Kinh Hoàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Phản Xạ Dưới Áp Lực có Bí Kíp Pháp Sư.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "cry": 20 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu có Rải Nấm.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+		{
+            "req": { "cry": 20 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép có 3 tiêu hao hoặc hơn ngươi thu thập trong chuyến phiêu lưu có Mắt Quỷ.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Cún Nấm Độc có Rải Nấm.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+		{
+            "req": { "frag": 100 },
+            "name": "Món Quà Từ Cõi Xa: Teemo",
+            "desc": "Những anh hùng Hoa Linh Lục Địa khác của bạn có 10% cơ hội tạo ra một lá Trong Chớp Mắt! khi bắt đầu trận đấu.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+		{
+            "req": { "gemstone": 200 },
+            "name": "Món Quà Từ Cõi Xa: Teemo II",
+            "desc": "Những anh hùng Hoa Linh Lục Địa khác của bạn có 20% cơ hội tạo ra một lá Trong Chớp Mắt! khi bắt đầu trận đấu.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 200 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+10 Máu Nhà Chính cho anh hùng Hoa Linh Lục Địa và Thành Phố Bandle.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+200% XP cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        }
+    ],
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "05BC223",
+                    "itemCodes": ["I0055", "I0066"]
+                },
+                {
+                    "cardCode": "98SB001",
+                    "itemCodes": ["I0071"]
+                },
+                {
+                    "cardCode": "98SB003",
+                    "itemCodes": ["I0085"]
+                },
+                {
+                    "cardCode": "05BC100",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "98SB002",
+                    "itemCodes": ["I0007"]
+                },
+                {
+                    "cardCode": "98SB006",
+                    "itemCodes": ["I0088","I0143"]
+                },
+                {
+                    "cardCode": "05BC209",
+                    "itemCodes": ["I0180"]
+                },
+                {
+                    "cardCode": "98SB031",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB004",
+                    "itemCodes": ["I0042"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C019",
@@ -2414,8 +3626,7 @@
 		"cost": 15,
 		"maxStar": 7,
 		"regions": ["Hoa Linh Lục Địa", "Ionia"],
-		"tags": [],
-		"description": "-Yassuo Anh Hùng Lãng Kiếm vị tướng có tiêu hao cao nhất của game với 15 tiêu hao, nhưng cũng sở hữu sức mạnh bá đạo nhất khi cho phép hủy diệt bài quân mạnh nhất của đối thủ khi Yasuo Hoa Linh được triệu hoặc tấn công. Với cơ chế giảm tiêu hao nhờ dẫn bão bạn có thể sử dụng các lá bài có tiêu hao cao cực dễ dàng.\\n-Sức mạnh chủ yếu của Yasuo Hoa Linh đến từ việc hủy diệt kẻ địch và khả năng giảm tiêu hao  nhờ dẫn bão để sử các lá bài mạnh mẽ từ sớm.\\n-Về cổ vật thì với cơ chế dẫn bão càng dùng nhiều lá bài thì giảm tiêu hao càng nhiều, vì thế Lõi Công Nghệ Hoàn Hảo và Hòa Khí Ma Pháp là lựa chọn cực kì tốt. Nếu bạn muốn triệu hồi Yasuo sớm bạn cũng có thể dùng Đệ Tử Bóng Đêm, Găng Tay Linh Hồn hoặc Hàn Băng Mộ. Đương nhiên bạn cũng có thể dùng Phong Kiếm của Yasuo cho Yasuo Anh Hùng Lãng Kiếm để lấy 1 năng lượng khởi đầu.\\n-Về ngọc thì bạn có thể chọn Tàn Tích Gió để các bài quân được giảm tiêu hao nhận thêm chỉ số.\\n-Yasuo có thể dùng tốt các sức mạnh tạo bài 0 tiêu hao như Sản Phẩm Giả Mạo, Sự Cô Độc Ngọt Ngào, Giác Quan Hoang Dã, Lừa Lọc Chí Tử các sức mạnh này cho phép Yasuo Hoa Linh tích dẫn bão dễ dàng hơn.",
+		"description": "Yasuo Anh Hùng Lãng Kiếm sở hữu sức mạnh hủy diệt khi tự động tiêu diệt kẻ địch mạnh nhất mỗi khi triệu hồi hoặc tấn công. Dù có tiêu hao kỷ lục (15 Mana), cơ chế Gom Bão đặc trưng cho phép giảm tiêu hao thần tốc để triển khai các lá bài đắt giá từ sớm.\\nĐể tối ưu hóa, hãy kết hợp các cổ vật như Lõi Công Nghệ Hoàn Hảo, Hòa Khí Ma Pháp cùng các sức mạnh tạo bài 0 phí để tích lũy Dẫn Bão hiệu quả nhất.",
 		"adventurePowerIds": [
 			"P0106",
 			"P0194",
@@ -2456,22 +3667,140 @@
 			["R0125", "R0086", "R0103"],
 			["R0109", "R0048", "R0125"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/98SB037T1-full.png?6afa4",
-				"gameAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/thumb/98SB037.png/250px-98SB037.png?51562",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/YasuoSB.png"
+				"gameAbsolutePath": "http://dd.b.pvp.net/7_4_0/tpoc/vi_vn/img/cards/98SB037.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Spirit Blossom Yasuo",
-				"regions": ["SpiritBlossom"],
-				"tags": [],
-				"description": "-Yassuo Anh Hùng Lãng Kiếm vị tướng có tiêu hao cao nhất của game với 15 tiêu hao, nhưng cũng sở hữu sức mạnh bá đạo nhất khi cho phép hủy diệt bài quân mạnh nhất của đối thủ khi Yasuo Hoa Linh được triệu hoặc tấn công. Với cơ chế giảm tiêu hao nhờ dẫn bão bạn có thể sử dụng các lá bài có tiêu hao cao cực dễ dàng.\\n-Sức mạnh chủ yếu của Yasuo Hoa Linh đến từ việc hủy diệt kẻ địch và khả năng giảm tiêu hao  nhờ dẫn bão để sử các lá bài mạnh mẽ từ sớm.\\n-Về cổ vật thì với cơ chế dẫn bão càng dùng nhiều lá bài thì giảm tiêu hao càng nhiều, vì thế Lõi Công Nghệ Hoàn Hảo và Hòa Khí Ma Pháp là lựa chọn cực kì tốt. Nếu bạn muốn triệu hồi Yasuo sớm bạn cũng có thể dùng Đệ Tử Bóng Đêm, Găng Tay Linh Hồn hoặc Hàn Băng Mộ. Đương nhiên bạn cũng có thể dùng Phong Kiếm của Yasuo cho Yasuo Anh Hùng Lãng Kiếm để lấy 1 năng lượng khởi đầu.\\n-Về ngọc thì bạn có thể chọn Tàn Tích Gió để các bài quân được giảm tiêu hao nhận thêm chỉ số.\\n-Yasuo có thể dùng tốt các sức mạnh tạo bài 0 tiêu hao như Sản Phẩm Giả Mạo, Sự Cô Độc Ngọt Ngào, Giác Quan Hoang Dã, Lừa Lọc Chí Tử các sức mạnh này cho phép Yasuo Hoa Linh tích dẫn bão dễ dàng hơn."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +4 Hồi Phục.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+5 Máu Nhà Chính cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+2 Hồi Phục cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Đồng Xu Cổ Đại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Bóng Ma Chiến Trận có Khiên Hoang Dại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "cry": 20 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép 3+ tiêu hao ngươi thu thập trong chuyến phiêu lưu có Người Vận Bão.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "cry": 20 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Tùy tùng bạn thu thập trong chuyến phiêu lưu với 4+ tiêu hao có Đồng Xu Cổ Đại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Nói Chuyện Với Linh Hồn có Người Vận Bão.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Món Quà Từ Cõi Xa: Yasuo",
+            "desc": "Những anh hùng Hoa Linh Lục Địa khác của bạn có 10% cơ hội tạo ra một lá Cơn Bão Thịnh Nộ khi bắt đầu trận đấu.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 200 },
+            "name": "Món Quà Từ Cõi Xa: Yasuo II",
+            "desc": "Những anh hùng Hoa Linh Lục Địa khác của bạn có 20% cơ hội tạo ra một lá Cơn Bão Thịnh Nộ khi bắt đầu trận đấu.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 200 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+10 Máu Nhà Chính cho anh hùng Hoa Linh Lục Địa và Ionia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+200% XP cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        }
+    ],
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "01IO026",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "06IO001",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB038",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB033",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB036",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB039",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01IO016",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB035",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB037",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C081",
@@ -2479,8 +3808,7 @@
 		"cost": 3,
 		"maxStar": 6,
 		"regions": ["Shurima"],
-		"tags": ["OTK", "Thăng Hoa", "Mất Não", "6 Sao Ko Skin"],
-		"description": "-Azir hoàn đế sa mạc vị tướng có thể khai phá toàn bộ sức mạnh của những anh hùng của Runeterra với C6 Di Sản Shurima của mình.\\n-Lối chơi của Azir là dàn quân nhanh bằng lính cát và tập trung vào việc khôi phục đĩa mặt trời và thăng hoa các tướng. Lối chơi của Azir trước và sau khi có c6 hoàn toàn khác nhau.\\n-Trước khi có c6 Azir là tướng dàn quân đánh nhà thuần túy, tương tự như Viego, Pyke hay Ahri Hoa Linh Azir sẽ đánh bằng lính cát và các bài quân được cường hóa chỉ số từ Hoàng Đế Tấn Công. Bên cạnh đó Azir còn có 1 điều kiện thắng nữa là khôi phục đĩa mặt trời Giúp Azir thăng hoa và đánh bằng bộ bài đế vương. Về bộ cổ vật, thì xây dựng quanh các cổ vật buff cho quân như Bộ Bài Đầy Ắp, Quái Thú Bên Trong, Khiên Đen, Kéo Cắt Ma Quái,... \\n-Sau khi có C6 thì lối chơi của Azir sẽ thay đổi hoàn toàn khi cho phép Azir chia sẻ các cổ vật và vật phẩm cho các tướng hỗ trợ. Lúc này tướng sẽ sở hữu thêm các vật phẩm của Azir nên cực kỳ mạnh mẽ, cổ vật chủ đạo của Azir sẽ là Ngọc Tinh Tú giúp giảm tiêu hao cho tướng và tăng cường chỉ số, bạn có thể dùng 1-2 Ngọc tinh tú tùy lối chơi, các cổ vật khác có thể mang cho Azir là Tìm Thấy Thần Tài, Di Sản Crownguard,Rìu Tăng Sĩ Khí,...\\n-Về các sức sức mạnh nên chọn cho Azir thì nên ưu tiên các sức mạnh hồi năng lượng và giảm tiêu hao như Pháp Thuật và Dòng Chảy Năng Lượng.\\n-Điểm mạnh của Azir là dàn quân nhanh, dễ thủ, dễ tìm thấy các lá bài của bộ bài đế vương trong quá trình phiêu lưu.\\n-Điểm yếu trước khi có c6 là tốn nhiều vòng đấu để khôi phục đĩa mặt trời, thiếu hồi phục, thiếu năng lượng để combo, gặp khó khăn ở các bản đồ có bài quân chỉ số to.\\n-Lên c6 thì thành Vua ko có điểm yếu :))\\n\\n",
+		"description": "Azir - Hoàng Đế Sa Mạc sở hữu khả năng dàn quân thần tốc bằng Lính Cát và thăng hoa sức mạnh qua Đĩa Mặt Trời. Điểm nhấn đột phá nằm ở mốc 6 sao, cho phép Azir chia sẻ toàn bộ Cổ Vật và Vật Phẩm cho tướng hỗ trợ, biến đội hình thành những chiến thần bất bại.\\nHãy ưu tiên Ngọc Tinh Tú để giảm tiêu hao combo và các sức mạnh hồi năng lượng như Pháp Thuật để nhanh chóng khôi phục đế chế Shurima rực rỡ.",
 		"adventurePowerIds": [
 			"P0062",
 			"P0375",
@@ -2502,22 +3830,112 @@
 			["R0044", "R0062", "R0043"],
 			["R0082", "R0026", "R0080"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/thumb/04SH003T3-full.png/1920px-04SH003T3-full.png?31918",
-				"gameAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/04SH003.png?0763e",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Azir.png"
+				"gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/04SH003.webp"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Azir",
-				"regions": [],
-				"tags": ["OTK", "Thăng Hoa", "Mất Não", "6 Sao Ko Skin"],
-				"description": "-Azir hoàn đế sa mạc vị tướng có thể khai phá toàn bộ sức mạnh của những anh hùng của Runeterra với C6 Di Sản Shurima của mình.\\n-Lối chơi của Azir là dàn quân nhanh bằng lính cát và tập trung vào việc khôi phục đĩa mặt trời và thăng hoa các tướng. Lối chơi của Azir trước và sau khi có c6 hoàn toàn khác nhau.\\n-Trước khi có c6 Azir là tướng dàn quân đánh nhà thuần túy, tương tự như Viego, Pyke hay Ahri Hoa Linh Azir sẽ đánh bằng lính cát và các bài quân được cường hóa chỉ số từ Hoàng Đế Tấn Công. Bên cạnh đó Azir còn có 1 điều kiện thắng nữa là khôi phục đĩa mặt trời Giúp Azir thăng hoa và đánh bằng bộ bài đế vương. Về bộ cổ vật, thì xây dựng quanh các cổ vật buff cho quân như Bộ Bài Đầy Ắp, Quái Thú Bên Trong, Khiên Đen, Kéo Cắt Ma Quái,... \\n-Sau khi có C6 thì lối chơi của Azir sẽ thay đổi hoàn toàn khi cho phép Azir chia sẻ các cổ vật và vật phẩm cho các tướng hỗ trợ. Lúc này tướng sẽ sở hữu thêm các vật phẩm của Azir nên cực kỳ mạnh mẽ, cổ vật chủ đạo của Azir sẽ là Ngọc Tinh Tú giúp giảm tiêu hao cho tướng và tăng cường chỉ số, bạn có thể dùng 1-2 Ngọc tinh tú tùy lối chơi, các cổ vật khác có thể mang cho Azir là Tìm Thấy Thần Tài, Di Sản Crownguard,Rìu Tăng Sĩ Khí,...\\n-Về các sức sức mạnh nên chọn cho Azir thì nên ưu tiên các sức mạnh hồi năng lượng và giảm tiêu hao như Pháp Thuật và Dòng Chảy Năng Lượng.\\n-Điểm mạnh của Azir là dàn quân nhanh, dễ thủ, dễ tìm thấy các lá bài của bộ bài đế vương trong quá trình phiêu lưu.\\n-Điểm yếu trước khi có c6 là tốn nhiều vòng đấu để khôi phục đĩa mặt trời, thiếu hồi phục, thiếu năng lượng để combo, gặp khó khăn ở các bản đồ có bài quân chỉ số to.\\n-Lên c6 thì thành Vua ko có điểm yếu :))\\n\\n"
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +1 Lượt Đổi.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Kỷ Vật Thăng Hoa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Cát Lún có Đặc Ân Đế Vương.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép ngươi thu thập trong chuyến phiêu lưu với 3+ tiêu hao có Cờ Hiệu Giao Tranh.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Chiến Binh Cát có Áo Da Tán Đinh.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+5 Máu Nhà Chính cho các anh hùng Shurima.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Shurima.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "04SH026",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH072",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH038",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH003",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH012",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH109",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH077",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH058",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "04SH043",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C016",
@@ -2525,8 +3943,7 @@
 		"cost": 8,
 		"maxStar": 7,
 		"regions": ["Hoa Linh Lục Địa", "Ionia"],
-		"tags": [],
-		"description": "-Master Yi Cổ Kiếm Tông Sư hay Master Yi Hoa Linh là vị tướng có lối chơi đánh bằng chỉ số và là tướng sở hữu cơ chế Nhu Động khi dùng bài phép lên đồng minh thì triệu hồi 1 bài quân cảm tử và dùng bài phép lên bài quân đó, giúp cho giá trị bài phép của Yi mang lại là gấp đôi hoặc gấp 4 nếu bạn có dùng Bí Kỹ.\\n-Như đã nói bài phép tăng chỉ số đối với Yi mang lại giá trị gấp nhiều lần kèm theo việc triệu hồi được rất nhiều bài quân, do đó Yi sẽ luôn chủ động trong cả lúc tấn công lẫn phòng thủ. Và do cơ chế nhu động bài phép được dùng thêm 1 lần nữa nên nghĩa là các vật phẩm trên bài phép sẽ kích hoạt thêm 1 lần trong lúc nhu động nó có thể là rút bài, ban vật phẩm thường, hiếm, sử thi.\\n-Master Yi Hoa Linh còn mạnh hơn nhiều nếu bạn sử dụng Ngọc hợp lý cho lối chơi, ví dụ bạn có thể kết hợp ngọc Bí Mật Của Linh Hồn và cổ vật Bí Kỹ thì lượng chỉ số một bài phép mang lại sẽ gấp 4, Bài Học Số Hai kích hoạt thêm nhu động khi đó 1 bài phép sẽ mang lại giá trị gấp 8 lần bình thường. Hoặc cũng có thể dùng ngọc Giáp Linh Hồn kèm Sức Mạnh Khỉ Đá giúp bài quân của bạn vừa cứng cáp vừa có lượng sát thương cực kì lớn.",
+		"description": "Master Yi Hoa Linh tận dụng cơ chế Nhu Động để nhân đôi sức mạnh các bài phép tăng chỉ số, đồng thời dàn quân cảm tử liên tục để làm chủ mọi tình huống. Khi kết hợp với các cổ vật như Bí Kỹ hoặc ngọc Bí Mật Của Linh Hồn, giá trị buff có thể đạt ngưỡng gấp 4 hoặc gấp 8 lần bình thường.\\nLối chơi này không chỉ mang lại lượng sát thương khổng lồ mà còn giúp kích hoạt vật phẩm trên bài phép nhiều lần, biến Yi thành một Tông Sư không thể ngăn cản trên chiến trường.",
 		"adventurePowerIds": [
 			"P0067",
 			"P0068",
@@ -2567,22 +3984,140 @@
 			["R0082", "R0026", "R0054"],
 			["R0145", "R0125", "R0054"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/98SB030T2-full.png?6d23a",
-				"gameAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/thumb/98SB030.png/250px-98SB030.png?e0e48",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Master+YiSB.png"
+				"gameAbsolutePath": "http://dd.b.pvp.net/7_4_0/tpoc/vi_vn/img/cards/98SB030.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Spirit Blossom Master Yi",
-				"regions": ["SpiritBlossom", "Ionia"],
-				"tags": [],
-				"description": "-Master Yi Cổ Kiếm Tông Sư hay Master Yi Hoa Linh là vị tướng có lối chơi đánh bằng chỉ số và là tướng sở hữu cơ chế Nhu Động khi dùng bài phép lên đồng minh thì triệu hồi 1 bài quân cảm tử và dùng bài phép lên bài quân đó, giúp cho giá trị bài phép của Yi mang lại là gấp đôi hoặc gấp 4 nếu bạn có dùng Bí Kỹ.\\n-Như đã nói bài phép tăng chỉ số đối với Yi mang lại giá trị gấp nhiều lần kèm theo việc triệu hồi được rất nhiều bài quân, do đó Yi sẽ luôn chủ động trong cả lúc tấn công lẫn phòng thủ. Và do cơ chế nhu động bài phép được dùng thêm 1 lần nữa nên nghĩa là các vật phẩm trên bài phép sẽ kích hoạt thêm 1 lần trong lúc nhu động nó có thể là rút bài, ban vật phẩm thường, hiếm, sử thi.\\n-Master Yi Hoa Linh còn mạnh hơn nhiều nếu bạn sử dụng Ngọc hợp lý cho lối chơi, ví dụ bạn có thể kết hợp ngọc Bí Mật Của Linh Hồn và cổ vật Bí Kỹ thì lượng chỉ số một bài phép mang lại sẽ gấp 4, Bài Học Số Hai kích hoạt thêm nhu động khi đó 1 bài phép sẽ mang lại giá trị gấp 8 lần bình thường. Hoặc cũng có thể dùng ngọc Giáp Linh Hồn kèm Sức Mạnh Khỉ Đá giúp bài quân của bạn vừa cứng cáp vừa có lượng sát thương cực kì lớn."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+8 Hồi Phục",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+5 Máu Nhà Chính cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+50 Vàng cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Lựa Chọn Của Tinh Tú.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Ảo Ma có Thấu Kính Viễn Thị",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "cry": 20 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài quân bạn thu thập trong chuyến phiêu lưu có Đặc Ân Tinh Linh.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "cry": 20 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép ngươi tìm thấy trong cuộc phiêu lưu chọn đồng minh làm mục tiêu có Khiên Chắc Chắn.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Bóng Ma Của Kiếm Sĩ có Đao Đụng Độ.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Món Quà Từ Cõi Xa: Master Yi",
+            "desc": "Những anh hùng Hoa Linh Lục Địa khác của bạn có 10% cơ hội tạo ra một lá Bài Học Đau Thương 1 tiêu hao khi bắt đầu trận đấu.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 200 },
+            "name": "Món Quà Từ Cõi Xa: Master Yi II",
+            "desc": "Những anh hùng Hoa Linh Lục Địa khác của bạn có 20% cơ hội tạo ra một lá Bài Học Đau Thương 1 tiêu hao khi bắt đầu trận đấu.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 200 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+100 Vàng cho anh hùng Hoa Linh Lục Địa và Ionia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "frag": 100 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+200% XP cho các anh hùng Hoa Linh Lục Địa.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        }
+    ],
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "01IO022",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB010",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB024",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB025",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB027",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB026",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB009",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "08IO019",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "98SB030",
+                    "itemCodes": []
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C013",
@@ -2590,8 +4125,7 @@
 		"cost": 5,
 		"maxStar": 6,
 		"regions": ["Ionia"],
-		"tags": [],
-		"description": "-Sett có lối chơi combo mạnh mẽ khi bạn sử dụng 6 năng lượng bạn sẽ nhận được thêm rất nhiều chỉ số và khi sử dụng 12 năng lượng bạn sẽ tiến công.\\n-Các lá bài mạnh mẽ: Đấu sĩ hạng chuyên là 1 bài quân phòng thủ tốt và còn có khả năng tạo xu, Đổi người nên ưu tiên sử dụng để phòng thủ vừa bảo toàn bài quân vừa thêm ngọc năng lượng, Bảo an trận chiến lá bài giúp giải quyết vấn đề thừa năng lượng của Sett ở giai đoạn sau khi kích hoạt mốc 6 và mốc 12 năng lượng của Sett dễ dàng.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh giảm tiêu hao bài phép hoặc bài được tạo để đảm bảo bạn có thể dùng xu mọi lúc giữ nhịp combo hoặc các sức mạnh cộng ngọc năng lượng.\\n-Sức mạnh của Sett có khả năng tạo xu và cộng chỉ số nhiều nên bạn sẽ không cần lo việc thiếu năng lượng, hãy tích khoảng 3-5 xu để kích hoạt đủ các mốc sức mạnh cần thiết và câu kéo đến giai đoạn sau.",
+		"description": "Sett làm chủ trận chiến bằng lối chơi combo bùng nổ, nhận chỉ số cực đại khi tiêu thụ 6 năng lượng và tung đòn Tiến Công ở mốc 12 năng lượng. Chìa khóa chiến thắng nằm ở việc tích lũy từ 3-5 Xu để kích hoạt các mốc sức mạnh quan trọng và duy trì nhịp độ trận đấu.\\nHãy ưu tiên các sức mạnh giảm tiêu hao hoặc cộng Ngọc năng lượng để đảm bảo Sett luôn có đủ tài nguyên triển khai các kỹ thuật đấu sĩ và kết liễu đối thủ ở giai đoạn sau.",
 		"adventurePowerIds": [
 			"P0067",
 			"P0111",
@@ -2624,22 +4158,112 @@
 			["R0135", "R0109", "R0048"],
 			["R0109", "R0048", "R0080"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/07IO011T1-full.png?a556ad",
-				"gameAbsolutePath": "https://wiki.leagueoflegends.com/en-us/images/07IO011.png?a556a",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Sett.png"
+				"gameAbsolutePath": "http://dd.b.pvp.net/4_3_0/set7/vi_vn/img/cards/07IO011.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Sett",
-				"regions": ["Ionia"],
-				"tags": [],
-				"description": "-Sett có lối chơi combo mạnh mẽ khi bạn sử dụng 6 năng lượng bạn sẽ nhận được thêm rất nhiều chỉ số và khi sử dụng 12 năng lượng bạn sẽ tiến công.\\n-Các lá bài mạnh mẽ: Đấu sĩ hạng chuyên là 1 bài quân phòng thủ tốt và còn có khả năng tạo xu, Đổi người nên ưu tiên sử dụng để phòng thủ vừa bảo toàn bài quân vừa thêm ngọc năng lượng, Bảo an trận chiến lá bài giúp giải quyết vấn đề thừa năng lượng của Sett ở giai đoạn sau khi kích hoạt mốc 6 và mốc 12 năng lượng của Sett dễ dàng.\\n-Các sức mạnh nên chọn khi phiêu lưu là các sức mạnh giảm tiêu hao bài phép hoặc bài được tạo để đảm bảo bạn có thể dùng xu mọi lúc giữ nhịp combo hoặc các sức mạnh cộng ngọc năng lượng.\\n-Sức mạnh của Sett có khả năng tạo xu và cộng chỉ số nhiều nên bạn sẽ không cần lo việc thiếu năng lượng, hãy tích khoảng 3-5 xu để kích hoạt đủ các mốc sức mạnh cần thiết và câu kéo đến giai đoạn sau."
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+10 Máu Nhà Chính, +4 Hồi Phục.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Tinh Thể Tiêu Điểm",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Phong Kiếm Hiền Nhân có Trứng Rồng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép ngươi thu thập trong chuyến phiêu lưu với 4+ tiêu hao có Hoàn Trả.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Xu có Đồng Hồ Ngưng Đọng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+4 Hồi Phục cho các anh hùng Ionia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Ionia.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "04IO015",
+                    "itemCodes": ["I0078"]
+                },
+                {
+                    "cardCode": "07IO013",
+                    "itemCodes": ["I0076","I0075"]
+                },
+                {
+                    "cardCode": "07IO020",
+                    "itemCodes": ["I0094"]
+                },
+                {
+                    "cardCode": "07IO009",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "07IO012",
+                    "itemCodes": ["I0037"]
+                },
+                {
+                    "cardCode": "04IO006",
+                    "itemCodes": ["I0040","I0039"]
+                },
+                {
+                    "cardCode": "07IO017",
+                    "itemCodes": ["I0055"]
+                },
+                {
+                    "cardCode": "07IO011",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01IO016",
+                    "itemCodes": ["I0157"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C041",
@@ -2647,8 +4271,7 @@
 		"cost": 4,
 		"maxStar": 6,
 		"regions": ["Runeterra"],
-		"tags": [],
-		"description": "-Jhin mang một lối chơi cân bằng bằng đến hoàn hảo khi có đủ mọi thứ mà người chơi cần từ bài quân mạnh mẽ, bài phép gây sát thương, hiệu ứng khống chế, hồi phuc.\\n-Các lá bài nổi bật như: Hải tặc thiện xạ, Hậu đài viên, Phát bắn thần bí, Yone truy phong. Thật sự đối với tôi đây là bộ bài hoàn hảo nhất không có là nào lá yếu hay thừa thải cả, các lá bài đều nằm ở mức ổn cho đến tốt.\\n-Lối chơi chủ đạo của Jhin là gây sát thương rỉa bằng bài phép và kỹ năng cùng khả năng phòng thủ vượt trội với lượng choáng dồi dào khi bạn có 2 lá choáng bằng kỹ năng và khi sử dụng kỹ năng sẽ tạo ra thêm lá choáng.\\n-Các sức mạnh nên chọn khi phiêu lưu: Xả phép hành loạt, Hồi kết bùng nổ, Luồng gió nguyên tố, Hỏa cuồng. Các sức mạnh phụ trợ cho việc cấu máu đối phương nhanh chóng.\\n\\n",
+		"description": "Jhin sở hữu lối chơi cân bằng tuyệt đối với bộ bài toàn diện từ sát thương, khống chế cho đến hồi phục. Sức mạnh chủ đạo của Nghệ Sĩ Tử Thần nằm ở khả năng cấu rỉa liên tục bằng kỹ năng và thiết lập hàng phòng ngự kiên cố thông qua lượng hiệu ứng Choáng dồi dào.\\nHãy ưu tiên các sức mạnh như Luồng Gió Nguyên Tố hoặc Xả Phép Hàng Loạt để tối đa hóa sát thương kỹ năng, biến mọi vòng đấu thành một màn trình diễn nghệ thuật đầy chết chóc.",
 		"adventurePowerIds": [
 			"P0326",
 			"P0683",
@@ -2681,22 +4304,112 @@
 			["R0111", "R0034", "R0048"],
 			["R0080", "R0023", "R0034"]
 		],
-		"startingDeck": [],
 		"assets": [
 			{
 				"fullAbsolutePath": "https://dd.b.pvp.net/6_5_0/set6/vi_vn/img/cards/06RU002T1-full.png",
-				"gameAbsolutePath": "https://dd.b.pvp.net/6_5_0/set6/vi_vn/img/cards/06RU002.png",
-				"avatar": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jhin.png"
+				"gameAbsolutePath": "https://dd.b.pvp.net/6_5_0/set6/vi_vn/img/cards/06RU002.png"
 			}
 		],
-		"translations": {
-			"en": {
-				"name": "Jhin",
-				"regions": ["Runeterra"],
-				"tags": [],
-				"description": "-Jhin mang một lối chơi cân bằng bằng đến hoàn hảo khi có đủ mọi thứ mà người chơi cần từ bài quân mạnh mẽ, bài phép gây sát thương, hiệu ứng khống chế, hồi phuc.\\n-Các lá bài nổi bật như: Hải tặc thiện xạ, Hậu đài viên, Phát bắn thần bí, Yone truy phong. Thật sự đối với tôi đây là bộ bài hoàn hảo nhất không có là nào lá yếu hay thừa thải cả, các lá bài đều nằm ở mức ổn cho đến tốt.\\n-Lối chơi chủ đạo của Jhin là gây sát thương rỉa bằng bài phép và kỹ năng cùng khả năng phòng thủ vượt trội với lượng choáng dồi dào khi bạn có 2 lá choáng bằng kỹ năng và khi sử dụng kỹ năng sẽ tạo ra thêm lá choáng.\\n-Các sức mạnh nên chọn khi phiêu lưu: Xả phép hành loạt, Hồi kết bùng nổ, Luồng gió nguyên tố, Hỏa cuồng. Các sức mạnh phụ trợ cho việc cấu máu đối phương nhanh chóng.\\n\\n"
-			}
-		}
+		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+1 Lượt Đổi, +100 Vàng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Gươm Huyết Trượng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Hậu Đài Viên có Vật Tổ Bóng Đêm.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Bài phép bạn thu thập trong chuyến phiêu lưu có Máy Quét Oracle.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Phát Bắn Thần Bí có Phong Ấn Tích Tụ II.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+50 Vàng Khởi Điểm cho các anh hùng Runeterra",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Runeterra.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
+    ],
+
+
+"startingDeck": {
+            "baseCards": [
+                {
+                    "cardCode": "01PZ027",
+                    "itemCodes": ["I0062"]
+                },
+                {
+                    "cardCode": "02BW060",
+                    "itemCodes": ["I0042","I0078"]
+                },
+                {
+                    "cardCode": "06IO003",
+                    "itemCodes": ["I0007"]
+                },
+                {
+                    "cardCode": "01PZ052",
+                    "itemCodes": ["I0083"]
+                },
+                {
+                    "cardCode": "01PZ054",
+                    "itemCodes": ["I0041","I0047"]
+                },
+                {
+                    "cardCode": "01FR036",
+                    "itemCodes": ["I0075"]
+                },
+                {
+                    "cardCode": "06NX015",
+                    "itemCodes": ["I0038"]
+                },
+                {
+                    "cardCode": "06RU002",
+                    "itemCodes": []
+                },
+                {
+                    "cardCode": "01IO056",
+                    "itemCodes": ["I0079"]
+                }
+            ]
+        }
+
+
 	},
 	{
 		"championID": "C001",

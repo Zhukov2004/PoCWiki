@@ -962,8 +962,8 @@
   {
     "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0896.png",
     "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0896-full.png",
-    "description": "Bắt Đầu Trận Đấu: Tạo 1 lá <link=card.self><style=AssociatedCard>Renekton</style></link> và 1 lá <style=Variable>CardRef</style> trong bộ bài của ngươi, sau đó ban tất cả vật phẩm của lá <style=Variable>CardRef</style> cho các anh hùng khác trên tay và trên bộ bài của ngươi.<br>",
-    "descriptionRaw": "Bắt Đầu Trận Đấu: Tạo 1 lá Renekton và 1 lá CardRef trong bộ bài của ngươi, sau đó ban tất cả vật phẩm của lá CardRef cho các anh hùng khác trên tay và trên bộ bài của ngươi.",
+    "description": "Bắt Đầu Trận Đấu: Tạo 1 lá <link=card.self><style=AssociatedCard>Renekton</style></link> và 1 lá <style=Variable>Azir</style> trong bộ bài của ngươi, sau đó ban tất cả vật phẩm của lá <style=Variable>CardRef</style> cho các anh hùng khác trên tay và trên bộ bài của ngươi.<br>",
+    "descriptionRaw": "Bắt Đầu Trận Đấu: Tạo 1 lá Renekton và 1 lá Nasus trong bộ bài của ngươi, sau đó ban tất cả vật phẩm của lá Azir cho các anh hùng khác trên tay và trên bộ bài của ngươi.",
     "name": "Di Sản của Shurima",
     "powerCode": "P0896",
     "rarity": "HUYỀN THOẠI",
@@ -2142,8 +2142,8 @@
   {
     "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0693.png",
     "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0693-full.png",
-    "description": "Lá Bài Định Mệnh của ngươi được thay thế bởi phiên bản nâng cấp: <style=Variable>CardRef</style>, <style=Variable>CardRef</style>, và <style=Variable>CardRef</style>.",
-    "descriptionRaw": "Lá Bài Định Mệnh của ngươi được thay thế bởi phiên bản nâng cấp: CardRef, CardRef, và CardRef.",
+    "description": "Lá Bài Định Mệnh của ngươi được thay thế bởi phiên bản nâng cấp: <style=Variable>Bài Xanh</style>, <style=Variable>Bài Đỏ</style>, và <style=Variable>Bài Vàng</style>.",
+    "descriptionRaw": "Lá Bài Định Mệnh của ngươi được thay thế bởi phiên bản nâng cấp: Bài Xanh, Bài Đỏ, và Bài Vàng.",
     "name": "Định Mệnh",
     "powerCode": "P0693",
     "rarity": "HUYỀN THOẠI",
@@ -8565,5 +8565,13 @@
     "powerCode": "P3091",
     "rarity": "HIẾM",
     "rarityRef": "Rare"
-  }
+  },
+  {
+		"powerCode": "P09000",
+		"rarity": "Hiếm",
+		"assetFullAbsolutePath": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/runeStar.png",
+		"descriptionRaw": "Đây là ô để gắn Sao Ngọc",
+		"name": "Sao Ngọc",
+		"assetAbsolutePath": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/runeStar.png"
+	}
 ]

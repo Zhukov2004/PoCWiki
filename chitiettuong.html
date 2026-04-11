@@ -114,10 +114,27 @@
             GEM: "https://wiki.leagueoflegends.com/en-us/images/thumb/Gemstone_LoR_Icon.png/200px-Gemstone_LoR_Icon.png?68919" // Đá quý
         };
 
-        const upgradeData = [
-            { frag: 10 }, { frag: 20 }, { frag: 40 }, 
-            { frag: 60, cry: 10 }, { cry: 40, frag: 80 }, { frag: 100, nova: 1 }
-        ];
+        const UPGRADE_TEMPLATES = {
+    // Dành cho tướng 6* và 7* hiện đại (có dùng Crystal, Nova, Gemstone)
+    MODERN: [
+        { frag: 10 },                                      // 1 sao
+        { frag: 60 },                                      // 2 sao
+        { frag: 80 },                                      // 3 sao
+        { cry: 10 },                             // 4 sao
+        { cry: 50 },                             // 5 sao
+        { nova: 1 },                            // 6 sao
+        { cry: 5 }                   // 7 sao (Giả định thông số)
+    ],
+    // Dành cho các tướng cũ chỉ dừng ở 3 sao
+    CLASSIC: [
+        { frag: 10 },                                      // 1 sao
+        { frag: 20 },                                      // 2 sao
+        { frag: 40 },                                      // 3 sao
+        { frag: 60, cry: 10 },                             // 4 sao
+        { cry: 40, frag: 80 },                             // 5 sao
+        { frag: 100, nova: 1 }
+    ]
+};
 
         // Hàm chuyển Tab
         window.switchTab = (tab) => {
@@ -247,43 +264,93 @@
                             }).join('')}
                         </div>
                     </div>
+                    <div>
+
+                ${renderRuneTable()} 
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+                    </div>
                 </div>
             `;
         }
+        function renderRuneTable() {
+    // Nếu không có runeIds hoặc mảng trống thì không hiện gì cả
+    if (!hero.runeIds || hero.runeIds.length === 0) return '';
 
-        function renderMainTable() {
-            return `
-                <table class="wiki-table">
-                    <thead><tr><th class="w-24">Cấp</th><th class="w-56">Yêu Cầu</th><th>Chi Tiết Kỹ Năng</th></tr></thead>
-                    <tbody>
-                        ${hero.powerStarIds.map((id, index) => {
-                            const p = getInfo(id, allPowers, "powerCode");
-                            const req = upgradeData[index] || {};
-                            let reqHTML = "";
-                            if (req.frag || req.cry || req.nova) {
-                                const f = req.frag ? `<div class="req-flex"><img src="${ICON.FRAG}" class="req-icon"> ${req.frag}</div>` : "";
-                                const c = req.cry ? `<div class="req-flex"><img src="${ICON.CRYSTAL}" class="nova-icon"> ${req.cry}</div>` : "";
-                                const n = req.nova ? `<div class="req-flex"><img src="${ICON.NOVA}" class="nova-icon"> ${req.nova}</div>` : "";
-                                if (index === 4) reqHTML = `<div class="req-flex">${c}<span class="plus">+</span>${f}</div>`;
-                                else if (index === 5) reqHTML = `<div class="req-flex">${f}<span class="plus">+</span>${n}</div>`;
-                                else reqHTML = `<div class="req-flex">${f}${ (req.frag && req.cry) ? '<span class="plus">+</span>' : '' }${c}</div>`;
-                            } else { reqHTML = `<span class="text-gray-600 italic text-xs">Mặc định</span>`; }
+    return `
+        <h2 class="section-title">Ngọc Bổ Trợ Khuyên Dùng</h2>
+        <table class="wiki-table mb-10">
+            <thead>
+                <tr>
+                    <th class="w-24">Biểu tượng</th>
+                    <th class="w-64">Tên Ngọc</th>
+                    <th>Chi Tiết Sức Mạnh</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${hero.runeIds.map(id => {
+                    const p = getInfo(id, allPowers, "powerCode");
+                    return `
+                        <tr>
+                            <td class="text-center">
+                                <img src="${p.assetAbsolutePath}" class="w-12 h-12 object-contain mx-auto">
+                            </td>
+                            <td>
+                                <div class="text-white font-bold ">${p.name}</div>
+                                
+                            </td>
+                            <td class="text-sm text-gray-400 leading-relaxed">
+                                ${p.descriptionRaw}
+                            </td>
+                        </tr>`;
+                }).join('')}
+            </tbody>
+        </table>`;
+}
+function renderMainTable() {
+    // Tự động chọn template dựa trên số lượng powerStarIds của hero
+    const template = hero.powerStarIds.length > 3 ? UPGRADE_TEMPLATES.MODERN : UPGRADE_TEMPLATES.CLASSIC;
 
-                            return `
-                                <tr>
-                                    <td class="star-col">${index + 1}★</td>
-                                    <td class="req-col">${reqHTML}</td>
-                                    <td>
-                                        <div class="flex items-center gap-6">
-                                            <img src="${p.assetAbsolutePath}" class="w-16 h-16 object-contain">
-                                            <div><div class="text-lg font-bold text-white uppercase">${p.name}</div><div class="text-sm text-gray-400 mt-1">${p.descriptionRaw}</div></div>
-                                        </div>
-                                    </td>
-                                </tr>`;
-                        }).join('')}
-                    </tbody>
-                </table>`;
-        }
+    return `
+        <table class="wiki-table">
+            <thead><tr><th class="w-24">Cấp</th><th class="w-56">Yêu Cầu</th><th>Chi Tiết Kỹ Năng</th></tr></thead>
+            <tbody>
+                ${hero.powerStarIds.map((id, index) => {
+                    const p = getInfo(id, allPowers, "powerCode");
+                    const req = template[index] || {};
+                    let reqHTML = "";
+
+                    if (req.frag || req.cry || req.nova || req.gem) {
+                        const items = [];
+                        if (req.cry) items.push(`<div class="req-flex"><img src="${ICON.CRYSTAL}" class="nova-icon"> ${req.cry}</div>`);
+                        if (req.frag) items.push(`<div class="req-flex"><img src="${ICON.FRAG}" class="req-icon"> ${req.frag}</div>`);
+                        if (req.nova) items.push(`<div class="req-flex"><img src="${ICON.NOVA}" class="nova-icon"> ${req.nova}</div>`);
+                        if (req.gem) items.push(`<div class="req-flex"><img src="${ICON.GEM}" class="gem-icon"> ${req.gem}</div>`);
+                        
+                        // Nối các icon bằng dấu cộng
+                        reqHTML = `<div class="flex flex-wrap items-center gap-1">${items.join('<span class="plus">+</span>')}</div>`;
+                    } else {
+                        reqHTML = `<span class="text-gray-600 italic text-xs">Mặc định</span>`;
+                    }
+
+                    return `
+                        <tr>
+                            <td class="star-col">${index + 1}★</td>
+                            <td class="req-col">${reqHTML}</td>
+                            <td>
+                                <div class="flex items-center gap-6">
+                                    <img src="${p.assetAbsolutePath}" class="w-16 h-16 object-contain">
+                                    <div>
+                                        <div class="text-lg font-bold text-white uppercase">${p.name}</div>
+                                        <div class="text-sm text-gray-400 mt-1">${p.descriptionRaw}</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>`;
+                }).join('')}
+            </tbody>
+        </table>`;
+}
         // Hàm tìm thông tin card từ cardCode
         function getCardInfo(code) {
     if (allCards && allCards.length > 0) {
@@ -348,10 +415,16 @@
                     // Logic hiển thị icon linh hoạt theo dữ liệu JSON
                     let reqHTML = "";
                     if (s.req.gemstone) {
-                        reqHTML = `<div class="req-flex"><img src="${ICON.GEM}" class="gem-icon"> ${s.req.gemstone}</div>`;
-                    } else if (s.req.frag) {
-                        reqHTML = `<div class="req-flex"><img src="${ICON.FRAG}" class="req-icon"> ${s.req.frag}</div>`;
-                    }
+    reqHTML = `<div class="req-flex"><img src="${ICON.GEM}" class="gem-icon"> ${s.req.gemstone}</div>`;
+} else if (s.req.frag) {
+    reqHTML = `<div class="req-flex"><img src="${ICON.FRAG}" class="req-icon"> ${s.req.frag}</div>`;
+} else if (s.req.cry) {
+    // Sửa ICON.CRY -> ICON.CRYSTAL và s.req.frag -> s.req.cry
+    reqHTML = `<div class="req-flex"><img src="${ICON.CRYSTAL}" class="nova-icon"> ${s.req.cry}</div>`;
+} else if (s.req.nova) {
+    // Thêm luôn trường hợp Ngọc Tím nếu cần
+    reqHTML = `<div class="req-flex"><img src="${ICON.NOVA}" class="nova-icon"> ${s.req.nova}</div>`;
+}
 
                     return `
                         <tr>
