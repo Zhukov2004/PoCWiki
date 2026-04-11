@@ -8570,8 +8570,18 @@
 		"powerCode": "P09000",
 		"rarity": "Hiếm",
 		"assetFullAbsolutePath": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/runeStar.png",
-		"descriptionRaw": "Đây là ô để gắn Sao Ngọc",
+		"descriptionRaw": "Trang bị Ngọc vào nhánh này để nhận sức mạnh",
 		"name": "Sao Ngọc",
 		"assetAbsolutePath": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/runeStar.png"
-	}
+	},
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0081.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0081-full.png",
+    "description": "Khi ngươi triệu hồi 1 đồng minh, trao <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Thách Đấu</style></link> cho đồng minh đó trong vòng này.",
+    "descriptionRaw": "Khi ngươi triệu hồi 1 đồng minh, trao Thách Đấu cho đồng minh đó trong vòng này.",
+    "name": "Kiếm Sư",
+    "powerCode": "P9999",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  }
 ]

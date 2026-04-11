@@ -115,6 +115,12 @@
         };
 
         const UPGRADE_TEMPLATES = {
+            ASOL: [
+        { frag: 10 },  // 1 sao
+        { frag: 30 },  // 2 sao
+        { frag: 60 },  // 3 sao
+        { frag: 100 }  // 4 sao (Mốc bá đạo nhất của Sol)
+    ],
     // Dành cho tướng 6* và 7* hiện đại (có dùng Crystal, Nova, Gemstone)
     MODERN: [
         { frag: 10 },                                      // 1 sao
@@ -309,7 +315,16 @@
 }
 function renderMainTable() {
     // Tự động chọn template dựa trên số lượng powerStarIds của hero
-    const template = hero.powerStarIds.length > 3 ? UPGRADE_TEMPLATES.MODERN : UPGRADE_TEMPLATES.CLASSIC;
+    // Logic chọn template thông minh
+    let template;
+    
+    if (hero.championID === "C043") {
+        template = UPGRADE_TEMPLATES.ASOL; // Ưu tiên template riêng cho Asol
+    } else if (hero.powerStarIds.length == 7) {
+        template = UPGRADE_TEMPLATES.MODERN;
+    } else {
+        template = UPGRADE_TEMPLATES.CLASSIC;
+    }
 
     return `
         <table class="wiki-table">
