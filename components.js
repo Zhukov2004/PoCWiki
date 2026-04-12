@@ -32,7 +32,7 @@ function injectNavbar() {
                     <div class="bg-[#0d111c]/95 backdrop-blur-3xl border border-white/10 rounded-2xl shadow-[0_20px_60px_-10px_rgba(0,0,0,0.8)] p-2">
                         <div class="max-h-[70vh] overflow-y-auto glow-scrollbar flex flex-col gap-1">
                             
-                            ${renderMenuItem("champions_db.html", "user-square", "Tướng", "Chỉ số & Kỹ năng", "rgba(249, 115, 22, 0.4)", "orange-500")}
+                            ${renderMenuItem("champ.html", "user-square", "Tướng", "Chỉ số & Kỹ năng", "rgba(249, 115, 22, 0.4)", "orange-500")}
                             ${renderMenuItem("relics.html", "gem", "Cổ vật", "Trang bị sức mạnh", "rgba(34, 211, 238, 0.4)", "cyan-400")}
                             ${renderMenuItem("powers.html", "zap", "Sức mạnh", "Nội tại đặc biệt", "rgba(234, 179, 8, 0.4)", "yellow-500")}
                             ${renderMenuItem("items.html", "wrench", "Vật phẩm", "Phụ kiện đi kèm", "rgba(59, 130, 246, 0.4)", "blue-500")}
