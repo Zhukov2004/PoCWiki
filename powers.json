@@ -8583,5 +8583,41 @@
     "powerCode": "P9999",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "powerCode": "P3092",
+    "rarity": "Thường",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0951-full.png",
+    "descriptionRaw": "Khi ngươi chọn một đồng minh với Đổi Thế Võ làm mục tiêu, cho họ +1|+1.",
+    "description": "Khi ngươi chọn một đồng minh với [cd:05FR010|Đổi Thế Võ|icon,img-full] làm mục tiêu, cho họ +1|+1.",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0951.png",
+    "name": "Thông Thạo Thế Võ I"
+  },
+  {
+    "powerCode": "P3093",
+    "rarity": "Sử Thi",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0952-full.png",
+    "descriptionRaw": "+1 Năng Lượng Khởi Điểm. Lá Đổi Thế Võ của ngươi tăng tốc lên Tập Trung. Khi ngươi nhận lượt tấn công, tạo trên tay 1 lá Đổi Thế Võ. ",
+    "description": "+1 Năng Lượng Khởi Điểm. Lá [cd:05FR010|Đổi Thế Võ|icon,img-full] của ngươi tăng tốc lên [k:Focus|Tập Trung]. \nKhi ngươi nhận lượt tấn công, tạo trên tay 1 lá [cd:05FR010|Đổi Thế Võ|icon,img-full]. ",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0952.png",
+    "name": "Tập Trung Tâm Trí"
+  },
+  {
+    "powerCode": "P3094",
+    "rarity": "Sử Thi",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0950-full.png",
+    "descriptionRaw": "Khi ngươi chọn một đồng minh với Đổi Thế Võ làm mục tiêu, cho họ +1|+1. Mỗi vòng, lần đầu tiên ngươi sử dụng một lá Đổi Thế Võ lên một đồng minh, đồng minh đó sẽ ra đòn lên kẻ địch yếu nhất.",
+    "description": "Khi ngươi chọn một đồng minh với [cd:05FR010|Đổi Thế Võ|icon,img-full] làm mục tiêu, cho họ +1|+1. Mỗi vòng, lần đầu tiên ngươi sử dụng một lá [cd:05FR010|Đổi Thế Võ|icon,img-full] lên một đồng minh, đồng minh đó sẽ ra đòn lên kẻ địch [k:Weakest|yếu nhất].",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0950.png",
+    "name": "Thông Thạo Thế Võ II"
+  },
+  {
+    "powerCode": "P3095",
+    "rarity": "Huyền Thoại",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0995-full.png",
+    "descriptionRaw": "Lá Đổi Thế Võ của ngươi sẽ được thay thế bằng Đổi Thế Võ Đã Thành Thạo. Lá Đổi Thế Võ Đã Thành Thạo của ngươi sẽ tăng tốc thành Siêu Tốc",
+    "description": "Lá Đổi Thế Võ của ngươi sẽ được thay thế bằng Đổi Thế Võ Đã Thành Thạo. Lá Đổi Thế Võ Đã Thành Thạo của ngươi sẽ tăng tốc thành Siêu Tốc",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/powers/P0995.png",
+    "name": "Thông Thạo Thế Võ III"
   }
 ]
