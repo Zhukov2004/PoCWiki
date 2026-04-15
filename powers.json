@@ -7114,7 +7114,7 @@
     "assetAbsolutePath": "image/quaybardaichien.png",
     "description": "Khi một bài quân được triệu hồi, tráo đổi chỉ số của lá bài đó",
     "name": "Quầy Bar Đại Chiến",
-    "powerCode": "P2010",
+    "powerCode": "P3134",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
   },
@@ -7640,7 +7640,7 @@
   },
   {
     "assetAbsolutePath": "image/ychirongthieng.png",
-    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, ban +0|2 cho bài quân của Địch Thủ. Nếu không, ban +2|0 cho chúng.",
+    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, ban +0|+2 cho bài quân của Địch Thủ. Nếu không, ban +2|0 cho chúng.",
     "name": "Ý Chí Rồng Thiêng",
     "powerCode": "P2075",
     "rarity": "HIẾM",
@@ -7728,7 +7728,7 @@
   },
   {
     "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0384.png",
-    "description": "Khi Địch Thủ triệu hồi 1 lá Gấu Đá Cục Cằn, ban +3|+2 cho lá bài đó, sau đó triệu hồi 1 lá Gấu Đá Ngủ Đông.",
+    "description": "Khi Địch Thủ triệu hồi 1 lá Gấu Đá Cục Cằn, ban +2|+2 cho lá bài đó, sau đó triệu hồi 1 lá Gấu Đá Ngủ Đông.",
     "name": "Sức Mạnh Của Đá",
     "powerCode": "P2086",
     "rarity": "HIẾM",
@@ -8873,5 +8873,77 @@
     "powerCode": "P3126",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/loidaycuarongthieng.png",
+    "description": "Khi Địch Thủ dùng bài phép đầu tiên mỗi vòng đấu, triệu hồi 1 lá Tiểu Long. Rồng Nhí của Địch Thủ được nhận +3|+0.",
+    "name": "Lời Dạy Của Rồng Thiêng",
+    "powerCode": "P3127",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/congly.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ tạo 1 lá Phù Du Đấu Tay Đôi trên tay.",
+    "name": "Công Lý",
+    "powerCode": "P3128",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/thietbihoaky.png",
+    "description": "Cả hai người chơi tạo các lá bài với ít hơn 1 tiêu hao và gây 1 sát thương lên Nhà Chính của mình khi chơi.",
+    "name": "Thiết Bị Hóa-Kỹ",
+    "powerCode": "P3129",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/daydantranmac1.png",
+    "description": "Khi 1 bài quân của Địch Thủ ra đòn, ban +1|+1 cho bản sao của bài quân đó ở mọi nơi.",
+    "name": "Dày Dạn Trận Mạc",
+    "powerCode": "P3130",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/matkhaulagi1.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi một lá Gác Cổng Zaun nếu chưa có lá đó",
+    "name": "Mật Khẩu Là Gì?",
+    "powerCode": "P3131",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/vucuopnhenhang.png",
+    "description": "Bắt Đầu Vòng Đấu: Ban Phù Du cho một lá bài ngẫu nhiên trên tay mà họ có đủ tiêu hao để dùng",
+    "name": "Vụ Cướp Nhẹ Nhàng",
+    "powerCode": "P3132",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/phelieudanhcap.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 1 lá Cua Phế Liệu nếu chưa có lá bài này. Cua Phế Liệu của lá bài đó có +2|+0.",
+    "name": "Phế Liệu Đánh Cắp",
+    "powerCode": "P3133",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/vuachon.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Đài Tưởng Niệm Hầm Thải.",
+    "name": "Vua Chồn",
+    "powerCode": "P3135",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/conmoicungduong.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi một lá Rồng Hóa Kỹ và Trói Buộc lá bài đó 4 lần.",
+    "name": "Con Mồi Cùng Đường",
+    "powerCode": "P3136",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
   }
 ]
