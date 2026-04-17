@@ -7160,7 +7160,7 @@
   },
   {
     "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01019.png",
-    "description": "Khi 1 bài quân hy sinh, ban +1|+0 cho 1 bài quân ngẫu nhiên trên tay người chơi sở hữu bài quân đó.",
+    "description": "Khi 1 bài quân hy sinh, ban +1|+1 cho 1 bài quân ngẫu nhiên trên tay người chơi sở hữu bài quân đó.",
     "name": "Bóng Tối Dai Dẳng",
     "powerCode": "P2015",
     "rarity": "THƯỜNG",
@@ -8943,6 +8943,46 @@
     "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi một lá Rồng Hóa Kỹ và Trói Buộc lá bài đó 4 lần.",
     "name": "Con Mồi Cùng Đường",
     "powerCode": "P3136",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/thienhuong1.png",
+    "description": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi bắt đầu với 10 ngọc năng lượng.",
+    "name": "Thiền Hướng",
+    "powerCode": "P3137",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01034.png",
+    "description": "Bắt Đầu VÒng Đấu: TẤT CẢ người chơi bắt đầu với 1 ngọc năng lượng. Bài quân của Địch Thủ được nhận Hồi Phục.",
+    "name": "Nghỉ Xả Hơi",
+    "powerCode": "P3138",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/botocsatcanh.png",
+    "description": "Bắt Đầu Vòng Đấu: Ban +1|+1 cho bài quân trong tay Địch Thủ.",
+    "name": "Bộ Tộc Sát Cánh",
+    "powerCode": "P3139",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/linhhonthuctinh1.png",
+    "description": "Người chơi có +1 Năng Lượng Khởi Điểm. Địch Thủ khởi đầu với 10 ngọc năng lượng.",
+    "name": "Linh Hồn Thức Tỉnh",
+    "powerCode": "P3140",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/thaotruong1.png",
+    "description": "Bài quân của Địch Thủ được nhận +0|+3. Bắt Đầu Trận Đấu: Địch Thủ triệu hồi Ngân Trường.",
+    "name": "Thao Trường",
+    "powerCode": "P3141",
     "rarity": "HIẾM",
     "rarityRef": "Rare"
   }

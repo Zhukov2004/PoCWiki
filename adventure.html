@@ -15,7 +15,7 @@
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s ease-in-out; /* Hiệu ứng chuyển cảnh mượt */ }
-        .lor-italic { font-style: italic; font-weight: 900; letter-spacing: -0.02em; }
+        .lor-italic { font-style: normal; font-weight: 900; letter-spacing: -0.02em; }
 
         /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 8px; }
@@ -35,12 +35,11 @@
         }
         
         /* Làm cho card luật chơi rộng và thoáng hơn */
-.rule-card {
-    background: linear-gradient(135deg, rgba(34, 211, 238, 0.08) 0%, rgba(15, 23, 42, 0.4) 100%);
-    border: none; /* Bỏ viền bao quanh card */
-    border-left: 4px solid #22d3ee; /* Giữ lại thanh màu bên trái cho đẹp */
-    transition: all 0.3s ease;
-    padding: 1.5rem !important; /* Tăng padding cho to ra */
+.rule-card div div:last-child, 
+.boss-power-item div div:last-child {
+    font-style: normal !important;
+    letter-spacing: normal;
+    color: #cbd5e1; /* Màu slate-300 cho dịu mắt */
 }
 
 /* Style cho ảnh sức mạnh: Bỏ vòng tròn, chuyển thành hình vuông bo góc nhẹ */
@@ -220,7 +219,7 @@ body {
                     <i data-lucide="star" class="w-5 h-5 fill-yellow-500 text-yellow-500 mt-1"></i>
                 </div>
                 <div class="flex flex-col items-center justify-center px-8 h-20 rounded-full bg-black/80 border border-cyan-500/40 shadow-lg">
-                    <span class="text-[11px] text-cyan-400 font-bold uppercase tracking-widest mb-1">Loại cuộc phiêu lưu</span>
+                    <span class="text-[12px] text-cyan-400 font-bold uppercase tracking-widest mb-1">Loại cuộc phiêu lưu</span>
                     <b id="adv-header-type" class="text-sm font-black text-white uppercase text-center leading-tight whitespace-nowrap">--</b>
                 </div>
             </div>
@@ -228,7 +227,7 @@ body {
 
         <div class="relative z-10 flex flex-col justify-end items-end w-[350px]">
             <div class="xp-box-compact">
-                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-tighter mb-1">Kinh nghiệm tướng (XP)</span>
+                <span class="text-[12px] font-bold text-slate-400 uppercase tracking-tighter mb-1">Kinh nghiệm tướng (XP)</span>
                 <b class="text-5xl lor-italic text-white" id="adv-header-xp">0</b>
             </div>
         </div>
@@ -256,7 +255,7 @@ body {
                 
                 <button onclick="toggleSection('legendary-powers-container', 'legen-icon', 'legen-text')" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-yellow-500/50 transition-all group">
                     <i data-lucide="eye-off" class="w-4 h-4 text-yellow-500" id="legen-icon"></i>
-                    <span id="legen-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
+                    <span id="legen-text" class="text-[12px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
                 </button>
             </div>
     
@@ -272,7 +271,7 @@ body {
                 </h3>
                 <button onclick="toggleSection('req-container', 'req-icon', 'req-text')" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
                     <i data-lucide="eye-off" class="w-4 h-4 text-cyan-400" id="req-icon"></i>
-                    <span id="req-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
+                    <span id="req-text" class="text-[12px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
                 </button>
             </div>
     
@@ -280,7 +279,7 @@ body {
                 <div id="champion-grid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-6">
                     <div class="flex flex-col items-center gap-2 group cursor-pointer">
                         
-                        <span class="text-[11px] text-slate-400 group-hover:text-white transition-colors">Aatrox</span>
+                        <span class="text-[12px] text-slate-400 group-hover:text-white transition-colors">Aatrox</span>
                     </div>
                 </div>
             </div>
@@ -295,7 +294,7 @@ body {
                 </h3>
                 <button onclick="toggleSection('reward-container', 'reward-icon', 'reward-text')" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
                     <i data-lucide="eye-off" class="w-4 h-4 text-yellow-500" id="reward-icon"></i>
-                    <span id="reward-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
+                    <span id="reward-text" class="text-[12px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn</span>
                 </button>
             </div>
     
@@ -326,7 +325,7 @@ body {
                 
                 <button onclick="toggleMap()" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-cyan-500/50 transition-all group">
                     <i data-lucide="eye-off" class="w-4 h-4 text-cyan-400" id="map-icon"></i>
-                    <span id="map-btn-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn bản đồ</span>
+                    <span id="map-btn-text" class="text-[12px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn bản đồ</span>
                 </button>
             </div>
     
@@ -347,11 +346,11 @@ body {
     
             <button onclick="toggleEnemies()" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-red-500/50 transition-all group">
                 <i data-lucide="eye-off" class="w-4 h-4 text-red-400" id="enemy-icon"></i>
-                <span id="enemy-btn-text" class="text-[11px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn hồ sơ</span>
+                <span id="enemy-btn-text" class="text-[12px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-white">Ẩn hồ sơ</span>
             </button>
         </div>
         
-        <div id="enemy-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[5000px]">
+        <div id="enemy-container" class="overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[50000px]">
             <div class="rounded-2xl border border-white/5 bg-black/20 table-responsive">
                 <table class="w-full text-left border-collapse">
                     <thead class="bg-white/5 border-b border-white/10">
@@ -512,7 +511,7 @@ rulesContainer.innerHTML = advPowers.map(pInfo => {
                             </div>
                         `}
                         <div class="flex flex-col gap-1">
-                            <div class="text-1.5xl lor-italic text-white tracking-tight italic leading-tight">
+                            <div class="text-1.5xl font-black text-white tracking-tight leading-tight">
                                 ${cardName}
                             </div>
                             
@@ -521,7 +520,7 @@ rulesContainer.innerHTML = advPowers.map(pInfo => {
                 </td>
                 <td class="p-5 align-top">${powersHTML}</td>
                 <td class="p-5 align-top text-right">
-                    <div class="text-[11px] text-yellow-500 font-semibold italic leading-relaxed bg-yellow-500/5 p-3 rounded-xl border border-yellow-500/10 inline-block text-left max-w-[180px]">
+                    <div class="text-[12px] text-yellow-500 font-semibold leading-relaxed bg-yellow-500/5 p-3 rounded-xl border border-yellow-500/10 inline-block text-left max-w-[180px]">
                         ${e.note ? '💡 ' + e.note : '<span class="text-slate-600 italic text-[10px]">Chưa có ghi chú</span>'}
                     </div>
                 </td>
@@ -534,7 +533,7 @@ rulesContainer.innerHTML = advPowers.map(pInfo => {
     champGrid.innerHTML = reqChamps.map(champ => `
         <div class="champ-card-custom group">
             <img src="${champ.thumb}" class="champ-img-custom shadow-lg">
-            <span class="text-[11px] font-black text-slate-300 group-hover:text-cyan-400 transition-colors uppercase tracking-tighter text-center">
+            <span class="text-[12px] font-black text-slate-300 group-hover:text-cyan-400 transition-colors uppercase tracking-tighter text-center">
                 ${champ.name}
             </span>
         </div>
