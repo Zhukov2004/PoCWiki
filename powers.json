@@ -7552,7 +7552,7 @@
   },
   {
     "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0384.png",
-    "description": "Khi Địch Thủ triệu hồi 1 lá Gấu Đá Cục Cằn, ban +2|+2 cho lá bài đó, sau đó triệu hồi 1 lá Gấu Đá Ngủ Đông.",
+    "description": "Khi Địch Thủ triệu hồi 1 lá Gấu Đá Cục Cằn, ban +3|+2 cho lá bài đó, sau đó triệu hồi 1 lá Gấu Đá Ngủ Đông.",
     "name": "Sức Mạnh Của Đá",
     "powerCode": "P2064",
     "rarity": "HIẾM",
@@ -8504,8 +8504,8 @@
   },
   {
     "assetAbsolutePath": "image/caduoirinhrap.png",
-    "description": "Nếu người chơi có năng lượng bài phép, Địch Thủ sẽ đánh cắp nó.",
-    "name": "Cá Đuối Rình rập",
+    "description": "Bắt Đầu Vòng Đấu: Nếu người chơi có năng lượng bài phép, Địch Thủ sẽ đánh cắp nó.",
+    "name": "Cá Đuối Rình Rập",
     "powerCode": "P3084",
     "rarity": "SỬ THI",
     "rarityRef": "Epic"
@@ -8985,5 +8985,117 @@
     "powerCode": "P3141",
     "rarity": "HIẾM",
     "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/tachuaxongvoinguoidau.png",
+    "description": "Khi Địch Thủ có lượt tấn công, ban cho đồng minh mạnh nhất của chúng Bất Diệt.",
+    "name": "Ta Chưa Xong Với Ngươi Đâu",
+    "powerCode": "P3142",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/kichhoatvonglap.png",
+    "description": "Khi Địch Thủ thủ tiêu một bài quân, ban cho bài quân trên tay chúng +1|+1.",
+    "name": "Kích Hoạt Vòng Lặp",
+    "powerCode": "P3143",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/divaotudia.png",
+    "description": "Khi Địch Thủ tấn công, chúng triệu hồi 1 lá Mordekaiser cấp 2 Cảm Tử ở vị trí tấn công.",
+    "name": "Đi Vào Tử Địa",
+    "powerCode": "P3144",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/tuitiencuanguoichienthang.png",
+    "description": "Khi Địch Thủ tấn công Nhà Chính của ngươi, chúng tạo trên tay một lá Xu.",
+    "name": "Túi Tiền Của Người Chiến Thắng",
+    "powerCode": "P3145",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01019.png",
+    "description": "Khi 1 bài quân hy sinh, ban +1|+0 cho 1 bài quân ngẫu nhiên trên tay người chơi sở hữu bài quân đó.",
+    "name": "Bóng Tối Dai Dẳng",
+    "powerCode": "P3146",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nhomhotro.png",
+    "description": "Khi 1 bài quân của Địch Thủ được Hỗ Trợ, ban +1|+1 cho bài quân đó.",
+    "name": "Nhóm Hỗ Trợ",
+    "powerCode": "P3147",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/amhuonghoanmy.webp",
+    "description": "Kết Thúc Vòng Đấu: Nếu Địch Thủ có 3+ bài quân, ban cho chúng +1|+1.",
+    "name": "Âm Hưởng Hoàn Mỹ",
+    "powerCode": "P3148",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/caduoirinhrap1.png",
+    "description": "Bắt Đầu Vòng Đấu: Nếu người chơi có năng lượng bài phép, Địch Thủ đánh cắp 1 năng lượng bài phép.",
+    "name": "Cá Đuối Rình Rập",
+    "powerCode": "P3149",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/diepkhucbienca.png",
+    "description": "Khi người chơi bất kỳ sử dụng bài phép, ban Huyền Ảo cho đồng minh yếu nhất của người chơi đó trong vòng này.",
+    "name": "Điệp Khúc Biển Cả",
+    "powerCode": "P3150",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/gucnhungchuanga.png",
+    "description": "Khi bài quân của Địch Thủ sống sót sau sát thương với 1 máu, ban cho chúng Song Kích.",
+    "name": "Gục Nhưng Chưa Ngã",
+    "powerCode": "P3151",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/trangrungtruan.png",
+    "description": "Khi người chơi bất kỳ triệu hồi 1 bài quân, trao Lá Chắn cho bài quân đó.",
+    "name": "Trảng Rừng Trú Ẩn",
+    "powerCode": "P3152",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/chungsucdonglong1.png",
+    "description": "Bắt Đầu Vòng Đấu: Tạo 1 lá Châm Lửa trên tay TẤT CẢ người chơi",
+    "name": "Chung Sức Đồng Lòng",
+    "powerCode": "P3153",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/vudieucuoicung.webp",
+    "description": "Bài quân của Địch Thủ có: \"Tấn Công Nhà Chính: Giảm 1 tiêu hao cho Zinneia - Khúc Cao Trào Đanh Thép đồng minh ở mọi nơi\".",
+    "name": "Vũ Điệu Cuối Cùng",
+    "powerCode": "P3154",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/nhavodichtranhtai.png",
+    "description": "Khi Địch thủ hồi lại năng lượng sẽ trao +1|+1 cho các anh hùng của chúng cho mỗi năng lượng được hồi lại.",
+    "name": "Nhà Vô Địch Tranh Tài",
+    "powerCode": "P3155",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
   }
 ]
