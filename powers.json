@@ -8056,7 +8056,7 @@
   },
   {
     "assetAbsolutePath": "image/nhapcuocdieutra.png",
-    "description": "Bắt đầu vòng đấu, Địch Thủ gài 1 Bẫy Bom Mù lên 8 lá bài ở trên cùng trong bộ bài của người chơi.",
+    "description": "Bắt đầu vòng đấu: Địch Thủ gài 1 Bẫy Bom Mù lên 8 lá bài ở trên cùng trong bộ bài của người chơi.",
     "name": "Nhập Cuộc Điều Tra",
     "powerCode": "P3028",
     "rarity": "HIẾM",
@@ -9321,5 +9321,221 @@
     "powerCode": "P3183",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nangcapphelieu.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Thêm <span class='text-[#ffce32]'>1</span> vật phẩm thưởng vào bài quân <span class='text-[#ffce32]'>yếu nhất</span> chưa có vật phẩm nào của <span class='text-[#f3e698]'>Địch Thủ</span>.",
+    "name": "Nâng Cấp Phế Liệu",
+    "powerCode": "P3184",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/phelieudanhcap.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ tạo trên tay 1 lá Cua Phế Liệu Phù Du và thêm một vật phẩm ngẫu nhiên cho lá bài đó.",
+    "name": "Phế Liệu Đánh Cắp",
+    "powerCode": "P3185",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/rangphelieu.png",
+    "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> bỏ 1 lá bài, chúng triệu hồi 1 lá <span class='text-[#3ea9ff]'>Lựu Đạn Ma Hỏa!</span>.",
+    "name": "Răng Phế Liệu",
+    "powerCode": "P3186",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/anhsangchoiloa.png",
+    "description": "<span class='text-[#3ea9ff]'>Cầu Vồng Tối Thượng</span> của <span class='text-[#f3e698]'>Địch Thủ</span> tăng <span class='text-[#ffce32]'>2</span> tiêu hao và gây thêm <span class='text-[#ffce32]'>4</span> sát thương.",
+    "name": "Ánh Sáng Chói Lòa",
+    "powerCode": "P3187",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/khidandao.png",
+    "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> tấn công, chúng sẽ triệu hồi 1 lá <span class='text-[#3ea9ff]'>Lựu Đạn Ma Hỏa!</span> <span class='text-[#ffce32]'>Thách Đấu</span> bài quân <span class='text-[#ffce32]'>mạnh nhất</span> của người chơi.",
+    "name": "Khỉ Đạn Đạo",
+    "powerCode": "P3188",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/baothuchonguoidakhuat.png",
+    "description": "Kết Thúc Vòng Đấu: Nếu 1 bài quân của người chơi hy sinh trong vòng này, Địch Thủ triệu hồi 1 lá Tiên Phong Bất Khuất.",
+    "name": "Vì Demacia!",
+    "powerCode": "P3189",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/duonghambimat.png",
+    "description": "Bài quân <span class='text-[#ffce32]'>Huyền Ảo</span> của <span class='text-[#f3e698]'>Địch Thủ</span> được nhận <span class='text-[#ffce32]'>+1|+1</span>.",
+    "name": "Đường Hầm Bí Mật",
+    "powerCode": "P3190",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/chaomungdenvoitieudoi.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Trao <span class='text-[#ffce32]'>Kích Động</span> cho bài quân <span class='text-[#ffce32]'>mạnh nhất</span> của Người Chơi trong vòng này.",
+    "name": "Chào Mừng Đến Với Tiểu Đội",
+    "powerCode": "P3191",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/keckec.png",
+    "description": "Bắt Đầu Trận Đấu: Triệu hồi 1 lá Tượng Thần Đầu Khỉ.",
+    "name": "Kéc Kéc",
+    "powerCode": "P3192",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/lenlenlutlut.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Trao <span class='text-[#ffce32]'>Huyền Ảo</span> cho bài quân <span class='text-[#ffce32]'>mạnh nhất</span> của mỗi Người Chơi trong vòng này.",
+    "name": "Lén Lén Lút Lút!",
+    "powerCode": "P3193",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/traobaigianlan.png",
+    "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> tấn công, chúng rút 1 lá bài và trao <span class='text-[#ffce32]'>Phù Du</span> cho lá bài đó.",
+    "name": "Tráo Bài Gian Lận",
+    "powerCode": "P3194",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0688.png",
+    "description": "Khi Địch Thủ tấn công với 6 bài quân, gây 1 sát thương lên những bài quân đang chiến đấu và Nhà Chính của người chơi",
+    "name": "Bữa Tiệc Chào Sân",
+    "powerCode": "P3195",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/suongbienao1.png",
+    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, chúng triệu hồi 1 lá Màn Sương Xâm Chiếm.",
+    "name": "Sương Biến Ảo",
+    "powerCode": "P3196",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/chienthuatbaydan1.png",
+    "description": "Khi Địch Thủ tấn công, chúng sẽ triệu hồi 1 lá Nhện Con Cảm Tử ở vị trí tấn công.",
+    "name": "Chiến Thuật Bầy Đàn",
+    "powerCode": "P3197",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/noikinhhoangbattan.png",
+    "description": "Khi lá Bóng Ma của Địch Thủ hy sinh, tráo lại lá bài đó vào bộ bài của chúng.",
+    "name": "Nỗi Kinh Hoàng Bất Tận",
+    "powerCode": "P3198",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thepdemaciathuonghang1.png",
+    "description": "Khi Địch Thủ triệu hồi 1 bài quân Tinh Nhuệ, ban +2|+1 cho bài quân đó.",
+    "name": "Thép Demacia Thượng Hạng",
+    "powerCode": "P3199",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/dammetocdo.png",
+    "description": "Khi người chơi rút 1 lá bài có gài <span class='text-[#3ea9ff]'>Bẫy Bom Mù</span>, gây <span class='text-[#ffce32]'>1</span> sát thương lên <span class='text-[#a6917b]'>Nhà Chính</span> của người chơi.",
+    "name": "Đam Mê Tốc Độ",
+    "powerCode": "P3200",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/rangphelieu.png",
+    "description": "Lựu Đạn Ma Hỏa của Địch Thủ có +2|+0",
+    "name": "Răng Phế Liệu",
+    "powerCode": "P3201",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nhanhnhuhoatien.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Nếu <span class='text-[#f3e698]'>Địch Thủ</span> có lượt tấn công, trao ⚡ <span class='text-[#ffce32]'>Đột Kích</span> cho bài quân <span class='text-[#ffce32]'>mạnh nhất</span> của <span class='text-[#f3e698]'>Địch Thủ</span> trong vòng này.",
+    "name": "Nhanh Như Hỏa Tiễn!",
+    "powerCode": "P3202",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nangcapphelieu.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Nếu <span class='text-[#f3e698]'>Địch Thủ</span> có lượt tấn công, nếu chúng có 1 bài quân với ⚡ <span class='text-[#ffce32]'>Đột Kích</span>, trao <span class='text-[#ffce32]'>+1|+0</span> cho bài quân của <span class='text-[#f3e698]'>Địch Thủ</span> trong vòng này.",
+    "name": "Chiếm Thế Thượng Phong",
+    "powerCode": "P3203",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0842.png",
+    "descriptionRaw": "Bài quân của <span class='text-[#f3e698]'>Địch Thủ</span> được nhận: \"<span class='text-[#ffce32]'>Tấn Công Nhà Chính</span>: Gài <span class='text-[#ffce32]'>1</span> <span class='text-[#3ea9ff]'>Bẫy Bom Mù</span> lên <span class='text-[#ffce32]'>8</span> lá bài ở trên cùng trong bộ bài của người chơi.\"",
+    "name": "Nhập Cuộc Điều Tra",
+    "powerCode": "P3204",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/canquetsuankhau.png",
+    "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> tấn công,<span class='text-[#ffce32]'>Làm Choáng</span> bài quân <span class='text-[#ffce32]'>yếu nhất</span> của người chơi.",
+    "name": "Càn Quét Sân Khấu",
+    "powerCode": "P3205",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/6_9_0/adventure/vi_vn/img/powers/P0220.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> ban <span class='text-[#ffce32]'>+1|+0</span> cho tất cả bản sao của bài quân <span class='text-[#ffce32]'>yếu nhất ở mọi nơi</span>.",
+    "name": "Sức Mạnh Cho Tất Cả",
+    "powerCode": "P3206",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/tuongthuongchokinang.png",
+    "description": "Khi Địch Thủ sử dụng 1 Kỹ Năng, ban +1|+1 cho mỗi bài quân của chúng.",
+    "name": "Tưởng Thưởng Cho Kỹ Năng",
+    "powerCode": "P3207",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/anngaunghien.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Trao <span class='text-[#ffce32]'>+2|+0</span> và <span class='text-[#ffce32]'>Áp Đảo</span> cho bài quân <span class='text-[#ffce32]'>mạnh nhất</span> của <span class='text-[#f3e698]'>Địch Thủ</span> trong vòng này.",
+    "name": "Ăn Ngấu Nghiến",
+    "powerCode": "P3208",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/dausilongsat.webp",
+    "description": "Kết Thúc Vòng Đấu: Gây 2 sát thương lên các bài quân Bị Choáng của người chơi.",
+    "name": "Đấu Sĩ Lồng Sắt",
+    "powerCode": "P3209",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/khuatsang.png",
+    "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> <span class='text-[#ffce32]'>Làm Choáng</span> 1 kẻ địch, trao <span class='text-[#ffce32]'>+2|+2</span> cho bài quân <span class='text-[#ffce32]'>mạnh nhất</span> của <span class='text-[#f3e698]'>Địch Thủ</span> trong vòng này.",
+    "name": "Khuất Sáng",
+    "powerCode": "P3210",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
   }
 ]
