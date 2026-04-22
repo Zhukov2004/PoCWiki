@@ -11030,5 +11030,1530 @@
         ]
       }
     }
+},
+"M055": {
+    "name": "Khẩu Pháo Nổi Loạn (Phần 1)",
+    "region": "Piltover & Zaun",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01PZ036-full.png?50e77",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Jinx_PoC_Campaign_1_Map.png/1920px-Jinx_PoC_Campaign_1_Map.png?be12c",
+    "stars": 0,
+    "completion_xp": 100,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jinx.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "01PZ059",  
+            "powers": [
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01PZ043",
+            "powers": [
+              { "powerCode": "P2008" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "05PZ035",
+            "powers": [
+              { "powerCode": "P3211" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01PZ002",
+            "powers": [
+              { "powerCode": "P3134" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "04PZ012",
+            "powers": [
+              { "powerCode": "P3212" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "01PZ036",
+            "powers": [
+              { "powerCode": "P3213" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M056": {
+    "name": "Khẩu Pháo Nổi Loạn (Phần 2)",
+    "region": "Noxus",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01NX038-hd-full.jpg?a1a50",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Jinx_PoC_Campaign_2_Map.png/1920px-Jinx_PoC_Campaign_2_Map.png?1a34b",
+    "stars": 2,
+    "completion_xp": 985,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jhin.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Gươm Truy Tung", "img": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0040.png", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x3000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P2044"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "03NX004",  
+            "powers": [
+              {"powerCode": "P3214"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "03MT030",
+            "powers": [
+              { "powerCode": "P2046" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01NX041",
+            "powers": [
+              { "powerCode": "P2047" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "03MT018",
+            "powers": [
+              { "powerCode": "P2049" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "01NX021",
+            "powers": [
+              { "powerCode": "P2048" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "03MT009",
+            "powers": [
+              { "powerCode": "P2050" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "01NX026",
+            "powers": [
+              { "powerCode": "P2051" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "03MT012",
+            "powers": [
+              { "powerCode": "P2052" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "01NX031",
+            "powers": [
+              { "powerCode": "P2053" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "03MT001",
+            "powers": [
+              { "powerCode": "P2054" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "01NX038",
+            "powers": [
+              { "powerCode": "P2055" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M057": {
+    "name": "Rồng Thiêng Báo Thù",
+    "region": "Noxus",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01NX038-hd-full.jpg?a1a50",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Lee_Sin_PoC_Campaign_1_Map.png/1920px-Lee_Sin_PoC_Campaign_1_Map.png?51a95",
+    "stars": 0,
+    "completion_xp": 100,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "", "thumb": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/LeeSin.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "04NX021",  
+            "powers": [
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01NX041",
+            "powers": [
+              { "powerCode": "P2047" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01NX026",
+            "powers": [
+              { "powerCode": "P3215" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "02NX006",
+            "powers": [
+              { "powerCode": "P3216" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "01NX031",
+            "powers": [
+              { "powerCode": "P3181" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "01NX038",
+            "powers": [
+              { "powerCode": "P2055" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M058": {
+    "name": "Tinh Linh Lang Bạt",
+    "region": "Bilgewater",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/02BW046-full.png?16a03",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Lee_Sin_PoC_Campaign_2_Map.png/1920px-Lee_Sin_PoC_Campaign_2_Map.png?6d44d",
+    "stars": 2,
+    "completion_xp": 985,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "Ít nhất 2* trở lên", "thumb": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/LeeSin.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Tàng Hiểm Họa", "img": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0012.png", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x3000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P3217"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "02BW060",  
+            "powers": [
+              {"powerCode": "P3218"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "02BW038",
+            "powers": [
+              { "powerCode": "P3149" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01FR008T1",
+            "powers": [
+              { "powerCode": "P2039" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "03BW017",
+            "powers": [
+              { "powerCode": "P3220" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "01FR041",
+            "powers": [
+              { "powerCode": "P3219" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "01FR038",
+            "powers": [
+              { "powerCode": "P3031" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "05BW011",
+            "powers": [
+              { "powerCode": "P3087" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "01FR050",
+            "powers": [
+              { "powerCode": "P2097" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "05BC010",
+            "powers": [
+              { "powerCode": "P3089" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "01FR047",
+            "powers": [
+              { "powerCode": "P2041" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "02BW046",
+            "powers": [
+              { "powerCode": "P3035" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M059": {
+    "name": "Nỗi Niềm Của Một Pháp Sư (Phần 1)",
+    "region": "Demacia",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01DE002-hd-full.jpg?523c0",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Lux_PoC_Campaign_1_Map.png/1920px-Lux_PoC_Campaign_1_Map.png?eff52",
+    "stars": 0,
+    "completion_xp": 100,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lux.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "01DE048",  
+            "powers": [
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01DE020",
+            "powers": [
+              { "powerCode": "P3171" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01DE024",
+            "powers": [
+              { "powerCode": "P3221" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01DE016",
+            "powers": [
+              { "powerCode": "P3222" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "01DE023",
+            "powers": [
+              { "powerCode": "P3223" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "01PZ036",
+            "powers": [
+              { "powerCode": "P3224" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M060": {
+    "name": "Nỗi Niềm Của Một Pháp Sư (Phần 2)",
+    "region": "Piltover & Zaun",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01PZ036-full.png?50e77",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Lux_PoC_Campaign_2_Map.png/1920px-Lux_PoC_Campaign_2_Map.png?c2ef7",
+    "stars": 2,
+    "completion_xp": 985,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lux.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Bão Tố Luden", "img": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0017.png", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x3000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P3225"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "99PZ115",  
+            "powers": [
+              {"powerCode": "P2011"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01PZ035",
+            "powers": [
+              { "powerCode": "P2012" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "03MT030",
+            "powers": [
+              { "powerCode": "P2046" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01PZ009",
+            "powers": [
+              { "powerCode": "P2014" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "03MT018",
+            "powers": [
+              { "powerCode": "P2049" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "03MT009",
+            "powers": [
+              { "powerCode": "P2050" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "01PZ042",
+            "powers": [
+              { "powerCode": "P2017" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "03MT012",
+            "powers": [
+              { "powerCode": "P2052" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "01PZ055",
+            "powers": [
+              { "powerCode": "P2018" },
+              { "powerCode": "P2007" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "03MT001",
+            "powers": [
+              { "powerCode": "P2054" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "01PZ036",
+            "powers": [
+              { "powerCode": "P2020" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M061": {
+    "name": "Trận Chiến Giành Bilgewater",
+    "region": "Demacia",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/02BW032-full.png?441cb",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/Miss_Fortune_PoC_Campaign_1_Map.png?808ff",
+    "stars": 0,
+    "completion_xp": 100,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Miss+Fortune.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "02BW058",  
+            "powers": [
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "02BW055",
+            "powers": [
+              { "powerCode": "P3226" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "02BW034",
+            "powers": [
+              { "powerCode": "P0685" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "02BW013",
+            "powers": [
+              { "powerCode": "P3227" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "02BW032T1",
+            "powers": [
+              { "powerCode": "P3228" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "02BW032",
+            "powers": [
+              { "powerCode": "P3229" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M062": {
+    "name": "Cuốn Theo Chiều Gió",
+    "region": "Ionia",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01IO015-full.png?60854",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Miss_Fortune_PoC_Campaign_2_Map.png/1920px-Miss_Fortune_PoC_Campaign_2_Map.png?c828b",
+    "stars": 2,
+    "completion_xp": 985,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Miss+Fortune.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Lưỡi Kiếm Cuồng Nộ", "img": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0031.png", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x3000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P3230"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "01IO042",  
+            "powers": [
+              {"powerCode": "P2022"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01IO057",
+            "powers": [
+              { "powerCode": "P3042" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01FR049",
+            "powers": [
+              { "powerCode": "P2034" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01IO016",
+            "powers": [
+              { "powerCode": "P2028" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "05BC140",
+            "powers": [
+              { "powerCode": "P3043" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "01FR038",
+            "powers": [
+              { "powerCode": "P3031" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "04IO002",
+            "powers": [
+              { "powerCode": "P3154" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "01FR014",
+            "powers": [
+              { "powerCode": "P2099" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "01IO048",
+            "powers": [
+              { "powerCode": "P2027" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "01FR047",
+            "powers": [
+              { "powerCode": "P2041" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "01IO015",
+            "powers": [
+              { "powerCode": "P3039" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M063": {
+    "name": "Kẻ Mang Bóng Tối",
+    "region": "Ionia",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/01IO009-hd-full.jpg?07e01",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Yasuo_PoC_Campaign_1_Map.png/1920px-Yasuo_PoC_Campaign_1_Map.png?42fe1",
+    "stars": 0,
+    "completion_xp": 100,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Yasuo.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "01IO057",  
+            "powers": [
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01IO007",
+            "powers": [
+              { "powerCode": "P3231" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01IO016",
+            "powers": [
+              { "powerCode": "P2028" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01IO027",
+            "powers": [
+              { "powerCode": "P2015" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "01IO048",
+            "powers": [
+              { "powerCode": "P3232" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "02BW032",
+            "powers": [
+              { "powerCode": "P3233" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M064": {
+    "name": "Bức Thư",
+    "region": "Bilgewater",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/02BW032-full.png?441cb",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Yasuo_PoC_Campaign_2_Map.png/1920px-Yasuo_PoC_Campaign_2_Map.png?6f2a0",
+    "stars": 2,
+    "completion_xp": 985,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Yasuo.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Năng Lượng Thủy Triều", "img": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0034.png", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x3000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P3234"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "02BW055",  
+            "powers": [
+              {"powerCode": "P3235"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "02BW058",
+            "powers": [
+              { "powerCode": "P0683" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "04SH056",
+            "powers": [
+              { "powerCode": "P3236" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "02BW034",
+            "powers": [
+              { "powerCode": "P3115" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "04SH038",
+            "powers": [
+              { "powerCode": "P2080" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "04SH073",
+            "powers": [
+              { "powerCode": "P3237" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "02BW008",
+            "powers": [
+              { "powerCode": "P3153" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "04SH041",
+            "powers": [
+              { "powerCode": "P3238" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "02BW028",
+            "powers": [
+              { "powerCode": "P0690" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "04SH090",
+            "powers": [
+              { "powerCode": "P3239" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "02BW032",
+            "powers": [
+              { "powerCode": "P3240" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M065": {
+    "name": "Một Ngày Đấm Đá",
+    "region": "Piltover & Zaun",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/05PZ006-full.png?27c59",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Vi_PoC_Campaign_1_Map.png/1920px-Vi_PoC_Campaign_1_Map.png?55407",
+    "stars": 0,
+    "completion_xp": 100,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vi.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kho Báu Đồng", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Bronze_Vault_icon.png/25px-PoC_Bronze_Vault_icon.png?daff3", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x1000" }
+    ]
+  }
+],
+    "adventure_powers": [
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "02PZ005",  
+            "powers": [
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "01PZ018",
+            "powers": [
+              { "powerCode": "P3203" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01PZ006",
+            "powers": [
+              { "powerCode": "P3241" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "01PZ055",
+            "powers": [
+              { "powerCode": "P2018" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "05PZ009",
+            "powers": [
+              { "powerCode": "P3242" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "05PZ006",
+            "powers": [
+              { "powerCode": "P3204" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
+},
+"M066": {
+    "name": "Chương Trình Trao Đổi Nắm Đấm",
+    "region": "Noxus",
+    "bg_image": "https://wiki.leagueoflegends.com/en-us/images/02NX007-full.png?f965e",
+    "mapimages": "https://wiki.leagueoflegends.com/en-us/images/thumb/Vi_PoC_Campaign_2_Map.png/1920px-Vi_PoC_Campaign_2_Map.png?f9f4d",
+    "stars": 2,
+    "completion_xp": 985,
+    "adventure_type": "Chiến Dịch Theo Cốt Truyện",
+    "required_champions": [
+      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vi.png" }
+    ],
+    "rewards": [
+  {
+    "milestone": "Mốc thưởng 1",
+    "items": [
+      { "name": "Kế Đối Phó Của Đại tướng", "img": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/relics/R0020.png", "qty": "x1" },
+      { "name": "Mảnh Ghép Bí Ẩn", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/PoC_Wild_Fragment_icon.png/25px-PoC_Wild_Fragment_icon.png?d9518", "qty": "x5" },
+      { "name": "Điểm Huyền Thoại", "img": "https://wiki.leagueoflegends.com/en-us/images/thumb/Legend_Points_icon.png/20px-Legend_Points_icon.png?b99c7", "qty": "x3000" }
+    ]
+  }
+],
+    "adventure_powers": [
+      {"powerCode": "P3243"}
+    ],
+
+    "nodes": {
+      "node1": {
+        "enemies": [
+          {
+            "cardCode": "01NX026",  
+            "powers": [
+              {"powerCode": "P2051"}
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node2": {
+        "enemies": [
+          {
+            "cardCode": "06NX015",
+            "powers": [
+              { "powerCode": "P3078" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node3": {
+        "enemies": [
+          {
+            "cardCode": "01NX021",
+            "powers": [
+              { "powerCode": "P2048" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node11": {
+        "enemies": [
+          {
+            "cardCode": "06NX024",
+            "powers": [
+              { "powerCode": "P3159" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node4": {
+        "enemies": [
+          {
+            "cardCode": "01NX005",
+            "powers": [
+              { "powerCode": "P0689" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node5": {
+        "enemies": [
+          {
+            "cardCode": "06RU002",
+            "powers": [
+              { "powerCode": "P3029" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node6": {
+        "enemies": [
+          {
+            "cardCode": "01NX036",
+            "powers": [
+              { "powerCode": "P2073" },
+              { "powerCode": "P2007" }
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node7": {
+        "enemies": [
+          {
+            "cardCode": "06IO003",
+            "powers": [
+              { "powerCode": "P3081" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node8": {
+        "enemies": [
+          {
+            "cardCode": "06IO004",
+            "powers": [
+              { "powerCode": "P3082" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node10": {
+        "enemies": [
+          {
+            "cardCode": "01NX031",
+            "powers": [
+              { "powerCode": "P2053" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      },
+      "node12": {
+        "enemies": [
+          {
+            "cardCode": "02NX007",
+            "powers": [
+              { "powerCode": "P3034" }
+      
+            ],
+            "note": ""
+          }
+        ]
+      }
+    }
 }
 }

@@ -7203,8 +7203,8 @@
     "description": "Bài phép của Địch Thủ có 1 tiêu hao. Bắt Đầu Vòng Đấu: Tạo 1 lá Sốc Điện Phù Du vào bài trên tay của Địch Thủ. Nếu Địch Thủ đã thăng cấp 1 anh hùng, thay vào đó, tạo 1 lá Cung Ánh Sáng Phù Du vào bài trên tay của Địch Thủ.",
     "name": "Luyện Ngắm Mục Tiêu",
     "powerCode": "P2020",
-    "rarity": "THƯỜNG",
-    "rarityRef": "Common"
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
   },
   {
     "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01026.png",
@@ -8080,7 +8080,7 @@
   },
   {
     "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01035.png",
-    "description": "Bắt Đầu Vòng Đấu: Đóng Băng bài quân Mạnh Nhất của Người Chơi",
+    "description": "Bắt Đầu Vòng Đấu: Đóng Băng bài quân Mạnh Nhất của người chơi",
     "name": "Buốt Da Thấu Thịt",
     "powerCode": "P3031",
     "rarity": "HIẾM",
@@ -9236,7 +9236,7 @@
   },
   {
     "assetAbsolutePath": "image/baothuchonguoidakhuat1.png",
-    "description": "Kết Thúc Vòng Đấu: Nếu 1 bài quân của người chơi hy sinh trong vòng này, Địch Thủ triệu hồi 1 lá Kế thừa.",
+    "description": "Kết Thúc Vòng Đấu: Nếu 1 bài quân của người chơi hy sinh trong vòng này, Địch Thủ triệu hồi 1 lá Kế Thừa.",
     "name": "Báo Thù Cho Người Đã Khuất",
     "powerCode": "P3173",
     "rarity": "THƯỜNG",
@@ -9484,14 +9484,14 @@
   },
   {
     "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0842.png",
-    "descriptionRaw": "Bài quân của <span class='text-[#f3e698]'>Địch Thủ</span> được nhận: \"<span class='text-[#ffce32]'>Tấn Công Nhà Chính</span>: Gài <span class='text-[#ffce32]'>1</span> <span class='text-[#3ea9ff]'>Bẫy Bom Mù</span> lên <span class='text-[#ffce32]'>8</span> lá bài ở trên cùng trong bộ bài của người chơi.\"",
+    "description": "Bài quân của <span class='text-[#f3e698]'>Địch Thủ</span> được nhận: \"<span class='text-[#ffce32]'>Tấn Công Nhà Chính</span>: Gài <span class='text-[#ffce32]'>1</span> <span class='text-[#3ea9ff]'>Bẫy Bom Mù</span> lên <span class='text-[#ffce32]'>8</span> lá bài ở trên cùng trong bộ bài của người chơi.\"",
     "name": "Nhập Cuộc Điều Tra",
     "powerCode": "P3204",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
   },
   {
-    "assetAbsolutePath": "image/canquetsuankhau.png",
+    "assetAbsolutePath": "image/canquetsankhau.png",
     "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> tấn công,<span class='text-[#ffce32]'>Làm Choáng</span> bài quân <span class='text-[#ffce32]'>yếu nhất</span> của người chơi.",
     "name": "Càn Quét Sân Khấu",
     "powerCode": "P3205",
@@ -9537,5 +9537,269 @@
     "powerCode": "P3210",
     "rarity": "SỬ THI",
     "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/chamtranvoichonrac.png",
+    "description": "Khi một bài quân của người chơi hy sinh, gài <span class='text-[#ffce32]'>1</span> lá <span class='text-[#3ea9ff]'>Nấm Độc</span> lên bộ bài của người chơi.",
+    "name": "Chạm Trán Với Chồn Rác",
+    "powerCode": "P3211",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/loisaochep.png",
+    "description": "Khi người chơi BẤT KỲ triệu hồi 1 bài quân đã có sẵn trên bàn, ban <span class='text-[#ffce32]'>+1|+1</span> cho bài quân đó.",
+    "name": "Lỗi Sao Chép",
+    "powerCode": "P3212",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/luyenngammuctieu1.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Ezreal.",
+    "name": "Luyện Ngắm Mục Tiêu",
+    "powerCode": "P3213",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01010.png",
+    "description": "Bắt Đầu Trận Đấu: Tạo 1 lá Đấu Trường Noxkraya trên tay Địch Thủ. Lá bài đó có 1 tiêu hao",
+    "name": "Trò Tiêu Khiển Noxus",
+    "powerCode": "P3214",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/dotkichchinhdien.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Trận Đấu</span>: Tạo 1 lá <span class='text-[#3ea9ff]'>Kẻ Liều Lĩnh Trifarix</span> trên tay <span class='text-[#f3e698]'>Địch Thủ</span>.",
+    "name": "Đột Kích Chính Diện",
+    "powerCode": "P3215",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/congthanhvachinhphuc.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Trận Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi 1 lá <span class='text-[#3ea9ff]'>Xe Công Thành</span>.",
+    "name": "Công Thành Và Chinh Phục",
+    "powerCode": "P3216",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/ammuumoam.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Hồi lại <span class='text-[#ffce32]'>1</span> năng lượng bài phép.",
+    "name": "Âm Mưu Mờ Ám",
+    "powerCode": "P3217",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0553.png",
+    "description": "Khi Địch Thủ tấn công, trao +1|+0 cho bài quân tấn công của Địch Thủ trong vòng này.",
+    "name": "Chung Sức Đồng Lòng",
+    "powerCode": "P3218",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/botocsatcanh1.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Ban <span class='text-[#ffce32]'>+1|+1</span> cho 2 bài quân ngẫu nhiên trong bộ bài của TẤT CẢ người chơi.",
+    "name": "Bộ Tộc Sát Cánh",
+    "powerCode": "P3219",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nangluongvabaiphep.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> hồi lại <span class='text-[#ffce32]'>3</span> năng lượng bài phép.",
+    "name": "Năng Lượng & Bài Phép",
+    "powerCode": "P3220",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/lantoacothuat.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Trận Đấu</span>: TẤT CẢ người chơi bắt đầu với <span class='text-[#ffce32]'>3</span> năng lượng bài phép.",
+    "name": "Lan Tỏa Cổ Thuật",
+    "powerCode": "P3221",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/baothuchonguoidakhuat1.png",
+    "description": "Kết Thúc Vòng Đấu: Nếu 1 bài quân của Địch thủ hy sinh trong vòng này, Địch Thủ tạo trên tay 1 lá Kế Thừa.",
+    "name": "Báo Thù Cho Người Đã Khuất",
+    "powerCode": "P3222",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/bangchungkhongthechoicai.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Trận Đấu</span>: Tạo 1 lá <span class='text-[#3ea9ff]'>Giam Cầm</span> trên tay TẤT CẢ người chơi.",
+    "name": "Bằng Chứng Không Thể Chối Cãi",
+    "powerCode": "P3223",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/khongchapnhannoi.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Trận Đấu</span>: Tạo 1 lá <span class='text-[#3ea9ff]'>Phán Quyết</span> trên tay <span class='text-[#f3e698]'>Địch Thủ</span>. Khi người chơi sử dụng 1 bài phép, giảm 1 tiêu hao của <span class='text-[#3ea9ff]'>Phán Quyết</span>.",
+    "name": "Không Chấp Nhận Nổi",
+    "powerCode": "P3224",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nangcapphelieu.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Trận Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> bắt đầu với <span class='text-[#ffce32]'>3</span> năng lượng bài phép.",
+    "name": "Tài Năng Thiên Bẩm",
+    "powerCode": "P3225",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/camlaolennao.png",
+    "description": "Khi Địch Thủ triệu hồi 1 đồng minh 1 tiêu hao, ban +1|+0 cho đồng minh đó.",
+    "name": "Cầm Lao Lên Nào",
+    "powerCode": "P3226",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/doctaunhipnhang1.png",
+    "description": "Bắt Đầu Trận Đấu: TẤT CẢ người chơi triệu hồi 1 lá Sát Thủ Đoạt Mệnh.",
+    "name": "Cái Chết Lén Lút",
+    "powerCode": "P3227",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/themthuocno.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi 1 lá <span class='text-[#3ea9ff]'>Thùng Thuốc Súng</span>.",
+    "name": "Thêm Thuốc Nổ",
+    "powerCode": "P3228",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/nadanhangloat.png",
+    "description": "<span class='text-[#ffce32]'>Kết Thúc Vòng Đấu</span>: Gây <span class='text-[#ffce32]'>1</span> sát thương lên Nhà Chính của người chơi nếu <span class='text-[#f3e698]'>Địch Thủ</span> đã gây sát thương lên Nhà Chính của người chơi trong vòng này.",
+    "name": "Nã Đạn Hàng Loạt!",
+    "powerCode": "P3229",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01026.png",
+    "description": "Khi người chơi sử dụng bài quân đầu tiên của mình trong mỗi vòng đấu, <span class='text-[#ffce32]'>Làm Choáng</span> bài quân đó.",
+    "name": "Cái Chết Cũng Giống Như Cơn Gió",
+    "powerCode": "P3230",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/bongtoiapden.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Tạo 1 lá <span class='text-[#3ea9ff]'>Dấu Ấn Tử Thần</span> ⏳ <span class='text-[#ffce32]'>Phù Du</span> trên tay TẤT CẢ người chơi.",
+    "name": "Bóng Tối Ập Đến",
+    "powerCode": "P3231",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/tapkichtrencay1.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: Trao 👁️ <span class='text-[#ffce32]'>Huyền Ảo</span> cho bài quân <span class='text-[#ffce32]'>yếu nhất</span> của <span class='text-[#f3e698]'>Địch Thủ</span> trong vòng này.",
+    "name": "Tập Kích Trên Cây",
+    "powerCode": "P3232",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/luoiguomtrongbongtoi.png",
+    "description": "<span class='text-[#ffce32]'>Kết Thúc Vòng Đấu</span>: Nếu Nhà Chính của người chơi đã nhận sát thương trong vòng này, bài quân <span class='text-[#ffce32]'>yếu nhất</span> của <span class='text-[#f3e698]'>Địch Thủ</span> sẽ ra đòn lên nó.",
+    "name": "Lưỡi Gươm Trong Bóng Tối",
+    "powerCode": "P3233",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thulua.png",
+    "description": "<span class='text-[#ffce32]'>Kết Thúc Vòng Đấu</span>: Nếu Nhà Chính của người chơi đã nhận sát thương trong vòng này, giảm <span class='text-[#ffce32]'>1</span> tiêu hao của bài quân có tiêu hao cao nhất trên tay <span class='text-[#f3e698]'>Địch Thủ</span>.",
+    "name": "Thử Lửa",
+    "powerCode": "P3234",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/menhlenhdoccong.png",
+    "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> tấn công, chúng triệu hồi <span class='text-[#ffce32]'>1</span> tùy tùng <span class='text-[#ffce32]'>1</span> tiêu hao ngẫu nhiên.",
+    "name": "Mệnh Lệnh Đốc Công",
+    "powerCode": "P3235",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://wpocimg.s3.ap-southeast-2.amazonaws.com/powers/P01003.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ có 50% cơ hội tạo trên tay 1 lá Cổ Vật May Mắn. Người chơi có 25% cơ hội",
+    "name": "Phi Vụ Gian Nan",
+    "powerCode": "P3236",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/sucmanhthieunien.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi <span class='text-[#ffce32]'>1</span> địa danh có <span class='text-[#ffce32]'>2-</span> tiêu hao từ khu vực của chúng.",
+    "name": "Sức Mạnh Thiếu Niên",
+    "powerCode": "P3237",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/nhatientrisamac.png",
+    "description": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có 1 địa danh, ban +1|+0 cho bài quân mạnh nhất của Địch Thủ.",
+    "name": "Nhà Tiên Tri Sa Mạc",
+    "powerCode": "P3238",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/gaudasayngu.png",
+    "description": "Khi <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi 1 lá <span class='text-[#3ea9ff]'>Gấu Đá Cục Cằn</span>, ban 🛡️ <span class='text-[#ffce32]'>Áp Đảo</span> cho lá bài đó.",
+    "name": "Gấu Đá Say Ngủ",
+    "powerCode": "P3239",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/hiemhoavungsaltwater1.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Vòng Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi 1 <span class='text-[#3ea9ff]'>Thùng Thuốc Súng</span>.<br><span class='text-[#ffce32]'>Lần đầu</span> <span class='text-[#f3e698]'>Địch Thủ</span> bắt đầu vòng đấu khi còn ít hơn 20 máu, triệu hồi <span class='text-[#3ea9ff]'>Tàu Dreadway</span>.",
+    "name": "Hiểm Họa Vùng Saltwater",
+    "powerCode": "P3240",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/gingiuhoabinh.png",
+    "description": "<span class='text-[#ffce32]'>Bắt Đầu Trận Đấu</span>: <span class='text-[#f3e698]'>Địch Thủ</span> tạo trên tay 1 lá <span class='text-[#3ea9ff]'>Hộ Vệ Quảng Trường</span>.",
+    "name": "Gìn Giữ Hòa Bình",
+    "powerCode": "P3241",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/apsatmanhmoi.png",
+    "description": "Khi BẤT KỲ người chơi nào nhận lượt tấn công, người chơi đó rút <span class='text-[#ffce32]'>1</span> lá bài.",
+    "name": "Áp Sát Manh Mối",
+    "powerCode": "P3242",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/locdaxethit.png",
+    "description": "Mỗi vòng đấu, lần đầu tiên <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi 1 bài quân, ban 🔥 <span class='text-[#ffce32]'>Khí Lực</span> cho bài quân đó.",
+    "name": "Lọc Da Xẻ Thịt",
+    "powerCode": "P3243",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
   }
 ]
