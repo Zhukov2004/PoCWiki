@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Các Bàn Đấu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            /* Định nghĩa lại các biến màu để nút nhạc hoạt động */
+            --wiki-card: #1c1e24;
+            --wiki-border: #31343c;
+            --lor-gold: #c89b3c;
+            --hextech-gold: #c8aa6e;
+            --hextech-gold-dark: #785a28;
+        }
+
+        body { background: #0f1014; color: white; font-family: 'Segoe UI', sans-serif; }
+
+        .board-card {
+            background: var(--wiki-card);
+            border: 1px solid var(--wiki-border);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .board-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--lor-gold);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .img-container { position: relative; aspect-ratio: 16/9; background: #000; }
+        .board-display { width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: 0.3s; }
+        .board-card:hover .board-display { opacity: 1; }
+        
+        .board-icon {
+            position: absolute; bottom: 10px; right: 10px;
+            width: 45px; height: 45px;
+            border: 2px solid var(--lor-gold);
+            border-radius: 8px; background: #1a1a1a;
+        }
+
+        /* Style cho nút nhạc */
+        .audio-btn {
+            background: rgba(200, 170, 110, 0.1);
+            border: 1px solid var(--hextech-gold-dark);
+            color: var(--hextech-gold);
+            padding: 4px 10px;
+            font-size: 11px;
+            border-radius: 4px;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .audio-btn:hover {
+            background: var(--hextech-gold);
+            color: #000;
+            box-shadow: 0 0 10px var(--hextech-gold);
+        }
+        .audio-btn.playing {
+            background: var(--lor-gold);
+            color: white;
+            border-color: #fff;
+            box-shadow: 0 0 15px #fff;
+        }
+
+        @media (max-width: 640px) { .filter-select { width: 100%; margin-bottom: 10px; } }
+    </style>
+</head>
+<body>
+
+<div class="container mx-auto px-4 py-10">
+    <header class="mb-10 text-center">
+        <h1 class="text-4xl font-bold text-[#c89b3c] mb-6 tracking-widest">Bàn Đấu Legends of Runeterra</h1>
+        
+        <div class="flex flex-wrap justify-center gap-4 mb-8">
+            <select id="regionFilter" class="bg-[#1c1e24] border border-[#31343c] text-white px-4 py-2 rounded-lg focus:outline-none focus:border-[#c89b3c]">
+                <option value="all">Tất cả khu vực</option>
+            </select>
+            <select id="rarityFilter" class="bg-[#1c1e24] border border-[#31343c] text-white px-4 py-2 rounded-lg focus:outline-none focus:border-[#c89b3c]">
+                <option value="all">Tất cả độ hiếm</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Tìm tên bàn đấu..." 
+                   class="bg-[#1c1e24] border border-[#31343c] text-white px-4 py-2 rounded-lg focus:outline-none focus:border-[#c89b3c]">
+        </div>
+    </header>
+
+    <div id="boards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+</div>
+
+<script>
+    let allBoards = [];
+    let currentAudio = new Audio();
+    let activeBtn = null;
+
+    async function init() {
+        try {
+            const response = await fetch('bandau.json');
+            allBoards = await response.json();
+            setupFilters();
+            render(allBoards);
+
+            document.getElementById('regionFilter').addEventListener('change', applyFilters);
+            document.getElementById('rarityFilter').addEventListener('change', applyFilters);
+            document.getElementById('searchInput').addEventListener('input', applyFilters);
+        } catch (error) {
+            console.error("Lỗi:", error);
+        }
+    }
+
+    function setupFilters() {
+        const regions = [...new Set(allBoards.map(b => b.collection))];
+        const rarities = [...new Set(allBoards.map(b => b.rarity))];
+        const regSelect = document.getElementById('regionFilter');
+        const rarSelect = document.getElementById('rarityFilter');
+        regions.forEach(r => regSelect.innerHTML += `<option value="${r}">${r}</option>`);
+        rarities.forEach(r => rarSelect.innerHTML += `<option value="${r}">${r}</option>`);
+    }
+
+    function applyFilters() {
+        const reg = document.getElementById('regionFilter').value;
+        const rar = document.getElementById('rarityFilter').value;
+        const search = document.getElementById('searchInput').value.toLowerCase();
+        const filtered = allBoards.filter(b => {
+            return (reg === 'all' || b.collection === reg) &&
+                   (rar === 'all' || b.rarity === rar) &&
+                   (b.name.toLowerCase().includes(search));
+        });
+        render(filtered);
+    }
+
+    // Hàm phát nhạc
+    function playSound(btn, path) {
+        event.stopPropagation(); 
+        if (!path || path === "undefined") {
+            alert("Chưa có file âm thanh!");
+            return;
+        }
+
+        if (currentAudio.src.includes(path) && !currentAudio.paused) {
+            currentAudio.pause();
+            btn.classList.remove('playing');
+            return;
+        }
+
+        if (activeBtn) activeBtn.classList.remove('playing');
+        currentAudio.src = path;
+        currentAudio.play();
+        btn.classList.add('playing');
+        activeBtn = btn;
+        currentAudio.onended = () => btn.classList.remove('playing');
+    }
+
+    function render(data) {
+        const grid = document.getElementById('boards-grid');
+        grid.innerHTML = data.map(b => {
+            const hasAudio = b.audio && Object.keys(b.audio).length > 0;
+
+            return `
+                <div class="board-card group">
+                    <div class="img-container">
+                        <img src="${b.images.display}" class="board-display" loading="lazy">
+                        <img src="${b.images.icon}" class="board-icon">
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-1">
+                            <h3 class="text-2xl font-bold text-[#f0e6d2] group-hover:text-[#c89b3c] transition-colors">${b.name}</h3>
+                            <span class="text-[10px] border border-gray-600 px-2 py-1 rounded text-gray-400 uppercase">${b.rarity}</span>
+                        </div>
+                        
+                        <div class="text-[#c89b3c] text-xs mb-6 font-bold tracking-widest opacity-80">
+                            Bộ sưu tập ${b.collection} • Giá: ${b.cost}
+                        </div>
+
+                        <div class="mb-6 p-4 rounded-lg bg-black/40 border border-gray-800/50">
+                            <div class="flex items-center gap-2 mb-4">
+                                <svg class="w-4 h-4 text-[#c89b3c]" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.983 5.983 0 01-1.414 4.243 1 1 0 11-1.415-1.415A3.987 3.987 0 0013 10a3.987 3.987 0 00-1.414-2.828a1 1 0 010-1.415z"></path>
+                                </svg>
+                                <span class="text-[10px] font-black uppercase tracking-[0.2em] text-[#a09480]">Preview Soundtrack</span>
+                            </div>
+
+                            <div class="flex flex-wrap gap-2">
+                                ${hasAudio ? 
+                                    Object.entries(b.audio).map(([key, url]) => `
+                                        <button class="audio-btn flex-1 min-w-[80px]" onclick="playSound(this, '${url}')">
+                                            ${key}
+                                        </button>
+                                    `).join('') 
+                                    : 
+                                    `<div class="w-full no-audio-box">
+                                        <p class="text-[10px] text-gray-500 italic tracking-wider">Bàn đấu chưa có hiệu ứng âm thanh</p>
+                                     </div>`
+                                }
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            ${b.description.map(d => `
+                                <div class="flex items-start gap-3">
+                                    <span class="text-[#c89b3c] text-[10px] mt-1">◆</span>
+                                    <p class="text-gray-400 text-sm font-bold leading-relaxed">${d}</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+    init();
+</script>
+</body>
+</html>

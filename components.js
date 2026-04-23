@@ -18,9 +18,6 @@ function injectNavbar() {
         </a>
         
         <div class="hidden lg:flex gap-10 items-center">
-            <a href="champions.html" class="text-white/80 hover:text-[#c89b3c] font-semibold transition-colors flex items-center gap-2">
-                <i data-lucide="users" class="w-4 h-4"></i> Tướng
-            </a>
 
             <div class="relative group">
                 <button class="text-white/80 group-hover:text-cyan-400 font-semibold transition-colors flex items-center gap-2 py-3">

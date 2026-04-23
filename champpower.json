@@ -5,6 +5,103 @@
 		"cost": 4,
 		"maxStar": 6,
 		"regions": ["Freljord"],
+        "levelProgressions": [
+    {
+      "level": 1,
+      "nexusHealth": 20,
+      "expReq": 0,
+      "totalExp": 0,
+      "unlocks": [
+        { "type": "RelicSlot", "tier": "Common", "text": "Mở khóa Ô Cổ Vật đầu tiên." }
+      ]
+    },
+    {
+      "level": 2,
+      "nexusHealth": 25,
+      "expReq": 50,
+      "totalExp": 50,
+      "unlocks": [
+        { "type": "CardUpgrade", "cardCode": "03MT015", "itemCode": "I0055", "text": "Thiên Cổ Vô Biên nhận Bình Năng Lượng" },
+        { "type": "CardUpgrade", "cardCode": "03MT086", "itemCode": "I0037", "text": "Họa Sĩ Mơ Màng nhận Áo Da Tán Đinh" },
+        { "type": "CardUpgrade", "cardCode": "03MT079", "itemCode": "I0072", "text": "Nhóc Tì Tinh Tú nhận Khiên Gắn Kết" },
+        { "type": "CardUpgrade", "cardCode": "03MT084", "itemCode": "I0000", "text": "Dáng Hình Thượng Nhân nhận Lư Hương Sôi Sục" }
+      ]
+    },
+    {
+      "level": 3,
+      "nexusHealth": 25,
+      "expReq": 100,
+      "totalExp": 150,
+      "unlocks": [
+        { "type": "CardUpgrade", "cardCode": "03MT092", "itemCode": "I0038", "text": "Dê Núi nhận Đai Khổng Lồ" }
+      ]
+    },
+    {
+      "level": 4,
+      "nexusHealth": 30,
+      "expReq": 150,
+      "totalExp": 300,
+      "unlocks": [
+        { "type": "Passive", "text": "Tăng máu Nhà Chính lên 30." }
+      ]
+    },
+    {
+      "level": 5,
+      "nexusHealth": 30,
+      "expReq": 200,
+      "totalExp": 500,
+      "unlocks": [
+        { "type": "Passive", "text": "Tướng hỗ trợ có Cổ Vật Thường ngẫu nhiên." }
+      ]
+    },
+    {
+      "level": 6,
+      "nexusHealth": 30,
+      "expReq": 300,
+      "totalExp": 800,
+      "unlocks": [
+        { "type": "CardUpgrade", "cardCode": "05MT006", "itemCode": "I0042", "text": "Bạch Hỏa Thương Tổn nhận Khiên Hoang Dại" },
+        { "type": "Passive", "text": "+5% tỉ lệ tìm thấy Vật Phẩm và Sức Mạnh Hiếm." }
+      ]
+    },
+    {
+      "level": 8,
+      "nexusHealth": 30,
+      "expReq": 500,
+      "totalExp": 1750,
+      "unlocks": [
+        { "type": "RelicSlotUpgrade", "slotIndex": 1, "tier": "Rare", "text": "Ô Cổ Vật đầu tiên nâng cấp lên Hiếm." },
+        { "type": "Passive", "text": "+2.5% tỉ lệ tìm thấy Vật Phẩm và Sức Mạnh Sử Thi." }
+      ]
+    },
+    {
+      "level": 10,
+      "nexusHealth": 30,
+      "expReq": 670,
+      "totalExp": 2980,
+      "unlocks": [
+        { "type": "Passive", "text": "Hồi phục Nhà Chính +2. 1% tỉ lệ tìm thấy Sức Mạnh Huyền Thoại." }
+      ]
+    },
+    {
+      "level": 13,
+      "nexusHealth": 30,
+      "expReq": 1070,
+      "totalExp": 5780,
+      "unlocks": [
+        { "type": "RelicSlot", "tier": "Common", "text": "Mở khóa Ô Cổ Vật thứ 2." }
+      ]
+    },
+    {
+      "level": 20,
+      "nexusHealth": 30,
+      "expReq": 2220,
+      "totalExp": 17680,
+      "unlocks": [
+        { "type": "PowerUpgrade", "powerCode": "P01114", "text": "Nhận Sức Mạnh: Chào Đón Anh Hùng" }
+      ]
+    }
+  ],
 		"description": "- Lối chơi kiểm soát (Control): Khả năng đóng băng diện rộng giúp vô hiệu hóa hoàn toàn hàng phòng ngự đối phương và gia tăng chỉ số đồng minh vượt trội.\\n- Nội tại áp đảo: Tự động đóng băng đơn vị mạnh nhất của đối thủ mỗi vòng, tạo lợi thế tuyệt đối trong cả tấn công lẫn phòng thủ.\\n- Tối ưu sức mạnh: Phát huy tối đa hiệu quả khi kết hợp cùng sức mạnh bổ trợ \"Cầm Chân Đối Thủ\".\\n- Cộng hưởng chiến thuật: Sự kết hợp giữa \"Món Quà Của Avarosa\" và \"Đòn Đánh Suy Nhược\" giúp chuyển hóa chỉ số bị giảm của kẻ địch thành sức mạnh trực tiếp cho các quân bài trên tay.",
 		"adventurePowerIds": [
 			"P0111",
@@ -11083,7 +11180,7 @@
     [
       {
         "fullAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/en_us/img/cards/98FR021T1-full.png",
-        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/en_us/img/cards/98FR021.png"
+        "gameAbsolutePath": "https://dd.b.pvp.net/7_3_0/tpoc/vi_vn/img/cards/98FR021.png"
       }
     ],
       "bonusStars": [

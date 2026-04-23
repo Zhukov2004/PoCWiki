@@ -1,0 +1,851 @@
+[
+    {
+      "name": "Summoner's Rift",
+      "rarity": "Common",
+      "cost": "0",
+      "collection": "Summoner's Rift",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại prefer the classics."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Summoner%27s_Rift_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Summoner%27s_Rift_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Summoner%27s_Rift_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Ốc Đảo Thăng Hoa",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Shurima",
+      "description": [
+        "Khu vực:  Shurima",
+        "Dành cho những game thủ huyền thoại chuyên thực hiện những pha lật kèo ấn tượng.",
+  "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ascended_Oasis_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ascended_Oasis_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ascended_Oasis_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_150.ogg",
+    "middle": "audio/LoR_SFX_152.ogg",
+    "end": "audio/LoR_SFX_153.ogg"
+  }
+    },
+    {
+      "name": "Tiền Đồn Bandlewood",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Thành Phố Bandle",
+      "description": [
+        "Khu vực:  Bandle City",
+        "Dành cho những game thủ huyền thoại muốn tìm kiếm vương quốc ẩn giấu.",
+  "Bàn đấu này có rất nhiều bí mật vi diệu cùng yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Bandlewood_Outpost_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Bandlewood_Outpost_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Bandlewood_Outpost_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_154.ogg",
+    "middle": "audio/LoR_SFX_155.ogg",
+    "end": "audio/LoR_SFX_156.ogg"
+  }
+    },
+    {
+      "name": "Đỉnh Thượng Giới",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Bộ Sưu Tập Targon",
+      "description": [
+        "Khu Vực: Targon",
+        "Dành cho những game thủ huyền thoại muốn đạt được sức mạnh vĩ đại.",
+  "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Celestial_Summit_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Celestial_Summit_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Celestial_Summit_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_090.ogg",
+    "middle": "audio/LoR_SFX_092.ogg",
+    "end": "audio/LoR_SFX_093.ogg"
+  }
+    },
+    {
+      "name": "Tu Viện Trên Đỉnh Núi",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Ionia",
+      "description": [
+        "Khu vực:  Ionia",
+        "Dành cho những game thủ huyền thoại muốn hạ gục từng đối thủ.",
+  "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Clifftop_Monastery_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Clifftop_Monastery_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Clifftop_Monastery_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_051.ogg",
+    "middle": "audio/LoR_SFX_005.ogg",
+    "end": "audio/LoR_SFX_058.ogg"
+  }
+    },
+    {
+      "name": "Tàn Tích Bị Nguyền Rủa",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Quần Đảo Bóng Đêm",
+      "description": [
+        "Khu vực:  Quần Đảo Bóng Đêm",
+        "Dành cho những game thủ huyền thoại có thể hy sinh mọi thứ để giành lấy chiến thắng.",
+  "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Cursed_Ruins_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Cursed_Ruins_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Cursed_Ruins_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_018.ogg",
+    "middle": "audio/LoR_SFX_070.ogg",
+    "end": "audio/LoR_SFX_060.ogg"
+  }
+    },
+    {
+      "name": "Sảnh Vinh Danh",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Demacia",
+      "description": [
+        "Khu vực:  Demacia",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại chiến đấu bằng cả danh dự."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hall_of_Valor_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hall_of_Valor_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hall_of_Valor_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_027.ogg",
+    "middle": "audio/LoR_SFX_015.ogg",
+    "end": "audio/LoR_SFX_024.ogg"
+  }
+    },
+    {
+      "name": "Phòng Thí Nghiệm Hextech",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Piltover",
+      "description": [
+        "Khu vực:  Piltover & Zaun",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại muốn tìm kiếm những chiến thuật mới để dành chiến thắng."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Lab_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Lab_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Lab_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_001.ogg",
+    "middle": "audio/LoR_SFX_038.ogg",
+    "end": "audio/LoR_SFX_045.ogg"
+  }
+    },
+    {
+      "name": "Đỉnh Băng Tộc",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Freljord",
+      "description": [
+        "Khu vực:  Freljord",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại muốn sống sót bằng mọi giá."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Iceborn_Peak_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Iceborn_Peak_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Iceborn_Peak_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_017.ogg",
+    "middle": "audio/LoR_SFX_025.ogg",
+    "end": "audio/LoR_SFX_028.ogg"
+  }
+    },
+    {
+      "name": "Đấu Trường Thanh Trừng",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Noxus",
+      "description": [
+        "Khu vực:  Noxus",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại vinh danh khải hoàn."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Reckoners_Arena_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Reckoners_Arena_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Reckoners_Arena_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_008.ogg",
+    "middle": "audio/LoR_SFX_065.ogg",
+    "end": "audio/LoR_SFX_031.ogg"
+  }
+    },
+    {
+      "name": "Cầu Cảng Sát Sinh",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Bilgewater",
+      "description": [
+        "Khu vực:  Bilgewater",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại dám chấp nhận rủi ro để nhận phần thưởng lớn."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Slaughter_Docks_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Slaughter_Docks_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Slaughter_Docks_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_022.ogg",
+    "middle": "audio/LoR_SFX_049.ogg",
+    "end": "audio/LoR_SFX_030.ogg"
+  }
+    },
+    {
+      "name": "Thành Phố Ngầm",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Zaun",
+      "description": [
+        "Khu vực:  Piltover & Zaun",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại luôn sẵn sàng thử nghiệm mọi thứ."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Undercity_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Undercity_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Undercity_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_133.ogg",
+    "middle": "audio/LoR_SFX_134.ogg",
+    "end": "audio/LoR_SFX_135.ogg"
+  }
+    },
+    {
+      "name": "Tử Thần Darkin",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Sa Ngã",
+      "description": [
+        "Nhân vật: Kayn",
+        "Bàn đấu này có yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt",
+        "Hoặc là thống trị bóng đêm... hoặc bị nó nuốt chửng"
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Darkin_Reaper_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Darkin_Reaper_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Darkin_Reaper_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Sức Mạnh Của Garen",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Garen",
+      "description": [
+        "Nhân vật: Garen",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại không bao giờ lùi bước."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Garen%27s_Might_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Garen%27s_Might_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/01DE012T1-full.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_1.ogg",
+    "middle": "audio/LoR_SFX_2.ogg",
+    "end": "audio/LoR_SFX_3.ogg"
+  }
+    },
+    {
+      "name": "Jinx Nổi Loạn",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Jinx",
+      "description": [
+        "Nhân vật: Jinx",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại thích cho nổ tung tất cả mà không cần phải xoắn."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Jinx%27s_Mayhem_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Jinx%27s_Mayhem_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/01PZ040T1-full.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_164.ogg",
+    "middle": "audio/LoR_SFX_165.ogg",
+    "end": "audio/LoR_SFX_166.ogg"
+  }
+    },
+    {
+      "name": "Bóng Đêm Của Kayn",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Sa Ngã",
+      "description": [
+        "Nhân vật: Kayn",
+        "Bàn đấu này có yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt",
+        "Bóng đêm giờ nằm gọn trong tay hắn"
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Kayn%27s_Shadow_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Kayn%27s_Shadow_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Darkin_Reaper_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Lee Sin Kiên Định",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Lee Sin",
+      "description": [
+        "Nhân vật: Lee Sin",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại với giác quan nhanh nhạy và nước đi quyết đoán."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Lee_Sin%27s_Iron_Will_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Lee_Sin%27s_Iron_Will_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/02IO006T1-full.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_4.ogg",
+    "middle": "audio/LoR_SFX_5.ogg",
+    "end": "audio/LoR_SFX_6.ogg"
+  }
+    },
+    {
+      "name": "Xưởng Tàu Chìm",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Pyke",
+      "description": [
+        "Nhân vật: Pyke",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại khao khát báo thù."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sunken_Shipyard_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sunken_Shipyard_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sunken_Shipyard_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/6.ogg",
+    "middle": "audio/7.ogg",
+    "end": "audio/8.ogg"
+  }
+    },
+    {
+      "name": "Ngôi Đền Thời Gian",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Zilean",
+      "description": [
+        "Nhân vật: Zilean",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại sẵn sàng viết nên định mệnh của chính mình."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Time_Temple_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Time_Temple_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Time_Temple_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/9.ogg",
+    "middle": "audio/10.ogg",
+    "end": "audio/11.ogg"
+  }
+    },
+    {
+      "name": "Trảng Rừng Vastayan",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Ahri",
+      "description": [
+        "Nhân vật: Ahri",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Nơi nghỉ ngơi cho những tâm hồn lãng du"
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Vastayan_Glade_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Vastayan_Glade_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Vastayan_Glade_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Giả Lập",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Arcade",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Nâng tàm bàn đấu của bạn lêm một đẳng cấp mới với giao diện và am thanh xịn xò"
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Arcade_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Arcade_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Arcade_Loading_Screen.png"
+      },
+      "audio": {
+    "Bắt đầu & Giữa trận": "audio/LoR_SFX_006.ogg",
+    "Giữa trận & Kết thúc": "audio/LoR_SFX_056.ogg"
+  }
+    },
+    {
+      "name": "Câu Lạc Bộ Tân Sửu",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Binh Đoàn Nguyên Đán",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Năm cũ đã qua nhưng bữa tiệc chỉ vừa mới bắt đầu"
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Club_Ox_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Club_Ox_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Club_Ox_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_140.ogg",
+    "middle": "audio/LoR_SFX_141.ogg",
+    "end": "audio/LoR_SFX_142.ogg"
+  }
+    },
+    {
+      "name": "Sân Vận Động Durandal",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Học Viện Chiến Binh",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại dám mơ ước và cũng rất tốt bụng."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Durandal_Stadium_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Durandal_Stadium_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Durandal_Stadium_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Dark Emissary's Realm",
+      "rarity": "Huyền Thoại",
+      "cost": "Bundle Exclusive",
+      "collection": "Dark Horizon",
+      "description": [
+        "Theme: Event Horizon",
+        "Bàn đấu này có yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt",
+        "Always equipped with default Mega Guardian.",
+        "Orbiting just beyond the singularity's reach, the Emissary feeds the Dark Star anything with the misfortune to drift by."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Emissary%27s_Realm_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Emissary%27s_Realm_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Emissary%27s_Realm_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Dark Horizon",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Dark Horizon",
+      "description": [
+        "Theme: Event Horizon",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "There is no escape."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Horizon_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Horizon_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Horizon_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Miếu Sính Lễ",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Chủ đề: Hoa Linh Lục Địa",
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Dành cho những game thủ tràn đầy tinh thần chiến đấu."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Festival_Shrine_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Festival_Shrine_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Spirit_Blossom_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_083.ogg",
+    "middle": "audio/LoR_SFX_084.ogg",
+    "end": "audio/LoR_SFX_085.ogg"
+  }
+    },
+    {
+      "name": "Vùng Đất Quỷ Ám",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Sự trỗi dậy",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Hãy bước vào... nếu ngươi dám."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Haunted_Grounds_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Haunted_Grounds_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Haunted_Grounds_Loading_Screen.png"
+      },
+      "audio": {
+    "Toàn trận đấu": "audio/LoR_SFX_156.ogg"
+  }
+    },
+    {
+      "name": "Vùng Biển Huyền Thoại",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Tiệc Bể Bơi",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Chào mừng đến với bữa tiệc."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Lagoon_of_Legends_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Lagoon_of_Legends_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Lagoon_of_Legends_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/12.ogg",
+    "middle": "audio/13.ogg",
+    "end": "audio/14.ogg"
+  }
+    },
+    {
+      "name": "K/DA Lưu Diễn Thế Giới",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "K/DA ALL OUT",
+      "description": [
+        "Nhấp vào nút xoay để chuyển đổi giữa 3 bản nhạc của K/DA, mỗi bản có một phong cách hình ảnh riêng. Bàn đấu này có những yếu tố tương tác và hiệu ứng hình ảnh đặc biệt.",
+        "Came to stunt, came to impress, look at the board, call it a flex (lời bài hát)."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_KDA_World_Tour_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_KDA_World_Tour_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_KDA_World_Tour_Loading_Screen.png"
+      },
+      "audio": {
+    "POP/STAR 1": "audio/LoR_SFX_111.ogg",
+    "POP/STAR 2": "audio/LoR_SFX_112.ogg",
+    "POP/STAR 3": "audio/LoR_SFX_113.ogg",
+    "THE BADDEST 1": "audio/LoR_SFX_114.ogg",
+    "THE BADDEST 2": "audio/LoR_SFX_115.ogg",
+    "THE BADDEST 3": "audio/LoR_SFX_116.ogg",
+    "MORE 1": "audio/LoR_SFX_117.ogg",
+    "MORE 2": "audio/LoR_SFX_118.ogg",
+    "MORE 3": "audio/LoR_SFX_119.ogg"
+  }
+    },
+    {
+      "name": "Chiến Trường Dung Nham",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Hỏa Ngục",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Những sinh vật đói khát gào thét bên dưới mặt đát nóng chảy."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Magma_Chamber_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Magma_Chamber_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Magma_Chamber_Loading_Screen.jpg"
+      }
+    },
+    {
+      "name": "Miếu Bóng Đêm",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Dành cho những game thủ thích mạo hiểm."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Nightshade_Shrine_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Nightshade_Shrine_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Spirit_Blossom_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_086.ogg",
+    "middle": "audio/LoR_SFX_087.ogg",
+    "end": "audio/LoR_SFX_088.ogg"
+  }
+    },
+    {
+      "name": "Tầng Thượng Piltover",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Con Đường Anh Hùng",
+      "description": [
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Dành cho những huyền thoại có bộ óc thiên tài."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Piltovan_Rooftops_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Piltovan_Rooftops_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Piltovan_Rooftops_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Pinnacle of Glory",
+      "rarity": "Hiếm",
+      "cost": "Không khả dụng trong cửa hàng",
+      "collection": "Victorious",
+      "description": [
+        "Theme:  Victorious",
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại compete at the highest level."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Pinnacle_of_Glory_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Pinnacle_of_Glory_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Pinnacle_of_Glory_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Hành Tinh Urf",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Urf",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Dành cho những game thủ huyền thoại luôn sẵn sàng đốt cháy mọi thứ để giành chiến thắng."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Planet_Urf_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Planet_Urf_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Planet_Urf_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_161.ogg",
+    "middle": "audio/LoR_SFX_162.ogg",
+    "end": "audio/LoR_SFX_163.ogg"
+  }
+    },
+    {
+      "name": "Đàn Tế Nghi Thức",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Nhật Thực",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Sức mạnh vĩ đại nhất sẽ trỗi dậy trở lại."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ritual_Altar_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ritual_Altar_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ritual_Altar_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Thánh Đường Vệ Binh",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Vệ Binh Ánh Sáng",
+      "description": [
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Dành cho những huyền thoại luôn rọi sáng con đường bằng trái tim kiên định."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "15.ogg",
+    "middle": "16.ogg",
+    "end": "17.ogg"
+  }
+    },
+    {
+      "name": "Thánh Đường Vệ Binh (Amethyst)",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Vệ Binh Ánh Sáng",
+      "description": [
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Dành cho những huyền thoại luôn rọi sáng con đường bằng trái tim kiên định. Được cá nhân hóa bởi Riven."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_%28Amethyst%29_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_%28Amethyst%29_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "15.ogg",
+    "middle": "16.ogg",
+    "end": "17.ogg"
+  }
+    },
+    {
+      "name": "Thánh Đường Vệ Binh (Citrine)",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Vệ Binh Ánh Sáng",
+      "description": [
+        "Theme:  Vệ Binh Ánh Sáng",
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Dành cho những huyền thoại luôn rọi sáng con đường bằng trái tim kiên định. Được cá nhân hóa bởi Akshan."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_%28Citrine%29_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_%28Citrine%29_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "15.ogg",
+    "middle": "16.ogg",
+    "end": "17.ogg"
+  }
+    },
+    {
+      "name": "Thánh Đường Vệ Binh (Pearl)",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Vệ Binh Ánh Sáng",
+      "description": [
+        "Theme:  Vệ Binh Ánh Sáng",
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Dành cho những huyền thoại luôn rọi sáng con đường bằng trái tim kiên định. Được cá nhân hóa bởi Senna."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_%28Pearl%29_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_%28Pearl%29_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Sanctuary_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "15.ogg",
+    "middle": "16.ogg",
+    "end": "17.ogg"
+  }
+    },
+    {
+      "name": "Mảng Rừng Phủ Tuyết",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Ngày Tuyết Rơi",
+      "description": [
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
+        "Trận chiến ném bóng tuyết!."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Snowy_Glade_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Snowy_Glade_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Snowy_Glade_Loading_Screen.png"
+      },
+      "audio": {
+    "start": "audio/LoR_SFX_126.ogg",
+    "middle": "audio/LoR_SFX_127.ogg",
+    "end": "audio/LoR_SFX_128.ogg"
+  }
+    },
+    {
+      "name": "Sân Khấu Tinh Tú",
+      "rarity": "Huyền Thoại",
+      "cost": "1590",
+      "collection": "Vệ Binh Tinh Tú",
+      "description": [
+        "Nhấp vào viên ngọc kim cương để tạo ra sự biến đổi thần kỳ của Vệ Binh Tinh Tú. Bàn đấu này có yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Hãy để rực rỡ trong bạn tỏa sáng."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Starlight_Stage_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Starlight_Stage_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Starlight_Stage_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Quán Tabletop",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Sứ Mệnh Khe Nứt",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Hãy đặt những quân bài của bạn để bắt đàu hành trình."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Tabletop_Tavern_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Tabletop_Tavern_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Tabletop_Tavern_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Ngôi Đền Mặt Trời",
+      "rarity": "Hiếm",
+      "cost": "990",
+      "collection": "Hung Thần",
+      "description": [
+        "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Một kỳ quan cổ xưa được khôi phục lại nét huy hoàng thuở trước đang chờ đón."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Temple_of_the_Sun_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_Temple_of_the_Sun_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_Temple_of_the_Sun_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Quả Cầu Thời Gian",
+      "rarity": "Sử Thi",
+      "cost": "1290",
+      "collection": "Vũ Khí Tối Thượng",
+      "description": [
+        "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Cùng lao vào thế giới nghịch đảo."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Chronosphere_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Chronosphere_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Chronosphere_Loading_Screen.png"
+      }
+    },
+    {
+      "name": "Sàn Đấu Cuối",
+      "rarity": "Huyền Thoại",
+      "cost": "1590",
+      "collection": "Arcade",
+      "description": [
+        "Bàn đấu này luôn đi kèm với Linh Thú độc quyền: Veigar Robot Siêu Cấp, cùng các yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt.",
+        "Trùm cuối đang chờ đợi."
+      ],
+      "images": {
+        "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Final_Stage_Board_icon.png",
+        "display": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Final_Stage_Board.png",
+        "loading": "https://wiki.leagueoflegends.com/en-us/images/LoR_The_Final_Stage_Loading_Screen.png"
+      }
+    }
+  ]
