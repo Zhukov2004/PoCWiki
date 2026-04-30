@@ -12,10 +12,11 @@ function injectNavbar() {
     </style>
 
     <nav class="fixed top-0 left-0 right-0 w-full z-[100] flex items-center justify-between px-6 md:px-12 py-4 bg-[#04060b]/95 backdrop-blur-xl border-b border-white/5 transition-all duration-300" id="mainNav">
-        <a href="index.html" class="flex items-center gap-3 group transition-transform active:scale-95">
-            <div class="w-10 h-10 bg-[#c89b3c] rounded-md flex items-center justify-center text-black font-bold text-xl shadow-[0_0_15px_rgba(200,155,60,0.4)]">P</div>
-            <span class="text-2xl tracking-tighter uppercase text-white font-bold group-hover:text-[#c89b3c] transition-colors">PoC Guide</span>
-        </a>
+<a href="index.html" class="ml-20 flex items-center group transition-all active:scale-90 hover:brightness-125">
+    <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Legends_of_Runeterra_nav_icon%40Gold.png/400px-Legends_of_Runeterra_nav_icon%40Gold.png?215d1" 
+         alt="Legends of Runeterra" 
+         class="w-12 h-12 object-contain drop-shadow-[0_0_10px_rgba(200,155,60,0.3)]">
+</a>
         
         <div class="hidden lg:flex gap-10 items-center">
 
@@ -36,7 +37,7 @@ function injectNavbar() {
                             ${renderMenuItem("cards.html", "layers", "Lá bài", "Thư viện Runeterra", "rgba(16, 185, 129, 0.4)", "emerald-500")}
                             ${renderMenuItem("progression.html", "trending-up", "Tiến trình", "Cấp độ & Thưởng", "rgba(200, 155, 60, 0.4)", "[#c89b3c]")}
                             ${renderMenuItem("maps.html", "map", "Bản đồ", "Viễn chinh thế giới", "rgba(239, 68, 68, 0.4)", "red-500")}
-
+                            ${renderMenuItem("resources.html", "database", "Tài Nguyên", "Bụi Tinh Tú & Mảnh ghép", "rgba(168, 85, 247, 0.4)", "purple-500")}
                         </div>
                     </div>
                 </div>

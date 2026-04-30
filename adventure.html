@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LoR Adventure Dashboard</title>
+    <script src="font-injector.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,900;1,900&display=swap');
         
-        body { font-family: 'Inter', sans-serif; background-color: #020408; color: white;
+        body {background-color: #020408; color: white;
     /* Thêm các dòng dưới đây */
     background-attachment: fixed;
     background-size: cover;
@@ -210,7 +211,7 @@ body {
                 <div class="w-24 h-24 rounded-2xl border-2 border-cyan-400/50 rotate-2 p-1 bg-slate-900 shadow-xl overflow-hidden flex-shrink-0">
                     <img id="adv-header-icon" src="" class="w-full h-full object-cover rounded-xl">
                 </div>
-                <h1 id="adv-header-title" class="text-5xl lor-italic uppercase text-white drop-shadow-2xl">--</h1>
+                <h1 id="adv-header-title" class="text-5xl lor-italic font-bold drop-shadow-2xl">--</h1>
             </div>
     
             <div class="flex items-center gap-6 mt-6">
@@ -227,7 +228,7 @@ body {
 
         <div class="relative z-10 flex flex-col justify-end items-end w-[350px]">
             <div class="xp-box-compact">
-                <span class="text-[12px] font-bold text-slate-400 uppercase tracking-tighter mb-1">Kinh nghiệm tướng (XP)</span>
+                <span class="text-[14px] font-bold text-slate-400 tracking-tighter mb-1">Kinh nghiệm tướng (XP)</span>
                 <b class="text-5xl lor-italic text-white" id="adv-header-xp">0</b>
             </div>
         </div>

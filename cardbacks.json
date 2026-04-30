@@ -1,0 +1,1472 @@
+[
+  {
+    "name": "Summoner's Rift (Order)",
+    "rarity": "Thường",
+    "cost": "Default",
+    "collection": "Summoner's Rift",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Summoner%27s_Rift_Order_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyefn thoại yêu thích cảm giác cổ điển"
+    ]
+  },
+  {
+    "name": "Summoner's Rift (Chaos)",
+    "rarity": "Thường",
+    "cost": "Default",
+    "collection": "Summoner's Rift",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Summoner%27s_Rift_Chaos_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyefn thoại yêu thích cảm giác cổ điển"
+    ]
+  },
+  {
+    "name": "Thành Phố Bandle",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Thành Phố Bandle",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Bandle_City_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn tìm kiếm vương quốc ẩn giáu."
+    ]
+  },
+  {
+    "name": "Bilgewater",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Bilgewater",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Bilgewater_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại dám chấp nhận rủi ro để nhận phần thưởng lớn."
+    ]
+  },
+  {
+    "name": "Thượng Giới",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Targon",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Celestials_LoR_Card_Back.png",
+    "description": [
+      "Sự uy nghiêm của những vì sao."
+    ]
+  },
+  {
+    "name": "Demacia",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Demacia",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Demacia_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại chiến đấu bằng cả danh dự."
+    ]
+  },
+  {
+    "name": "Long Tộc",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Demacia",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Dragonborn_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại bùng cháy nhiệt huyết."
+    ]
+  },
+  {
+    "name": "Freljord",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Freljord",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Freljord_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn sống sót bằng mọi giá."
+    ]
+  },
+  {
+    "name": "Ionia",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Ionia",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Ionia_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn qua mặt đối thủ."
+    ]
+  },
+  {
+    "name": "Trăng Mờ",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Targon",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Moonfall_LoR_Card_Back.png",
+    "description": [
+      "Trí tuệ mặt trăng."
+    ]
+  },
+  {
+    "name": "Noxus",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Noxus",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Noxus_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn dành chiến thắng vừa phong cách vừa tàn độc."
+    ]
+  },
+  {
+    "name": "Piltover",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Piltover",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Piltover_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn tìm kiếm những chiến thuật mới để dành chiến thắng."
+    ]
+  },
+  {
+    "name": "Shadow Isles",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Shadow Isles",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Shadow_Isles_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại có thể hy sinh mọi thứ để dành chiến thắng."
+    ]
+  },
+  {
+    "name": "Bình Minh",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Targon",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Sunrise_LoR_Card_Back.png",
+    "description": [
+      "Vinh quang mặt trời."
+    ]
+  },
+  {
+    "name": "Shurima",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Shurima",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Shurima_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại chuyên thực hiện những pha lật kèo ấn tượng."
+    ]
+  },
+  {
+    "name": "Targon",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Targon",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Targon_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn đạt được sức mạnh vĩ đại."
+    ]
+  },
+  {
+    "name": "Zaun",
+    "rarity": "Thường",
+    "cost": "Phần thưởng Khu Vực",
+    "collection": "Zaun",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Zaun_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn sẵn sàng thử nghiệm mọi thứ."
+    ]
+  },
+  {
+    "name": "Mảnh Vỡ Thiên Thạch",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Malphite",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Shard_of_the_Monolith_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn chờ đợi thời cơ."
+    ]
+  },
+  {
+    "name": "Sát Thủ Vùng Nước Đỏ",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Pyke",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Bloodharbor_Ripper_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại khao khát báo thù."
+    ]
+  },
+  {
+    "name": "Thầy Tu Mù",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Lee Sin",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Blind_Monk_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại với giác quan nhanh nhạy và nước đi quyết đoán."
+    ]
+  },
+  {
+    "name": "Thợ Săn Tiền Thưởng",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Miss Fortune",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Bounty_Hunter_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại có đam mê súng ống."
+    ]
+  },
+  {
+    "name": "Đồ Tể Sa Mạc",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Renekton",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Butcher_of_the_Sands_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại đã chấp nhận con quái thú bên trong tâm trí."
+    ]
+  },
+  {
+    "name": "Nhà Thông Thái Sa Mạc",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nasus",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Curator_of_the_Sands_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại dám đưa ra những quyết định khó khăn và đúng đắn."
+    ]
+  },
+  {
+    "name": "Giám Hộ Thời Gian",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Zilean",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Chronokeeper_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại sẵn sàng viết nên định mệnh của chính mình."
+    ]
+  },
+  {
+    "name": "Người Bảo Hộ Mai Sau",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Jayce",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Defender_of_Tomorrow_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại sẵn sàng thay đổi tương lai."
+    ]
+  },
+  {
+    "name": "Hoàng Đế Sa Mạc",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Azir",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Emperor_of_the_Sands_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại đã vượt qua được quá khứ của bản thân."
+    ]
+  },
+  {
+    "name": "Kẻ Lưu Đày",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Riven",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Exile_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại sinh ra trong trận mạc và lớn lên nơi chiến trường."
+    ]
+  },
+  {
+    "name": "Người Giữ Búa",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Poppy",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Keeper_of_the_Hammer_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại có trái tim kiên định."
+    ]
+  },
+  {
+    "name": "Khẩu Pháo Nổi Loạn",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Jinx",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Loose_Cannon_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại thích cho nổ tung tất cả mà không cần phải xoắn."
+    ]
+  },
+  {
+    "name": "Sức Mạnh Của Demacia",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Garen",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Might_Of_Demacia_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại khog bao giờ lùi bước."
+    ]
+  },
+  {
+    "name": "Cửu Vĩ Hồ",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Ahri",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Nine-Tailed_Fox_LoR_Card_Back.png",
+    "description": [
+      "Dành cho huyền thoại trên hành trình đi tìm mái ấm."
+    ]
+  },
+  {
+    "name": "Người Cứu Chuộc",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Senna",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Redeemer_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn tìm thấy hy vọng trong giờ khắc đen tối nhất."
+    ]
+  },
+  {
+    "name": "Vệ Binh Ranh Mãnh",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Akshan",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Rogue_Sentinel_LoR_Card_Back.png",
+    "description": [
+      "Dành cho huyền thoại luôn coi luật lệ chỉ là thứu để... tham khảo."
+    ]
+  },
+  {
+    "name": "hắc Diệt Đế Vương",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Viego",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Ruined_King_LoR_Card_Back.png",
+    "description": [
+      "Dành cho huyền thoại luôn từ chối cái chết."
+    ]
+  },
+  {
+    "name": "Cảnh Sát Trưởng Piltover",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Caitlyn",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Sherriff_of_Piltover_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại có khả năng bắn bách phát bách trúng."
+    ]
+  },
+  {
+    "name": "Địa Thuật Pháp Sư",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Taliyah",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Stoneweaver_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại có khả năng dời non lấp biển"
+    ]
+  },
+  {
+    "name": "Chú Cá Tinh Nghịch",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Fizz",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Tidal_Trickster_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại có thể dễ dàng vượt qua mọi cạm bẫy."
+    ]
+  },
+  {
+    "name": "Kẻ Bất Dung thứ",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Yasuo",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Unforgiven_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn muốn đi theo con đường của riêng mình."
+    ]
+  },
+  {
+    "name": "Nấm Mồ Hư Không",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Rek'Sai",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Void_Burrower_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn giải phóng tử thần nới đáy sâu."
+    ]
+  },
+  {
+    "name": "Tay Súng Yordle",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Tristana",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Yordle_Gunner_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn tạn sức cống hiến."
+    ]
+  },
+  {
+    "name": "Hồ Quang",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hồ Quang",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Arclight_LoR_Card_Back.png",
+    "description": [
+      "Chỉ người xứng đáng mới được lựa chọn."
+    ]
+  },
+  {
+    "name": "Varus Hồ Quang",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hồ Quang",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Arclight_Varus_LoR_Card_Back.png",
+    "description": [
+      "Ba cũng như một mà thôi."
+    ]
+  },
+  {
+    "name": "Vượt Qua Tầng Mây",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Con Đường Anh Hùng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Above_the_Clouds_LoR_Card_Back.png",
+    "description": [
+      "Bay lên tầm cao mới."
+    ]
+  },
+  {
+    "name": "Giả Lập",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Giả Lập",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Arcade_LoR_Card_Back.png",
+    "description": [
+      "Nâng tầm trò chơi của bạn lên một đẳng cấp mới."
+    ]
+  },
+  {
+    "name": "Anivia Giả Lập",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Giả Lập",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Arcade_Anivia_LoR_Card_Back.png",
+    "description": [
+      "Đố bạn né hết đấy?"
+    ]
+  },
+  {
+    "name": "Miss Fortune Giả Lập",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Giả Lập",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Arcade_Miss_Fortune_LoR_Card_Back.png",
+    "description": [
+      "Mưa đạn dội xối xả."
+    ]
+  },
+  {
+    "name": "Ezreal Học Viện Chiến Binh ",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Học Viện Chiến Binh",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Battle_Academia_LoR_Ezreal_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại thường đi học muộn."
+    ]
+  },
+  {
+    "name": "Lux Học Viện Chiến Binh",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Học Viện Chiến Binh",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Battle_Academia_LoR_Lux_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn giúp cả lớp đứng đầu đợt thi đua."
+    ]
+  },
+  {
+    "name": "Thần Điểu 2",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Giả Lập",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Bullet_Birds_2_LoR_Card_Back.png",
+    "description": [
+      "Phiên bản cũ được tân trang hoàn thiện."
+    ]
+  },
+  {
+    "name": "Boo!",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Sự Trỗi Dậy",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Boo%21_LoR_Card_Back.png",
+    "description": [
+      "Chào Mừng Sự Trỗi Dậy!"
+    ]
+  },
+  {
+    "name": "Azir Sa Ngã",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Dệt Máu",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Corrupted_Azir_LoR_Card_Back.png",
+    "description": [
+      "Ngay cả thần vương cũng có thể sa ngã."
+    ]
+  },
+  {
+    "name": "Nasus Sa Ngã",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Dệt Máu",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Corrupted_Nasus_LoR_Card_Back.png",
+    "description": [
+      "Tri thức của nhà thông thái, đã bị máu làm lu mờ."
+    ]
+  },
+  {
+    "name": "Pantheon Sa Ngã",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sa Ngã",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Corrupted_Pantheon_LoR_Card_Back.png",
+    "description": [
+      "Sức mạnh thánh thần khiến nhwunxg trái tim mạnh mẽ nhát cũng phải sa ngã."
+    ]
+  },
+  {
+    "name": "Renekton Sa Ngã",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Dệt Máu",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Corrupted_Renekton_LoR_Card_Back.png",
+    "description": [
+      "Máu đã làm sôi sục cơn thịnh nộ của tên đồ tể."
+    ]
+  },
+  {
+    "name": "Xerath Sa Ngã",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Dệt Máu",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Corrupted_Xerath_LoR_Card_Back.png",
+    "description": [
+      "Được cường hóa bởi chính máu huyết của sa mạc."
+    ]
+  },
+  {
+    "name": "Zoe Sa Ngã",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sa Ngã",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Corrupted_Zoe_LoR_Card_Back.png",
+    "description": [
+      "Những đứa trẻ bị nguyền rủa có thể trở nên vô cùng tàn nhẫn đấy."
+    ]
+  },
+  {
+    "name": "Kẻ Lưu Đày Vũ Trụ",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chân Trời Bóng Tối",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Cosmic_Exile_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn ghi tên mình lên các vì sao."
+    ]
+  },
+  {
+    "name": "Ahri Tiên Hắc Ám",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Coven_Ahri_LoR_Card_Back.png",
+    "description": [
+      "Theo dấu Chó Rừng Tà Dương."
+    ]
+  },
+  {
+    "name": "Ashe Tiên Hắc Ám",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Coven_Ashe_LoR_Card_Back.png",
+    "description": [
+      "Điều khiển sức mạnh của Hắc Sơn Dương."
+    ]
+  },
+  {
+    "name": "Evelynn Tiên Hắc Ám",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Coven_Evelynn_LoR_Card_Back.png",
+    "description": [
+      "Vượt xa phàm nhân."
+    ]
+  },
+  {
+    "name": "Hoa Linh Đồng Điệu",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Hoa Linh Lục Địa",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Crossed_Spirits_LoR_Card_Back.png",
+    "description": [
+      "\"Ta không phải người như ngươi nghĩ.\""
+    ]
+  },
+  {
+    "name": "Darkin",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sa Ngã",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Darkin_LoR_Card_Back.png",
+    "description": [
+      "Những chiến binh thần thánh đã thức tỉnh một lần nữa."
+    ]
+  },
+  {
+    "name": "Kỹ Sĩ Thiên thực",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Eclipse_Knight_LoR_Card_Back.png",
+    "description": [
+      "Hội Trật Tự sẽ đủ mạnh mẽ để đối đầu với những Cựu Thần một lần nữa. Thất bại đông nghĩa với sự tuyệt diệt."
+    ]
+  },
+  {
+    "name": "Diana Kỹ Sĩ Thiên Thực",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Eclipse_Knight_Diana_LoR_Card_Back.png",
+    "description": [
+      "Ngay cả trong bóng tối vĩnh hằng, sự thật vẫn phải được phơi bày."
+    ]
+  },
+  {
+    "name": "Lục Bảo Lấp Lánh",
+    "rarity": "Thường",
+    "cost": "",
+    "collection": "Mặc định",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Emerald_Rift_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại yêu thích sắc thái lục bảo hơn là lam ngọc.\nBạn có thể mở khóa lưng bài này bằng cách kết nối Xbox Game Pass với tài khoản Huyền Thoại Runeterra của mình."
+    ]
+  },
+  {
+    "name": "Con Mắt Của Zaun",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Con Đường Anh Hùng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Eye_of_Zaun_LoR_Card_Back.png",
+    "description": [
+      "Thành Phố Ngầm luôn biết rõ mọi điều."
+    ]
+  },
+  {
+    "name": "Năm Đầu Tiên",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sinh Nhật",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/First_Year_LoR_Card_Back.png",
+    "description": [
+      "Dành cho tất cả những game thủ huyền thoại đã cùng chung tay tạo ra một năm đầu tiên thật ngoạn mục."
+    ]
+  },
+  {
+    "name": "Đập Tay",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vinh Danh",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Fist_Bump_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại đã giúp Runeterra ngày một hoàn thiện hơn."
+    ]
+  },
+  {
+    "name": "Veigar Trùm Cuối",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Giả Lập",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Final_Boss_Veigar_LoR_Card_Back.png",
+    "description": [
+      "Đón chờ màn phá đảo thế giới ảo đến từ tay trùm xấu xa Veigar."
+    ]
+  },
+  {
+    "name": "Tiền Thưởng Của Fortune",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Binh Đoàn Nguyên Đán",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Fortune%27s_Bounty_LoR_Card_Back.png",
+    "description": [
+      "Ăn mừng tưng bừng."
+    ]
+  },
+  {
+    "name": "Vận Mệnh Trung Thành",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Binh Đoàn Nguyên Đán",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Fortune%27s_Faithful_LoR_Card_Back.png",
+    "description": [
+      "Ăn Mừng Nhỏ Nhẹ."
+    ]
+  },
+  {
+    "name": "Hoa Linh Sính Lễ",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hoa Linh Lục Địa",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Festival_Spirit_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ tràn đầy tinh thần chiến đấu."
+    ]
+  },
+  {
+    "name": "Hòn Ngọc Runeterra",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Con Đường Anh Hùng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Gem_of_Runeterra_LoR_Card_Back.png",
+    "description": [
+      "Pha lê lấp lánh soi đường cho bạn."
+    ]
+  },
+  {
+    "name": "Thánh Thần Và Quái Vật",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Gods_%26_Monsters_LoR_Card_Back.png",
+    "description": [
+      "Tìm kiếm thực thể đang yên giấc bên dưới khu rừng cổ."
+    ]
+  },
+  {
+    "name": "Tinh Thể Hextech",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Con Đường Anh Hùng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Hextech_Crystal_LoR_Card_Back.png",
+    "description": [
+      "Hãy nhẹ tay."
+    ]
+  },
+  {
+    "name": "Jack",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chiến Binh Rồng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Jack_LoR_Card_Back.png",
+    "description": [
+      "\"Muốn làm vua thì phải nghiền nát những kẻ ngáng đường.\""
+    ]
+  },
+  {
+    "name": "Janna",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Janna_LoR_Card_Back.png",
+    "description": [
+      "Những cơn gió mang theo lời cầu nguyện về sự bảo hộ."
+    ]
+  },
+  {
+    "name": "Kayn & Rhaast",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sa Ngã",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Kayn_%26_Rhaast_LoR_Card_Back.png",
+    "description": [
+      "Đến cuối cùng, chỉ còn một kẻ tồn tại."
+    ]
+  },
+  {
+    "name": "K/DA ALL OUT",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/KDA_ALL_OUT_LoR_Card_Back.png",
+    "description": [
+      "Kêu gọi tất cả BLADES."
+    ]
+  },
+  {
+    "name": "Phòng Thí Nghiệm Huyền Thoại: Hiểm Họa Vùng Saltwater",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Phòng Thí Nghiệm Huyền Thoại",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Lab_of_Legends_The_Saltwater_Scourge_LoR_Card_Back.png",
+    "description": [
+      "Phòng Thí Nghiệm Huyền Thoại, Tháng 8/2021"
+    ]
+  },
+  {
+    "name": "Tiểu Thư Ánh Sáng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hỏa Ảnh",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Lady_of_Luminosity_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những huyền thoại không run sợ trước bóng tối."
+    ]
+  },
+  {
+    "name": "Nidalee and Neeko",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Võ Sư",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Nidalee_and_Neeko_LoR_Card_Back.png",
+    "description": [
+      "Tình yêu có muôn hình vạn trạng."
+    ]
+  },
+  {
+    "name": "Hoa Linh Bóng Đêm",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hoa Linh Lục Địa",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Nightshade_Spirit_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ yêu thích sự hiểm nguy."
+    ]
+  },
+  {
+    "name": "Nilah",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Nilah_LoR_Card_Back.png",
+    "description": [
+      "Với một thanh kiếm hắc ám, cố ấy sẽ tiêu diệt mọi quỷ dữ..."
+    ]
+  },
+  {
+    "name": "Hành Tinh Urf",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Urf",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Planet_Urf_LoR_Card_Back.png",
+    "description": [
+      "Múi vàng > múi sắt"
+    ]
+  },
+  {
+    "name": "Đại Dịch Runeterra",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Con Đường Anh Hùng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Plaque_of_Runeterra_LoR_Card_Back.png",
+    "description": [
+      "Kim loại sáng bóng dẫn đường cho bạn."
+    ]
+  },
+  {
+    "name": "Heimerdinger Tiệc Bể Bơi",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Tiệc Bể Bơi",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Pool_Party_Heimerdinger_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại thích chơi súng nước."
+    ]
+  },
+  {
+    "name": "Taliyah Tiệc Bể Bơi",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Tiệc Bể Bơi",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Pool_Party_Taliyah_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại thích lướt trên cát vàng biển xanh."
+    ]
+  },
+  {
+    "name": "Ranh Mãnh Tối Thượng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vũ Khí Tối thượng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Pulsefire_Rogue_LoR_Card_Back.png",
+    "description": [
+      "Nhiều thứ để làm. Nhiều dòng thời gian để bảo vệ."
+    ]
+  },
+  {
+    "name": "Song Nguyệt Tối thượng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vũ Khí Tối thượng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Pulsefire_Siblings_LoR_Card_Back.png",
+    "description": [
+      "Họ sẽ tái hợp bất kể ranh giới thời gian."
+    ]
+  },
+  {
+    "name": "Thanh Trừng Tối Thượng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vũ Khí Tối thượng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Pulsefire_Truthseeker_LoR_Card_Back.png",
+    "description": [
+      "Lật tẩy sự dối trá trong quá khứ."
+    ]
+  },
+  {
+    "name": "Tử Tác Tối Thượng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vũ Khí Tối thượng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Pulsefire_Virtuoso_LoR_Card_Back.png",
+    "description": [
+      "Nghệ thuật đòi hỏi sự lạc lối nhất định."
+    ]
+  },
+  {
+    "name": "Đại Suy Vong",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Ruination",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Ruination_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại muốn thuận theo ý muốn của màn sương."
+    ]
+  },
+  {
+    "name": "Samira",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chiến Binh Rồng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Samira_LoR_Card_Back.png",
+    "description": [
+      "\"Chỉ trong nháy mắt là ngươi sẽ mất dấu ta.\""
+    ]
+  },
+  {
+    "name": "Danh Dự Trinh Sát",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Thành Phố Bandle",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Scout%27s_Honor_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại không ngần ngại vượt qua giới hạn."
+    ]
+  },
+  {
+    "name": "Cổ Thư Runeterra",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Con Đường Anh Hùng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Scroll_of_Runeterra_LoR_Card_Back.png",
+    "description": [
+      "Cuộn giấy mờ nhòe hé lộ đích đến của bạn."
+    ]
+  },
+  {
+    "name": "Tuyển Thủ Mùa Giải",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Seasonal_Competitor_Card_Back.png",
+    "description": [
+      "Hãy cảm thấy tự hào trước mỗi chiến thắng."
+    ]
+  },
+  {
+    "name": "Vệ Binh Ánh Sáng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vệ Binh Ánh Sáng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Sentinels_of_Light_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những huyền thoại luôn rọi sáng con đường bằng trái tim kiên định."
+    ]
+  },
+  {
+    "name": "Sett",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chiến Binh Rồng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Sett_LoR_Card_Back.png",
+    "description": [
+      "\"Ta là trùm. Chỉ đơn giản vậy thôi.\""
+    ]
+  },
+  {
+    "name": "Lời Mời Của Sett",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chiến Binh Rồng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Sett%27s_Invitation_LoR_Card_Back.png",
+    "description": [
+      "\"Chào mừng đến với đấu trường.\""
+    ]
+  },
+  {
+    "name": "Bóng Tối Hắc Tinh",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chân Trời Bóng Tối",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Shadow_of_the_Dark_Star_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại có khả năng chế ngự bản ngã."
+    ]
+  },
+  {
+    "name": "Ngày Tuyết Rơi",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Ngày Tuyết Rơi",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Snow_Day_LoR_Card_Back.png",
+    "description": [
+      "Đây là mùa giải... vì chiến thắng!"
+    ]
+  },
+  {
+    "name": "Leona Nhật Thực",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Solar_Eclipse_Leona_LoR_Card_Back.png",
+    "description": [
+      "\"Trước chiếc thiên đỉnh khiên này, ta xin thề: Hội Trật Tự sẽ không thất bại\""
+    ]
+  },
+  {
+    "name": "Kết Nối Linh Hồn",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Võ Sư",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Soul_Bound_LoR_Card_Back.png",
+    "description": [
+      "Liên kết tình bạn vượt trên cả cái chết."
+    ]
+  },
+  {
+    "name": "Nidalee Linh Miêu Lĩnh Thú",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Võ Sư",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Soul_Fighter_Nidalee_LoR_Card_Back.png",
+    "description": [
+      "Cuộc săn dẫn tới chiến thắng đã bắt đầu."
+    ]
+  },
+  {
+    "name": "Samira Tuyệt Đại Sát Giới",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Võ Sư",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Soul_Fighter_Samira_LoR_Card_Back.png",
+    "description": [
+      "Phong cách có thừa."
+    ]
+  },
+  {
+    "name": "Viego Quỷ Kiếm Đại Vương",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Võ Sư",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Soul_Fighter_Viego_LoR_Card_Back.png",
+    "description": [
+      "Đây là năm mà Isolde sẽ trở về với hắn--Viego chắc chắn như vậy! Một vài linh hồn nữa thì sao đâu?"
+    ]
+  },
+  {
+    "name": "Hoa Linh Lục Địa",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hoa Linh Lục Địa",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Spirit_Blossom_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ muốn tìm kiếm sức mạnh từ truyền thống xưa cũ."
+    ]
+  },
+  {
+    "name": "Hoa Linh Thiên Nhiên",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Hoa Linh Lục Địa",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Spirit_of_Nature_LoR_Card_Back.png",
+    "description": [
+      "Đừng bao giờ dánh giá thấp quyền năng của rừng cây."
+    ]
+  },
+  {
+    "name": "Hoa Linh Ám Ảnh",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hoa Linh Lục Địa",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Spirit_of_Obsession_LoR_Card_Back.png",
+    "description": [
+      "\"Linh hồn có sức mạnh như thế nào?\""
+    ]
+  },
+  {
+    "name": "Hoa Linh Lục Địa",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Hoa Linh Lục Địa",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Spirit_of_the_Bloom_LoR_Card_Back.png",
+    "description": [
+      "\"Sự tinh tế trong từng nhánh hoa và mỗi cánh hoa.\""
+    ]
+  },
+  {
+    "name": "Ngọc Tinh Tú",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vệ Binh Tinh Tú",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Star_Gem_LoR_Card_Back.png",
+    "description": [
+      "Một biểu tượng hy vọng lấp lánh."
+    ]
+  },
+  {
+    "name": "Vệ Binh Tinh Tú Bùng Nổ",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vệ Binh Tinh Tú",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Star_Guardian_Hotshot_LoR_Card_Back.png",
+    "description": [
+      "Cho tất cả nổ tung thành bụi tinh tú."
+    ]
+  },
+  {
+    "name": "Vệ Binh Tinh Tú Khai Sáng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vệ Binh Tinh Tú",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Star_Guardian_Luminary_LoR_Card_Back.png",
+    "description": [
+      "Hãy trở thành ánh sáng dẫn đường."
+    ]
+  },
+  {
+    "name": "Vệ Binh Tinh Tú Bảo Hộ",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vệ Binh Tinh Tú",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Star_Guardian_Protector_LoR_Card_Back.png",
+    "description": [
+      "Kiên cường ngay cả trong thời khắc tăm tối nhất."
+    ]
+  },
+  {
+    "name": "Điện Thoại Tinh Tú",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Vệ Binh Tinh Tú",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Starphone_LoR_Card_Back.png",
+    "description": [
+      "Đáp lời tinh tú triệu gọi."
+    ]
+  },
+  {
+    "name": "Nụ Hoa Bẽn Lẽn",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hỏa Ảnh",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Bashful_Bloom_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những huyền thoại dám ước mơ."
+    ]
+  },
+  {
+    "name": "Con Giáp",
+    "rarity": "Hiếm",
+    "cost": "490",
+    "collection": "Binh Đoàn Nguyên Đán",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Beast_LoR_Card_Back.png",
+    "description": [
+      "Tưng bừng rộn rã."
+    ]
+  },
+  {
+    "name": "Vũ Trụ",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chân Trời Bóng Tối",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Cosmos_LoR_Card_Back.png",
+    "description": [
+      "Sự khởi đầu của vạn vật."
+    ]
+  },
+  {
+    "name": "Vũ Công",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Dancer_LoR_Card_Back.png",
+    "description": [
+      "\"I got different DNA.\" (lời bài hát)"
+    ]
+  },
+  {
+    "name": "Vũ Công (SE)",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Dancer_SE_LoR_Card_Back.png",
+    "description": [
+      "\"I got different DNA.\"\nĐược chính Kai'Sa ký tặng sau khi bạn đã ALL OUT (Cháy hết mình) vì K/DA."
+    ]
+  },
+  {
+    "name": "Hắc Tinh",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chân Trời Bóng Tối",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Dark_Star_LoR_Card_Back.png",
+    "description": [
+      "Sự kết thúc của vạn vật."
+    ]
+  },
+  {
+    "name": "The Diva",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Diva_LoR_Card_Back.png",
+    "description": [
+      "\"A picture perfect face, with the wild in my veins.\" (lời bài hát)"
+    ]
+  },
+  {
+    "name": "The Diva (SE)",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Diva_SE_LoR_Card_Back.png",
+    "description": [
+      "\"A picture perfect face, with the wild in my veins.\"\nĐược chính Evelynn ký tặng sau khi bạn đã ALL OUT (Cháy hết mình) vì K/DA."
+    ]
+  },
+  {
+    "name": "Nữ Hoàng",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Queen_LoR_Card_Back.png",
+    "description": [
+      "\"We're gonna wear the crown.\" (lời bài hát)"
+    ]
+  },
+  {
+    "name": "Pháp Sư Khó Chịu",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Hỏa Ảnh",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Gloomist_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những huyền thoại chán ghét mọi thứ."
+    ]
+  },
+  {
+    "name": "Nữ Hoàng (SE)",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Queen_SE_LoR_Card_Back.png",
+    "description": [
+      "\"We're gonna wear the crown.\"\nĐược chính Ahri ký tặng sau khi bạn đã ALL OUT (Cháy hết mình) vì K/DA."
+    ]
+  },
+  {
+    "name": "Cô Nàng Nổi Loạn",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Rebel_LoR_Card_Back.png",
+    "description": [
+      "\"I'm the realest in the game.\" (lời bài hát)"
+    ]
+  },
+  {
+    "name": "Cô Nàng Nổi Loạn (SE)",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Rebel_SE_LoR_Card_Back.png",
+    "description": [
+      "\"I'm the realest in the game.\"\nĐược chính Akali ký tặng sau khi bạn đã ALL OUT (Cháy hết mình) vì K/DA."
+    ]
+  },
+  {
+    "name": "Ngôi Sao Đang Lên",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Rising_Star_LoR_Card_Back.png",
+    "description": [
+      "\"Feeling like an ocean, on a wave now...\" (lời bài hát)"
+    ]
+  },
+  {
+    "name": "Ngôi Sao Đang Lên (SE)",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "K/DA ALL OUT",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/The_Rising_Star_SE_LoR_Card_Back.png",
+    "description": [
+      "\"Feeling like an ocean, on a wave now...\"\nĐược chính Seraphine ký tặng sau khi bạn đã ALL OUT (Cháy hết mình) vì K/DA."
+    ]
+  },
+  {
+    "name": "Thí Sinh Giải Đấu",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Tournament_Competitor_LoR_Card_Back.png",
+    "description": [
+      "Hãy cảm thấy tự hào trước mỗi chiến thắng."
+    ]
+  },
+  {
+    "name": "Sinh Nhật 2 tuổi",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sinh Nhật",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Turning_Two_LoR_Card_Back.png",
+    "description": [
+      "Dành cho tất cả những game thủ huyền thoại đã cùng chung tay tạo ra một năm đáng nhớ."
+    ]
+  },
+  {
+    "name": "Sinh Nhật 3 Tuổi",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sinh Nhật",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Turning_Three_LoR_Card_Back.png",
+    "description": [
+      "Dành cho tất cả những game thủ huyền thoại đã cùng chung tay tạo ra một năm đặc biệt."
+    ]
+  },
+  {
+    "name": "Sinh Nhật 4 Tuổi",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sinh Nhật",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Turning_Four_LoR_Card_Back.png",
+    "description": [
+      "Dành cho tất cả những game thủ huyền thoại đã cùng chung tay tạo ra một năm đặc biệt."
+    ]
+  },
+  {
+    "name": "Sinh Nhật 5 Tuổi",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Sinh Nhật",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Turning_Five_LoR_Card_Back.png",
+    "description": [
+      "Tất cả cùng đập tay ăn mừng nào!"
+    ]
+  },
+  {
+    "name": "Có Đôi Có Cặp",
+    "rarity": "Hiếm",
+    "cost": "0",
+    "collection": "Giới Hạn",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Two_of_a_Kind_LoR_Card_Back.png",
+    "description": [
+      "Lá bài tẩy sẽ càng ý nghĩa hơn khi bạn có ai đó để san sẻ."
+    ]
+  },
+  {
+    "name": "Volibear",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Nhật Thực",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Volibear_LoR_Card_Back.png",
+    "description": [
+      "Vùng lãnh nguyên được tạo nên từ chính bộ vuốt này."
+    ]
+  },
+  {
+    "name": "Năm Tân Sửu",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Binh Đoàn Nguyên Đán",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Year_of_the_Ox_LoR_Card_Back.png",
+    "description": [
+      "Thành công nhờ sức mạnh."
+    ]
+  },
+  {
+    "name": "Chung Kết Thế Giới 2021",
+    "rarity": "Hiếm",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_World_Championship_2021_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại sẵn sàng vượt qua thử thách."
+    ]
+  },
+  {
+    "name": "Chung Kết Thế Giới 2022",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/Worlds_Championship_2022_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn chia sẻ những khoảnh khắc vi diệu nhất."
+    ]
+  },
+  {
+    "name": "Chung Kết Thế Giới 2023",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/World_Championship_2023_LoR_Card_Back.png",
+    "description": [
+      "Chứng kiến niềm vinh quang thi đấu."
+    ]
+  },
+  {
+    "name": "Tuyển Thủ Chung Kết Thế Giới 2021",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/World_Competitor_2021_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn chiến đấu đến cùng."
+    ]
+  },
+  {
+    "name": "Tuyển Thủ Chung Kết Thế Giới 2022",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/World_Competitor_2022_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn chiến đấu đến cùng."
+    ]
+  },
+  {
+    "name": "Tuyển Thủ Chung Kết Thế Giới 2023",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/World_Competitor_2023_LoR_Card_Back.png",
+    "description": [
+      "Vươn tới đỉnh cao thi đấu."
+    ]
+  },
+  {
+    "name": "Khán Giả Thế Giới 2021",
+    "rarity": "Sử thi",
+    "cost": "Di sản",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/World_Spectator_2021_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn chia sẻ những khoảnh khắc vi diệu nhất."
+    ]
+  },
+  {
+    "name": "Khán Giả Thế Giới 2022",
+    "rarity": "Hiếm",
+    "cost": "0",
+    "collection": "Chiến Thắng",
+    "image": "https://wiki.leagueoflegends.com/en-us/images/World_Spectator_2022_LoR_Card_Back.png",
+    "description": [
+      "Dành cho những game thủ huyền thoại luôn chia sẻ những khoảnh khắc oai hùng nhất."
+    ]
+  }
+]

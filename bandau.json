@@ -6,7 +6,7 @@
       "collection": "Summoner's Rift",
       "description": [
         "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
-        "Dành cho những game thủ huyền thoại prefer the classics."
+        "Dành cho những game thủ huyền thoại yêu thích cảm giác cổ điển."
       ],
       "images": {
         "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Summoner%27s_Rift_Board_icon.png",
@@ -60,7 +60,7 @@
       "name": "Đỉnh Thượng Giới",
       "rarity": "Hiếm",
       "cost": "990",
-      "collection": "Bộ Sưu Tập Targon",
+      "collection": "Targon",
       "description": [
         "Khu Vực: Targon",
         "Dành cho những game thủ huyền thoại muốn đạt được sức mạnh vĩ đại.",
@@ -453,15 +453,13 @@
       }
     },
     {
-      "name": "Dark Emissary's Realm",
+      "name": "Lãnh Địa Sứ Giả",
       "rarity": "Huyền Thoại",
-      "cost": "Bundle Exclusive",
-      "collection": "Dark Horizon",
+      "cost": "Di Sản",
+      "collection": "Chân Trời Bóng Tối",
       "description": [
-        "Theme: Event Horizon",
-        "Bàn đấu này có yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt",
-        "Always equipped with default Mega Guardian.",
-        "Orbiting just beyond the singularity's reach, the Emissary feeds the Dark Star anything with the misfortune to drift by."
+        "Xoay quanh quỹ đạo nằm ở ngay bên ngoài lực hút của điểm kỳ dị không-thời gian, Hắc Tinh nuốt chửng bất cứ thứ gì đen đủi lại gần.",
+        "Bàn đấu này luôn đi kèm với Linh Thú độc quyền: Sứ Giả Bóng Tối Siêu Cấp, cùng các yếu tố tương tác, hiệu ứng hình ảnh và âm thanh đặc biệt."
       ],
       "images": {
         "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Emissary%27s_Realm_Board_icon.png",
@@ -470,14 +468,13 @@
       }
     },
     {
-      "name": "Dark Horizon",
+      "name": "Chân Trời Bóng Tối",
       "rarity": "Hiếm",
       "cost": "990",
-      "collection": "Dark Horizon",
+      "collection": "Chân Trời Bóng Tối",
       "description": [
-        "Theme: Event Horizon",
         "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
-        "There is no escape."
+        "Không có lối thoát!"
       ],
       "images": {
         "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Horizon_Board_icon.png",
@@ -621,14 +618,13 @@
       }
     },
     {
-      "name": "Pinnacle of Glory",
+      "name": "Tột Đỉnh Vinh Quang",
       "rarity": "Hiếm",
       "cost": "Không khả dụng trong cửa hàng",
-      "collection": "Victorious",
+      "collection": "Chiến Thắng",
       "description": [
-        "Theme:  Victorious",
         "Bàn đấu này có hiệu ứng hình ảnh và âm thanh đặc biệt.",
-        "Dành cho những game thủ huyền thoại compete at the highest level."
+        "Dành cho những huyền thoại khao khát chinh phục đỉnh cao."
       ],
       "images": {
         "icon": "https://wiki.leagueoflegends.com/en-us/images/LoR_Pinnacle_of_Glory_Board_icon.png",
@@ -692,7 +688,7 @@
   }
     },
     {
-      "name": "Thánh Đường Vệ Binh (Amethyst)",
+      "name": "Thánh Đường Vệ Binh (Tử Tinh)",
       "rarity": "Sử Thi",
       "cost": "1290",
       "collection": "Vệ Binh Ánh Sáng",
@@ -712,12 +708,11 @@
   }
     },
     {
-      "name": "Thánh Đường Vệ Binh (Citrine)",
+      "name": "Thánh Đường Vệ Binh (Hoàng Tinh)",
       "rarity": "Sử Thi",
       "cost": "1290",
       "collection": "Vệ Binh Ánh Sáng",
       "description": [
-        "Theme:  Vệ Binh Ánh Sáng",
         "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
         "Dành cho những huyền thoại luôn rọi sáng con đường bằng trái tim kiên định. Được cá nhân hóa bởi Akshan."
       ],
@@ -733,12 +728,11 @@
   }
     },
     {
-      "name": "Thánh Đường Vệ Binh (Pearl)",
+      "name": "Thánh Đường Vệ Binh (Trân Châu)",
       "rarity": "Sử Thi",
       "cost": "1290",
       "collection": "Vệ Binh Ánh Sáng",
       "description": [
-        "Theme:  Vệ Binh Ánh Sáng",
         "Bàn đấu này bao gồm những yếu tố tương tác, hiệu ứng hình ảnh đặc biệt và âm nhạc",
         "Dành cho những huyền thoại luôn rọi sáng con đường bằng trái tim kiên định. Được cá nhân hóa bởi Senna."
       ],

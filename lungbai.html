@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách lưng bài | PoC Wiki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --gold: #c8aa6e;
+            --dark-bg: #010a13;
+            --font-header: 'Space Grotesk', sans-serif;
+            --font-main: 'Open Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: #f0e6d2;
+            font-family: var(--font-main);
+            background-image: radial-gradient(circle at top right, #051d29 0%, #010a13 100%);
+            background-attachment: fixed;
+        }
+
+        h1, h2, label, select, input, .rarity-tag {
+            font-family: var(--font-header) !important;
+        }
+
+        /* Filter Styling */
+        .filter-input {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(200, 170, 110, 0.3);
+            color: white;
+            border-radius: 12px;
+            padding: 12px 15px;
+            outline: none;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .filter-input:focus { border-color: var(--gold); background: rgba(255, 255, 255, 0.1); }
+
+        select option { background: #0a0e13; color: white; }
+
+        /* Card Styling */
+        .info-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(12px);
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .info-card:hover { transform: translateY(-5px); border-color: var(--gold); }
+
+        .rarity-common { color: #f0e6d2; }
+        .rarity-rare { color: #3df3ff; }
+        .rarity-epic { color: #ff3df3; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <div class="max-w-7xl mx-auto">
+        <header class="mb-12">
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white/5 p-6 rounded-2xl border border-white/5">
+                <div class="flex flex-col gap-2">
+                    <label class="text-[12px]  tracking-widest text-[#c8aa6e] font-bold">Tìm kiếm</label>
+                    <input type="text" id="search-name" placeholder="Tên lá bài..." class="filter-input">
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <label class="text-[12px]  tracking-widest text-[#c8aa6e] font-bold">Độ hiếm</label>
+                    <select id="filter-rarity" class="filter-input">
+                        <option value="all">Tất cả độ hiếm</option>
+                    </select>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <label class="text-[12px]  tracking-widest text-[#c8aa6e] font-bold">Bộ sưu tập</label>
+                    <select id="filter-collection" class="filter-input">
+                        <option value="all">Tất cả bộ sưu tập</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <div id="cards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            </div>
+    </div>
+
+    <script>
+        let allCards = [];
+
+        async function init() {
+            try {
+                const res = await fetch('cardbacks.json');
+                allCards = await res.json();
+                
+                // 1. Khởi tạo các giá trị cho bộ lọc từ dữ liệu JSON
+                populateFilters(allCards);
+                
+                // 2. Render lần đầu
+                render(allCards);
+            } catch (err) {
+                document.getElementById('cards-grid').innerHTML = "Lỗi load file JSON!";
+            }
+        }
+
+        function populateFilters(data) {
+            const raritySelect = document.getElementById('filter-rarity');
+            const collectionSelect = document.getElementById('filter-collection');
+
+            // Lấy danh sách duy nhất
+            const rarities = [...new Set(data.map(item => item.rarity))].sort();
+            const collections = [...new Set(data.map(item => item.collection))].sort();
+
+            // Đổ vào Select Độ hiếm
+            rarities.forEach(r => {
+                const opt = new Option(r, r);
+                raritySelect.add(opt);
+            });
+
+            // Đổ vào Select Bộ sưu tập
+            collections.forEach(c => {
+                const opt = new Option(c, c);
+                collectionSelect.add(opt);
+            });
+        }
+
+        function render(data) {
+            const grid = document.getElementById('cards-grid');
+            grid.innerHTML = data.map(item => `
+                <div class="info-card p-5 flex gap-4 items-start">
+                    <img src="${item.image}" class="w-20 rounded-lg shadow-xl" alt="${item.name}">
+                    <div class="overflow-hidden">
+                        <span class="rarity-tag text-[12px] font-bold  px-2 py-0.5 rounded bg-white/5 ${'rarity-' + item.rarity.toLowerCase()}">
+                            ${item.rarity}
+                        </span>
+                        <h2 class="text-lg text-white font-bold leading-tight mt-2 truncate">${item.name}</h2>
+                        <p class="text-[12px] text-[#c8aa6e] font-bold  tracking-tighter mt-1">${item.collection}</p>
+                        <p class="text-[12px] mt-3 line-clamp-2">"${item.description[0]}"</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // HÀM LỌC TỔNG HỢP
+        function applyFilters() {
+            const nameVal = document.getElementById('search-name').value.toLowerCase();
+            const rarityVal = document.getElementById('filter-rarity').value;
+            const collectionVal = document.getElementById('filter-collection').value;
+
+            const filtered = allCards.filter(card => {
+                const matchName = card.name.toLowerCase().includes(nameVal);
+                const matchRarity = rarityVal === 'all' || card.rarity === rarityVal;
+                const matchCollection = collectionVal === 'all' || card.collection === collectionVal;
+                
+                return matchName && matchRarity && matchCollection;
+            });
+
+            render(filtered);
+        }
+
+        // Lắng nghe sự kiện từ cả 3 ô lọc
+        document.getElementById('search-name').addEventListener('input', applyFilters);
+        document.getElementById('filter-rarity').addEventListener('change', applyFilters);
+        document.getElementById('filter-collection').addEventListener('change', applyFilters);
+
+        init();
+    </script>
+</body>
+</html>

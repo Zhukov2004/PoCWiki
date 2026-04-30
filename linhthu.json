@@ -1,0 +1,1031 @@
+[
+    {
+      "name": "Poro",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Poro_Guardian.png",
+      "rarity": "Thường",
+      "cost": "0",
+      "collection": "Không",
+      "description": [
+        "Tính cách: Vui vẻ",
+        "Yêu thích: Bạn",
+        "Bạn có thể tìm thấy Poro ở khắp mọi nơi trên Runeterra, nhưng chúng lại chỉ muốn ở bên bạn."
+      ]
+    },
+    {
+      "name": "Tiểu Linh Điệp",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Astra_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Targon",
+      "description": [
+        "Tính cách: Dịu dàng",
+        "Sở thích: Trồng hoa",
+        "Tiểu Tinh Tú bay tới đâu là bầu trời đêm nở rộ tới đó."
+      ]
+    },
+    {
+      "name": "Baley",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Baley_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Freljord",
+      "description": [
+        "Tính cách: Ngây thơ",
+        "Sở thích: Lườm nguýt",
+        "Điềm báo tử dễ thương nhất mà bạn từng được thấy."
+      ]
+    },
+    {
+      "name": "Mãng Xà",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Basilisk_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Noxus",
+      "description": [
+        "Tính cách: Gan dạ",
+        "Sở thích: Cắn",
+        "Một khi đã bắt đầu cưng nựng, đùng dại dột mà dừng lại."
+      ]
+    },
+    {
+      "name": "Chip",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Chip_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Targon",
+      "description": [
+        "Tính cách: Tinh tế",
+        "Bạn thân nhất: Malphite",
+        "Người bạn đồng hành được yêu thích nhất dành cho những game thủ huyền thoại hay bị dị ứng."
+      ]
+    },
+    {
+      "name": "Cosmo",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Cosmo_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Targon",
+      "description": [
+        "Tính cách: Trung thành",
+        "Sở thích: Đuổi bắt các vì sao",
+        "Trên Thượng Giới, ai là đỉnh nhất? Chính là cậu! Đúng vậy, là cậu đó!"
+      ]
+    },
+    {
+      "name": "Rồng Nhí",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dragonling_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Ionia",
+      "description": [
+        "Tính cách: Điềm tĩnh",
+        "Quê hương: Sông Ionia",
+        "Sông càng sâu, nước càng siết."
+      ]
+    },
+    {
+      "name": "Ellie",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ellie_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Targon",
+      "description": [
+        "Tính cách: Vụng về",
+        "Bạn thân nhất: Zoe",
+        "Ủa con voi phép thuật đang lửng lơ giữa phòng này là gì vậy?"
+      ]
+    },
+    {
+      "name": "Tiên Nhí Hân Hoan",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Festive_Faeling_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Demacia",
+      "description": [
+        "Tính cách: Chu đáo",
+        "Yêu thích: Bánh Bí Ngô",
+        "Quẩy tung trời tại lễ hội thu hoạch cũng tiên nhí và những người bạn!"
+      ]
+    },
+    {
+      "name": "Tiên Nhí Thân Thiện",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Friendly_Faeling_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Demacia",
+      "description": [
+        "Tính cách: Thân thiện",
+        "Yêu thích: Đồ ăn vặt",
+        "Tiên nhí là bạn chứ không phải đồ ăn."
+      ]
+    },
+    {
+      "name": "Răng Sún",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Gloomtooth_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Quần Đảo Bóng Đêm",
+      "description": [
+        "Tính cách: Ngầu",
+        "Sở thích: Đua xe ngựa",
+        "Hầu hết cá mập không thở được trên mặt đất. Chú cá mập này thì hoàn toàn không hít thở luôn."
+      ]
+    },
+    {
+      "name": "Cóc Nhỏ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Gromp_Jr._Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Summoner's Rift",
+      "description": [
+        "Tính cách: Dễ kích động",
+        "Sở thích: Phồng mang",
+        "Nhảy nhót khi bị bóp."
+      ]
+    },
+    {
+      "name": "Rồng Lửa",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Infernal_Drake_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "740",
+      "collection": "Demacia",
+      "description": [
+        "Tính cách: Nóng nảy",
+        "Món yêu thích: Thịt nướng",
+        "Giống như một thứ dung nham biết giận và biết bay.\nĐốt cháy chiến trường với màn mở đầu bỏng cháy của Rồng Lửa và các hiệu ứng hình ảnh khi nhấp/chạm."
+      ]
+    },
+    {
+      "name": "Răng Sún Hỏa Ngục",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Infernal_Gloomtooth_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Hỏa Ngục",
+      "description": [
+        "Tính cách: Bồng bột",
+        "Sở thích: Bơi qua các vòng lửa",
+        "Được tìm thấy trong các hồ núi lửa, sinh vật vô tư này rất yêu thích các chuyến phiêu lưu."
+      ]
+    },
+    {
+      "name": "Cánh Bạc Hỏa Ngục",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Infernal_Silverwing_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Hỏa Ngục",
+      "description": [
+        "Tính cách: Nóng nảy",
+        "Món ăn yêu thích: Giun cháy cạnh",
+        "Đừng chọc giận anh bạn này nếu muốn giữ đồ đạc của mình nguyên vẹn."
+      ]
+    },
+    {
+      "name": "Con Giáp Nguyên Đán",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Lunar_Beast_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Binh Đoàn Nguyên Đán",
+      "description": [
+        "Tính cách: Côn đồ",
+        "Ghét: Tiếng ồn lớn",
+        "Xuất hiện mỗi năm một lần để tàn phá hạ giới một cách tinh tươm."
+      ]
+    },
+    {
+      "name": "Lính Xu",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Minion_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Summoner's Rift",
+      "description": [
+        "Tính cách: Ham chơi",
+        "Sở thích: Sưu tập xu",
+        "Luôn sát cánh cùng bạn cho đến đòn đánh cuối cùng."
+      ]
+    },
+    {
+      "name": "Khỉ Đuôi Nổ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Powder_Monkey_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Bilgewater",
+      "description": [
+        "Tính cách: Láo nháo",
+        "Sở thích: Hóng biến",
+        "Ở cạnh nhóc này thì chẳng thể nào buồn nổi."
+      ]
+    },
+    {
+      "name": "Mãng Xà Quý Tộc Hắc Diệt",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ruined_Gentleman_Basilisk_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Đại Suy Vong",
+      "description": [
+        "Tính cách: Tinh tế",
+        "Yêu thích: Những thứ tuyệt vời từ cái chết",
+        "Khác biệt VÀ nguy hiểm ư? Làm gì có linh thú nào khác có được cả hai điều này chứ."
+      ]
+    },
+    {
+      "name": "Rùa Lưng Vẩy",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Scaled_Snapper_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Ionia",
+      "description": [
+        "Tính cách: Nhút nhát",
+        "Đồ ăn: Cỏ",
+        "Thế giới ngoài kia thật thú vị! đến lúc thích thì sẽ nhích."
+      ]
+    },
+    {
+      "name": "Cánh Bạc",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Silverwing_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Demacia",
+      "description": [
+        "Tính cách: Thành thật",
+        "Thích: Sự dũng cảm",
+        "Những tiếng chim chíp này là để cổ vũ bạn. Và cũng để ủng hộ lẽ phải nữa, luôn luôn là lẽ phải"
+      ]
+    },
+    {
+      "name": "T-Hex",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_T-Hex_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Piltover",
+      "description": [
+        "Tính cách: Hăm hở",
+        "Đặc điểm: Có thể sạc lại",
+        "KÍCH HOẠT GIAO THỨC TUYỆT DIỆT ĐỐI THỦ"
+      ]
+    },
+    {
+      "name": "Umpa",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Umpa_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Freljord",
+      "description": [
+        "Tính cách: Lạnh băng",
+        "Thích: Ăn bông tuyết",
+        "Kinh dị hoặc đáng yêu, tùy lúc."
+      ]
+    },
+    {
+      "name": "Urf",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Urf_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "740",
+      "collection": "Urf",
+      "description": [
+        "Tính cách: Làm quá",
+        "Món yêu thích: Bánh kếp",
+        "Đừng bỏ phí xẻng!",
+        "Cẩn thận mấy con cá bay đấy... Urf có hiệu ứng hình ảnh đặc biệt khi bạn nhấp hoặc chà chuột lên nó."
+      ]
+    },
+    {
+      "name": "Von Yipp",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Von_Yipp_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Piltover",
+      "description": [
+        "Tính cách: Láu cá",
+        "Sở thích: Thí nghiệm bất hợp pháp",
+        "Thiên tài có một không hai ở Zaun. Bạn đồng hành số một ở Piltover."
+      ]
+    },
+    {
+      "name": "Chip Hung Thần",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Worldbreaker_Chip_Guardian.png",
+      "rarity": "Thường",
+      "cost": "590",
+      "collection": "Hung Thần",
+      "description": [
+        "Tính cách: Cứng rắn",
+        "Yêu thích: Nhạc Rock",
+        "Chíp đáng ra phải hủy diệt thế giới, thế nhưng việc ngủ có vẻ quan trọng hơn."
+      ]
+    },
+    {
+      "name": "Lính Xanh",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Blue_Minion_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Di sản",
+      "collection": "Summoner's Rift",
+      "description": [
+        "Tính cách: Hay GATO",
+        "Sở thích: Cosplay",
+        "Bạn bè thân thiết có thể đến từ cả hai đầu chiến tuyến."
+      ]
+    },
+    {
+      "name": "Chip Thời Gian",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Chrono-Chip_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Di sản",
+      "collection": "Shurima",
+      "description": [
+        "Tính cách: Đúng giờ",
+        "Thích: Đếm ngược",
+        "Cẩn thận nha. Nếu nhóc này vẫy đuôi quá mạnh thì bạn có thể bị gửi ngược thời gian về thời Đại Chiến Darkin đó."
+      ]
+    },
+    {
+      "name": "T-Hex Pháo Hoa",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Firecracker_T-Hex_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Di sản",
+      "collection": "Binh Đoàn Nguyên Đán",
+      "description": [
+        "Tính cách: Bùng nổ",
+        "Sở thích: Bắn pháo hoa",
+        "ĐANG KHỞI CHẠY GIAO THỨC MỪNG NĂM MỚI."
+      ]
+    },
+    {
+      "name": "Rồng Nhí Bóng Đêm",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Nightshade_Dragonling_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Di sản",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Tính cách: Bí hiểm",
+        "Thu hút: Đam mê cháy bỏng",
+        "Những kẻ sợ hãi cái bóng của bản thân sẽ chẳng bao giờ vượt qua được chính mình."
+      ]
+    },
+    {
+      "name": "Mèo Máy Von Yipp ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Nyandroid_Von_Yipp_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Di sản",
+      "collection": "Zaun",
+      "description": [
+        "Tính cách: Siêu ác nhân",
+        "Tiến hóa: Tráng lệ",
+        "Đối với khoa học, đừng bao giờ hỏi \"tại sao\", mà hãy biến những điều không thể thành có thể."
+      ]
+    },
+    {
+      "name": "Ellie Cầu Vồng",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Rainbow_Ellie_Guardian.png",
+      "rarity": "Thường",
+      "cost": "0",
+      "collection": "Giới Hạn",
+      "description": [
+        "Tính cách: Luôn nhiệt tình giúp đỡ",
+        "Yêu thích: Tất cả mọi người, bất kể tính tình và vẻ bề ngoài ra sao",
+        "Được sống thật lòng với chính bản thân mình luôn là điều đáng để ăn mừng!"
+      ]
+    },
+    {
+      "name": "Khỉ Cầu Vồng",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Rainbow_Monkey_Guardian.png",
+      "rarity": "Thường",
+      "cost": "0",
+      "collection": "Giới Hạn",
+      "description": [
+        "Tính cách: Vui vẻ",
+        "Sở thích: Chơi đùa cùng người thân",
+        "Tôn vinh tình yêu bằng vụ nổ tưng bừng màu sắc!"
+      ]
+    },
+    {
+      "name": "Poro Cầu Vồng",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Rainbow_Poro_Guardian.png",
+      "rarity": "Thường",
+      "cost": "0",
+      "collection": "Giới Hạn",
+      "description": [
+        "Tính cách: Dễ dụ",
+        "Sở thích: Tình yêu",
+        "Poro Cầu Vồng được biết đến là những chú Poro tốt bụng và nhiều màu sắc nhất xứ Runeterra."
+      ]
+    },
+    {
+      "name": "Umpa Ngày Tuyết Rơi",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Snow_Day_Umpa_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Di sản",
+      "collection": "Ngày Tuyết Rơi",
+      "description": [
+        "Tính cách: Vui vẻ",
+        "Món yêu thích: Kem ốc quế bạc hà",
+        "Giữ kỷ lục ăn nhiều bánh quy gừng nhất một lúc."
+      ]
+    },
+    {
+      "name": "Fen Cưỡi Sóng",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Surfrider_Fen_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Di sản",
+      "collection": "Tiệc Bể Bơi",
+      "description": [
+        "Tính cách: Nhẹ nhàng",
+        "Sở thích: Nghe nhạc chill",
+        "Người ta cho rằng những nàng tiên cá trong truyện cổ thực chất chỉ là sự thêu dệt về những chú heo biển mà thôi, nhưng... chúng tôi lại có những giả thuyết khác."
+      ]
+    },
+    {
+      "name": "Cosmo Thăng Hoa",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ascended_Cosmo_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Shurima",
+      "description": [
+        "Tính cách: Đỉnh của chóp",
+        "Thích: Được gọi là cậu nhóc ngoan nhất nhà.",
+        "Càng nhiều người tôn sùng thì càng nhiều đồ ăn ngon."
+      ]
+    },
+    {
+      "name": "Tiểu Tinh Tú Sa Ngã",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Corrupted_Stella_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Sa Ngã",
+      "description": [
+        "Tính cách: Hống hách",
+        "Sở thích: Nghịch ngợm",
+        "Khiến các nhà du hành lạc lối với nụ cười dễ thương giả tạo của nó."
+      ]
+    },
+    {
+      "name": "T-Hex Tạo Tác Vũ Trụ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Cosmic_Construct_T-Hex_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Chân Trời Bóng tối",
+      "description": [
+        "Tính cách: Khôn lanh",
+        "Sở thích: Tính toán các trường hợp có thể xảy ra trong tương lai",
+        "KÍCH HOẠT GIAO THỨC THẦN THÁNH BÍ ẨN"
+      ]
+    },
+    {
+      "name": "Von Yipp Thiên Tài Vũ trụ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Cosmic_Genius_Von_Yipp_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Chân Trời Bóng tối",
+      "description": [
+        "Tính cách: Lanh lợi",
+        "Yêu thích: Đánh một giấc dài gần mặt trời",
+        "Đừng có mà để giáo sư bắt đầu Học Thuyết Chuỗi."
+      ]
+    },
+    {
+      "name": "Rồng Hắc Tinh",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Star_Drake_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Chân Trời Bóng tối",
+      "description": [
+        "Tính cách: Tham lam vô độ",
+        "Đồ ăn yêu thích: Các ngôi sao",
+        "Nhóc này đã từng xin được chữ ký của Sứ Giả Bóng Tối."
+      ]
+    },
+    {
+      "name": "Von Yipp Hắc Tinh",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Star_Von_Yipp_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Chân Trời Bóng tối",
+      "description": [
+        "Tính cách: Lôi cuốn",
+        "Yêu thích: Đánh bay các hành tinh khỏi quỹ đạo",
+        "Nào là đôi mắt dễ thương ẩn chứa lời hứa Diệt Vong, nào là bộ móng đáng iu, thật mất tập trung quá."
+      ]
+    },
+    {
+      "name": "Cơn Bão Đen",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Dark_Storm_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Trùm Phụ",
+      "description": [
+        "Tính cách: Thoắt ẩn thoát hiện",
+        "Kỹ năng: Siêu gián điệp",
+        "Kích hoạt chế độ ẩn mình."
+      ]
+    },
+    {
+      "name": "Cún Thám Tử",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Detective_Pup_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Con Đường Anh Hùng",
+      "description": [
+        "Tính cách: Tò mò",
+        "Sở thích: Đọc tiểu thuyết trinh thám",
+        "Chẳng có tội ác nào vượt qua được tài đánh hơi của chú cún này."
+      ]
+    },
+    {
+      "name": "Thần Rừng Nhí",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Elderwood_Stella_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Thành Phố Bandle",
+      "description": [
+        "Tính cách: Bí ẩn",
+        "Nơi sống: Dưới gốc cây bramblefoot",
+        "Hãy yên lặng nếu không nó sẽ chạy mất đấy!"
+      ]
+    },
+    {
+      "name": "Răng Sún Sính Lễ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Festival_Bloomtooth_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Tính cách: Ngốc nghếch",
+        "Sở thích: Cắm hoa",
+        "Dù ở thế giới nào thì cá mập hồng cũng đều là sinh vật hiếm gặp."
+      ]
+    },
+    {
+      "name": "Fen",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Fen_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Shurima",
+      "description": [
+        "Tính cách: Thông minh",
+        "Sở thích: Trượt cát",
+        "Sa mạc chứa những điều kỳ diệu, nhưng có lẽ Fen là thứ dễ thương nhất trong số đó."
+      ]
+    },
+    {
+      "name": "Kitt Sính Lễ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Festival_Kitt_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Tính cách: Hăng hái",
+        "Thu hút: Cám dỗ tinh nghịch",
+        "Cùng dạo chơi với các tinh linh nào! Có gì mà phải lo chứ!"
+      ]
+    },
+    {
+      "name": "Tay Súng Trinh Sát",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Gunner_Pup_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Thành Phố Bandle",
+      "description": [
+        "Tính cách: Cẩu tính",
+        "Yêu thích: Mùi thuốc súng",
+        "Coi chừng chó dữ."
+      ]
+    },
+    {
+      "name": "Hector",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hector_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Giả Lập",
+      "description": [
+        "Tính cách: Ga lăng",
+        "Yêu thích: Đánh bóng bộ giáp",
+        "Chẳng bao lâu nữa là nó sẽ bắt kịp Hecarim thôi!"
+      ]
+    },
+    {
+      "name": "Quái thú Hextech",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Beast_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Con Đường Anh Hùng",
+      "description": [
+        "Tính cách: Hung dữ",
+        "Thích ăn: Mảnh kim loại",
+        "Chẳng gì có thể sánh với quái thú máy móc."
+      ]
+    },
+    {
+      "name": "Rồng Nhí Hextech",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Dragonling_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Con Đường Anh Hùng",
+      "description": [
+        "Tính cách: Thanh lịch",
+        "Sở thích: Làm mẫu",
+        "Hình mẫu chuẩn chỉ cửa sự thanh lịch."
+      ]
+    },
+    {
+      "name": "Rồng Hextech",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Drake_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Con Đường Anh Hùng",
+      "description": [
+        "Tính cách: Máy móc",
+        "Yêu thích: Được nâng cấp mới",
+        "Hộ vệ dữ dằn nhất của bạn... nhưng cẩn thận hết pin nhé."
+      ]
+    },
+    {
+      "name": "Lính Xu Hextech",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Minion_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Con Đường Anh Hùng",
+      "description": [
+        "Tính cách: Thẳng thắn",
+        "Sở thích: Chạy trên một đường thẳng",
+        "Thực hiện cùng một thói quen mỗi trận đấu, à nhầm, mỗi ngày."
+      ]
+    },
+    {
+      "name": "Poro Hextech",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Hextech_Poro_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Con Đường Anh Hùng",
+      "description": [
+        "Tính cách: Ngạt thở",
+        "Sở thích: Thư giãn trong lò nung",
+        "Một nhóc poro nóng hổi từ lò luyện kim!"
+      ]
+    },
+    {
+      "name": "Ina",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ina_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Vệ Binh Tinh Tú",
+      "description": [
+        "Tính cách: Tận tâm",
+        "Yêu thích: Uống trà sữa",
+        "Không có rào cản nào mà linh thú trung thành của Kai'Sa không thể vượt qua."
+      ]
+    },
+    {
+      "name": "Poro Hỏa Ngục",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Infernal_Poro_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Hỏa Ngục",
+      "description": [
+        "Tính cách: Nồng ấm",
+        "Sở thích: Nghịch lửa",
+        "Cần gì lò sưởi khi ta có anh bạn nhỏ này chứ?"
+      ]
+    },
+    {
+      "name": "Kitt",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Kitt_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Tính cách: Mê Ly",
+        "Yêu thích: Được ngưỡng mộ",
+        "Có những người phải theo đuổi cả cuộc đời mới có thể thoáng nhìn một lần."
+      ]
+    },
+    {
+      "name": "Rhaast Bé Nhỏ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Lil%E2%80%99_Rhaast_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Sa Ngã",
+      "description": [
+        "Tính cách: Tàn độc",
+        "Sở thích: Thao túng Kayn",
+        "Hãy cố đừng nghe những lời hắn thì thầm vào tâm trí bạn."
+      ]
+    },
+    {
+      "name": "Minionaut",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Minionaut_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Chân Trời Bóng tối",
+      "description": [
+        "Tính cách: Thích không gian",
+        "Yêu thích: Nhảy Moonwalking",
+        "Một bước nhỏ đối với lính xu…"
+      ]
+    },
+    {
+      "name": "Poro Ngáo Ngơ",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Moonstruck_Poro_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Giới Hạn",
+      "description": [
+        "Tính cách: Nồng nhiệt",
+        "Yêu thích: Đứng đầu",
+        "Chỉ những người đi trước trong cuộc hành trình này mới tìm đưcọ Poro Ngáo Ngơ."
+      ]
+    },
+    {
+      "name": "Cóc Bóng Đêm",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Nightshade_Gromp_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Tính cách: Hiểm độc",
+        "Sở thích: Du hành không gian",
+        "CHỉ xuất hiện ở những nơi chẳng người bình thường nào dám bén mảng tới."
+      ]
+    },
+    {
+      "name": "Tiểu Tinh Tú Popstar",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Popstar_Stella_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "K/DA ALL OUT",
+      "description": [
+        "Tính cách: Nghệ sĩ",
+        "Thích: Trà sữa chân trâu đường đen",
+        "\"Feeling like I'm floating, never weighed down.\""
+      ]
+    },
+    {
+      "name": "Giáo Sư Snappington",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Prof._Snappington_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Thành Phố Bandle",
+      "description": [
+        "Tính cách: Vô tư lự",
+        "Yêu thích: Đoạt mạng theo nhịp độ riêng",
+        "Bắn phá, ăn ốc sên."
+      ]
+    },
+    {
+      "name": "Cún Nấm Độc",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Puffcap_Pup_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Thành Phố Bandle",
+      "description": [
+        "Tính cách: Đáng tin cậy",
+        "Yêu thích: Lăn mình trong bùn",
+        "Tiếng sủa \"gâu gâu\" có nghĩa là chú cún này đã sẵn sàng nhận nhiệm vụ"
+      ]
+    },
+    {
+      "name": "Chip Vũ Khí Tối Thượng",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Pulsefire_Chip_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Vũ Khí Tối Thượng",
+      "description": [
+        "Tính cách: Trước sau như một",
+        "Sở thích: Du hành thời gian về những khoảnh khắc ưa thích cùng Ba mình",
+        "Bạn đồng hành lý tưởng đem tới sự ổn định cho những nhà du hành thời gian."
+      ]
+    },
+    {
+      "name": "Tibbers Vũ Khí Tối Thượng",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Pulsefire_Tibbers_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Vũ Khí Tối Thượng",
+      "description": [
+        "Tính cách: Cuồng loạn",
+        "Yêu thích: Lao qua các cổng dịch chuyển",
+        "Khiến bạn choáng ngợp trong quá khứ, hiện tại và tương lai."
+      ]
+    },
+    {
+      "name": "Kitt Nữ Hoàng",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Queen_Kitt_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "K/DA ALL OUT",
+      "description": [
+        "Tính cách: Lôi cuốn",
+        "Sở thích: Tỏa sáng hết phần người khác",
+        "\"So keep your eyes on me now...\""
+      ]
+    },
+    {
+      "name": "Khỉ Nổi Loạn",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Rebel_Monkey_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "K/DA ALL OUT",
+      "description": [
+        "Tính cách: Nổi loạn",
+        "Sở thích: Đốt bánh",
+        "\"I'm trouble and you're wanting it.\""
+      ]
+    },
+    {
+      "name": "Khỉ Đuôi Nổ Hoàng Gia",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Royal_Powder_Monkey_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Shurima",
+      "description": [
+        "Tính cách: Hào nhoáng",
+        "Thích: Vàng. Thật nhiều vàng",
+        "Tất cả những gì lấp lánh đều thuộc về con Khỉ."
+      ]
+    },
+    {
+      "name": "Urf Đại Suy Vong",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Ruined_Urf_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Đại Suy Vong",
+      "description": [
+        "Tính cách: Quỷ quyệt",
+        "Đồ ăn yêu thích: Bánh pancake cháy",
+        "Những anh hùng xấu số bước vào đấu trường của nó... SẼ CHẲNG THỂ THOÁT THÂN!"
+      ]
+    },
+    {
+      "name": "Búp Bê Thợ May",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Seamstress_Doll_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Quần Đảo Bóng Đêm",
+      "description": [
+        "Tính cách: Vui vẻ",
+        "Sở thích: Thêu chữ thập",
+        "Chẳng có gì mà kim và chỉ không thể hàn gắn."
+      ]
+    },
+    {
+      "name": "Răng Sún Vệ Tinh",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Gloomtooth_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Vệ Binh Ánh Sáng",
+      "description": [
+        "Tính cách: Lạc quan",
+        "Ước muốn: Chứng tỏ bản thân",
+        "Là một bóng ma được tái tạo ở Quần Đảo Bóng Đêm, giờ đây Răng Sún lập lờ thề chống lại bóng tối mà từ đó chúng được sinh ra."
+      ]
+    },
+    {
+      "name": "Vệ Binh Ma Quái",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sentinel_Hauntling_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Vệ Binh Ánh Sáng",
+      "description": [
+        "Tính cách: Tươi Sáng",
+        "Khắc tinh: Viego Ma Quái",
+        "Nguồn ánh sáng vĩnh cửu mà bóng tối không thể xâm chiếm."
+      ]
+    },
+    {
+      "name": "Cánh Bạc kiên Cường",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sharpsteel_Silverwing_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Tính cách: Chính trực",
+        "Sở thích: Lau chùi áo giáp",
+        "Vì danh dự và lẽ phải."
+      ]
+    },
+    {
+      "name": "Cánh Bạc Hoa Linh Lục Địa",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Spirit_Blossom_Silverwing_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Hoa Linh Lục Địa",
+      "description": [
+        "Tính cách: Dũng cảm",
+        "Yêu thích: Bảo vệ linh giới",
+        "Một chiến binh luôn tôn vinh truyền thống và cái đẹp."
+      ]
+    },
+    {
+      "name": "Búp Bê Vệ Binh Tinh Tú",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Star_Guardian_Doll_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Vệ Binh Tinh Tú",
+      "description": [
+        "Tính cách: Tưới sáng",
+        "Yêu thích: Ngắm mưa thiên thạch",
+        "Đôi mắt nó toát lên ánh sáng rạng ngời nhờ được dệt nên bằng những đường chỉ lấp lánh ánh sao."
+      ]
+    },
+    {
+      "name": "Rồng Vệ Binh Tinh Tú",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Star_Guardian_Drake_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Vệ Binh Tinh Tú",
+      "description": [
+        "Tính cách: Nhân từ",
+        "Bức xạ: Ánh trăng",
+        "Sinh ra từ các chòm sao trên cao, sinh vật nhỏ bé này tỏa ra ánh sáng mờ ảo"
+      ]
+    },
+    {
+      "name": "Stella",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Stella_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Targon",
+      "description": [
+        "Tính cách: Thích ôm ấp",
+        "Sở thích: Bay lượn",
+        "Một ngọn hải đăng của hy vọng đối với những du khách đi đường mệt mỏi."
+      ]
+    },
+    {
+      "name": "Storm",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Storm_Guardian.png",
+      "rarity": "Hiếm",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Giả Lập",
+      "description": [
+        "Tính cách: Sắc sảo",
+        "Yêu thích: Bay theo quỹ đạo chữ V.",
+        "Đừng vội coi thường đôi cánh thép của nó."
+      ]
+    },
+    {
+      "name": "Baley Nắng Ấm",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Sunbeam_Baley_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Shurima",
+      "description": [
+        "Tính cách: Ấm áp rạng ngời",
+        "Thích: Là mặt trời của bạn trong những ngày âm u.",
+        "Điềm báo đen tối của sa mạc, hay hướng dẫn viên đáng yêu của cồn cát? Bạn phải tự quyết định thôi!"
+      ]
+    },
+    {
+      "name": "Tibbers",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Tibbers_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Noxus",
+      "description": [
+        "Tính cách: Che chở",
+        "Thích ăn: Ớt mật ong",
+        "\"Ngươi có thấy gấu Tibbers của ta không?\" - Annie"
+      ]
+    },
+    {
+      "name": "Viego Ma Quái",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Viego_Hauntling_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Đại Suy Vong",
+      "description": [
+        "Tính cách: Lụy tình",
+        "Màu yêu thích: Đen, như trái tim của nó vậy.",
+        "Đừng mong chờ sự cứu rỗi nào từ bóng tối... kể cả khi bóng tối ấy dễ thương nhường này."
+      ]
+    },
+    {
+      "name": "Chip Voxel",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Voxel_Chip_Guardian.png",
+      "rarity": "Thường",
+      "cost": "Phần thưởng giới hạn",
+      "collection": "Giả Lập",
+      "description": [
+        "Tính cách: Cơ bản",
+        "Thích ăn: Pixel",
+        "Sinh vạt khiêm tốn này được tìm thấy trong Rừng Voxel và là chủng loài cổ xưa nhất của Arcadia."
+      ]
+    },
+    {
+      "name": "Sứ Giả Bóng Tối Siêu Cấp",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Mega_Guardian.png",
+      "rarity": "Huyền Thoại",
+      "cost": "Hàng tặng không bán",
+      "collection": "Chân Trời Bóng tối",
+      "description": [
+        "Linh thú này luôn đi kèm khi sử dụng bàn đấu \"Lãnh Địa Sứ Giả\"."
+      ]
+    },
+    {
+      "name": "Veigar Robo Siêu Cấp",
+      "image": "https://wiki.leagueoflegends.com/en-us/images/LoR_Mega_Robo-Veigar_Guardian.png",
+      "rarity": "Huyền Thoại",
+      "cost": "Hàng tặng không bán",
+      "collection": "Giả Lập",
+      "description": [
+        "Linh thú này luôn đi kèm khi sử dụng bàn đấu \"Sàn Đấu Cuối\"."
+      ]
+    }
+  ]

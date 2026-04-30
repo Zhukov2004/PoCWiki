@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách linh thú | PoC Wiki</title>
+    <script src="font-injector.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Không định nghĩa font-family ở đây để font-injector tự xử lý */
+        body { background-color: #0f172a; color: #f8fafc; }
+        .lor-gold { color: #c4a46a; }
+        .bg-lor-dark { background-color: #1e293b; }
+        .card-gradient { 
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.5) 0%, rgba(15, 23, 42, 1) 100%); 
+        }
+        /* Custom scrollbar cho đẹp */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+    </style>
+</head>
+<body class="p-6">
+
+    <div class="max-w-7xl mx-auto mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+            <h1 class="text-4xl font-black tracking-tighter lor-gold">Bộ Sưu Tập Linh Thú</h1>
+        </div>
+        <div id="stats" class="text-xs font-bold bg-white/5 px-4 py-2 rounded-full border border-white/10 uppercase tracking-widest">
+            Đang hiển thị: <span id="count" class="lor-gold">0</span> / <span id="totalCount">0</span>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto mb-10 grid grid-cols-1 md:grid-cols-3 gap-4 bg-lor-dark p-4 rounded-2xl border border-white/5 shadow-2xl">
+        <div class="relative">
+            <i data-lucide="search" class="absolute left-3 top-3 w-5 h-5 text-slate-500"></i>
+            <input type="text" id="searchName" placeholder="Tên linh thú..." 
+                class="w-full bg-slate-900 border border-white/10 rounded-xl py-2.5 pl-10 pr-4 focus:outline-none focus:border-lor-gold transition-all text-sm">
+        </div>
+
+        <select id="filterRarity" class="bg-slate-900 border border-white/10 rounded-xl py-2.5 px-4 focus:outline-none focus:border-lor-gold cursor-pointer text-sm">
+            <option value="">Tất cả độ hiếm</option>
+            <option value="Common">Thường</option>
+            <option value="Rare">Hiếm</option>
+            <option value="Legendary">Huyền Thoại</option>
+        </select>
+
+        <select id="filterCollection" class="bg-slate-900 border border-white/10 rounded-xl py-2.5 px-4 focus:outline-none focus:border-lor-gold cursor-pointer text-sm">
+            <option value="">Tất cả bộ sưu tập</option>
+        </select>
+    </div>
+
+    <div id="guardianGrid" class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        </div>
+
+    <script>
+        let guardians = [];
+
+        async function init() {
+            try {
+                const response = await fetch('linhthu.json'); 
+                guardians = await response.json();
+                
+                document.getElementById('totalCount').textContent = guardians.length;
+                
+                setupCollectionFilter();
+                renderGuardians(guardians);
+            } catch (err) {
+                console.error("Không thể load linhthu.json:", err);
+            }
+        }
+
+        // Tự động tạo menu từ trường collection
+        function setupCollectionFilter() {
+            const select = document.getElementById('filterCollection');
+            // Lấy danh sách unique, loại bỏ giá trị trống và sắp xếp
+            const collections = [...new Set(guardians.map(g => g.collection))]
+                                .filter(c => c && c.trim() !== "" && c !== "None")
+                                .sort();
+            
+            collections.forEach(col => {
+                const opt = document.createElement('option');
+                opt.value = col;
+                opt.textContent = col;
+                select.appendChild(opt);
+            });
+        }
+
+        function renderGuardians(data) {
+            const grid = document.getElementById('guardianGrid');
+            const countEl = document.getElementById('count');
+            grid.innerHTML = '';
+            countEl.textContent = data.length;
+
+            data.forEach(item => {
+                const card = `
+                    <div class="group relative card-gradient rounded-3xl border border-white/10 overflow-hidden hover:border-lor-gold/40 transition-all duration-300">
+                        <div class="absolute top-4 right-4 z-10 px-2.5 py-1 rounded-lg text-[9px] font-black bg-black/40 backdrop-blur-sm border border-white/5 tracking-tighter">
+                            ${item.rarity}
+                        </div>
+                        
+                        <div class="aspect-square bg-slate-800/30 flex items-center justify-center p-6">
+                            <img src="${item.image}" alt="${item.name}" class="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+
+                        <div class="p-5">
+                            <h3 class="text-lg font-bold text-white leading-tight">${item.name}</h3>
+                            <p class="text-lor-gold text-[10px] font-bold uppercase tracking-widest mt-1 mb-4 opacity-90">
+                                ${item.collection}
+                            </p>
+                            
+                            <div class="space-y-1.5 min-h-[80px]">
+                                ${item.description.map(line => `
+                                    <div class="text-[12px] text-slate-100 leading-snug flex gap-2">
+                                        <span class="text-lor-gold/50">•</span>
+                                        <span>${line}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-white/5 flex justify-between items-center">
+                                <span class="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Giá</span>
+                                <span class="text-xs font-black text-slate-200">${item.cost}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                grid.insertAdjacentHTML('beforeend', card);
+            });
+            lucide.createIcons(); // Re-render icons cho các card mới
+        }
+
+        function applyFilters() {
+            const nameQuery = document.getElementById('searchName').value.toLowerCase();
+            const rarityQuery = document.getElementById('filterRarity').value;
+            const collectionQuery = document.getElementById('filterCollection').value;
+
+            const filtered = guardians.filter(g => {
+                const matchName = g.name.toLowerCase().includes(nameQuery);
+                const matchRarity = !rarityQuery || g.rarity === rarityQuery;
+                const matchCollection = !collectionQuery || g.collection === collectionQuery;
+                return matchName && matchRarity && matchCollection;
+            });
+
+            renderGuardians(filtered);
+        }
+
+        // Event Listeners
+        document.getElementById('searchName').addEventListener('input', applyFilters);
+        document.getElementById('filterRarity').addEventListener('change', applyFilters);
+        document.getElementById('filterCollection').addEventListener('change', applyFilters);
+
+        // Khởi tạo
+        init();
+    </script>
+</body>
+</html>

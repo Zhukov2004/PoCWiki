@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiến Trình Huyền Thoại | PoC Guide Việt Nam</title>
+    <title>Tiến Trình Huyền Thoại | PoC Wiki</title>
+    <script src="font-injector.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -22,7 +23,6 @@
                 radial-gradient(circle at 0% 0%, rgba(200, 155, 60, 0.05) 0%, transparent 30%),
                 radial-gradient(circle at 100% 100%, rgba(59, 130, 246, 0.05) 0%, transparent 30%);
             color: #f8fafc;
-            font-family: 'Plus Jakarta Sans', sans-serif;
             margin: 0;
             padding-top: 80px;
         }
@@ -72,9 +72,6 @@
 <body>
     <script src="components.js"></script>
     <header class="max-w-7xl mx-auto px-6 pt-16 pb-4 text-center">
-        <div class="inline-block px-4 py-1.5 mb-6 rounded-full border border-lor-gold/30 bg-lor-gold/5 backdrop-blur-md">
-            <span class="text-[10px] font-black uppercase tracking-[0.3em] lor-gold">Hệ Thống Phân Tích Hextech v3.0</span>
-        </div>
         
         <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tighter leading-none italic uppercase">
             ĐƯỜNG ĐẾN <br>
@@ -86,12 +83,6 @@
             "Sức mạnh không chỉ đến từ kỹ năng, mà còn từ sự kiên trì qua từng cấp độ. 
             Tra cứu lộ trình của bạn, nắm bắt tài nguyên và trở thành kẻ chinh phục thực thụ."
         </p>
-        
-        <div class="mt-10 flex justify-center gap-4">
-            <div class="h-px w-12 bg-gradient-to-r from-transparent to-lor-gold self-center"></div>
-            <i data-lucide="shield-check" class="lor-gold w-6 h-6"></i>
-            <div class="h-px w-12 bg-gradient-to-l from-transparent to-lor-gold self-center"></div>
-        </div>
     </header>
     <main class="max-w-[1650px] mx-auto px-6 py-12">
         <main class="max-w-[1650px] mx-auto px-6 py-12">
@@ -112,9 +103,9 @@
                             <table class="w-full text-left border-collapse">
                                 <thead class="sticky top-0 bg-[#0a0e1a] z-30 shadow-xl border-b border-white/5">
                                     <tr class="text-[9px] font-black text-slate-500 uppercase tracking-widest">
-                                        <th class="p-5">Cấp</th>
-                                        <th class="p-5">Kinh Nghiệm</th>
-                                        <th class="p-5">Phần Thưởng Vinh Danh</th>
+                                        <th class="p-5 text-center">Cấp</th>
+                                        <th class="p-5 text-center">Kinh Nghiệm</th>
+                                        <th class="p-5 text-center">Phần Thưởng Vinh Danh</th>
                                     </tr>
                                 </thead>
                                 <tbody id="legendTableBody" class="text-[13px]"></tbody>
@@ -143,10 +134,10 @@
                                         <th colspan="5" class="p-2 text-center bg-white/5 border-b border-white/5 text-cyan-400">Phần Thưởng Nâng Cấp</th>
                                     </tr>
                                     <tr class="bg-[#0a0e1a]">
-                                        <th class="p-4 border-r border-white/5">Bộ bài</th>
-                                        <th class="p-4 border-r border-white/5 text-center">Máu</th>
-                                        <th class="p-4 border-r border-white/5 text-center">Hồi</th>
-                                        <th class="p-4 border-r border-white/5 text-center">Vàng</th>
+                                        <th class="p-4 text-center border-r border-white/5">Bộ bài</th>
+                                        <th class="p-4  border-r border-white/5 text-center">Máu</th>
+                                        <th class="p-4  border-r border-white/5 text-center">Hồi phục</th>
+                                        <th class="p-4  border-r border-white/5 text-center">Vàng</th>
                                         <th class="p-4 text-center">Khác</th>
                                     </tr>
                                 </thead>
@@ -175,9 +166,21 @@
                     const renderLegend = (items) => {
                         legendTbody.innerHTML = items.map(item => `
                             <tr class="group border-b border-white/[0.05] hover:bg-white/[0.05]">
-                                <td class="p-6"><span class="text-xl font-black ${item.level % 10 === 0 ? 'lor-gold text-glow-gold' : 'text-white/60'}">${item.level}</span></td>
-                                <td class="p-6 font-mono"><span class="text-white">+${item.exp_needed.toLocaleString()}</span><br><span class="text-sm font-bold text-white/60 uppercase">Tổng: ${item.total_exp.toLocaleString()}</span></td>
-                                <td class="p-6 text-white leading-relaxed whitespace-pre-line">${item.reward}</td>
+                                <td class="p-4 text-center text-white font-black border-r border-white/5 text-base">
+        <span class="${item.level % 10 === 0 ? 'lor-gold text-glow-gold' : 'text-white/60'}">
+            ${item.level}
+        </span>
+    </td>
+
+    <td class="p-4 text-center text-white font-black border-r border-white/5 text-base font-mono">
+        <span class="text-white">+${item.exp_needed.toLocaleString()}</span>
+        <br>
+        <span class="text-sm font-bold text-white/60 uppercase">Tổng: ${item.total_exp.toLocaleString()}</span>
+    </td>
+
+    <td class="p-4 text-center text-white font-black border-r border-white/5 text-base leading-relaxed whitespace-pre-line">
+        ${item.reward}
+    </td>
                             </tr>`).join('');
                     };
     
@@ -198,9 +201,9 @@
                 </div>
             </td>
 
-            <td class="p-4 text-white font-medium border-r border-white/5 leading-relaxed">${item.reward.deck || '-'}</td>
+            <td class="p-4 text-center text-white font-black border-r border-white/5 text-base">${item.reward.deck || '-'}</td>
             <td class="p-4 text-center text-white font-black border-r border-white/5 text-base">${item.reward.health || '-'}</td>
-            <td class="p-4 text-center text-white/80 border-r border-white/5 font-bold">${item.reward.regen || '-'}</td>
+            <td class="p-4 text-center text-white font-black border-r border-white/5 text-base">${item.reward.regen || '-'}</td>
             <td class="p-4 text-center text-white font-black border-r border-white/5 text-base">${item.reward.gold || '-'}</td>
             
             <td class="p-6">

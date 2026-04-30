@@ -1338,5 +1338,125 @@
     "relicCode": "R0032",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0170.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0170-full.png",
+    "description": "Đồng minh có <link=keyword.Impact><sprite name=Impact><style=Keyword>Khí Lực</style></link>.",
+    "descriptionRaw": "Đồng minh có Khí Lực.",
+    "name": "Đầy Sức Mạnh",
+    "relicCode": "R0170",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0177.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0177-full.png",
+    "description": "Bắt Đầu Trận Đấu: Thêm 10 lá bài ngẫu nhiên vào bộ bài của ngươi. Mỗi lá bài nhận một vật phẩm Thường, một vật phẩm Hiếm và một vật phẩm Sử Thi.",
+    "descriptionRaw": "Bắt Đầu Trận Đấu: Thêm 10 lá bài ngẫu nhiên vào bộ bài của ngươi. Mỗi lá bài nhận một vật phẩm Thường, một vật phẩm Hiếm và một vật phẩm Sử Thi.",
+    "name": "Lá Bài May Rủi",
+    "relicCode": "R0177",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0162.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0162-full.png",
+    "description": "<link=vocab.Play><style=Vocab>Xuất Trận</style></link>: Tạo trên tay 3 lá bài ngẫu nhiên. Chúng là <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Phù Du</style></link> và có 1 tiêu hao.",
+    "descriptionRaw": "Xuất Trận: Tạo trên tay 3 lá bài ngẫu nhiên. Chúng là Phù Du và có 1 tiêu hao.",
+    "name": "Hỗn Loạn Tạm Thời",
+    "relicCode": "R0162",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0178.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0178-full.png",
+    "description": "<link=vocab.Play><style=Vocab>Xuất Trận</style></link>: Thu nhỏ kẻ địch <link=vocab.Strongest><style=Vocab>mạnh nhất</style></link> và biến nó thành chỉ số của ta.<br>",
+    "descriptionRaw": "Xuất Trận: Thu nhỏ kẻ địch mạnh nhất và biến nó thành chỉ số của ta.",
+    "name": "Mưa Tên Lửa",
+    "relicCode": "R0178",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0155.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0155-full.png",
+    "description": "<link=vocab.PathPower><style=Vocab>Sức Mạnh</style></link>: Khi ngươi triệu hồi một lá <link=card.self><style=AssociatedCard>Đổi Thế Võ</style></link>, hồi 2 máu cho Nhà Chính của ngươi và hồi 1 năng lượng bài phép.",
+    "descriptionRaw": "Sức Mạnh: Khi ngươi triệu hồi một lá Đổi Thế Võ, hồi 2 máu cho Nhà Chính của ngươi và hồi 1 năng lượng bài phép.",
+    "name": "Dây Chuyền Tự Lực",
+    "relicCode": "R0155",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0175.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0175-full.png",
+    "description": "<link=vocab.PathPower><style=Vocab>Sức Mạnh</style></link>: Đồng minh trên tay có “<link=keyword.Nightfall><style=Keyword>Chạng Vạng</style></link>: Ban cho kẻ địch yếu nhất 2 <link=keyword.Gloom><sprite name=Gloom><style=Keyword>Buồn Bã</style></link>”.",
+    "descriptionRaw": "Sức Mạnh: Đồng minh trên tay có “Chạng Vạng: Ban cho kẻ địch yếu nhất 2 Buồn Bã”.",
+    "name": "Nhịp Điệu Tuyệt Vọng",
+    "relicCode": "R0175",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0160.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0160-full.png",
+    "description": "Khi ta được triệu hồi hoặc <link=vocab.Attack><style=Vocab>Tấn Công</style></link>: Gây 1 sát thương lên tất cả kẻ địch.",
+    "descriptionRaw": "Khi ta được triệu hồi hoặc Tấn Công: Gây 1 sát thương lên tất cả kẻ địch.",
+    "name": "Lưỡi Kiếm Lốc Xoáy",
+    "relicCode": "R0160",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0159.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0159-full.png",
+    "description": "<link=keyword.Barrier><sprite name=Barrier><style=Keyword>Lá Chắn</style></link>\r\nNếu ta nhận sát thương và sống sót, ban cho ta +3|+3 và một đặc điểm ngẫu nhiên.",
+    "descriptionRaw": "Lá Chắn\r\nNếu ta nhận sát thương và sống sót, ban cho ta +3|+3 và một đặc điểm ngẫu nhiên.",
+    "name": "Binh Đoàn Vệ Binh",
+    "relicCode": "R0159",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0161.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0161-full.png",
+    "description": "<link=vocab.PathPower><style=Vocab>Sức Mạnh</style></link>: Mỗi vòng, lần đầu ngươi sử dụng 1 bài phép với 6 tiêu hao hoặc nhiều hơn, hồi lại năng lượng tương đương với tiêu hao của bài phép đó.",
+    "descriptionRaw": "Sức Mạnh: Mỗi vòng, lần đầu ngươi sử dụng 1 bài phép với 6 tiêu hao hoặc nhiều hơn, hồi lại năng lượng tương đương với tiêu hao của bài phép đó.",
+    "name": "Sức Mạnh Đổi Mới",
+    "relicCode": "R0161",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0164.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0164-full.png",
+    "description": "Ban +1|+0 và <link=keyword.Quick Strike><sprite name=QuickStrike><style=Keyword>Đột Kích</style></link>.<br><link=vocab.PathPower><style=Vocab>Sức Mạnh</style></link>: <link=vocab.RoundStart><style=Vocab>Bắt Đầu Vòng Đấu</style></link>: Nếu ngươi có lượt tấn công, ban <link=keyword.Scout><sprite name=Scout><style=Keyword>Trinh Sát</style></link> cho một đồng minh ngẫu nhiên.",
+    "descriptionRaw": "Ban +1|+0 và Đột Kích.Sức Mạnh: Bắt Đầu Vòng Đấu: Nếu ngươi có lượt tấn công, ban Trinh Sát cho một đồng minh ngẫu nhiên.",
+    "name": "Mệnh Lệnh Biệt Kích",
+    "relicCode": "R0164",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0166.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0166-full.png",
+    "description": "Ban +2|+0 và <link=keyword.Deathless><sprite name=Deathless><style=Keyword>Bất Diệt</style></link>.<br><link=vocab.PathPower><style=Vocab>Sức Mạnh</style></link>: Khi 1 đồng minh hy sinh, gây 1 sát thương lên Nhà Chính của đối thủ.",
+    "descriptionRaw": "Ban +2|+0 và Bất Diệt.Sức Mạnh: Khi 1 đồng minh hy sinh, gây 1 sát thương lên Nhà Chính của đối thủ.",
+    "name": "Cái Giá Của Sự Báo Thù",
+    "relicCode": "R0166",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0169.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_4_0/adventure/vi_vn/img/relics/R0169-full.png",
+    "description": "Khi ngươi sử dụng 1 đồng minh khác, gây 1 sát thương lên đồng minh đó và ban cho ta +1|+1.",
+    "descriptionRaw": "Khi ngươi sử dụng 1 đồng minh khác, gây 1 sát thương lên đồng minh đó và ban cho ta +1|+1.",
+    "name": "Dấu Án Máu",
+    "relicCode": "R0169",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
   }
 ]

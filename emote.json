@@ -1,0 +1,856 @@
+[
+    {
+      "name": "Calculating...",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Calculating..._LoR_Emote.png",
+      "rarity": "Common",
+      "price": "-",
+      "description": "Big brain plays. Literally."
+    },
+    {
+      "name": "Facepalm",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Facepalm_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "-",
+      "description": "Mistakes were made."
+    },
+    {
+      "name": "Hello There",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hello_There_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "-",
+      "description": "\"Good times, good friends… what could be better?\""
+    },
+    {
+      "name": "OMG",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/OMG_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "-",
+      "description": "Now that is what you call crazy."
+    },
+    {
+      "name": "Sad Poro",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sad_Poro_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "-",
+      "description": "Why you do this?"
+    },
+    {
+      "name": "Well Played",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Well_Played_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "-",
+      "description": "\"With honor.\""
+    },
+    {
+      "name": "Alriiight",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Alriiight_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Too easy.\""
+    },
+    {
+      "name": "Any Day Now",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Any_Day_Now_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Do I look like a patient man?\""
+    },
+    {
+      "name": "Can't Touch This",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Can%27t_Touch_This_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Can't catch me!\""
+    },
+    {
+      "name": "Catch You Later",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Catch_You_Later_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Let's do this again sometime.\""
+    },
+    {
+      "name": "Cheers",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Cheers_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"This is going to be good.\""
+    },
+    {
+      "name": "C'mon C'mon",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/C%27mon_C%27mon_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Please please please please please\""
+    },
+    {
+      "name": "Gotcha",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Gotcha_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Bang.\""
+    },
+    {
+      "name": "Grateful Dead",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Grateful_Dead_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"We're just dying to meet you.\""
+    },
+    {
+      "name": "Hey Hi Hello",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hey_Hi_Hello_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Whatcha doing over there? C'mon, chase me!\""
+    },
+    {
+      "name": "How Dare You",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/How_Dare_You_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"You say that to my metal face!\""
+    },
+    {
+      "name": "Mind Blown",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Mind_Blow_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"What an astounding stratagem.\""
+    },
+    {
+      "name": "Muahahaha",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Muahahaha_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"It will be over soon.\""
+    },
+    {
+      "name": "Need A Moment",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Need_a_Moment_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Imagine you're on a beach...\""
+    },
+    {
+      "name": "Nice!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Nice%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Stay positive.\""
+    },
+    {
+      "name": "No Mercy",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/No_Mercy_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"The time for talk is over.\""
+    },
+    {
+      "name": "None Of That",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/None_of_That_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Just... no.\""
+    },
+    {
+      "name": "Not Sure If",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Not_Sure_If_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Judge 'em, Valor.\""
+    },
+    {
+      "name": "Obliteration",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Obliteration_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Impossible…\""
+    },
+    {
+      "name": "Over It",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Over_It_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"You've gotta be kidding me.\""
+    },
+    {
+      "name": "Phew",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Phew_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"That was way too close.\""
+    },
+    {
+      "name": "Smooth Move",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Smooth_Move_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Pure star fire!\""
+    },
+    {
+      "name": "Snoozefest",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Snoozefest_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Wake me up when it's my turn.\""
+    },
+    {
+      "name": "This Right Here",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/This_Right_Here_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Absolutely.\""
+    },
+    {
+      "name": "Time To Duel",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Time_To_Duel_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"I long for a worthy opponent.\""
+    },
+    {
+      "name": "Too Funny",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Too_Funny_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Now THAT'S a zinger.\""
+    },
+    {
+      "name": "Try to Keep Up",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Try_to_Keep_Up_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "Almost got me. Almost."
+    },
+    {
+      "name": "Unlucky",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Unlucky_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Can I get a do-over?\""
+    },
+    {
+      "name": "Wasn't Me",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wasn%27t_Me_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Try inventing a better response next time.\""
+    },
+    {
+      "name": "Yay!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Yay%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Blessings from the sun.\""
+    },
+    {
+      "name": "Yikes",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Yikes_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"Can we pretend that didn't happen?\""
+    },
+    {
+      "name": "#1 Fan",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/No.1_Fan_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Be your own biggest fan."
+    },
+    {
+      "name": "Adventuring!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Adventuring%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Let's become legends!\""
+    },
+    {
+      "name": "All is Fine",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/All_is_Fine_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"I will follow this path until the end.\""
+    },
+    {
+      "name": "All These Coins",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/All_These_Coins_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Can hardly hold them."
+    },
+    {
+      "name": "Backfire",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Backfire_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"A rookie mistake brother.\"\n\"...\""
+    },
+    {
+      "name": "Big Flex",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Big_Flex_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "Don't call it a comeback."
+    },
+    {
+      "name": "Blown Away",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Blown_Away_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"I... didn't expect this.\""
+    },
+    {
+      "name": "Broken",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Broken_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "That was my last arrow..."
+    },
+    {
+      "name": "Cheeky",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Cheeky_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "When in doubt, taunt them out."
+    },
+    {
+      "name": "Closer Look",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Closer_Look_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Did I see what I think I just saw?\""
+    },
+    {
+      "name": "Come Here",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Come_Here_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"...so I can punch you in the face.\""
+    },
+    {
+      "name": "Deflated",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Deflated_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "GrrrAAHHH...ah forget it."
+    },
+    {
+      "name": "Disgusted",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Disgusted_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"...so I can punch you in the face.\""
+    },
+    {
+      "name": "Don't Mess",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Don%27t_Mess_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Call it a flex.\""
+    },
+    {
+      "name": "Dramatic Yordle",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Dramatic_Yordle_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"I'm watching you, dearie!\""
+    },
+    {
+      "name": "Drop The Beat",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Drop_The_Beat_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Unstoppably smooth."
+    },
+    {
+      "name": "Eject!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Eject%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"That hurt.\""
+    },
+    {
+      "name": "Everybody Gets Love!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Everybody_gets_love%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "Our differences make us stronger."
+    },
+    {
+      "name": "Feels Good",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Feels_Good_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Exactly as I'd hoped.\""
+    },
+    {
+      "name": "Fired Up",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Fired_Up_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Bundle Exclusive",
+      "description": "They can't take the heat."
+    },
+    {
+      "name": "Goofy",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Goofy_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"That was funny... do it again.\""
+    },
+    {
+      "name": "Great Match",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Great_Match_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"It was an honor!\""
+    },
+    {
+      "name": "Great Match 2022",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Great_Match_2022_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "GG!"
+    },
+    {
+      "name": "Heart & Soul",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Heart_%26_Soul_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"I'll have both. Quickly now, darling.\""
+    },
+    {
+      "name": "Heart Eyes",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Heart_Eyes_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Neeko loves it so much she wants to eat it!\""
+    },
+    {
+      "name": "Heartbroken",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Heartbroken_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Oh, what might've been..."
+    },
+    {
+      "name": "Hehe",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hehe_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Ehehehehe."
+    },
+    {
+      "name": "Huh?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Huh%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "What just happened?"
+    },
+    {
+      "name": "Hope this Works",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hope_this_Works_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Time travel be like that sometimes."
+    },
+    {
+      "name": "How 'Bout That",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/How_%27Bout_That_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "This changes things."
+    },
+    {
+      "name": "I Guess",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/I_Guess_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Pass? Attack? Emote until the timer runs down?"
+    },
+    {
+      "name": "Illumination",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Illumination_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Light can anything you can imagine."
+    },
+    {
+      "name": "Interesting",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Interesting_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"I love watching a trainwreck.\""
+    },
+    {
+      "name": "Into My Trap",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Into_My_Trap_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "This will be fun... for me."
+    },
+    {
+      "name": "Jackal Cackle",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Jackal_Cackle_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Your attempts at victory amuse me."
+    },
+    {
+      "name": "Jaw-dropping",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Jaw-dropping_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Please say sike.\""
+    },
+    {
+      "name": "Just a Dash",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Just_a_Dash_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "To top off your ascension, add opponent's salt, to taste."
+    },
+    {
+      "name": "Killer Show",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Killer_Show_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Behind every mask is... another mask?"
+    },
+    {
+      "name": "Let's Shine!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Let%27s_Shine%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"We can do this!\""
+    },
+    {
+      "name": "More Fired Up",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/More_Fired_Up_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "There's more where that came from."
+    },
+    {
+      "name": "Not Amused!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Not_Amused%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "Are you done yet?"
+    },
+    {
+      "name": "Oh, You!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Oh%2C_You%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"You're adorable when you're angry.\""
+    },
+    {
+      "name": "Overwhelming Joy",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Overwhelming_Joy_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Just when Nilah thought she couldn't feel any happier..."
+    },
+    {
+      "name": "Perplexed",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Perplexed_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "What was all that about?"
+    },
+    {
+      "name": "Piece of Cake",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Piece_of_Cake_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "Justice is oh so sweet."
+    },
+    {
+      "name": "Pounce!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Pounce%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Eyes on the prize."
+    },
+    {
+      "name": "Poro Pride",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Poro_Pride_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "Happiness comes from knowing you're perfect just the way you are."
+    },
+    {
+      "name": "Pretty Please?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Pretty_Please%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Nobody can resist those eyes."
+    },
+    {
+      "name": "Pure Magic",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Pure_Magic_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "A good reputation is nothing short of magic."
+    },
+    {
+      "name": "Rage Mode",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Rage_Mode_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"MEGA GNARRR!!\""
+    },
+    {
+      "name": "Rainbow Flush",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Rainbow_Flush_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "Every card belongs to a winning hand."
+    },
+    {
+      "name": "Scheming",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Scheming_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Excellent.\""
+    },
+    {
+      "name": "Scoped Out",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Scoped_Out_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Would you look at that.\""
+    },
+    {
+      "name": "See this Look?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/See_this_Look%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "\"Time to shut up.\""
+    },
+    {
+      "name": "Selfies",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Selfies_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "An emote's worth a thousand pictures."
+    },
+    {
+      "name": "Seeing Red",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Seeing_Red_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "\"None shall oppose me!\""
+    },
+    {
+      "name": "Sharp & Sweet",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sharp_%26_Sweet_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "Cone on, it's a party!"
+    },
+    {
+      "name": "Shocked",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Shocked_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Good heavens!\""
+    },
+    {
+      "name": "Sorry, Not Sorry",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sorry%2C_Not_Sorry_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Oh sweetie. You never had a chance."
+    },
+    {
+      "name": "Sparky Sparky Von Yipp",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sparky_Sparky_Von_Yipp_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Don't chase the laser. BE the laser."
+    },
+    {
+      "name": "Starry-Eyed",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Starry-Eyed_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"You're not getting out of this one!\""
+    },
+    {
+      "name": "Surrender",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Surrender_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Let him live, bro."
+    },
+    {
+      "name": "Sweet Surprise",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sweet_Surprise_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "What a treat!"
+    },
+    {
+      "name": "Swoon",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Swoon_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Aren't you just the cutest?"
+    },
+    {
+      "name": "Take Notes",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Take_Notes_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Ooh, I'm writin' that down!\""
+    },
+    {
+      "name": "That's All, Folks!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/That%27s_All%2C_Folks%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "...unless you want an encore."
+    },
+    {
+      "name": "The Look",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/The_Look_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Whatever you're doing, stop it"
+    },
+    {
+      "name": "The Royal Dance",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/The_Royal_Dance_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Ooh, I'm writin' that down!\""
+    },
+    {
+      "name": "This Again?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/This_Again%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"I've seen it all before...\""
+    },
+    {
+      "name": "Thrilled",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Thrilled_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"Oh! I do like this.\""
+    },
+    {
+      "name": "Vastaya Pride",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Vastaya_Pride_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "0",
+      "description": "Unbothered. Moisturized. Happy. Hair flipping."
+    },
+    {
+      "name": "Voli Smash",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Voli_Smash_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Voli gets what he wants-or else."
+    },
+    {
+      "name": "Wait For It",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wait_for_It_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"1.. 2.. 3.. 4...\""
+    },
+    {
+      "name": "Watchful Eye",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Watchful_Eye_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Say what you want about the Tournament's owner--Viego's third eye is wide open."
+    },
+    {
+      "name": "Wait, What?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wait%2C_What%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "190",
+      "description": "Seriously... what?"
+    },
+    {
+      "name": "Watch This",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Watch_This_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Can't kill this vibe."
+    },
+    {
+      "name": "What is This?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/What_is_This%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Is it a Bird?"
+    },
+    {
+      "name": "Who, Me?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Who%2C_Me%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"If you say so~\""
+    },
+    {
+      "name": "Whoa",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Whoa_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Did that just happen?"
+    },
+    {
+      "name": "Wink",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wink_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Substance and style."
+    },
+    {
+      "name": "Worlds Mordekaiser",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Worlds_Mordekaiser_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Bundle Exclusive",
+      "description": "\"I'd like to first thank my haters…\""
+    },
+    {
+      "name": "Worlds Poro",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Worlds_Poro_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Bundle Exclusive",
+      "description": "GGWP to all 2023 World Competitors!"
+    },
+    {
+      "name": "Wowza!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wowza%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"What do you mean the hero isn't here?!\""
+    },
+    {
+      "name": "XOXO",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/XOXO_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "Charmed, I'm sure."
+    },
+    {
+      "name": "You Fools!",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/You_Fools%21_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Reward",
+      "description": "\"I can't believe you've done this.\""
+    },
+    {
+      "name": "You Jelly?",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/You_Jelly%3F_LoR_Emote.png",
+      "rarity": "Common",
+      "price": "Bundle Exclusive",
+      "description": "Sorry we can't both be me!"
+    }
+  ]
