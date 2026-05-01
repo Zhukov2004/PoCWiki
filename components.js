@@ -38,6 +38,9 @@ function injectNavbar() {
                             ${renderMenuItem("progression.html", "trending-up", "Tiến trình", "Cấp độ & Thưởng", "rgba(200, 155, 60, 0.4)", "[#c89b3c]")}
                             ${renderMenuItem("maps.html", "map", "Bản đồ", "Viễn chinh thế giới", "rgba(239, 68, 68, 0.4)", "red-500")}
                             ${renderMenuItem("resources.html", "database", "Tài Nguyên", "Bụi Tinh Tú & Mảnh ghép", "rgba(168, 85, 247, 0.4)", "purple-500")}
+                            ${renderMenuItem("skin.html", "sparkles", "Trang Phục", "Ngoại hình tướng", "rgba(236, 72, 153, 0.4)", "pink-500")}
+${renderMenuItem("lungbai.html", "gallery-vertical-end", "Lưng Bài", "Mặt sau lá bài", "rgba(99, 102, 241, 0.4)", "indigo-400")}
+${renderMenuItem("bandau.html", "layout-template", "Bàn Đấu", "Giao diện chiến trường", "rgba(20, 184, 166, 0.4)", "teal-500")}
                         </div>
                     </div>
                 </div>
