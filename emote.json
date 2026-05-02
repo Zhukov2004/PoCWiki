@@ -1,856 +1,961 @@
 [
     {
-      "name": "Calculating...",
+      "name": "Đang tính toán...",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Calculating..._LoR_Emote.png",
-      "rarity": "Common",
-      "price": "-",
-      "description": "Big brain plays. Literally."
+      "rarity": "Thường",
+      "price": "0",
+      "description": "Não to đừng hỏi."
     },
     {
-      "name": "Facepalm",
+      "name": "Ôm mặt",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Facepalm_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "-",
-      "description": "Mistakes were made."
+      "rarity": "Thường",
+      "price": "0",
+      "description": "Sai lầm rồi."
     },
     {
-      "name": "Hello There",
+      "name": "Xin chào",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hello_There_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "-",
-      "description": "\"Good times, good friends… what could be better?\""
+      "rarity": "Thường",
+      "price": "0",
+      "description": "\"Rượu ngon, bạn tốt... còn gì tuyệt hơn chứ?\""
     },
     {
       "name": "OMG",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/OMG_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "-",
-      "description": "Now that is what you call crazy."
+      "rarity": "Thường",
+      "price": "0",
+      "description": "Quả thật là điên rồ."
     },
     {
-      "name": "Sad Poro",
+      "name": "Poro buồn bã",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sad_Poro_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "-",
-      "description": "Why you do this?"
+      "rarity": "Thường",
+      "price": "0",
+      "description": "Sao nỡ người ơi?"
     },
     {
-      "name": "Well Played",
+      "name": "Chơi tốt lắm",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Well_Played_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "-",
-      "description": "\"With honor.\""
+      "rarity": "Thường",
+      "price": "0",
+      "description": "\"Bằng danh dự.\""
     },
     {
-      "name": "Alriiight",
+      "name": "Được rồiiiii",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Alriiight_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Too easy.\""
+      "description": "\"Dễ ợt.\""
     },
     {
-      "name": "Any Day Now",
+      "name": "Sắp rồi",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Any_Day_Now_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Do I look like a patient man?\""
+      "description": "\"Nhìn ta giống kiểu người kiên nhẫn sao?\""
     },
     {
-      "name": "Can't Touch This",
+      "name": "Đừng đụng vào",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Can%27t_Touch_This_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Can't catch me!\""
+      "description": "\"Đố bắt được ta!\""
     },
     {
-      "name": "Catch You Later",
+      "name": "Gặp lại sau nhé",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Catch_You_Later_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Let's do this again sometime.\""
+      "description": "\"Lần sau lại nữa nhé.\""
     },
     {
-      "name": "Cheers",
+      "name": "Chấp nhận thử thách",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Challenge_Accepted_LoR_Emote.png",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Đừng bảo ta chưa báo trước nhé.\""
+    },
+    {
+      "name": "Nâng ly",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Cheers_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"This is going to be good.\""
+      "description": "\"Chắc sẽ hay lắm đây.\""
     },
     {
-      "name": "C'mon C'mon",
+      "name": "Làm ơn đi mà",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/C%27mon_C%27mon_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Please please please please please\""
+      "description": "\"Đi mà. Đi mà. Đi mà. Đi mà. Đi mà. \""
     },
     {
-      "name": "Gotcha",
+      "name": "Bộ đôi bùng nổ",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Dynamic_Duo_LoR_Emote.png",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Quá lố và quá ngọt gộp lại hóa ra là... vừa đủ\""
+    },
+    {
+      "name": "Xong con ong",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Gotcha_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Bang.\""
+      "description": "\"Bùm.\""
     },
     {
-      "name": "Grateful Dead",
+      "name": "Chết trong êm ái",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Grateful_Dead_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"We're just dying to meet you.\""
+      "description": "\"Thật là muốn gặp bạn chết đi được.\""
     },
     {
-      "name": "Hey Hi Hello",
+      "name": "Lùi lại thật chậm",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Back_Away_Slowly_LoR_Emote.png?df205",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Danh tiếng của người rồi sẽ được khôi phục thôi... không sớm thì muộn.\""
+    },
+    {
+      "name": "Trái tim tan vỡ",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Heartbreaker_LoR_Emote.png?0dc73",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Hiệu quả như một phép màu.\""
+    },
+    {
+      "name": "Alo xin chào",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hey_Hi_Hello_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Whatcha doing over there? C'mon, chase me!\""
+      "description": "\"Làm gì ở đó vậy? Bắt tôi đi này!\""
     },
     {
-      "name": "How Dare You",
+      "name": "Sao ngươi dám",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/How_Dare_You_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"You say that to my metal face!\""
+      "description": "\"Thử nhắc lại lần nữa trước mặt sắt của ta coi!\""
     },
     {
-      "name": "Mind Blown",
-      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Mind_Blow_LoR_Emote.png",
-      "rarity": "Common",
+      "name": "Mọng nước",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Juicy_LoR_Emote.png?e31db",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"What an astounding stratagem.\""
+      "description": "\"Đúng, vị có màu tím.\""
+    },
+    {
+      "name": "Sốc tận óc",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Mind_Blow_LoR_Emote.png",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Quả là một mưu lược đáng kinh ngạc.\""
     },
     {
       "name": "Muahahaha",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Muahahaha_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"It will be over soon.\""
+      "description": "\"Mọi thứ sẽ sớm qua thôi.\""
     },
     {
-      "name": "Need A Moment",
+      "name": "Đợi xíu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Need_a_Moment_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Imagine you're on a beach...\""
+      "description": "\"Hãy tưởng tượng bạn đang được thư giãn trên bãi biển...\""
     },
     {
-      "name": "Nice!",
+      "name": "Hay!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Nice%21_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Stay positive.\""
+      "description": "\"Luôn giữ vững thái độ tích cực.\""
     },
     {
-      "name": "No Mercy",
+      "name": "Không khoan nhượng",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/No_Mercy_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"The time for talk is over.\""
+      "description": "\"Nói suông vậy là đủ rồi.\""
     },
     {
-      "name": "None Of That",
+      "name": "Không gì cả",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/None_of_That_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Just... no.\""
+      "description": "\"Không nhé.\""
     },
     {
-      "name": "Not Sure If",
+      "name": "Phải không ta",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Not_Sure_If_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Judge 'em, Valor.\""
+      "description": "\"Valor, xử chúng.\""
     },
     {
-      "name": "Obliteration",
+      "name": "Hủy diệt",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Obliteration_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Impossible…\""
+      "description": "\"Không thể nào…\""
     },
     {
-      "name": "Over It",
+      "name": "Chẳng sá gì",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Over_It_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"You've gotta be kidding me.\""
+      "description": "\"Thật vô lý đến khó tin.\""
     },
     {
-      "name": "Phew",
+      "name": "Phù",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Phew_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"That was way too close.\""
+      "description": "\"Vừa rối nguy hiểm quá.\""
     },
     {
-      "name": "Smooth Move",
+      "name": "Bươc đi uyển chuyển",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Smooth_Move_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Pure star fire!\""
+      "description": "\"Tinh Vân Hỏa!\""
     },
     {
-      "name": "Snoozefest",
+      "name": "Ngủ gật",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Snoozefest_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Wake me up when it's my turn.\""
+      "description": "\"Bao giờ đến lượt thì gọi tôi dậy nhé.\""
     },
     {
-      "name": "This Right Here",
+      "name": "Ngay đây",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/This_Right_Here_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Absolutely.\""
+      "description": "\"Đương nhiên rồi.\""
     },
     {
-      "name": "Time To Duel",
+      "name": "Thời khắc đối đầu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Time_To_Duel_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"I long for a worthy opponent.\""
+      "description": "\"Ta khao khát tìm được một đối thủ xứng tầm.\""
     },
     {
-      "name": "Too Funny",
+      "name": "Tức cười quá",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Too_Funny_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Now THAT'S a zinger.\""
+      "description": "\"Giờ thì ĐÚNG LÀ bất ngờ đấy.\""
     },
     {
-      "name": "Try to Keep Up",
+      "name": "Cố mà bắt kịp",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Try_to_Keep_Up_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "Almost got me. Almost."
+      "description": "Suýt thì hạ được ta. Suýt thôi"
     },
     {
-      "name": "Unlucky",
+      "name": "Đành vậy",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Unlucky_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Can I get a do-over?\""
+      "description": "\"Tôi làm lại được không?\""
     },
     {
-      "name": "Wasn't Me",
+      "name": "Không phải cháu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wasn%27t_Me_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Try inventing a better response next time.\""
+      "description": "\"Lần sau cố chế ra lời đáp trả hay ho hơn nhé.\""
     },
     {
       "name": "Yay!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Yay%21_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Blessings from the sun.\""
+      "description": "\"Phước lành từ mặt trời.\""
     },
     {
-      "name": "Yikes",
+      "name": "Ối",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Yikes_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"Can we pretend that didn't happen?\""
+      "description": "\"Hãy giả bộ như không hề có gì xảy ra nhé?\""
     },
     {
-      "name": "#1 Fan",
+      "name": "Fan số 1",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/No.1_Fan_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Be your own biggest fan."
+      "rarity": "Hiếm",
+      "price": "Di sản",
+      "description": "Hãy tự tin là fan hâm mộ cuồng nhiệt nhát của chính mình."
     },
     {
-      "name": "Adventuring!",
+      "name": "Phiêu lưu!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Adventuring%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Let's become legends!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Hyax trở thành huyền thoại!\""
     },
     {
-      "name": "All is Fine",
+      "name": "Ổn cả thôi",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/All_is_Fine_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"I will follow this path until the end.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ta sẽ đi con đường này đến cùng.\""
     },
     {
-      "name": "All These Coins",
+      "name": "Quá nhiều xu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/All_These_Coins_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Can hardly hold them."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Khó mà cầm hết được."
     },
     {
-      "name": "Backfire",
+      "name": "Tự bắn vào chân",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Backfire_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"A rookie mistake brother.\"\n\"...\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Một lỗi cơ bản thôi, người anh em ạ.\"\n\"...\""
     },
     {
-      "name": "Big Flex",
+      "name": "Khoe mẽ siêu hạng",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Big_Flex_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "Don't call it a comeback."
+      "description": "Đừng có gọi là\"comeback\"."
     },
     {
-      "name": "Blown Away",
+      "name": "Thổi bay",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Blown_Away_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"I... didn't expect this.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ta...không ngờ đến điều này.\""
     },
     {
-      "name": "Broken",
+      "name": "Vô lý",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Broken_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "That was my last arrow..."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Đó là mũi tên cuối cùng của tôi đấy..."
     },
     {
-      "name": "Cheeky",
+      "name": "Láo nháo",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Cheeky_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "When in doubt, taunt them out."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Hãy khiêu khích đối phương khi lâm vào thế khó."
     },
     {
-      "name": "Closer Look",
+      "name": "Cái nhìn cận cảnh",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Closer_Look_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Did I see what I think I just saw?\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Có phải ta vừa nhìn thấy thứ mà ta nghĩ không?\""
     },
     {
-      "name": "Come Here",
+      "name": "Lại đây",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Come_Here_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"...so I can punch you in the face.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"...thế thì hứng trọn cả cú đấm nè.\""
     },
     {
-      "name": "Deflated",
+      "name": "Cáu giận bừng bừng",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Deflated_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "GrrrAAHHH...ah forget it."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Grrrrrrừ... thôi bỏ đi."
     },
     {
-      "name": "Disgusted",
+      "name": "Phát gớm",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Disgusted_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"...so I can punch you in the face.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Hầy... hừm\""
     },
     {
-      "name": "Don't Mess",
+      "name": "Đừng có đùa",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Don%27t_Mess_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Call it a flex.\""
+      "rarity": "Hiếm",
+      "price": "Di sản",
+      "description": "\"Cứ gọi là khoe khoang đi.\""
     },
     {
-      "name": "Dramatic Yordle",
+      "name": "Yordle lắm chuyện",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Dramatic_Yordle_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"I'm watching you, dearie!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ta vẫn đang theo dõi ngươi đó, cưng à!\""
     },
     {
-      "name": "Drop The Beat",
+      "name": "Cảm thụ nhịp điệu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Drop_The_Beat_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Unstoppably smooth."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Mịn màng tới mức khó đỡ."
     },
     {
-      "name": "Eject!",
+      "name": "Phóng ra!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Eject%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"That hurt.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Đau quá.\""
     },
     {
-      "name": "Everybody Gets Love!",
+      "name": "Ai cũng xứng đáng được yêu thương!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Everybody_gets_love%21_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "Our differences make us stronger."
+      "description": "Chính sự khác biệt khiến chúng ta mạnh hơn."
     },
     {
-      "name": "Feels Good",
+      "name": "Quá đã",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Feels_Good_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Exactly as I'd hoped.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Đúng như những gì ta mong đợi.\""
     },
     {
-      "name": "Fired Up",
+      "name": "Nổi lửa",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Fired_Up_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Bundle Exclusive",
-      "description": "They can't take the heat."
+      "rarity": "Thường",
+      "price": "Gói độc quyền",
+      "description": "Làm sao chịu nổi nhiệt"
     },
     {
-      "name": "Goofy",
+      "name": "Ngốc nghếch",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Goofy_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"That was funny... do it again.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Hài hước thật đấy... làm lại đi.\""
     },
     {
-      "name": "Great Match",
+      "name": "Trận đấu tuyệt vời",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Great_Match_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"It was an honor!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Quả là một niềm vinh hạnh!\""
     },
     {
-      "name": "Great Match 2022",
+      "name": "Trận đấu tuyệt vời 2022",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Great_Match_2022_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
+      "rarity": "Thường",
+      "price": "Di sản",
       "description": "GG!"
     },
     {
-      "name": "Heart & Soul",
+      "name": "Trái tim & Tâm hồn",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Heart_%26_Soul_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"I'll have both. Quickly now, darling.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ta sẽ lấy cả hai. Lẹ lên nào, cưng.\""
     },
     {
-      "name": "Heart Eyes",
+      "name": "Mắt trái tim",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Heart_Eyes_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Neeko loves it so much she wants to eat it!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Neeko mê nó tới mức muốn xơi tái nó luôn!\""
     },
     {
-      "name": "Heartbroken",
+      "name": "Trái tim tan vỡ",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Heartbroken_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Oh, what might've been..."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Ôi, những điều đã có thể xảy ra..."
     },
     {
       "name": "Hehe",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hehe_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
+      "rarity": "Thường",
+      "price": "Di sản",
       "description": "Ehehehehe."
     },
     {
-      "name": "Huh?",
+      "name": "Hơ?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Huh%3F_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "What just happened?"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Chuyện gì vừa xảy ra vậy?"
     },
     {
-      "name": "Hope this Works",
+      "name": "Chắc sẽ ổn thôi",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Hope_this_Works_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Time travel be like that sometimes."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Du hành thời gian đôi khi là như vậy đấy."
     },
     {
-      "name": "How 'Bout That",
+      "name": "Đỡ này",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/How_%27Bout_That_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "This changes things."
+      "description": "Thế này thì phải xem lại rồi."
     },
     {
-      "name": "I Guess",
+      "name": "Đành vậy",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/I_Guess_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Pass? Attack? Emote until the timer runs down?"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Bỏ lượt? Tấn công? Spam biểu cảm cho đến khi hết giờ?"
     },
     {
-      "name": "Illumination",
+      "name": "Chớp lửa soi rọi",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Illumination_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Light can anything you can imagine."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Ánh sáng có thể là bất cứ thứ gì bạn tưởng tượng được."
     },
     {
-      "name": "Interesting",
+      "name": "Thú vị",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Interesting_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"I love watching a trainwreck.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ta rất thích chứng kiến sự thảm bại.\""
     },
     {
-      "name": "Into My Trap",
+      "name": "Sập bẫy",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Into_My_Trap_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "This will be fun... for me."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Chắc chắn sẽ vui lắm đây.\""
     },
     {
-      "name": "Jackal Cackle",
+      "name": "Cười sằng sặc",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Jackal_Cackle_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Your attempts at victory amuse me."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Sự cố gắng vô ích của ngươi thật thú vị."
     },
     {
-      "name": "Jaw-dropping",
+      "name": "Không tin nổi",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Jaw-dropping_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Please say sike.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Đang đùa phải không.\""
     },
     {
-      "name": "Just a Dash",
+      "name": "Thêm chút xíu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Just_a_Dash_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "To top off your ascension, add opponent's salt, to taste."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Để quá trình thăng hoa của bạn thêm vi diệu, cũng như khiến đối phương cay cú."
     },
     {
-      "name": "Killer Show",
+      "name": "Màn trình diễn tuyệt đỉnh",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Killer_Show_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Behind every mask is... another mask?"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Đằng sau chiếc mặt nạ... là một chiếc mặt na khác?"
     },
     {
-      "name": "Let's Shine!",
+      "name": "Cùng tỏa sáng!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Let%27s_Shine%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"We can do this!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Chúng ta có thể làm được!\""
     },
     {
-      "name": "More Fired Up",
+      "name": "Bùng lửa",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/More_Fired_Up_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "There's more where that came from."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Đó chưa phải là tất cả đâu."
     },
     {
-      "name": "Not Amused!",
+      "name": "Nhạt nhẽo",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Not_Amused%21_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "Are you done yet?"
+      "description": "Vẫn chwua xong à?"
     },
     {
-      "name": "Oh, You!",
+      "name": "Ồ, nữa đi!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Oh%2C_You%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"You're adorable when you're angry.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ngươi nổi cáu trông thật là dễ thương.\""
     },
     {
-      "name": "Overwhelming Joy",
+      "name": "Niềm vui bất tận",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Overwhelming_Joy_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Just when Nilah thought she couldn't feel any happier..."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Ngya khi Nilah nghĩ rằng mình không thể cảm thấy hạnh phúc hơn nữa..."
     },
     {
-      "name": "Perplexed",
+      "name": "Hỗn tạp",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Perplexed_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "What was all that about?"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Tất cả mấy thứ đó là gì vậy?"
     },
     {
-      "name": "Piece of Cake",
+      "name": "Dễ như ăn kẹo",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Piece_of_Cake_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "Justice is oh so sweet."
+      "description": "Công lý thật ngọt ngào."
     },
     {
-      "name": "Pounce!",
+      "name": "Vồ nào!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Pounce%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Eyes on the prize."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Tập trung vào phàn thưởng."
     },
     {
-      "name": "Poro Pride",
+      "name": "Poro tự hào",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Poro_Pride_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "Happiness comes from knowing you're perfect just the way you are."
+      "description": "Hạnh phúc là biết rằng mình hoàn hảo theo cách của riêng mình."
     },
     {
-      "name": "Pretty Please?",
+      "name": "Làm ơn điii?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Pretty_Please%3F_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Nobody can resist those eyes."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Chẳng lại có thể cưỡng lại đôi mắt đó."
     },
     {
-      "name": "Pure Magic",
+      "name": "Phép thuật thuần khiết",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Pure_Magic_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "A good reputation is nothing short of magic."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Danh vọng cao chẳng khác gì phép thuật."
     },
     {
-      "name": "Rage Mode",
+      "name": "Chế độ điên cuồng",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Rage_Mode_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"MEGA GNARRR!!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"SIÊU GNARRR!!\""
     },
     {
-      "name": "Rainbow Flush",
+      "name": "Mưa cầu vồng",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Rainbow_Flush_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "Every card belongs to a winning hand."
+      "description": "Lá bài nào rồi cũng có chốn để về."
     },
     {
-      "name": "Scheming",
+      "name": "Đang ủ mưu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Scheming_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Excellent.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Xuất sắc.\""
     },
     {
-      "name": "Scoped Out",
+      "name": "Trong tầm ngắm",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Scoped_Out_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Would you look at that.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Không bỏ sót mục tiêu nào.\""
     },
     {
-      "name": "See this Look?",
+      "name": "Thấy ngầu chưa?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/See_this_Look%3F_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "\"Time to shut up.\""
+      "description": "\"Ngậm miệng lại được rồi đó.\""
     },
     {
-      "name": "Selfies",
+      "name": "Chụp Selfie",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Selfies_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "An emote's worth a thousand pictures."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Cả ngàn bức ảnh cũng không sống động bằng chỉ một biểu cảm."
     },
     {
-      "name": "Seeing Red",
+      "name": "Nổi giận",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Seeing_Red_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "\"None shall oppose me!\""
+      "description": "\"Chẳng kẻ nào có thể cản đường ta!\""
     },
     {
-      "name": "Sharp & Sweet",
+      "name": "Sắc bén & Ngọt ngào",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sharp_%26_Sweet_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "Cone on, it's a party!"
+      "description": "Tiệc tùng linh đình, quẩy cho hết mình!"
     },
     {
-      "name": "Shocked",
+      "name": "Quá sốc",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Shocked_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Good heavens!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ôi trời đất ơi!\""
     },
     {
-      "name": "Sorry, Not Sorry",
+      "name": "Không chút nương tay",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sorry%2C_Not_Sorry_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Oh sweetie. You never had a chance."
+      "rarity": "Hiếm",
+      "price": "Di sản",
+      "description": "Bé yêu ơi, nhóc làm gì có cửa."
     },
     {
-      "name": "Sparky Sparky Von Yipp",
+      "name": "Von Yipp sôi nổi",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sparky_Sparky_Von_Yipp_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Don't chase the laser. BE the laser."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Đừng chạy theo người dẫn dường. Hãy TRỞ THÀNH người dẫn đường."
     },
     {
-      "name": "Starry-Eyed",
+      "name": "Mắt sáng như sao",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Starry-Eyed_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"You're not getting out of this one!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Đừng hòng chạy thoát!\""
     },
     {
-      "name": "Surrender",
+      "name": "Đầu hàng",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Surrender_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Let him live, bro."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Để hắn sống đi người anh em."
     },
     {
-      "name": "Sweet Surprise",
+      "name": "Bất ngờ ngọt ngào",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sweet_Surprise_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "What a treat!"
+      "description": "Thiết đãi linh đình thật đấy!"
     },
     {
-      "name": "Swoon",
+      "name": "Xỉu",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Swoon_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Aren't you just the cutest?"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Quả là sinh vật dễ thương nhất trần đời?"
     },
     {
-      "name": "Take Notes",
+      "name": "Ghi chú",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Take_Notes_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Ooh, I'm writin' that down!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ồ, để ta ghi lại đã!\""
     },
     {
-      "name": "That's All, Folks!",
+      "name": "Tới đây là hết rùi!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/That%27s_All%2C_Folks%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "...unless you want an encore."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "...hay là mọi người muốn tôi biểu diễn nữa."
     },
     {
-      "name": "The Look",
+      "name": "Ánh nhìn",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/The_Look_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Whatever you're doing, stop it"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Bất kể ngươi đang làm gì, dừng lại đi."
     },
     {
-      "name": "The Royal Dance",
+      "name": "Vũ điệu hoàng gia",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/The_Royal_Dance_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Ooh, I'm writin' that down!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Kể cả Đức Vua Vạn Tuế thì thỉnh thoảng cũng phải thư giãn chứ!\""
     },
     {
-      "name": "This Again?",
+      "name": "Lại nữa hả?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/This_Again%3F_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"I've seen it all before...\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ta đã thấy hết rồi mà...\""
     },
     {
-      "name": "Thrilled",
+      "name": "Phấn khích",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Thrilled_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"Oh! I do like this.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ồ! Mình thích cái này đó.\""
     },
     {
-      "name": "Vastaya Pride",
+      "name": "Sắc màu hân hoan Vastaya",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Vastaya_Pride_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "0",
-      "description": "Unbothered. Moisturized. Happy. Hair flipping."
+      "description": "Chẳng cần bận tâm. Cấp ẩm tức thì. Vui vẻ hạnh phúc. Hất tóc mặt xinh."
     },
     {
-      "name": "Voli Smash",
+      "name": "Thần gấu thịnh nộ",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Voli_Smash_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Voli gets what he wants-or else."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Volibear sẽ có được thứ mà hắn muốn - còn không thì."
     },
     {
-      "name": "Wait For It",
+      "name": "Chờ mà xem",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wait_for_It_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
+      "rarity": "Thường",
+      "price": "Di sản",
       "description": "\"1.. 2.. 3.. 4...\""
     },
     {
-      "name": "Watchful Eye",
+      "name": "Con mắt thận trọng",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Watchful_Eye_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Say what you want about the Tournament's owner--Viego's third eye is wide open."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Cứ nói những gì ngươi muốn về người chủ trì giải đấu... con mắt thứ ba của Viego đang mở to theo dõi."
     },
     {
-      "name": "Wait, What?",
+      "name": "Chờ đã, gì cơ?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wait%2C_What%3F_LoR_Emote.png",
-      "rarity": "Common",
+      "rarity": "Thường",
       "price": "190",
-      "description": "Seriously... what?"
+      "description": "Thật sao?"
     },
     {
-      "name": "Watch This",
+      "name": "Hãy xem đây",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Watch_This_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Can't kill this vibe."
+      "rarity": "Hiếm",
+      "price": "Di sản",
+      "description": "Làm sao ngăn nổi."
     },
     {
-      "name": "What is This?",
+      "name": "Cái gì đây?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/What_is_This%3F_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Is it a Bird?"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Đó có phải là một chú Chim không?"
     },
     {
-      "name": "Who, Me?",
+      "name": "Ai cơ, tôi á?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Who%2C_Me%3F_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"If you say so~\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Nói vậy thì đành thôi~\""
     },
     {
-      "name": "Whoa",
+      "name": "Uầy",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Whoa_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Did that just happen?"
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Việc vừa rồi là thật ư?"
     },
     {
-      "name": "Wink",
+      "name": "Nháy mắt",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wink_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Substance and style."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Cả về bản chất lẫn vẻ bề ngoài."
     },
     {
-      "name": "Worlds Mordekaiser",
+      "name": "Chiến thần số 1",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Worlds_Mordekaiser_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Bundle Exclusive",
-      "description": "\"I'd like to first thank my haters…\""
+      "rarity": "Thường",
+      "price": "Gói độc quyền",
+      "description": "\"Trước tiên, tôi muốn gửi lời cảm ơn đến các anti-fan…\""
     },
     {
-      "name": "Worlds Poro",
+      "name": "Người hâm mộ poro",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Worlds_Poro_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Bundle Exclusive",
-      "description": "GGWP to all 2023 World Competitors!"
+      "rarity": "Thường",
+      "price": "Gói độc quyền",
+      "description": "Chúc mừng tất cả các Tuyển Thủ Chung Kết Thế Giới 2023!"
     },
     {
-      "name": "Wowza!",
+      "name": "Úi chà!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Wowza%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"What do you mean the hero isn't here?!\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ngươi nói không có anh hùng ở đây là ý gì?!\""
     },
     {
       "name": "XOXO",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/XOXO_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "Charmed, I'm sure."
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "Vô cùng mê hoặc."
     },
     {
-      "name": "You Fools!",
+      "name": "Đồ ngu xuẩn!",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/You_Fools%21_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Reward",
-      "description": "\"I can't believe you've done this.\""
+      "rarity": "Thường",
+      "price": "Di sản",
+      "description": "\"Ta không thể tin nổi rằng ngươi đã làm vậy.\""
     },
     {
-      "name": "You Jelly?",
+      "name": "GATO không nào?",
       "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/You_Jelly%3F_LoR_Emote.png",
-      "rarity": "Common",
-      "price": "Bundle Exclusive",
-      "description": "Sorry we can't both be me!"
+      "rarity": "Thường",
+      "price": "Gói độc quyền",
+      "description": "Xin lỗi nhé, hai ta không thẻ cùng là một được!"
+    },
+    {
+      "name": "Gánh vác trọng trách",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Much_Obliged_LoR_Emote.png?314dd",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Ta thiếu kiềm chế mất rồi. Xin thứ lỗi\""
+    },
+    {
+      "name": "Đừng có vớ vẩn",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/No_Funny_Business_LoR_Emote.png?33715&20211021142126",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Ta sẽ chống mắt lên coi\""
+    },
+    {
+      "name": "Chớ vội",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Not_So_Fast_LoR_Emote.png?d1e3a",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Câu chuyện này chưa kết thúc đâu\""
+    },
+    {
+      "name": "Out trình",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Outclassed_LoR_Emote.png?2fd66",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Cậu ấy cố hết sức rồi...\""
+    },
+    {
+      "name": "Thông minh",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Smart_LoR_Emote.png?6f093&20200828025419",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Chiến thuật đúng đắn ư? Rõ như ban ngày rồi.\""
+    },
+    {
+      "name": "Lo lắng",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Sweating_LoR_Emote.png?93f0d&20200529045305",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Gì chứ? Ngươi định chơi thế nào đây?\""
+    },
+    {
+      "name": "Vĩ cầm tí nị",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Tiny_Violin_LoR_Emote.png?94e36&20231108222029",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Vang lên từ phía cuối nhà hát là thanh âm từ cây đàn vĩ cầm bé tí xíu.\""
+    },
+    {
+      "name": "Tức nhưng không chết",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Undying_Rage_LoR_Emote.png?82422&20200429082249",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"AAARRRGH\""
+    },
+    {
+      "name": "Tại saooo",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/Whyyy_LoR_Emote.png?83036&20201025155130",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Hỡi tinh tú... người không nghe thấy ta sao?\""
+    },
+    {
+      "name": "Tiếp theo là mi đó",
+      "imgUrl": "https://wiki.leagueoflegends.com/en-us/images/You%27re_Next_LoR_Emote.png?71338&20200429082250",
+      "rarity": "Thường",
+      "price": "190",
+      "description": "\"Còn gì để trăng trối không?\""
     }
   ]

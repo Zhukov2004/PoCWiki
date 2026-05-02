@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danh sách lưng bài | PoC Wiki</title>
+    <script src="components.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="font-injector.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     
     <style>
         :root {
             --gold: #c8aa6e;
             --dark-bg: #010a13;
             --font-header: 'Space Grotesk', sans-serif;
-            --font-main: 'Open Sans', sans-serif;
         }
 
         body {
             background-color: var(--dark-bg);
             color: #f0e6d2;
-            font-family: var(--font-main);
             background-image: radial-gradient(circle at top right, #051d29 0%, #010a13 100%);
             background-attachment: fixed;
+            padding-top: 400px;
         }
 
         h1, h2, label, select, input, .rarity-tag {
@@ -60,34 +61,42 @@
     </style>
 </head>
 <body class="p-6 md:p-12">
-
     <div class="max-w-7xl mx-auto">
-        <header class="mb-12">
+        <!-- Thêm pt-12 (padding-top) để đẩy toàn bộ nội dung trong header xuống -->
+        <header class="mb-12 pt-10 md:pt-16">
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white/5 p-6 rounded-2xl border border-white/5">
+            <!-- Cụm tiêu đề trang -->
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-6xl font-black uppercase tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-[#f0e6d2] to-[#c8aa6e] inline-block">
+                    Danh sách Lưng Bài
+                </h1>
+                <div class="h-1.5 w-32 bg-gradient-to-r from-transparent via-[#c8aa6e] to-transparent mx-auto mt-5 opacity-60"></div>
+            </div>
+    
+            <!-- Grid bộ lọc -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 bg-white/5 p-8 rounded-2xl border border-white/5 backdrop-blur-md shadow-2xl">
                 <div class="flex flex-col gap-2">
-                    <label class="text-[12px]  tracking-widest text-[#c8aa6e] font-bold">Tìm kiếm</label>
+                    <label class="text-[12px] tracking-[0.2em] text-[#c8aa6e] font-bold uppercase opacity-80">Tìm kiếm</label>
                     <input type="text" id="search-name" placeholder="Tên lá bài..." class="filter-input">
                 </div>
-
+    
                 <div class="flex flex-col gap-2">
-                    <label class="text-[12px]  tracking-widest text-[#c8aa6e] font-bold">Độ hiếm</label>
+                    <label class="text-[12px] tracking-[0.2em] text-[#c8aa6e] font-bold uppercase opacity-80">Độ hiếm</label>
                     <select id="filter-rarity" class="filter-input">
                         <option value="all">Tất cả độ hiếm</option>
                     </select>
                 </div>
-
+    
                 <div class="flex flex-col gap-2">
-                    <label class="text-[12px]  tracking-widest text-[#c8aa6e] font-bold">Bộ sưu tập</label>
+                    <label class="text-[12px] tracking-[0.2em] text-[#c8aa6e] font-bold uppercase opacity-80">Bộ sưu tập</label>
                     <select id="filter-collection" class="filter-input">
                         <option value="all">Tất cả bộ sưu tập</option>
                     </select>
                 </div>
             </div>
         </header>
-
-        <div id="cards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            </div>
+    
+        <div id="cards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
     </div>
 
     <script>
@@ -130,21 +139,30 @@
         }
 
         function render(data) {
-            const grid = document.getElementById('cards-grid');
-            grid.innerHTML = data.map(item => `
-                <div class="info-card p-5 flex gap-4 items-start">
-                    <img src="${item.image}" class="w-20 rounded-lg shadow-xl" alt="${item.name}">
-                    <div class="overflow-hidden">
-                        <span class="rarity-tag text-[12px] font-bold  px-2 py-0.5 rounded bg-white/5 ${'rarity-' + item.rarity.toLowerCase()}">
-                            ${item.rarity}
-                        </span>
-                        <h2 class="text-lg text-white font-bold leading-tight mt-2 truncate">${item.name}</h2>
-                        <p class="text-[12px] text-[#c8aa6e] font-bold  tracking-tighter mt-1">${item.collection}</p>
-                        <p class="text-[12px] mt-3 line-clamp-2">"${item.description[0]}"</p>
-                    </div>
+    const grid = document.getElementById('cards-grid');
+    grid.innerHTML = data.map(item => `
+        <div class="info-card p-6 flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+            <!-- Ảnh to hơn: đổi từ w-20 thành w-32 (128px) hoặc w-40 (160px) -->
+            <img src="${item.image}" class="w-32 md:w-40 rounded-lg shadow-2xl transition-transform duration-300 hover:scale-105" alt="${item.name}">
+            
+            <div class="flex-1 w-full">
+                <span class="rarity-tag text-[12px] font-bold px-2 py-0.5 rounded bg-white/5 ${'rarity-' + item.rarity.toLowerCase()}">
+                    ${item.rarity}
+                </span>
+                
+                <h2 class="text-xl text-white font-bold leading-tight mt-2">${item.name}</h2>
+                <p class="text-[13px] text-[#c8aa6e] font-bold tracking-tighter mt-1 uppercase opacity-80">${item.collection}</p>
+                
+                <!-- Bỏ line-clamp-2 để hiện đầy đủ mô tả -->
+                <div class="mt-4 p-3 bg-white/5 border-l-2 border-[#c8aa6e]/30">
+                    <p class="text-[14px] leading-relaxed text-[#f0e6d2]/90 font-light">
+                        ${item.description[0]}
+                    </p>
                 </div>
-            `).join('');
-        }
+            </div>
+        </div>
+    `).join('');
+}
 
         // HÀM LỌC TỔNG HỢP
         function applyFilters() {
