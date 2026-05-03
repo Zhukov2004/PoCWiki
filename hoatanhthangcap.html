@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoạt Ảnh Thăng Cấp | PoC Wiki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="components.js"></script>
+    <script src="font-injector.js"></script>
+    <style>
+        :root { --gold: #c8aa6e; --dark-bg: #010a13; }
+        body {
+            background-color: var(--dark-bg);
+            color: #f0e6d2;
+            background-image: radial-gradient(circle at top right, #051d29 0%, #010a13 100%);
+            background-attachment: fixed;
+            /* Bỏ padding-top ở body để tránh xung đột với Navbar fixed */
+        }
+        
+        /* Tạo khoảng trống phía trên cho nội dung chính */
+        .main-content {
+            margin-top: 1%; /* Điều chỉnh số này bằng với chiều cao Navbar của bạn */
+        }
+
+        .video-card {
+            background: #0a141e;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .video-card:hover { border-color: var(--gold); transform: translateY(-5px); }
+
+        #video-modal {
+            display: none; position: fixed; inset: 0; z-index: 9999;
+            background: rgba(0, 0, 0, 0.9); backdrop-filter: blur(15px);
+            align-items: center; justify-content: center; padding: 20px;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 10px; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <!-- Bao bọc nội dung trong main-content -->
+    <div class="main-content">
+        <div class="max-w-7xl mx-auto">
+            <!-- Tăng pt-20 để tiêu đề lùi xuống thêm so với Navbar -->
+            <header class="mb-16 text-center pt-20">
+                <h1 class="text-4xl md:text-5xl font-bold uppercase text-[#c8aa6e]">
+                    Hoạt Ảnh Thăng Cấp
+                </h1>
+                <div class="max-w-md mx-auto mt-12">
+                    <input type="text" id="search-champion" placeholder="Tìm tên Anh Hùng hoặc Skin..." 
+                        class="w-full text-center bg-white/5 border border-[#c8aa6e]/30 text-white rounded-xl py-3 outline-none focus:border-[#c8aa6e] transition-all">
+                </div>
+            </header>
+
+            <div id="video-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+        </div>
+    </div>
+
+    <!-- Modal hiển thị Video song song -->
+    <div id="video-modal" onclick="closeModal()">
+        <div class="relative w-full max-w-6xl bg-[#0a141e] border border-[#c8aa6e] rounded-2xl overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
+            
+            <button class="absolute top-4 right-4 z-50 bg-black/50 p-2 rounded-full text-white hover:bg-red-500 transition-colors" onclick="closeModal()">
+                <i data-lucide="x"></i>
+            </button>
+
+            <!-- Container video: Tự động chia cột -->
+            <div id="modal-video-container" class="grid grid-cols-1 gap-1 bg-black">
+                <!-- Video render tại đây -->
+            </div>
+
+            <div class="p-6 border-t border-white/5 flex justify-between items-center bg-[#0a141e]">
+                <div>
+                    <h3 id="modal-title" class="text-2xl font-bold text-[#c8aa6e]"></h3>
+                    <p id="modal-desc" class="text-slate-400 text-sm uppercase tracking-widest mt-1"></p>
+                </div>
+                <div id="modal-status-badge" class="px-3 py-1 rounded border border-[#c8aa6e]/30 text-[#c8aa6e] text-xs font-bold uppercase"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Phần Script giữ nguyên logic cũ vì nó đã xử lý tốt các lỗi trước đó
+        let finalMergedData = [];    
+        let currentDisplayData = []; 
+
+        async function init() {
+            try {
+                const [resVideos, resCards, resSkins] = await Promise.all([
+                    fetch('hoatanhthangcap.json'),
+                    fetch('cards.json'),
+                    fetch('skin.json')
+                ]);
+
+                if (!resVideos.ok || !resCards.ok || !resSkins.ok) throw new Error("Lỗi tải file JSON");
+
+                const videoData = await resVideos.json();
+                const cardData = await resCards.json();
+                const skinData = await resSkins.json();
+
+                const processedSkins = skinData
+                    .filter(skin => Array.isArray(skin.levelUpVideo) && skin.levelUpVideo.length > 0)
+                    .map(skin => ({
+                        name: skin.displayName || "Skin",
+                        videoUrls: skin.levelUpVideo, 
+                        skinName: skin.displayName || "Trang phục",
+                        thumbnail: skin.fullArt ? skin.fullArt.replace('http://', 'https://') : "",
+                        displayRegion: skin.collection || "Trang phục",
+                        isSkin: true
+                    }));
+
+                const baseVideos = videoData.map(v => {
+                    const champ = cardData.find(c => c.cardCode === v.cardCode);
+                    return {
+                        name: champ ? champ.name : "Anh Hùng",
+                        videoUrls: [v.videoUrl], 
+                        skinName: v.skinName || "Mặc định",
+                        thumbnail: (champ?.assets?.[0]) ? champ.assets[0].fullAbsolutePath.replace('http://', 'https://') : '',
+                        displayRegion: champ?.regions?.[0] || "Runeterra",
+                        isSkin: false
+                    };
+                });
+
+                finalMergedData = [...baseVideos, ...processedSkins];
+                render(finalMergedData);
+
+            } catch (err) {
+                console.error("Lỗi:", err);
+                document.getElementById('video-grid').innerHTML = `<p class='text-center col-span-full text-red-500'>Lỗi tải dữ liệu.</p>`;
+            }
+        }
+
+        function render(data) {
+            currentDisplayData = data; 
+            const grid = document.getElementById('video-grid');
+            
+            if (data.length === 0) {
+                grid.innerHTML = `<p class='text-center col-span-full opacity-50'>Không tìm thấy Anh Hùng phù hợp.</p>`;
+                return;
+            }
+
+            grid.innerHTML = data.map((item, index) => `
+                <div class="video-card group" onclick="openModal(${index})">
+                    <div class="relative aspect-video overflow-hidden bg-black">
+                        <img src="${item.thumbnail}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-all"></div>
+                        
+                        ${item.videoUrls.length > 1 ? `
+                            <div class="absolute top-3 right-3 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded z-10 shadow-lg animate-pulse">
+                                THĂNG HOA
+                            </div>
+                        ` : ''}
+
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-12 h-12 rounded-full border border-[#c8aa6e] flex items-center justify-center backdrop-blur-md bg-black/20 group-hover:scale-110 transition-transform">
+                                <i data-lucide="play" class="w-5 h-5 text-[#c8aa6e] fill-[#c8aa6e]"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 border-t border-white/5">
+                        <h2 class="text-lg font-bold text-white group-hover:text-[#c8aa6e] transition-colors line-clamp-1">${item.name}</h2>
+                        <p class="text-[10px] text-[#c8aa6e]/60 font-bold tracking-widest uppercase mt-1">${item.displayRegion}</p>
+                    </div>
+                </div>
+            `).join('');
+            lucide.createIcons();
+        }
+
+        function openModal(index) {
+            const item = currentDisplayData[index];
+            if (!item) return;
+
+            const container = document.getElementById('modal-video-container');
+            const modal = document.getElementById('video-modal');
+            
+            document.getElementById('modal-title').innerText = item.name;
+            document.getElementById('modal-desc').innerText = item.skinName;
+            document.getElementById('modal-status-badge').innerText = item.videoUrls.length > 1 ? "Đa Hoạt Ảnh" : "Dạng Thường";
+
+            container.className = `grid gap-1 bg-black ${item.videoUrls.length > 1 ? 'grid-cols-2' : 'grid-cols-1'}`;
+
+            container.innerHTML = item.videoUrls.map((url, i) => `
+                <div class="relative">
+                    ${item.videoUrls.length > 1 ? `<span class="absolute top-2 left-2 z-10 bg-black/60 text-[10px] px-2 py-1 rounded text-[#c8aa6e] font-bold">DẠNG ${i + 2}</span>` : ''}
+                    <video controls autoplay class="w-full aspect-video">
+                        <source src="${url}" type="video/webm">
+                    </video>
+                </div>
+            `).join('');
+
+            modal.style.display = 'flex';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('video-modal');
+            const container = document.getElementById('modal-video-container');
+            container.innerHTML = ""; 
+            modal.style.display = 'none';
+        }
+
+        document.getElementById('search-champion').addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase().trim();
+            const filtered = finalMergedData.filter(item => 
+                item.name.toLowerCase().includes(val) || 
+                item.skinName.toLowerCase().includes(val)
+            );
+            render(filtered);
+        });
+
+        window.onload = init;
+    </script>
+</body>
+</html>
