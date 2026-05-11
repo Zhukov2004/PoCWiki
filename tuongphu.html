@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách tướng phụ | PoC Wiki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root { --surface-bg: #0d161d; --accent: #c8aa6e; }
+        body { background-color: #06090c; color: white; }
+        .card-shadow { box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6); }
+        
+        /* Tùy chỉnh thanh cuộn */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #06090c; }
+        ::-webkit-scrollbar-thumb { background: #2a3a45; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #c8aa6e; }
+
+        /* Style cho Popup phóng to */
+        #card-preview {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            pointer-events: none; /* Không cản trở di chuột */
+            transform: translate(-50%, -100%); /* Hiện phía trên con trỏ */
+            transition: opacity 0.2s ease;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <!-- POPUP PHÓNG TO (ẨN MẶC ĐỊNH) -->
+    <div id="card-preview" class="w-64 md:w-80 shadow-2xl border-2 border-[#c8aa6e] rounded-xl overflow-hidden bg-[#0d161d]">
+        <img src="" id="preview-img" class="w-full h-auto">
+    </div>
+
+    <!-- HEADER & SEARCH AREA -->
+    <header class="max-w-7xl mx-auto mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div>
+            <h1 class="text-4xl font-black uppercase tracking-tighter text-[#c8aa6e] drop-shadow-md">
+                Danh sách tướng phụ
+            </h1>
+            <p class="text-gray-500 text-sm font-medium mt-1 uppercase tracking-widest">Chế độ Con Đường Anh Hùng</p>
+        </div>
+
+        <div class="relative w-full md:w-96">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <svg class="h-5 w-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+            </div>
+            <input type="text" id="searchInput" 
+                class="block w-full pl-10 pr-3 py-3 bg-[#0d161d] border border-[#2a3a45] rounded-xl text-gray-300 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#c8aa6e] focus:border-transparent transition-all" 
+                placeholder="Tìm kiếm tên tướng...">
+        </div>
+    </header>
+
+    <!-- GRID HIỂN THỊ -->
+    <div id="champion-grid" class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Dữ liệu sẽ tự động đổ vào đây -->
+    </div>
+
+    <script>
+        let allData = [];
+        const preview = document.getElementById('card-preview');
+        const previewImg = document.getElementById('preview-img');
+
+        async function loadChampions() {
+            try {
+                const response = await fetch('tuongphu.json');
+                allData = await response.json();
+                renderData(allData);
+            } catch (e) { console.error("Lỗi tải dữ liệu:", e); }
+        }
+
+        function renderData(dataList) {
+            const grid = document.getElementById('champion-grid');
+            grid.innerHTML = '';
+
+            if (dataList.length === 0) {
+                grid.innerHTML = '<div class="col-span-full text-center py-20 text-gray-600 font-bold">Không tìm thấy tướng nào...</div>';
+                return;
+            }
+
+            dataList.forEach(champion => {
+                const setDiv = document.createElement('div');
+                setDiv.className = 'group flex flex-col bg-[#0d161d] rounded-2xl overflow-hidden border border-[#2a3a45] hover:border-[#c8aa6e] transition-all card-shadow';
+
+                const bannerHTML = `
+                    <div class="relative h-56 overflow-hidden flex-shrink-0">
+                        <img src="${champion.fullAbsolutePath}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#0d161d] via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-5">
+                            <h2 class="text-2xl font-black text-white drop-shadow-lg uppercase tracking-widest">${champion.name}</h2>
+                        </div>
+                    </div>
+                `;
+
+                let cardsHTML = '<div class="px-5 pt-4 grid grid-cols-3 gap-4 pb-6">';
+                champion.cards.slice(0, 3).forEach(card => {
+                    cardsHTML += `
+                        <div class="flex flex-col items-center gap-2">
+                            <!-- Thêm class zoom-trigger để bắt sự kiện di chuột -->
+                            <div class="zoom-trigger w-full aspect-[2/3] rounded-lg overflow-hidden border border-[#2a3a45] shadow-lg cursor-zoom-in"
+                                 data-img="${card.image}">
+                                <img src="${card.image}" class="w-full h-full object-cover">
+                            </div>
+                            <span class="text-[10px] font-bold text-gray-400 text-center line-clamp-1">${card.name}</span>
+                            <span class="text-[10px] text-[#c8aa6e] font-black mt-[-4px]">x${card.count}</span>
+                        </div>
+                    `;
+                });
+                cardsHTML += '</div>';
+
+                setDiv.innerHTML = bannerHTML + cardsHTML;
+                grid.appendChild(setDiv);
+            });
+
+            // Gán sự kiện di chuột sau khi render xong
+            setupZoomEvents();
+        }
+
+        function setupZoomEvents() {
+            const triggers = document.querySelectorAll('.zoom-trigger');
+            
+            triggers.forEach(trigger => {
+                trigger.addEventListener('mouseenter', (e) => {
+                    const imgSrc = trigger.getAttribute('data-img');
+                    previewImg.src = imgSrc;
+                    preview.style.display = 'block';
+                });
+
+                trigger.addEventListener('mousemove', (e) => {
+                    // Cập nhật vị trí popup theo con trỏ chuột
+                    // Offset -20px để popup cao hơn chuột 1 chút
+                    preview.style.left = e.clientX + 'px';
+                    preview.style.top = (e.clientY - 20) + 'px';
+                });
+
+                trigger.addEventListener('mouseleave', () => {
+                    preview.style.display = 'none';
+                    previewImg.src = '';
+                });
+            });
+        }
+
+        // XỬ LÝ TÌM KIẾM
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase().trim();
+            const filteredData = allData.filter(champion => 
+                champion.name.toLowerCase().includes(searchTerm)
+            );
+            renderData(filteredData);
+        });
+
+        window.onload = loadChampions;
+    </script>
+</body>
+</html>

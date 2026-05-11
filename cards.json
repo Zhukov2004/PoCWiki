@@ -54307,7 +54307,7 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "https://cdn.runeterra.ar/assets/img/card/vi_vn/04SH003.webp",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_3_0/set4/vi_vn/img/cards/04SH003.png",
         "fullAbsolutePath": "http://dd.b.pvp.net/2_3_0/set4/vi_vn/img/cards/04SH003-full.png"
       }
     ],
@@ -129537,6 +129537,312 @@
     ],
     "formatRefs": [
       "client_Formats_Eternal_name"
+    ]
+  },
+  {
+    "cardCode": "99MT003",
+    "name": "Hươu Tinh Quang",
+    "cost": 5,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Targon"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://images.pocguide.top/cards/99MT003.webp"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": []
+  },
+  {
+    "cardCode": "99FR002",
+    "name": "Một Chút Poro",
+    "cost": 4,
+    "type": "Bài phép",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Freljord"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "card/motchutporo.png"
+      }
+    ],
+    "description": "Các đồng minh Poro ra đòn lên 1 kẻ địch",
+    "descriptionRaw": "Các đồng minh Poro ra đòn lên 1 kẻ địch",
+    "associatedCardRefs": []
+  },
+  {
+    "cardCode": "99PZ114",
+    "name": "Chồn Rác Thuần Hóa",
+    "cost": 1,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://images.pocguide.top/cards/99PZ114.webp"
+      }
+    ],
+    "description": "Khi ta được triệu hồi, gài 2 lá Bẫy Bom Mù vào 8 lá bài ở trên cùng trong bộ bài của đối thủ",
+    "descriptionRaw": "Khi ta được triệu hồi, gài 2 lá Bẫy Bom Mù vào 8 lá bài ở trên cùng trong bộ bài của đối thủ",
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "99PZ101",
+    "name": "Điệp Vụ Hai Mang",
+    "cost": 3,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "https://images.pocguide.top/cards/99PZ101.webp"
+      }
+    ],
+    "description": "Ra Đòn: TẤT CẢ người chơi rút 1 lá bài.",
+    "descriptionRaw": "Ra Đòn: TẤT CẢ người chơi rút 1 lá bài.",
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "99PZ130",
+    "name": "Bằng Chíu",
+    "cost": 2,
+    "type": "Bài phép",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "card/bangchiu.png"
+      }
+    ],
+    "description": "Gây 3 sát thương lên 1 bài quân.",
+    "descriptionRaw": "Gây 3 sát thương lên 1 bài quân.",
+    "associatedCardRefs": []
+  },
+  {
+    "cardCode": "99PZ100",
+    "name": "Tên Lửa Nguy Hiểm",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "card/tenluanguyhiem.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "1",
+    "name": "Azir & Irelia",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_3_0/set4/vi_vn/img/cards/04SH003-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "2",
+    "name": "Lulu & Zed",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set3/vi_vn/img/cards/03IO002-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "3",
+    "name": "Sett & Karma",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set1/vi_vn/img/cards/01IO041-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "4",
+    "name": "Draven & Jinx",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set1/vi_vn/img/cards/01NX020-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "5",
+    "name": "Jhin & Annie",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set6/vi_vn/img/cards/06RU002-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "6",
+    "name": "Teemo & Swain",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set2/vi_vn/img/cards/02NX007-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "7",
+    "name": "Rồng Ngàn Tuổi & Norra & Vex",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set8/vi_vn/img/cards/08RU014-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "8",
+    "name": "Morgana & Mordekaiser",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set8/vi_vn/img/cards/08MT003T4-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
+    ]
+  },
+  {
+    "cardCode": "9",
+    "name": "Zoe & Vua Poro",
+    "cost": 2,
+    "type": "Bài quân",
+    "subtypes": [],
+    "rarity": "None",
+    "regions": [
+      "Piltover & Zaun"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "",
+        "fullAbsolutePath": "http://dd.b.pvp.net/7_4_0/set3/vi_vn/img/cards/03MT009-full.png"
+      }
+    ],
+    "description": null,
+    "descriptionRaw": null,
+    "associatedCardRefs": [
     ]
   }
 ]

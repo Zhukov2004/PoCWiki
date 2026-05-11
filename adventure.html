@@ -111,7 +111,7 @@
     gap: 1rem;
 }
 #reward-container:not(.map-hidden) {
-    max-height: 5000px !important; /* Tăng lên để chứa được nhiều mốc thưởng */
+    max-height: 50000px !important; /* Tăng lên để chứa được nhiều mốc thưởng */
     opacity: 1;
 }
 .reward-item-qty {
@@ -132,7 +132,11 @@
     pointer-events: none;
     overflow: hidden; /* Quan trọng để giấu nội dung khi đóng */
 }
-
+#special-buff-container { /* Thêm ID bảng mới của ní vào đây */
+    transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: 10000px; /* Tăng từ 1000px lên 10000px để không bị cắt */
+    opacity: 1;
+}
 /* Đảm bảo container chính linh hoạt */
 #map-container {
     transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
@@ -264,6 +268,24 @@ body {
                 </div>
         </div>
     </div>
+    <div id="special-buff-section" class="max-w-7xl mx-auto mb-12 hidden">
+        <div class="bg-[#0a0a0c] border border-pink-500/30 rounded-[2.5rem] p-10 shadow-2xl">
+            <div class="flex items-center justify-between mb-8 pb-6 border-b border-pink-500/10">
+                <h3 class="text-xl font-bold text-pink-500 font-primary flex items-center gap-2">
+                    <i data-lucide="zap" class="w-6 h-6"></i> 
+                    Ở Bản Đồ này, sau khi thắng 1 ải đầu tiên bạn sẽ được chọn 1 Sức Mạnh bất lợi cho mình (có thể chọn hoặc không). Sau khi đánh thắng 3 ải tiếp theo với Sức Mạnh bất lợi này nó sẽ đổi thành 1 Sức Mạnh có lợi. Sau khi thắng boss phụ cũng sẽ được chọn 1 Sức Mạnh huyền thoại bất lợi (có thể chọn hoặc không), sau khi thắng 1 ải tiếp theo Sức Mạnh bất lợi đó cũng sẽ biến thành có lợi. Danh sách các Sức Mạnh bất lợi xem trong bảng sau
+                </h3>
+                
+                <button onclick="toggleSection('special-buff-container', 'buff-icon', 'buff-text')" class="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all group">
+                    <i data-lucide="eye-off" class="w-4 h-4 text-pink-500" id="buff-icon"></i>
+                    <span id="buff-text" class="text-[12px] font-bold uppercase tracking-widest text-slate-400">Ẩn</span>
+                </button>
+            </div>
+    
+            <div id="special-buff-container" class="grid grid-cols-1 md:grid-cols-2 gap-6 overflow-hidden transition-all duration-700 ease-in-out opacity-100 max-h-[1000px]">
+                </div>
+        </div>
+    </div>
     <div class="max-w-7xl mx-auto mb-12">
         <div class="bg-[#0a0a0c] border border-white/10 rounded-[2.5rem] p-10 shadow-2xl">
             <div class="flex items-center justify-between mb-8 pb-6 border-b border-white/10">
@@ -391,6 +413,35 @@ body {
         function renderAll() {
     const adv = state.adventure;
     if (!adv) return;
+    // --- XỬ LÝ BẢNG THỨ 3: Special Buffs ---
+const specialSection = document.getElementById('special-buff-section');
+const specialContainer = document.getElementById('special-buff-container');
+
+if (adv.special_buffs && adv.special_buffs.length > 0) {
+    // Nếu có dữ liệu thì gỡ bỏ class 'hidden' để hiện bảng
+    specialSection.classList.remove('hidden');
+    
+    // Reset trạng thái nút (đề phòng map trước đó đang ẩn)
+    specialContainer.classList.remove('map-hidden');
+    document.getElementById('buff-text').innerText = "Ẩn";
+    document.getElementById('buff-icon').setAttribute('data-lucide', 'eye-off');
+
+    // Render dữ liệu vào
+    specialContainer.innerHTML = adv.special_buffs.map(pInfo => {
+        const p = state.powers[pInfo.powerCode] || { name: "Buff ẩn", description: "...", assetAbsolutePath: "" };
+        return `
+            <div class="rule-card flex items-center gap-6 p-6 rounded-2xl border border-pink-500/20 bg-pink-500/5 shadow-inner">
+                <img src="${getSmartSrc(p.assetAbsolutePath)}" class="power-img-custom border-2 border-pink-500/50 flex-shrink-0">
+                <div>
+                    <div class="text-lg font-black text-pink-500 tracking-tight">${p.name}</div>
+                    <div class="text-[14px] text-slate-300 mt-1 leading-relaxed font-medium whitespace-pre-line">${p.description}</div>
+                </div>
+            </div>`;
+    }).join('');
+} else {
+    // Nếu không có giá trị trong JSON thì ẩn luôn cả bảng này đi
+    specialSection.classList.add('hidden');
+}
     // --- XỬ LÝ NGOẠI LỆ: Legendary Powers ---
     // Tìm đoạn xử lý legendary trong renderAll và cập nhật như sau:
 const legendarySection = document.getElementById('legendary-section');

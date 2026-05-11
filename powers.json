@@ -4934,7 +4934,7 @@
     "assetFullAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0806-full.png",
     "description": "Khi <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> Triệu Hồi một Địa Danh, người chơi sẽ triệu hồi một bản sao. Khi một Địa Danh rời bàn đấu, gây 10 sát thương lên Nhà Chính của ngươi.",
     "descriptionRaw": "Khi Địch Thủ Triệu Hồi một Địa Danh, người chơi sẽ triệu hồi một bản sao. Khi một Địa Danh rời bàn đấu, gây 10 sát thương lên Nhà Chính của ngươi.",
-    "name": "Pháo hoa rực rỡ!",
+    "name": "Pháo Hoa Rực Rỡ!",
     "powerCode": "P0806",
     "rarity": "HIẾM",
     "rarityRef": "Rare"
@@ -9796,10 +9796,187 @@
   },
   {
     "assetAbsolutePath": "image/locdaxethit.png",
-    "description": "Mỗi vòng đấu, lần đầu tiên <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi 1 bài quân, ban 🔥 <span class='text-[#ffce32]'>Khí Lực</span> cho bài quân đó.",
+    "description": "Mỗi vòng đấu, lần đầu tiên <span class='text-[#f3e698]'>Địch Thủ</span> triệu hồi 1 bài quân, ban <span class='text-[#ffce32]'>Khí Lực</span> cho bài quân đó.",
     "name": "Lọc Da Xẻ Thịt",
     "powerCode": "P3243",
     "rarity": "HIẾM",
     "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/hoanthanhdatbay.png",
+    "description": "Bài quân của Địch Thủ có Kích Động. Khi một kẻ địch bị Thách Đấu, giảm 10 tiêu hao năng lượng bài phép trên tay của Địch Thủ trong vòng này.",
+    "name": "Hoàn Thành Đặt Bẫy",
+    "powerCode": "P3244",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/traidang.png",
+    "description": "Kết Thúc Vòng Đấu: Nếu Máu Nhà Chính của Địch Thủ lớn hơn khi Bắt Đầu Vòng Đấu,gây lượng sát thương bằng với sự chênh lệch đó lên Nhà Chính của ngươi.",
+    "name": "Trái Đắng",
+    "powerCode": "P3245",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/cangdongcangvui.png",
+    "description": "Kết Thúc Vòng Đấu: Nếu Địch Thủ chưa triệu hồi hoặc tạo một bài quân trong vòng này, chúng sẽ gài 1 lá Cổng Dịch Chuyển Kỳ Bí trong 4 lá bài trên cùng của bộ bài.",
+    "name": "Càng Đông Càng Vui",
+    "powerCode": "P3246",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/vudieudonso.png",
+    "description": "Khi một bài quân của Địch Thủ bị chọn làm mục tiêu, nó sẽ hoán đổi với một bài quân ngẫu nhiên bên cạnh",
+    "name": "Vũ Điệu Đơn Sơ",
+    "powerCode": "P3247",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/bonghinhmaam.png",
+    "description": "Khi một trong những bài quân của người chơi bị tiêu diệt, các bản sao khác của nó trên tay hoặc trên bộ bài trở nên Cảm Tử và có 0 tiêu hao.",
+    "name": "Bóng Hình Ma Ám",
+    "powerCode": "P3248",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/vetthuongcuasuphanboi.png",
+    "description": "Bắt Đầu Vòng Đấu: Địch Thủ tạo 1 lá Mũi Giáo Hắc Ám 0 tiêu hao trên tay nếu chưa có lá nào.",
+    "name": "Vết Thương Của Sự Phản Bội",
+    "powerCode": "P3249",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/anhsangcuamarai.png",
+    "description": "Bài quân của Địch Thủ có Hồi Lực.",
+    "name": "Ánh Sáng Của Marai",
+    "powerCode": "P3250",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/baothu.png",
+    "description": "Khi bài quân của Địch Thủ tấn công, ban cho bài quân trên bàn đấu và trên tay của chúng +1|+1.",
+    "name": "Báo Thù",
+    "powerCode": "P3251",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/monquacuaducme.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ tạo 10 bài phép ngẫu nhiên với 6 tiêu hao hoặc hơn trong bộ bài và giảm 3 tiêu hao của chúng.",
+    "name": "Món Quà Của Đức Mẹ",
+    "powerCode": "P3252",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/solotudo.png",
+    "description": "Khi người chơi rút hoặc tạo trên tay một bản sao của lá bài họ Chứng Kiến, biến đổi nó thành 1 lá bài mới cùng loại và cùng lượng tiêu hao.",
+    "name": "Solo Tự Do",
+    "powerCode": "P3253",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/lamviecngoaigio1.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi một lá Xưởng Chế Lõi Công Nghệ. Lá bài của chúng được giảm 1 tiêu hao",
+    "name": "Làm Việc Ngoài Giờ",
+    "powerCode": "P3254",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/dantinhlinhchuong.png",
+    "description": "Khi Địch Thủ sử dụng năng lượng, gài số lá Chuông bằng 3 lần năng lượng đó trong bộ bài của chúng.",
+    "name": "Dàn Tinh Linh Chuông",
+    "powerCode": "P3255",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/tamnhincuayipp.png",
+    "description": "Mỗi lần Địch Thủ sử dụng 6 bài phép mới, chúng sẽ triệu hồi 1 lá Chiến Giáp Bạch Mão.",
+    "name": "Tầm Nhìn Của Yipp",
+    "powerCode": "P3256",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/nambatloithe.png",
+    "description": "Khi Địch Thủ có lượt tấn công, cho bài quân chưa nhận sát thương của chúng Lá Chắn trong vòng đấu này.",
+    "name": "Nắm Bắt Lợi Thế",
+    "powerCode": "P3257",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/thaotruong1.png",
+    "description": "Khi 1 bài quân của Địch Thủ nhận sát thương và sống sót, ban +2|+2 cho bài quân đó.",
+    "name": "Tối Kiên Cường",
+    "powerCode": "P3258",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/khongnhannhuong.png",
+    "description": "Bài quân của Địch Thủ với Lá Chắn có Song Kích.",
+    "name": "Không Nhân Nhượng",
+    "powerCode": "P3259",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/giacmongotngao.png",
+    "description": "Khi người chơi chọn mục tiêu một bài quân, ban cho bài quân đó 2 Linh Hồn và Ru Ngủ nó.",
+    "name": "Giấc Mơ Ngọt Ngào",
+    "powerCode": "P3260",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0886.png",
+    "description": "Khi Địch Thủ Mê Hoặc một bài quân, ngươi sẽ tạo ra 1 lá Cái Nhìn Phán Quyết 3 tiêu hao trên tay. Mê Hoặc có hiệu lực vĩnh viễn.",
+    "name": "Linh Hồn Vẫy Gọi",
+    "powerCode": "P3261",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/doanket.png",
+    "description": "Bắt Đầu Trận Đấu: Cả hai người chơi lấp đầy hàng sau của họ với những bài quân ngẫu nhiên từ bộ bài của mình.",
+    "name": "Đoàn Kết",
+    "powerCode": "P3262",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "image/hiephai.png",
+    "description": "Lần đầu tiên máu Nhà CHính của ĐỊch Thủ giảm xuống 0, nó sẽ hồi máu hoàn toàn và không phải chịu sát thương trong phần còn lại của vòng đấu",
+    "name": "Hiệp Hai",
+    "powerCode": "P3263",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "image/diepkhuchoaam.png",
+    "description": "Khi Nhà Chính của Địch Thủ sống sót sau sát thương, cài lá Chuông trong bộ bài của chúng bằng với lượng sát thương đã nhận.",
+    "name": "Điệp Khúc Hòa Âm",
+    "powerCode": "P3264",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "powerCode": "P1023",
+    "rarity": "THƯỜNG",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1023-full.png",
+    "descriptionRaw": "Bắt Đầu Phiêu Lưu: Ban cho mỗi lá bài Thượng Giới một trang bị ngẫu nhiên cho cuộc phiêu lưu này.",
+    "description": "Bắt Đầu Phiêu Lưu: Ban cho mỗi lá bài Thượng Giới một trang bị ngẫu nhiên cho cuộc phiêu lưu này.",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1023.png",
+    "name": "Lấp La Lấp Lánh!"
   }
 ]

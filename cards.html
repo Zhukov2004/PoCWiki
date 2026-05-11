@@ -277,7 +277,12 @@
                 const filterMana = filters.mana === 'all' ? 'all' : parseInt(filters.mana);
                 const manaMatch = filterMana === 'all' || (filterMana === 7 ? cardCost >= 7 : cardCost === filterMana);
                 const typeMatch = filters.type === 'all' || (card.type && card.type.toLowerCase().trim() === filters.type.toLowerCase().trim());
-                const regionMatch = filters.region === 'all' || (card.regions && card.regions.some(r => r.toLowerCase().trim() === filters.region.toLowerCase().trim()));
+                const regionMatch = filters.region === 'all' || (
+    // Kiểm tra nếu là trường đơn (String)
+    (card.region && card.region.toLowerCase().trim() === filters.region.toLowerCase().trim()) ||
+    // Kiểm tra nếu là mảng (Array) - Thêm dấu ? để an toàn
+    (card.regions?.some(r => r.toLowerCase().trim() === filters.region.toLowerCase().trim()))
+);
                 const rarityMatch = filters.rarity === 'all' || (card.rarity && card.rarity.toLowerCase().trim() === filters.rarity.toLowerCase().trim());
                 return nameMatch && manaMatch && typeMatch && regionMatch && rarityMatch;
             });
@@ -334,21 +339,23 @@
             imgSrc = LOCAL_IMAGE_PATH + rawPath;
         }
 
-        return `
-            <div class="card-item bg-[#0a0e1a] rounded-2xl overflow-hidden group shadow-lg" style="--hover-color: ${hoverColor}">
-                <div class="aspect-[2/3] overflow-hidden bg-black">
-                    <img src="${imgSrc}" class="w-full h-full object-cover transition-transform duration-700" 
-                         onerror="this.src='https://via.placeholder.com/300x450?text=No+Image'" loading="lazy">
+        const regionName = (card.regions && card.regions.length > 0) ? card.regions[0] : (card.region || '');
+
+    return `
+        <div class="card-item bg-[#0a0e1a] rounded-2xl overflow-hidden group shadow-lg" style="--hover-color: ${hoverColor}">
+            <div class="aspect-[2/3] overflow-hidden bg-black">
+                <img src="${imgSrc}" class="w-full h-full object-cover transition-transform duration-700" 
+                     onerror="this.src='https://via.placeholder.com/300x450?text=No+Image'" loading="lazy">
+            </div>
+            <div class="p-3 bg-gradient-to-t from-black pt-2">
+                <h3 class="text-white font-bold text-xs truncate">${card.name}</h3>
+                <div class="flex justify-between items-center mt-2 opacity-60">
+                    <span class="text-[9px] font-bold uppercase">${regionName}</span>
+                    <span class="text-[9px]">${card.cost} Mana</span>
                 </div>
-                <div class="p-3 bg-gradient-to-t from-black pt-2">
-                    <h3 class="text-white font-bold text-xs truncate">${card.name}</h3>
-                    <div class="flex justify-between items-center mt-2 opacity-60">
-                        <span class="text-[9px] font-bold uppercase">${card.regions[0] || ''}</span>
-                        <span class="text-[9px]">${card.cost} Mana</span>
-                    </div>
-                </div>
-            </div>`;
-    }).join('');
+            </div>
+        </div>`;
+}).join('');
 }
 
         // --- EVENT HELPERS ---
