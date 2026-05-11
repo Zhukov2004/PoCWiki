@@ -1,11 +1,10 @@
-# 🌟 The Path of Champion Guide (POC GUIDE)
+# 🌟 Legends Of Runeterra Wiki (LoRWiki)
 
-Cẩm nang tra cứu và hướng dẫn lối chơi dành riêng cho chế độ **The Path of Champions** trong game **Legends of Runeterra**.
+Cẩm nang tra cứu và hướng dẫn lối chơi trong game **Legends of Runeterra**.
 
 ### 🚀 Tính năng chính
 * **Tra cứu Tướng:** Xem thông tin chi tiết, kỹ năng và chiến thuật cho từng vị tướng.
 * **Thư viện dữ liệu:** Danh mục đầy đủ về Sức mạnh (Powers), Cổ vật (Relics) và Vật phẩm (Items).
-* **Song ngữ:** Hỗ trợ chuyển đổi linh hoạt giữa tiếng Việt và tiếng Anh.
 * **Tốc độ tối đa:** Ứng dụng chạy trực tiếp trên trình duyệt, không độ trễ.
 
 ### 🛠️ Công nghệ sử dụng
