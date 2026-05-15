@@ -9978,5 +9978,50 @@
     "description": "Bắt Đầu Phiêu Lưu: Ban cho mỗi lá bài Thượng Giới một trang bị ngẫu nhiên cho cuộc phiêu lưu này.",
     "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1023.png",
     "name": "Lấp La Lấp Lánh!"
+  },
+  {
+    "powerCode": "P1020",
+    "rarity": "SỬ THI",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1020-full.png",
+    "descriptionRaw": "+1 Năng Lượng Khởi Điểm.\nKhi ngươi Hiệu Triệu hoặc Hình Thành, ban cho các đồng minh +1|+0.",
+    "description": "+1 Năng Lượng Khởi Điểm.\nKhi ngươi Hiệu Triệu hoặc Hình Thành, ban cho các đồng minh +1|+0.",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1020.png",
+    "name": "Sứ Giả Thượng Giới"
+  },
+  {
+    "powerCode": "P1021",
+    "rarity": "SỬ THI",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1021-full.png",
+    "descriptionRaw": "Bắt Đầu Phiêu Lưu: Ban cho mỗi lá bài Thượng Giới 2 trang bị ngẫu nhiên cho cuộc phiêu lưu này.",
+    "description": "Bắt Đầu Phiêu Lưu: Ban cho mỗi lá bài Thượng Giới 2 trang bị ngẫu nhiên cho cuộc phiêu lưu này.",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1021.png",
+    "name": "Lấp La Lấp Lánh! II"
+  },
+  {
+    "powerCode": "P1038",
+    "rarity": "HIẾM",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1038-full.png",
+    "descriptionRaw": "Các bài phép Thượng Giới Chậm của ngươi sẽ được tăng tốc lên Nhanh.",
+    "description": "Các bài phép Thượng Giới Chậm của ngươi sẽ được tăng tốc lên Nhanh.",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1038.png",
+    "name": "Vòng Xuyên Thấu"
+  },
+  {
+    "powerCode": "P1039",
+    "rarity": "SỬ THI",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1039-full.png",
+    "descriptionRaw": "+2 Năng Lượng Khởi Điểm.\nKhi ngươi Hiệu Triệu hoặc Hình Thành, ban cho các đồng minh +1|+1.",
+    "description": "+2 Năng Lượng Khởi Điểm.\nKhi ngươi Hiệu Triệu hoặc Hình Thành, ban cho các đồng minh +1|+1.",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1039.png",
+    "name": "Sứ Giả Thượng Giới II"
+  },
+  {
+    "powerCode": "P1022",
+    "rarity": "HUYỀN THOẠI",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1022-full.png",
+    "descriptionRaw": "Các lá bài ngươi Hiệu Triệu hoặc Hình Thành sẽ được giảm một nửa tiêu hao so với tiêu hao cơ bản, làm tròn lên.",
+    "description": "Các lá bài ngươi Hiệu Triệu hoặc Hình Thành sẽ được giảm một nửa tiêu hao so với tiêu hao cơ bản, làm tròn lên.",
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1022.png",
+    "name": "Chà, Sức Mạnh Sao Ngầu Quá!"
   }
 ]

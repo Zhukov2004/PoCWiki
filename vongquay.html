@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vòng quay may mắn | Legends Of Runeterra Wiki VN</title>
+    <style>
+        :root {
+            --bg-color: #020617; /* Đen xanh sâu */
+            --card-bg: #0f172a; /* Card đen sáng hơn tí */
+            --accent: #818cf8; /* Indigo sáng cho Dark Mode */
+            --text-main: #f8fafc;
+            --text-sub: #94a3b8;
+            --border: #1e293b;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            align-items: center;
+        }
+
+        .bento-container {
+            max-width: 1200px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 950px) {
+            .bento-container { grid-template-columns: 1fr; }
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 32px;
+            padding: 32px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title-section h1 { 
+            font-size: 24px; 
+            margin: 0 0 8px; 
+            font-weight: 800; 
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+        }
+        .title-section p { color: var(--text-sub); margin: 0 0 20px; font-size: 14px; }
+
+        /* Danh sách Checkbox */
+        .checkbox-container {
+            flex-grow: 1;
+            max-height: 500px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding-right: 8px;
+        }
+
+        .checkbox-container::-webkit-scrollbar { width: 5px; }
+        .checkbox-container::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+            border-radius: 16px;
+            background: #1e293b;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid transparent;
+        }
+
+        .checkbox-item:hover { background: #334155; border-color: var(--accent); }
+        .checkbox-item input { margin-right: 12px; width: 18px; height: 18px; accent-color: var(--accent); }
+
+        /* Vòng Quay */
+        .wheel-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .wheel-box {
+            position: relative;
+            width: 550px;
+            height: 550px;
+        }
+
+        @media (max-width: 600px) {
+            .wheel-box { width: 320px; height: 320px; }
+        }
+
+        #wheelCanvas {
+            width: 100%;
+            height: 100%;
+            transition: transform 5s cubic-bezier(0.1, 0, 0.1, 1);
+            filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+        }
+
+        .pointer {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 30;
+            width: 0; height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 40px solid #f43f5e; /* Hồng đỏ rực rỡ */
+            filter: drop-shadow(0 0 10px rgba(244, 63, 94, 0.5));
+        }
+
+        .spin-button {
+            margin-top: 30px;
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            color: white;
+            border: none;
+            padding: 20px 70px;
+            font-size: 20px;
+            font-weight: 800;
+            border-radius: 24px;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+            transition: 0.3s;
+        }
+
+        .spin-button:hover { 
+            transform: translateY(-3px) scale(1.05); 
+            box-shadow: 0 15px 30px rgba(99, 102, 241, 0.6); 
+        }
+        .spin-button:disabled { background: #475569; box-shadow: none; cursor: not-allowed; }
+
+        #result {
+            margin-top: 25px;
+            font-size: 28px;
+            font-weight: 900;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(129, 140, 248, 0.8);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="bento-container">
+    <div class="card title-section">
+        <h1>Vòng quay tướng</h1>
+        <p>Bạn đang phân vân không biết chơi tướng nào tiếp theo? Hãy để vận may của bạn quyết định.</p>
+        <div class="checkbox-container" id="list"></div>
+    </div>
+
+    <div class="card wheel-section">
+        <div class="wheel-box">
+            <div class="pointer"></div>
+            <canvas id="wheelCanvas" width="1000" height="1000"></canvas>
+        </div>
+        <button class="spin-button" id="spinBtn" onclick="spin()">QUAY NGAY</button>
+        <div id="result"></div>
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('wheelCanvas');
+    const ctx = canvas.getContext('2d');
+    let champs = [];
+    let selectedNames = [];
+    let currentRotation = 0;
+
+    function getColor(index, total) {
+        const hue = (index * (360 / total));
+        return `hsl(${hue}, 65%, 45%)`; // Giảm độ sáng tí cho hợp Dark Mode
+    }
+
+    async function init() {
+        try {
+            const res = await fetch('champpower.json');
+            champs = await res.json();
+            
+            const saved = JSON.parse(localStorage.getItem('poc_selected_dark'));
+            const listDiv = document.getElementById('list');
+
+            champs.forEach(c => {
+                const isChecked = saved ? saved.includes(c.name) : true;
+                if(isChecked) selectedNames.push(c.name);
+
+                const item = document.createElement('label');
+                item.className = 'checkbox-item';
+                item.innerHTML = `<input type="checkbox" value="${c.name}" ${isChecked ? 'checked' : ''}><span>${c.name}</span>`;
+                
+                item.querySelector('input').addEventListener('change', (e) => {
+                    if(e.target.checked) selectedNames.push(e.target.value);
+                    else selectedNames = selectedNames.filter(n => n !== e.target.value);
+                    localStorage.setItem('poc_selected_dark', JSON.stringify(selectedNames));
+                    drawWheel();
+                });
+                listDiv.appendChild(item);
+            });
+            drawWheel();
+        } catch(e) { console.error(e); }
+    }
+
+    function drawWheel() {
+        const n = selectedNames.length;
+        if (n === 0) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            return;
+        }
+
+        const arc = (Math.PI * 2) / n;
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = centerX - 40;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        selectedNames.forEach((name, i) => {
+            const angle = i * arc;
+            
+            ctx.beginPath();
+            ctx.fillStyle = getColor(i, n);
+            ctx.moveTo(centerX, centerY);
+            ctx.arc(centerX, centerY, radius, angle, angle + arc);
+            ctx.lineTo(centerX, centerY);
+            ctx.fill();
+            
+            // Đường kẻ ngăn cách giữa các ô
+            ctx.strokeStyle = "rgba(0,0,0,0.3)";
+            ctx.lineWidth = 2;
+            ctx.stroke();
+
+            ctx.save();
+            ctx.translate(centerX, centerY);
+            ctx.rotate(angle + arc / 2);
+            ctx.textAlign = "right";
+            ctx.fillStyle = "#ffffff";
+            ctx.shadowBlur = 5;
+            ctx.shadowColor = "black";
+            
+            let fontSize = 26;
+            if (n > 10) fontSize = 22;
+            if (n > 20) fontSize = 18;
+            if (n > 40) fontSize = 13;
+
+            ctx.font = `bold ${fontSize}px Inter, sans-serif`;
+            ctx.fillText(name, radius - 40, 10);
+            ctx.restore();
+        });
+
+        // Tâm vòng quay
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, 20, 0, Math.PI * 2);
+        ctx.fillStyle = "#0f172a";
+        ctx.fill();
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 4;
+        ctx.stroke();
+    }
+
+    function spin() {
+        if (selectedNames.length === 0) return;
+        const btn = document.getElementById('spinBtn');
+        const result = document.getElementById('result');
+        btn.disabled = true;
+        result.innerHTML = `<span>Đang quay...</span>`;
+
+        const spinDeg = Math.floor(Math.random() * 360) + 3600; 
+        currentRotation += spinDeg;
+        canvas.style.transform = `rotate(${currentRotation}deg)`;
+
+        setTimeout(() => {
+            btn.disabled = false;
+            const actualDeg = (currentRotation % 360);
+            const arcDeg = 360 / selectedNames.length;
+            const index = Math.floor((360 - actualDeg + 270) % 360 / arcDeg);
+            
+            const winner = selectedNames[index];
+            result.innerHTML = `✨ <span">${winner}</span> ✨`;
+        }, 5000);
+    }
+
+    init();
+</script>
+
+</body>
+</html>

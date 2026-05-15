@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Về Chúng Tôi | Legends Of Runeterra Wiki VN</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617;
+            color: #f8fafc;
+        }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto auto;
+            gap: 20px;
+        }
+
+        .glass-card {
+            background: #0f172a;
+            border: 1px solid #1e293b;
+            border-radius: 32px;
+            padding: 32px;
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: #818cf8;
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -15px rgba(99, 102, 241, 0.2);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <div class="max-w-6xl mx-auto">
+        <header class="mb-12 text-center md:text-left">
+            <h1 class="text-5xl font-800 mb-4 tracking-tighter">Về <span class="text-gradient">Chúng Tôi</span></h1>
+            <p class="text-slate-400 text-lg">Hành trình xây dựng kho lưu trữ huyền thoại cho cộng đồng PoC.</p>
+        </header>
+
+        <div class="bento-grid">
+            <div class="glass-card col-span-4 md:col-span-2 flex flex-col justify-between">
+                <div>
+                    <i data-lucide="target" class="text-indigo-400 mb-4 w-8 h-8"></i>
+                    <h2 class="text-2xl font-bold mb-4">Sứ mệnh</h2>
+                    <p class="text-slate-400 leading-relaxed">
+                        Chúng tôi bắt đầu dự án này với một mục tiêu duy nhất: **Đơn giản hóa việc tra cứu**. 
+                        Trong thế giới rộng lớn của Path of Champions, việc nắm bắt mọi chỉ số tướng và trang bị là một thử thách. 
+                        Chúng tôi ở đây để biến nó thành trải nghiệm mượt mà nhất.
+                    </p>
+                </div>
+            </div>
+
+            <div class="glass-card col-span-4 md:col-span-1 flex flex-col items-center justify-center text-center">
+                <i data-lucide="code-2" class="text-purple-400 mb-4 w-10 h-10"></i>
+                <h3 class="text-4xl font-800 text-gradient">100%</h3>
+                <p class="text-slate-500 text-sm mt-2">Open Source & Community Driven</p>
+            </div>
+
+            <div class="glass-card col-span-4 md:col-span-1 flex flex-col justify-center">
+                <h3 class="text-slate-400 text-sm uppercase tracking-widest mb-4">Công nghệ</h3>
+                <ul class="space-y-2 text-sm font-semibold">
+                    <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-green-400"></i> Vanilla JavaScript</li>
+                    <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-green-400"></i> Tailwind CSS</li>
+                    <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-green-400"></i> LocalStorage API</li>
+                </ul>
+            </div>
+
+            <div class="glass-card col-span-4 md:col-span-3">
+                <div class="flex flex-col md:flex-row gap-8 items-center">
+                    <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-3xl font-bold">
+                        P
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold mb-2">Đội ngũ phát triển</h2>
+                        <p class="text-slate-400">
+                            Dự án được xây dựng bởi những người chơi hệ "cày cuốc" PoC. 
+                            Chúng tôi không chỉ viết code, chúng tôi chơi game mỗi ngày để hiểu anh em cần gì nhất. 
+                            Từ vòng quay may mắn đến bảng tiến trình, mọi tính năng đều xuất phát từ chính trải nghiệm thực tế.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card col-span-4 md:col-span-1 flex flex-col justify-between bg-indigo-600/10 border-indigo-500/30">
+                <h3 class="font-bold">Kết nối</h3>
+                <div class="flex flex-col gap-3 mt-4">
+                    <a href="#" class="text-indigo-400 hover:text-white flex items-center gap-2 transition-colors">
+                        <i data-lucide="github" class="w-5 h-5"></i> GitHub
+                    </a>
+                    <a href="#" class="text-indigo-400 hover:text-white flex items-center gap-2 transition-colors">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i> Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-12 text-center text-slate-600 text-sm">
+            &copy; 2026 PoC Library Project. Created for the community.
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

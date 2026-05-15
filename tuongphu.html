@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh sách tướng phụ | PoC Wiki</title>
+    <title>Danh sách tướng phụ | Legends Of Runeterra Wiki VN</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="font-injector.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="components.js"></script>
     <style>
         :root { --surface-bg: #0d161d; --accent: #c8aa6e; }
-        body { background-color: #06090c; color: white; }
+        
+        /* Chỉnh pt-28 hoặc pt-32 để đẩy nội dung xuống dưới Navbar */
+        body { 
+            background-color: #06090c; 
+            color: white; 
+        }
+        
         .card-shadow { box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6); }
         
         /* Tùy chỉnh thanh cuộn */
@@ -16,19 +25,20 @@
         ::-webkit-scrollbar-thumb { background: #2a3a45; border-radius: 10px; }
         ::-webkit-scrollbar-thumb:hover { background: #c8aa6e; }
 
-        /* Style cho Popup phóng to */
+        /* Style cho Popup phóng to - Thêm hiệu ứng Shadow và Border cho xịn */
         #card-preview {
             display: none;
             position: fixed;
-            z-index: 100;
-            pointer-events: none; /* Không cản trở di chuột */
-            transform: translate(-50%, -100%); /* Hiện phía trên con trỏ */
+            z-index: 9999; /* Đảm bảo luôn nằm trên cùng */
+            pointer-events: none;
+            transform: translate(-50%, -105%); 
             transition: opacity 0.2s ease;
+            box-shadow: 0 0 30px rgba(200, 170, 110, 0.3);
         }
     </style>
 </head>
 <body class="p-4 md:p-8">
-
+    <div class="h-24 md:h-18"></div>
     <!-- POPUP PHÓNG TO (ẨN MẶC ĐỊNH) -->
     <div id="card-preview" class="w-64 md:w-80 shadow-2xl border-2 border-[#c8aa6e] rounded-xl overflow-hidden bg-[#0d161d]">
         <img src="" id="preview-img" class="w-full h-auto">
@@ -62,15 +72,45 @@
 
     <script>
         let allData = [];
+        let cardMap = {}; // Lưu trữ từ điển cardCode -> Name
         const preview = document.getElementById('card-preview');
         const previewImg = document.getElementById('preview-img');
 
         async function loadChampions() {
             try {
-                const response = await fetch('tuongphu.json');
-                allData = await response.json();
+                // Tải song song cả 2 file json
+                const [tuongPhuRes, cardsRes] = await Promise.all([
+                    fetch('tuongphu.json'),
+                    fetch('cards.json')
+                ]);
+
+                const tuongPhuData = await tuongPhuRes.json();
+                const cardsData = await cardsRes.json();
+
+                // Tạo Map để tra cứu tên nhanh hơn: { "01FR024": "Anivia", ... }
+                // Giả sử cards.json là một mảng các object có trường cardCode và name
+                cardsData.forEach(c => {
+                    cardMap[c.cardCode] = c.name;
+                });
+
+                // Cập nhật lại tên cho từng lá bài trong dữ liệu tướng phụ
+                allData = tuongPhuData.map(champion => {
+                    return {
+                        ...champion,
+                        // Cập nhật tên tướng chính từ cardCode (nếu có)
+                        name: cardMap[champion.cardCode] || champion.name,
+                        cards: champion.cards.map(card => ({
+                            ...card,
+                            // Tra cứu tên từ cardMap, nếu không thấy thì giữ tên cũ
+                            name: cardMap[card.cardCode] || card.name
+                        }))
+                    };
+                });
+
                 renderData(allData);
-            } catch (e) { console.error("Lỗi tải dữ liệu:", e); }
+            } catch (e) { 
+                console.error("Lỗi tải dữ liệu hoặc xử lý đối chiếu:", e); 
+            }
         }
 
         function renderData(dataList) {

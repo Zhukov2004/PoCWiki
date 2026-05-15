@@ -12,13 +12,13 @@
       },
       {
         "cardCode": "06BC029",
-        "name": "The Darkin Staff",
+        "name": "Quyền Trượng Darkin",
         "count": 2,
         "image": "https://dd.b.pvp.net/6_3_0/set6cde/vi_vn/img/cards/06BC029.png"
       },
       {
         "cardCode": "06SI006",
-        "name": "Keeper of the Box",
+        "name": "Người Giữ Hộp",
         "count": 2,
         "image": "https://dd.b.pvp.net/6_3_0/set6cde/vi_vn/img/cards/06SI006.png"
       }
@@ -37,13 +37,13 @@
       },
       {
         "cardCode": "04IO015",
-        "name": "Dancing Droplet",
+        "name": "Quái Nước Nhảy Múa",
         "count": 2,
         "image": "https://dd.b.pvp.net/6_3_0/set4/vi_vn/img/cards/04IO015.png"
       },
       {
         "cardCode": "03IO005",
-        "name": "Homecoming",
+        "name": "Trở Về Nhà",
         "count": 2,
         "image": "https://dd.b.pvp.net/6_3_0/set3/vi_vn/img/cards/03IO005.png"
       }
@@ -62,13 +62,13 @@
       },
       {
         "cardCode": "04SH128",
-        "name": "Vekauran Vagabond",
+        "name": "Lãng Khách Vekaura",
         "count": 2,
         "image": "https://dd.b.pvp.net/6_3_0/set4/vi_vn/img/cards/04SH128.png"
       },
       {
         "cardCode": "04SH125",
-        "name": "Vekauran Safecracker",
+        "name": "Trộm Phá Két Vekaura",
         "count": 2,
         "image": "https://dd.b.pvp.net/6_3_0/set4/vi_vn/img/cards/04SH125.png"
       }
@@ -93,7 +93,7 @@
       },
       {
         "cardCode": "98NX004",
-        "name": "Public Execution",
+        "name": "Hành Quyết Công Khai",
         "count": 2,
         "image": "https://dd.b.pvp.net/6_3_0/tpoc/vi_vn/img/cards/98NX004.png"
       }

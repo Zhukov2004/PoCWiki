@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Vật Phẩm | LoR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="font-injector.js"></script>
+    <script src="components.js"></script>
+    <style>
+        body { background-color: #06090c; color: white}
+        .nav-spacer { height: 80px; }
+
+        .modal-overlay {
+            backdrop-filter: blur(20px);
+            background-color: rgba(0, 0, 0, 0.92);
+        }
+        
+        /* Tùy chỉnh thanh cuộn cho mô tả dài */
+        .custom-scroll::-webkit-scrollbar { width: 4px; }
+        .custom-scroll::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+        .custom-scroll::-webkit-scrollbar-thumb { background: #c8aa6e; }
+
+        .banner-glow {
+            transition: all 0.4s ease-out;
+            filter: brightness(0.9);
+            display: block;
+        }
+        .group:hover .banner-glow { filter: brightness(1.1); }
+
+        @keyframes modalSlide {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-modal { animation: modalSlide 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); }
+    </style>
+</head>
+<body class="p-4 md:p-12">
+    <div class="nav-spacer"></div>
+
+    <div id="item-modal" class="fixed inset-0 z-[9999] hidden flex items-center justify-center p-4 modal-overlay">
+        <div class="bg-[#0d161d] border border-[#c8aa6e]/60 w-[98vw] max-h-[90vh] flex flex-col md:flex-row overflow-hidden animate-modal shadow-[0_0_150px_rgba(0,0,0,1)] relative">
+            
+            <div class="w-full md:w-[65%] bg-black flex items-center justify-center relative border-r border-[#c8aa6e]/30">
+                <img id="modal-banner" src="" class="w-full h-auto object-contain block">
+                <button onclick="closeModal()" class="md:hidden absolute top-4 right-4 text-white bg-black/80 w-10 h-10 text-xl z-50 border border-[#c8aa6e]/50">✕</button>
+            </div>
+    
+            <div class="w-full md:w-[35%] p-6 md:p-10 flex flex-col bg-[#0d161d] relative">
+                <button onclick="closeModal()" class="hidden md:block absolute top-6 right-8 text-white/20 hover:text-[#c8aa6e] text-4xl transition-all z-50">✕</button>
+    
+                <div class="mb-6">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-[#c8aa6e] text-[15px] font-bold uppercase tracking-[0.4em]">Chi tiết vật phẩm</span>
+                    </div>
+                    <h2 id="modal-title" class="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter leading-[0.85]"></h2>
+                </div>
+    
+                <div class="flex-grow overflow-y-auto custom-scroll pr-4 mb-6">
+                    <div class="border-l-2 border-[#c8aa6e]/30 pl-6 py-1">
+                        <p id="modal-desc" class="text-gray-300 text-lg md:text-xl leading-relaxed font-light"></p>
+                    </div>
+                </div>
+    
+                <div class="mt-auto pt-6 border-t border-white/10">
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="text-gray-600 font-bold uppercase tracking-[0.2em] text-[20px] transform translate-y-1">Giá:</span>
+                        <div class="flex items-center gap-3 bg-black/40 px-6 py-3 border border-[#c8aa6e]/30 shadow-inner">
+                            <span id="modal-price" class="text-4xl font-black text-[#c8aa6e]"></span>
+                            <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Coin_icon.png/400px-Coin_icon.png?aca25" 
+                                 class="w-10 h-10 object-contain mt-2" 
+                                 alt="Gold Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-5xl mx-auto mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-gray-800 pb-8">
+        <div>
+            <h1 class="text-4xl md:text-6xl font-black text-center md:text-left uppercase tracking-tighter">
+                Cửa Hàng <span class="text-[#c8aa6e]">Vật Phẩm</span>
+            </h1>
+        </div>
+        
+        <div class="w-full md:w-80 relative group">
+            <div class="absolute inset-y-0 left-4 flex items-center pointer-events-none text-gray-500 group-focus-within:text-[#c8aa6e] transition-colors">
+                <i data-lucide="search" class="w-5 h-5"></i>
+            </div>
+            <input type="text" id="search-input" oninput="handleSearch()"
+                   placeholder="Tìm kiếm gói vật phẩm..." 
+                   class="w-full bg-[#0d161d]/80 border border-gray-800 focus:border-[#c8aa6e]/60 rounded-xl pl-12 pr-4 py-3 text-white placeholder-gray-500 outline-none transition-all shadow-inner text-base">
+        </div>
+    </div>
+
+    <div id="store-grid" class="max-w-5xl mx-auto flex flex-col gap-10"></div>
+
+    <script>
+        const modal = document.getElementById('item-modal');
+        const storeGrid = document.getElementById('store-grid');
+        const searchInput = document.getElementById('search-input');
+        let storeData = []; // Biến gốc lưu dữ liệu cửa hàng từ JSON
+    
+        async function initStore() {
+            try {
+                const response = await fetch('cuahang.json');
+                storeData = await response.json();
+                renderItems(storeData);
+                lucide.createIcons(); // Khởi tạo icon tìm kiếm
+            } catch (error) {
+                storeGrid.innerHTML = `<div class="text-center text-gray-500 py-10">Lỗi tải dữ liệu cửa hàng...</div>`;
+            }
+        }
+    
+        function renderItems(items) {
+            if (items.length === 0) {
+                storeGrid.innerHTML = `<div class="text-center text-slate-500 py-12 text-lg">Không tìm thấy vật phẩm nào phù hợp.</div>`;
+                return;
+            }
+
+            storeGrid.innerHTML = items.map((item) => {
+                // Tìm lại index chuẩn trong mảng storeData gốc để truyền vào modal
+                const originalIndex = storeData.findIndex(orig => orig.name === item.name);
+                
+                return `
+                    <div class="group flex flex-col items-center">
+                        <div onclick="openItemModal(${originalIndex})" 
+                             class="cursor-pointer w-full leading-[0] relative overflow-hidden">
+                            <img src="${item.image}" class="banner-glow w-full h-auto object-contain">
+                        </div>
+        
+                        <div class="w-full flex justify-between items-start px-2 -mt-1 relative z-10">
+                            <div class="flex flex-col">
+                                <h3 class="text-2xl font-black uppercase tracking-widest text-gray-100 group-hover:text-[#c8aa6e] transition-colors drop-shadow-md">
+                                    ${item.name}
+                                </h3>
+                            </div>
+                            
+                            <div class="flex items-center gap-2 bg-black/60 px-4 py-2 border border-gray-800 group-hover:border-[#c8aa6e]/50 transition-all -mt-2 shadow-lg">
+                                <span class="font-black text-[#c8aa6e] text-xl leading-none">
+                                    ${Number(item.price).toLocaleString()}
+                                </span>
+                                <img src="https://wiki.leagueoflegends.com/en-us/images/thumb/Coin_icon.png/400px-Coin_icon.png?aca25" 
+                                     class="w-5 h-5 object-contain translate-y-[1px]" 
+                                     alt="Gold Icon">
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+    
+        // Hàm xử lý tìm kiếm lọc dữ liệu trực tiếp
+        function handleSearch() {
+            const keyword = searchInput.value.toLowerCase().trim();
+            const filteredItems = storeData.filter(item => 
+                item.name.toLowerCase().includes(keyword)
+            );
+            renderItems(filteredItems);
+        }
+    
+        function openItemModal(index) {
+            const item = storeData[index];
+            if (!item) return;
+    
+            document.getElementById('modal-title').innerText = item.name;
+            document.getElementById('modal-desc').innerHTML = item.description.replace(/\n/g, '<br>');
+            document.getElementById('modal-price').innerText = Number(item.price).toLocaleString();
+            document.getElementById('modal-banner').src = item.image;
+            
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+    
+        function closeModal() {
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+    
+        window.onclick = (e) => { if (e.target == modal) closeModal(); }
+        window.onload = initStore;
+    </script>
+</body>
+</html>

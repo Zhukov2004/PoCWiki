@@ -66,14 +66,18 @@ function injectNavbar() {
                             ${renderMenuItem("bandau.html", "layout-template", "Bàn Đấu", "Giao diện chiến trường", "#14b8a6")}
                             ${renderMenuItem("emote.html", "smile", "Emote", "Biểu cảm hài hước", "#fb923c")}
                             ${renderMenuItem("hoatanhthangcap.html", "video", "Thăng Cấp", "Hoạt ảnh đặc biệt", "#ff4655")}
+                            ${renderMenuItem("vongquay.html", "aperture", "Vòng Quay Tướng", "Thử thách vận may", "#f43f5e")}
+                            ${renderMenuItem("vongquaycovat.html", "boxes", "Vòng Quay Cổ Vật", "Triệu hồi trang bị", "#22d3ee")}
+                            ${renderMenuItem("tuongphu.html", "users", "Tướng Phụ", "Đồng minh hỗ trợ", "#fbbf24")}
+                            ${renderMenuItem("cuahang.html", "shopping-bag", "Cửa Hàng", "Gói vật phẩm & Ưu đãi", "#ff7a00")}
                         </div>
                     </div>
                 </div>
             </div>
 
-            <a href="tools.html" class="text-[#f0e6d2] hover:text-[#c89b3c] font-semibold transition-colors flex items-center gap-2">
-                <i data-lucide="wrench" class="w-4 h-4"></i> Công cụ
-            </a>
+            <a href="index.html" class="text-[#f0e6d2] hover:text-[#c89b3c] font-semibold transition-colors flex items-center gap-2">
+    <i data-lucide="home" class="w-4 h-4"></i> Trang chủ
+</a>
         </div>
     </nav>`;
 

@@ -11303,31 +11303,31 @@
         {
             "req": { "frag": 40 },
             "name": "Ngôi Sao Tiền Thưởng",
-            "desc": "+10 Máu Nhà Chính, +1 Lượt Đổi.",
+            "desc": "+1 Lượt Đổi, +4 Hồi Phục.",
             "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
         },
         {
             "req": { "frag": 40 },
             "name": "Ngôi Sao Huyền Thoại",
-            "desc": "Các anh hùng hỗ trợ của bạn có Trang Bị Hoàn Chỉnh.",
+            "desc": "Các anh hùng hỗ trợ của bạn có Lựa Chọn Của Tinh Tú.",
             "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
         },
         {
             "req": { "frag": 40 },
             "name": "Ngôi Sao Chúc Phúc",
-            "desc": "Bão Tuyết có Máy Quét Oracle.",
+            "desc": "Mưa Thiên Thạch và Nghịch Sao có Phong Ấn Tích Tụ II.",
             "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
         },
         {
             "req": { "frag": 40 },
             "name": "Ngôi Sao Khám Phá",
-            "desc": "Bài phép bạn thu thập trong chuyến phiêu lưu có Lư Hương Sôi Sục.",
+            "desc": "Bài phép ngươi thu thập trong chuyến phiêu lưu với 3+ tiêu hao có Bản Đồ Sao Tiêu Chuẩn.",
             "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
         },
         {
             "req": { "frag": 40 },
             "name": "Ngôi Sao Kỳ Thú",
-            "desc": "Pháo Tuyết có Phong Ấn Tích Tụ I.",
+            "desc": "Bản Đồ Sao Siêu Ngầu và Nghịch Sao có Bình Năng Luọng.",
             "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
         },
         {
@@ -11345,7 +11345,7 @@
         {
             "req": { "gemstone": 250 },
             "name": "Tiền Thưởng Thượng Giới",
-            "desc": "+100 Vàng cho các anh hùng Freljord.",
+            "desc": "+1 Lượt thử lại cho các anh hùng Targon.",
             "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
         },
         {
