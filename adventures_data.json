@@ -5775,7 +5775,7 @@
     "completion_xp": [1425],
     "adventure_type": "Tên Cướp Runeterra",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Sett.png" },
+      { "name": "", "thumb": "championavatar/Sett.webp" },
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Noxus_LoR_Region.png/100px-Noxus_LoR_Region.png?16af0" },
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Demacia_LoR_Region.png/100px-Demacia_LoR_Region.png?ad4ab" },
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ionia_LoR_Region.png/100px-Ionia_LoR_Region.png?ff9d4" }
@@ -5952,7 +5952,7 @@
     "completion_xp": [3015],
     "adventure_type": "Tên Cướp Runeterra",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Akshan.png" },
+      { "name": "", "thumb": "championavatar/Akshan.webp" },
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Piltover_Zaun_LoR_Region.png/100px-Piltover_Zaun_LoR_Region.png?fb6d8" },
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Bandle_City_LoR_Region.png/100px-Bandle_City_LoR_Region.png?65090" },
       { "name": "", "thumb": "https://wiki.leagueoflegends.com/en-us/images/thumb/Freljord_LoR_Region.png/100px-Freljord_LoR_Region.png?5009f" }
@@ -6323,8 +6323,8 @@
     "completion_xp": [5230],
     "adventure_type": "Tên Cướp Runeterra",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Sett.png" },
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Akshan.png" },
+      { "name": "", "thumb": "championavatar/Sett.webp" },
+      { "name": "", "thumb": "championavatar/Akshan.webp" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-demacia.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-spiritblossom.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bilgewater.png" },
@@ -6518,8 +6518,8 @@
     "completion_xp": [5230],
     "adventure_type": "Tên Cướp Runeterra",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Twisted+Fate.png" },
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jhin.png" },
+      { "name": "", "thumb": "championavatar/Twisted+Fate.webp" },
+      { "name": "", "thumb": "championavatar/Jhin.webp" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-shurima.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-ionia.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bandlecity.png" },
@@ -8380,8 +8380,8 @@
     "completion_xp": 6030,
     "adventure_type": "Người Khổng Lồ Của Runeterra",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Anivia.png" },
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Aatrox.png" },
+      { "name": "", "thumb": "championavatar/Anivia.webp" },
+      { "name": "", "thumb": "championavatar/Aatrox.webp" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-freljord.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-freljord.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-spiritblossom.png" },
@@ -8574,8 +8574,8 @@
     "completion_xp": 5230,
     "adventure_type": "Người Khổng Lồ Của Runeterra",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Elder+Dragon.png" },
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Nasus.png" },
+      { "name": "", "thumb": "championavatar/Elder+Dragon.webp" },
+      { "name": "", "thumb": "championavatar/Nasus.webp" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-runeterra.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-demacia.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bilgewater.png" },
@@ -8850,8 +8850,8 @@
     "completion_xp": 5230,
     "adventure_type": "Người Khổng Lồ Của Runeterra",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Anivia.png" },
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Nautilus.png" },
+      { "name": "", "thumb": "championavatar/Anivia.webp" },
+      { "name": "", "thumb": "championavatar/Nautilus.webp" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-noxus.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-spiritblossom.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-targon.png" },
@@ -9050,7 +9050,7 @@
     "completion_xp": 1925,
     "adventure_type": "Người Khổng Lồ Của Runeterra",
     "required_champions": [
-      { "name": "Tryndamere", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Tryndamere.png" },
+      { "name": "Tryndamere", "thumb": "championavatar/Tryndamere.webp" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-noxus.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-bandlecity.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-ionia.png" }
@@ -9233,7 +9233,7 @@
     "completion_xp": 985,
     "adventure_type": "Người Khổng Lồ Của Runeterra",
     "required_champions": [
-      { "name": "Anivia", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Anivia.png" },
+      { "name": "Anivia", "thumb": "championavatar/Anivia.webp" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-noxus.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-spiritblossom.png" },
       { "name": "", "thumb": "http://dd.b.pvp.net/7_3_0/core/vi_vn/img/regions/icon-demacia.png" }
@@ -9536,7 +9536,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Annie.png" }
+      { "name": "", "thumb": "championavatar/Annie.webp" }
     ],
     "rewards": [
   {
@@ -9632,7 +9632,7 @@
     "completion_xp": [860,985],
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Annie.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Annie.webp" }
     ],
     "rewards": [
   {
@@ -9791,7 +9791,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Bard.png" }
+      { "name": "", "thumb": "championavatar/Bard.webp" }
     ],
     "rewards": [
   {
@@ -9887,7 +9887,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Bard.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Bard.webp" }
     ],
     "rewards": [
   {
@@ -10033,7 +10033,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Darius.png" }
+      { "name": "", "thumb": "championavatar/Darius.webp" }
     ],
     "rewards": [
   {
@@ -10129,7 +10129,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Darius.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Darius.webp" }
     ],
     "rewards": [
   {
@@ -10288,7 +10288,7 @@
     "completion_xp": 60,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Garen.png" }
+      { "name": "", "thumb": "championavatar/Garen.webp" }
     ],
     "rewards": [
   {
@@ -10384,7 +10384,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Garen.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Garen.webp" }
     ],
     "rewards": [
   {
@@ -10543,7 +10543,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Illaoi.png" }
+      { "name": "", "thumb": "championavatar/Illaoi.webp" }
     ],
     "rewards": [
   {
@@ -10639,7 +10639,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Illaoi.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Illaoi.webp" }
     ],
     "rewards": [
   {
@@ -10798,7 +10798,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jhin.png" }
+      { "name": "", "thumb": "championavatar/Jhin.webp" }
     ],
     "rewards": [
   {
@@ -10894,7 +10894,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jhin.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Jhin.webp" }
     ],
     "rewards": [
   {
@@ -11040,7 +11040,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jinx.png" }
+      { "name": "", "thumb": "championavatar/Jinx.webp" }
     ],
     "rewards": [
   {
@@ -11136,7 +11136,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jhin.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Jhin.webp" }
     ],
     "rewards": [
   {
@@ -11548,7 +11548,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lux.png" }
+      { "name": "", "thumb": "championavatar/Lux.webp" }
     ],
     "rewards": [
   {
@@ -11644,7 +11644,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lux.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Lux.webp" }
     ],
     "rewards": [
   {
@@ -11803,7 +11803,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Miss+Fortune.png" }
+      { "name": "", "thumb": "championavatar/Miss+Fortune.webp" }
     ],
     "rewards": [
   {
@@ -11899,7 +11899,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Miss+Fortune.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Miss+Fortune.webp" }
     ],
     "rewards": [
   {
@@ -12057,7 +12057,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Yasuo.png" }
+      { "name": "", "thumb": "championavatar/Yasuo.webp" }
     ],
     "rewards": [
   {
@@ -12153,7 +12153,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Yasuo.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Yasuo.webp" }
     ],
     "rewards": [
   {
@@ -12311,7 +12311,7 @@
     "completion_xp": 100,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vi.png" }
+      { "name": "", "thumb": "championavatar/Vi.webp" }
     ],
     "rewards": [
   {
@@ -12407,7 +12407,7 @@
     "completion_xp": 985,
     "adventure_type": "Chiến Dịch Theo Cốt Truyện",
     "required_champions": [
-      { "name": "Ít nhất 2* trở lên", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vi.png" }
+      { "name": "Ít nhất 2* trở lên", "thumb": "championavatar/Vi.webp" }
     ],
     "rewards": [
   {
@@ -12565,69 +12565,69 @@
     "completion_xp": 11970,
     "adventure_type": "Ác Mộng",
     "required_champions": [
-      { "name": "Aatrox", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Aatrox.png" },
-      { "name": "Ahri", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Ahri.png" },
-      { "name": "Ahri Chiêu Hồn Thiên Hồ", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/AhriSB.png" },
-      { "name": "Akshan", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Akshan.png" },
-      { "name": "Ambessa", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Ambessa.png" },
-      { "name": "Anivia", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Anivia.png" },
-      { "name": "Annie", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Annie.png" },
-      { "name": "Ashe", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Ashe.png" },
-      { "name": "Aurelion Sol", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Aurelion+Sol.png" },
-      { "name": "Azir", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Azir.png" },
-      { "name": "Caitlyn", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Caitlynn.png" },
-      { "name": "Darius", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Darius.png" },
-      { "name": "Ekko", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Ekko.png" },
-      { "name": "Elise", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Elise.png" },
-      { "name": "Evelynn", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Evelynn.png" },
-      { "name": "Evelynn Chiêu Tình Yêu Thần", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/EvelynnSB.png" },
-      { "name": "Fiddlesticks", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Fiddlesticks.png" },
-      { "name": "Gwen", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Gwen.png" },
-      { "name": "Heimerdinger", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Heimerdinger.png" },
-      { "name": "Jayce", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jayce.png" },
-      { "name": "Jhin", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jhin.png" },
-      { "name": "Jinx", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Jinx.png" },
-      { "name": "Kai'sa", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Kai'sa.png" },
-      { "name": "Kayle", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Kayle.png" },
-      { "name": "Kindred Lang Dương Vô Thường", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/KindredSB.png" },
-      { "name": "Leona", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Leona.png" },
-      { "name": "Lillia", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lillia.png" },
-      { "name": "Lux", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lux.png" },
-      { "name": "Lux: Rạng Ngời", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Lux+Ilu.png" },
-      { "name": "Master Yi Cổ Kiếm Tông Sư", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Master+YiSB.png" },
-      { "name": "Mel", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Mel.png" },
-      { "name": "Miss Fortune", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Miss+Fortune.png" },
-      { "name": "Morgana", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Morgana.png" },
-      { "name": "Nasus", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Nasus.png" },
-      { "name": "Nautilus", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Nautilus.png" },
-      { "name": "Neeko", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Neeko.png" },
-      { "name": "Norra", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Norra.png" },
-      { "name": "Nunu & Willump", "thumb": "https://images.pocguide.top/avatarChampions/NunuWillum.png" },
-      { "name": "Pyke", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Pyke.png" },
-      { "name": "Rồng Ngàn Tuổi", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Elder+Dragon.png" },
-      { "name": "Samira", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Samira.png" },
-      { "name": "Sett", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Sett.png" },
-      { "name": "Shyvana", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Shyvana.png" },
-      { "name": "Soraka", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Soraka.png" },
-      { "name": "Swain", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Swain.png" },
-      { "name": "Taliyah", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Taliyah.png" },
-      { "name": "Teemo Phong Linh Tiểu Quái", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/TeemoSB.png" },
-      { "name": "Thresh", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Thresh.png" },
-      { "name": "Tryndamere", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Tryndamere.png" },
-      { "name": "Twisted Fate", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Twisted+Fate.png" },
-      { "name": "Vayne", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vayne.png" },
-      { "name": "Vex", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vex.png" },
-      { "name": "Vi", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Vi.png" },
-      { "name": "Viego", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Viego.png" },
-      { "name": "Viktor", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Viktor.png" },
-      { "name": "Volibear", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Volibear.png" },
-      { "name": "Vua Poro", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Poro+King.png" },
-      { "name": "Warwick", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Warwick.png" },
-      { "name": "Yasuo", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Yasuo.png" },
-      { "name": "Yuumi", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Yuumi.png" },
-      { "name": "Yasuo Anh Hùng Lãng Kiếm", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/YasuoSB.png" },
-      { "name": "Udyr", "thumb": "https://wpocpicture.s3.us-east-1.amazonaws.com/avt/Udyr.png" }
-    ],
+  { "name": "Aatrox", "thumb": "championavatar/Aatrox.webp" },
+  { "name": "Ahri", "thumb": "championavatar/Ahri.webp" },
+  { "name": "Ahri Chiêu Hồn Thiên Hồ", "thumb": "championavatar/AhriChieuHonThienHo.webp" },
+  { "name": "Akshan", "thumb": "championavatar/Akshan.webp" },
+  { "name": "Ambessa", "thumb": "championavatar/Ambessa.webp" },
+  { "name": "Anivia", "thumb": "championavatar/Anivia.webp" },
+  { "name": "Annie", "thumb": "championavatar/Annie.webp" },
+  { "name": "Ashe", "thumb": "championavatar/Ashe.webp" },
+  { "name": "Aurelion Sol", "thumb": "championavatar/AurelionSol.webp" },
+  { "name": "Azir", "thumb": "championavatar/Azir.webp" },
+  { "name": "Caitlyn", "thumb": "championavatar/Caitlyn.webp" },
+  { "name": "Darius", "thumb": "championavatar/Darius.webp" },
+  { "name": "Ekko", "thumb": "championavatar/Ekko.webp" },
+  { "name": "Elise", "thumb": "championavatar/Elise.webp" },
+  { "name": "Evelynn", "thumb": "championavatar/Evelynn.webp" },
+  { "name": "Evelynn Chiêu Tình Yêu Thần", "thumb": "championavatar/EvelynnChieuTinhYeuThan.webp" },
+  { "name": "Fiddlesticks", "thumb": "championavatar/Fiddlesticks.webp" },
+  { "name": "Gwen", "thumb": "championavatar/Gwen.webp" },
+  { "name": "Heimerdinger", "thumb": "championavatar/Heimerdinger.webp" },
+  { "name": "Jayce", "thumb": "championavatar/Jayce.webp" },
+  { "name": "Jhin", "thumb": "championavatar/Jhin.webp" },
+  { "name": "Jinx", "thumb": "championavatar/Jinx.webp" },
+  { "name": "Kai'sa", "thumb": "championavatar/Kaisa.webp" },
+  { "name": "Kayle", "thumb": "championavatar/Kayle.webp" },
+  { "name": "Kindred Lang Dương Vô Thường", "thumb": "championavatar/KindredLangDuongVoThuong.webp" },
+  { "name": "Leona", "thumb": "championavatar/Leona.webp" },
+  { "name": "Lillia", "thumb": "championavatar/Lillia.webp" },
+  { "name": "Lux", "thumb": "championavatar/Lux.webp" },
+  { "name": "Lux: Rạng Ngời", "thumb": "championavatar/LuxRangNgoi.webp" },
+  { "name": "Master Yi Cổ Kiếm Tông Sư", "thumb": "championavatar/MasterYiCoKiemTongSu.webp" },
+  { "name": "Mel", "thumb": "championavatar/Mel.webp" },
+  { "name": "Miss Fortune", "thumb": "championavatar/MissFortune.webp" },
+  { "name": "Morgana", "thumb": "championavatar/Morgana.webp" },
+  { "name": "Nasus", "thumb": "championavatar/Nasus.webp" },
+  { "name": "Nautilus", "thumb": "championavatar/Nautilus.webp" },
+  { "name": "Neeko", "thumb": "championavatar/Neeko.webp" },
+  { "name": "Norra", "thumb": "championavatar/Norra.webp" },
+  { "name": "Nunu & Willump", "thumb": "championavatar/NunuWillump.webp" },
+  { "name": "Pyke", "thumb": "championavatar/Pyke.webp" },
+  { "name": "Rồng Ngàn Tuổi", "thumb": "championavatar/RongNganTuoi.webp" },
+  { "name": "Samira", "thumb": "championavatar/Samira.webp" },
+  { "name": "Sett", "thumb": "championavatar/Sett.webp" },
+  { "name": "Shyvana", "thumb": "championavatar/Shyvana.webp" },
+  { "name": "Soraka", "thumb": "championavatar/Soraka.webp" },
+  { "name": "Swain", "thumb": "championavatar/Swain.webp" },
+  { "name": "Taliyah", "thumb": "championavatar/Taliyah.webp" },
+  { "name": "Teemo Phong Linh Tiểu Quái", "thumb": "championavatar/TeemoPhongLinhTieuQuai.webp" },
+  { "name": "Thresh", "thumb": "championavatar/Thresh.webp" },
+  { "name": "Tryndamere", "thumb": "championavatar/Tryndamere.webp" },
+  { "name": "Twisted Fate", "thumb": "championavatar/TwistedFate.webp" },
+  { "name": "Vayne", "thumb": "championavatar/Vayne.webp" },
+  { "name": "Vex", "thumb": "championavatar/Vex.webp" },
+  { "name": "Vi", "thumb": "championavatar/Vi.webp" },
+  { "name": "Viego", "thumb": "championavatar/Viego.webp" },
+  { "name": "Viktor", "thumb": "championavatar/Viktor.webp" },
+  { "name": "Volibear", "thumb": "championavatar/Volibear.webp" },
+  { "name": "Vua Poro", "thumb": "championavatar/ThePoroKing.webp" },
+  { "name": "Warwick", "thumb": "championavatar/Warwick.webp" },
+  { "name": "Yasuo", "thumb": "championavatar/Yasuo.webp" },
+  { "name": "Yuumi", "thumb": "championavatar/Yuumi.webp" },
+  { "name": "Yasuo Anh Hùng Lãng Kiếm", "thumb": "championavatar/YasuoAnhhungLangKiem.webp" },
+  { "name": "Udyr", "thumb": "championavatar/Udyr.webp" }
+],
     "rewards": [
   {
     "milestone": "Mốc thưởng 1",
