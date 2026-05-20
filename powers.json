@@ -10023,5 +10023,77 @@
     "description": "Các lá bài ngươi Hiệu Triệu hoặc Hình Thành sẽ được giảm một nửa tiêu hao so với tiêu hao cơ bản, làm tròn lên.",
     "assetAbsolutePath": "https://dd.b.pvp.net/7_5_0/adventure/vi_vn/img/powers/P1022.png",
     "name": "Chà, Sức Mạnh Sao Ngầu Quá!"
+  },
+  {
+    "assetAbsolutePath": "image/khongmanghauqua.png",
+    "description": "Bài phép của Địch Thủ tăng 2 tiêu hao và gây gấp đôi sát thương.",
+    "name": "Không Màng Hậu Quả",
+    "powerCode": "P3265",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/khongmanghauqua.png",
+    "description": "Bài phép của Địch Thủ tăng 2 tiêu hao và gây gấp đôi sát thương.",
+    "name": "Không Màng Hậu Quả",
+    "powerCode": "P3265",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/doitrinhsatbandle.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Xưởng Chế Lõi Công Nghệ.",
+    "name": "Đội Trinh Sát Bandle",
+    "powerCode": "P3266",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/porotantien.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ tạo trên tay 1 lá Poro Cường Hóa.",
+    "name": "Poro Tân Tiến",
+    "powerCode": "P3268",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/chienthuatphongngu.png",
+    "description": "Khi một bài quân của Địch Thủ nhận sát thương và sống sót, ban +1|+0 cho bài quân đó.",
+    "name": "Đám Bông Cường Hóa",
+    "powerCode": "P3269",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/tamnhinsucmanh.png",
+    "description": "Bắt Đầu Vòng Đấu: Ban +1|+0 cho bài quân gần nhất trong bộ bài của Địch Thủ.",
+    "name": "Tầm Nhin Sức Mạnh",
+    "powerCode": "P3270",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/tamnhinsucmanh.png",
+    "description": "Kết Thúc Vòng Đấu: Nếu Địch Thủ đã gây sát thương lên Nhà Chính của người chơi trong vòng này, gây 1 sát thương lên bài quân yếu nhất của người chơi.",
+    "name": "Truy Lùng",
+    "powerCode": "P3271",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/ngontutruyencamhung1.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Diễn Giả Rạng Đông.",
+    "name": "Ngôn Từ Truyền Cảm Hứng",
+    "powerCode": "P3272",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/thaotruong.png",
+    "description": "Bài quân của Địch Thủ được nhận +0|+1.",
+    "name": "Thao Trường",
+    "powerCode": "P3273",
+    "rarity": "THƯỜNG",
+    "rarityRef": "Common"
   }
 ]

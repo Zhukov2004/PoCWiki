@@ -49,7 +49,6 @@
 
     "nodes": {
       "node1": {
-        "title": "Khỉ Nổ Tung",
         "enemies": [
           {
             "cardCode": "04PZ016",
@@ -62,7 +61,6 @@
         ]
       },
       "node2": {
-        "title": "Chủ Quán Chợ Đen",
         "enemies": [
           {
             "cardCode": "01PZ002",
@@ -74,12 +72,11 @@
         ]
       },
       "node3": {
-        "title": "Chồn Rác Hôi Thối",
         "enemies": [
           {
             "cardCode": "05PZ035",
             "powers": [
-              { "name": "Trạm Chán Với Chồn Rác", "description": "Khi một bài quân của người chơi hi sinh, gài 1 lá Nấm Độc lên bộ bài của người chơi" }
+              { "powerCode": "P3211" }
       
             ],
             "note": ""
@@ -87,12 +84,11 @@
         ]
       },
       "node4": {
-        "title": "Cỗ Máy Mô Phỏng",
         "enemies": [
           {
             "cardCode": "03PZ010",
             "powers": [
-              { "name": "Poro Tân Tiến", "description": "Bắt Đầu Trận Đấu: Địch Thủ tạo trên tay 1 lá Poro Cường Hóa " }
+              { "powerCode": "P3268" }
       
             ],
             "note": ""
@@ -100,12 +96,11 @@
         ]
       },
       "node5": {
-        "title": "Voltician Bất Ổn",
         "enemies": [
           {
             "cardCode": "01PZ024",
             "powers": [
-              { "name": "Không Màng Hậu quả", "description": "Bài phép của Địch Thủ tăng 2 tiêu hao và gây gấp đôi sát thương " }
+              { "powerCode": "P3265" }
       
             ],
             "note": ""
@@ -113,12 +108,11 @@
         ]
       },
       "node6": {
-        "title": "Teemo",
         "enemies": [
           {
             "cardCode": "01PZ008",
             "powers": [
-              { "name": "Đội Trinh Sát Bandle", "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Xưởng Chế Lõi Công Nghệ " }
+              { "powerCode": "P3266" }
       
             ],
             "note": ""
@@ -178,37 +172,32 @@
 
     "nodes": {
       "node1": {
-        "title": "Hải Tặc Thiện Xạ",
         "enemies": [
           {
             "cardCode": "02BW060",
-            
             "powers": [
-              
             ],
             "note": ""
           }
         ]
       },
       "node2": {
-        "title": "Thợ Săn Tiền Thưởng",
         "enemies": [
           {
             "cardCode": "02BW005",
             "powers": [
-              { "name": "Chào Mừng Đến Với Tiểu Đội", "description": "Bắt Đầu Vòng Đấu: Trao Kích Động cho bài quân mạnh nhất của Người Chơi trong vòng này." }
+              { "powerCode": "P3191" }
             ],
             "note": ""
           }
         ]
       },
       "node3": {
-        "title": "Tượng Thần Đầu Khỉ",
         "enemies": [
           {
             "cardCode": "02BW034",
             "powers": [
-              { "name": "Kéc Kéc", "description": "Bắt Đầu Trận Đấu: Triệu hồi 1 lá Tượng Thần Đầu Khỉ " }
+              { "powerCode": "P3192" }
       
             ],
             "note": ""
@@ -216,12 +205,11 @@
         ]
       },
       "node4": {
-        "title": "Thằn Lằn Lịch Lãm",
         "enemies": [
           {
             "cardCode": "03BW002",
             "powers": [
-              { "name": "Lén Lén Lút Lút", "description": "Bắt Đầu Vòng Đấu: Trao Huyền Ảo cho bài quân mạnh nhất của mỗi Người Chơi trong vòng này " }
+              { "powerCode": "P3193" }
       
             ],
             "note": ""
@@ -229,20 +217,17 @@
         ]
       },
       "node5": {
-        "title": "Kẻ Đánh Bạc Hăng Hái",
         "enemies": [
           {
             "cardCode": "02BW007",
             "powers": [
-              { "name": "Tráo Bài Gian Lận", "description": "Khi Địch Thủ tấn công, chúng rút 1 lá bài và trao Phù Du cho lá bài đó " }
-      
+              { "powerCode": "P3194" }
             ],
             "note": ""
           }
         ]
       },
       "node6": {
-        "title": "Miss Fortune",
         "enemies": [
           {
             "cardCode": "02BW022T2",
@@ -282,7 +267,6 @@
 
     "nodes": {
       "node1": {
-        "title": "Thạch Linh Giám",
         "enemies": [
           {
             "cardCode": "03DE015",
@@ -295,24 +279,22 @@
         ]
       },
       "node2": {
-        "title": "Poro Can Đảm",
         "enemies": [
           {
             "cardCode": "01DE049",
             "powers": [
-              { "name": "Đám Bông Cường Hóa", "description": "Khi một bài quân của Địch Thủ nhận sát thương và sống sót, ban +1|+0 cho bài quân đó" }
+              { "powerCode": "P3269" }
             ],
             "note": ""
           }
         ]
       },
       "node3": {
-        "title": "Diều Hâu Tiền Báo",
         "enemies": [
           {
             "cardCode": "01FR022",
             "powers": [
-              { "name": "Tầm Nhin Sức Mạnh", "description": "Bắt Đầu Vòng Đấu: Ban +1|+0 cho bài quân gần nhất trong bộ bài của Địch Thủ" }
+              { "powerCode": "P3270" }
       
             ],
             "note": ""
@@ -320,12 +302,11 @@
         ]
       },
       "node11": {
-        "title": "Phi Ưng Truy Sát",
         "enemies": [
           {
             "cardCode": "01DE029",
             "powers": [
-              { "name": "Móng Vuốt Sắc Bén", "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Phi Ưng Truy Sát" }
+              { "powerCode": "P3170" }
       
             ],
             "note": ""
@@ -333,13 +314,11 @@
         ]
       },
       "node4": {
-        "title": "Bạch Lang",
         "enemies": [
           {
             "cardCode": "02FR009",
             "powers": [
-              { "name": "Truy Lùng", "description": "Kết Thúc Vòng Đấu: Nếu Địch Thủ đã gây sát thương lên Nhà Chính của người chơi trong vòng này, gây 1 sát thương lên bài quân yếu nhất của người chơi." }
-      
+              { "powerCode": "P3271" }
             ],
             "note": ""
           }
@@ -359,12 +338,11 @@
         ]
       },
       "node6": {
-        "title": "Diễn Giả Rạng Đông",
         "enemies": [
           {
             "cardCode": "01DE031",
             "powers": [
-              { "name": "Ngôn Từ Truyền Cảm Hứng", "description": "Bắt Đầu Trận Đấu: Địch Thủ triệu hồi 1 lá Diễn Giả Rạng Đông" }
+              { "powerCode": "P3272" }
       
             ],
             "note": ""
@@ -372,12 +350,11 @@
         ]
       },
       "node7": {
-        "title": "Nữ Tặc Tay Mơ",
         "enemies": [
           {
             "cardCode": "01FR035",
             "powers": [
-              { "name": "Thao Trường", "description": "Bài quân của Địch Thủ có +0|+1." }
+              { "powerCode": "P3273" }
       
             ],
             "note": ""
@@ -385,7 +362,6 @@
         ]
       },
       "node8": {
-        "title": "Thợ Rèn Vũ Khí",
         "enemies": [
           {
             "cardCode": "01DE034",
@@ -398,7 +374,6 @@
         ]
       },
       "node9": {
-        "title": "Chủ Quán Tốt Bụng",
         "enemies": [
           {
             "cardCode": "01FR050",
@@ -411,7 +386,6 @@
         ]
       },
       "node10": {
-        "title": "Garen",
         "enemies": [
           {
             "cardCode": "01DE012",
@@ -451,7 +425,6 @@
 
     "nodes": {
       "node1": {
-        "title": "Môn Sinh Võ Học",
         "enemies": [
           {
             "cardCode": "01IO042",
@@ -464,7 +437,6 @@
         ]
       },
       "node2": {
-        "title": "Cún Nấm Độc",
         "enemies": [
           {
             "cardCode": "05BC100",
@@ -476,7 +448,6 @@
         ]
       },
       "node3": {
-        "title": "Tinh Linh Lốc Xoáy",
         "enemies": [
           {
             "cardCode": "01IO008",
@@ -489,7 +460,6 @@
         ]
       },
       "node11": {
-        "title": "Tảo Nữ",
         "enemies": [
           {
             "cardCode": "05BC005",
@@ -502,7 +472,6 @@
         ]
       },
       "node4": {
-        "title": "Fizz",
         "enemies": [
           {
             "cardCode": "02BW046",
@@ -519,7 +488,7 @@
           {
             "cardCode": "05BC098",
             "powers": [
-              { "name": "Bóng Tối Lan Tràn", "description": "Bắt Đầu Vòng Đấu: Ban thêm 1 sát thương cho Bóng Tối của Địch Thủ ở mọi nơi" }
+              { "powerCode": "P3179" }
       
             ],
             "note": ""
@@ -527,7 +496,6 @@
         ]
       },
       "node6": {
-        "title": "Sóc Đô Con",
         "enemies": [
           {
             "cardCode": "03IO011",
@@ -540,7 +508,6 @@
         ]
       },
       "node7": {
-        "title": "Pháp Sư Phản Chiếu",
         "enemies": [
           {
             "cardCode": "05BC151",
@@ -553,12 +520,11 @@
         ]
       },
       "node8": {
-        "title": "Người Chăm Lo Greenglade",
         "enemies": [
           {
             "cardCode": "01IO019",
             "powers": [
-              { "name": "Trảng Rừng Trú Ẩn", "description": "Khi người chơi bất kì triệu hồi 1 bài quân, trao Lá Chắn cho bài quân đó." }
+              { "powerCode": "P3152" }
       
             ],
             "note": ""
@@ -566,7 +532,6 @@
         ]
       },
       "node9": {
-        "title": "Dấu Hiệu Xuân Sang",
         "enemies": [
           {
             "cardCode": "01IO045",
