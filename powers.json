@@ -10095,5 +10095,151 @@
     "powerCode": "P3273",
     "rarity": "THƯỜNG",
     "rarityRef": "Common"
+  },
+  {
+    "assetAbsolutePath": "image/langkhachchucphuc.png",
+    "description": "Bắt Đầu Trận Đấu: Địch Thủ gài 200 lá Chuông vào bộ bài của chúng.",
+    "name": "Lãng Khách Chúc Phúc",
+    "powerCode": "P3274",
+    "rarity": "HUYỀN THOẠI",
+    "rarityRef": "Legendary"
+  },
+  {
+    "assetAbsolutePath": "image/chiudung1.png",
+    "description": "Khi Địch Thủ triệu hồi 1 bài quân, ban +2|+2 cho bài quân đó.",
+    "name": "Chịu Đựng",
+    "powerCode": "P3275",
+    "rarity": "HUYỀN THOẠI",
+    "rarityRef": "Legendary"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1040.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1040-full.png",
+    "description": "+2 Năng Lượng Khởi Đầu.<br><link=vocab.RoundStart><style=Vocab>Bắt Đầu Vòng Đấu</style></link>: Ban <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Kích Động</style></link> cho kẻ địch <link=keyword.Weakest><style=Keyword>yếu nhất</style></link> và +1|+1 cho <link=card.self><style=AssociatedCard>Xúc Tu</style></link> đồng minh <link=vocab.Everywhere><style=Vocab>ở mọi nơi</style></link>.",
+    "descriptionRaw": "+2 Năng Lượng Khởi Đầu.Bắt Đầu Vòng Đấu: Ban Kích Động cho kẻ địch yếu nhất và +1|+1 cho Xúc Tu đồng minh ở mọi nơi.",
+    "name": "Thử Thách Linh Hồn II",
+    "powerCode": "P1040",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1019.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1019-full.png",
+    "description": "Mỗi vòng, lần đầu tiên ngươi <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link>, triệu hồi một lá <link=card.self><style=AssociatedCard>Xúc Tu Của Nagakabouros</style></link>. Hiệu ứng này có 3% cơ hội triệu hồi <style=Variable>CardRef</style> thay thế, tỷ lệ này sẽ tăng lên mỗi vòng. <style=Variable></style>",
+    "descriptionRaw": "Mỗi vòng, lần đầu tiên ngươi Triệu Gọi, triệu hồi một lá Xúc Tu Của Nagakabouros. Hiệu ứng này có 3% cơ hội triệu hồi CardRef thay thế, tỷ lệ này sẽ tăng lên mỗi vòng. ",
+    "name": "Bước Nhảy Niềm Tin",
+    "powerCode": "P1019",
+    "rarity": "HUYỀN THOẠI",
+    "rarityRef": "Legendary"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1031.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1031-full.png",
+    "description": "Lá <link=card.self><style=AssociatedCard>Xúc Tu</style></link> có 3 Sức Mạnh hoặc ít hơn nhận <link=keyword.Elusive><sprite name=Elusive><style=Keyword>Huyền Ảo</style></link>. Lá <link=card.self><style=AssociatedCard>Xúc Tu</style></link> có 12 Sức Mạnh hoặc nhiều hơn nhận <link=keyword.Overwhelm><sprite name=Overwhelm><style=Keyword>Áp Đảo</style></link>.<br><link=vocab.RoundStart><style=Vocab>Bắt Đầu Vòng Đấu:</style></link> <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> triệu hồi 3 lá <link=card.self><style=AssociatedCard>Xúc Tu</style></link>.",
+    "descriptionRaw": "Lá Xúc Tu có 3 Sức Mạnh hoặc ít hơn nhận Huyền Ảo. Lá Xúc Tu có 12 Sức Mạnh hoặc nhiều hơn nhận Áp Đảo.Bắt Đầu Vòng Đấu: Địch Thủ triệu hồi 3 lá Xúc Tu.",
+    "name": "Thử Thách Cuối Cùng",
+    "powerCode": "P1031",
+    "rarity": "HUYỀN THOẠI",
+    "rarityRef": "Legendary"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1029.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1029-full.png",
+    "description": "Những tùy tùng không phải <link=card.self><style=AssociatedCard>Xúc Tu</style></link> có <link=keyword.Ephemeral><sprite name=Ephemeral><style=Keyword>Cảm Tử</style></link>.<br><link=vocab.RoundStart><style=Vocab>Bắt Đầu Vòng Đấu:</style></link> Nếu người chơi không có anh hùng, triệu hồi anh hùng <link=keyword.Weakest><style=Keyword>yếu nhất</style></link> từ trên tay hoặc trên bộ bài của họ. Nếu không thể triệu hồi, phá hủy Nhà Chính của người chơi đó.",
+    "descriptionRaw": "Những tùy tùng không phải Xúc Tu có Cảm Tử.Bắt Đầu Vòng Đấu: Nếu người chơi không có anh hùng, triệu hồi anh hùng yếu nhất từ trên tay hoặc trên bộ bài của họ. Nếu không thể triệu hồi, phá hủy Nhà Chính của người chơi đó.",
+    "name": "CHỨNG KIẾN!",
+    "powerCode": "P1029",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1058.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1058-full.png",
+    "description": "<link=vocab.RoundStart><style=Vocab>Bắt Đầu Vòng Đấu:</style></link> Nếu <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> có lượt tấn công, chúng sẽ <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link> bằng với ba lần số lá bài trên tay người chơi.",
+    "descriptionRaw": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, chúng sẽ Triệu Gọi bằng với ba lần số lá bài trên tay người chơi.",
+    "name": "Du Hành Thần Nữ II",
+    "powerCode": "P1058",
+    "rarity": "HUYỀN THOẠI",
+    "rarityRef": "Legendary"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1032.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1032-full.png",
+    "description": "<link=vocab.RoundStart><style=Vocab>Bắt Đầu Vòng Đấu:</style></link> Nếu <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> có lượt tấn công, chúng sẽ <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link> bằng với số lá bài trên tay người chơi.",
+    "descriptionRaw": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, chúng sẽ Triệu Gọi bằng với số lá bài trên tay người chơi.",
+    "name": "Du Hành Thần Nữ",
+    "powerCode": "P1032",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1026.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1026-full.png",
+    "description": "Khi <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> có nhiều hơn 3 bài quân với 1 tiêu hao, chúng sẽ có <link=keyword.Scout><sprite name=Scout><style=Keyword>Trinh Sát</style></link>.",
+    "descriptionRaw": "Khi Địch Thủ có nhiều hơn 3 bài quân với 1 tiêu hao, chúng sẽ có Trinh Sát.",
+    "name": "Quân Đoàn Linh Hoạt",
+    "powerCode": "P1026",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1025.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1025-full.png",
+    "description": "<link=vocab.RoundEnd><style=Vocab>Kết Thúc Vòng Đấu:</style></link> <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link> bằng với sát thương mà Nhà Chính của chúng đã nhận trong vòng này.",
+    "descriptionRaw": "Kết Thúc Vòng Đấu: Địch Thủ Triệu Gọi bằng với sát thương mà Nhà Chính của chúng đã nhận trong vòng này.",
+    "name": "Biển Cả Báo Thù",
+    "powerCode": "P1025",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1030.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1030-full.png",
+    "description": "Khi <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> sử dụng một bài quân, chúng sẽ <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link> bằng với mức tiêu hao của bài quân đó.",
+    "descriptionRaw": "Khi Địch Thủ sử dụng một bài quân, chúng sẽ Triệu Gọi bằng với mức tiêu hao của bài quân đó.",
+    "name": "Tiếng Gọi Mãng Xà",
+    "powerCode": "P1030",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1027.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1027-full.png",
+    "description": "<link=vocab.RoundStart><style=Vocab>Bắt Đầu Vòng Đấu:</style></link> Nếu <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> có lượt tấn công, bài quân 1 tiêu hao <link=vocab.Strongest><style=Vocab>mạnh nhất</style></link> của chúng sẽ bắt đầu Phát Động Tấn Công.",
+    "descriptionRaw": "Bắt Đầu Vòng Đấu: Nếu Địch Thủ có lượt tấn công, bài quân 1 tiêu hao mạnh nhất của chúng sẽ bắt đầu Phát Động Tấn Công.",
+    "name": "Sẵn Sàng Tấn Công!",
+    "powerCode": "P1027",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1028.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1028-full.png",
+    "description": "Khi một lá <link=card.self><style=AssociatedCard>Xúc Tu</style></link> của <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> tấn công, nhân đôi Sức Mạnh của nó.",
+    "descriptionRaw": "Khi một lá Xúc Tu của Địch Thủ tấn công, nhân đôi Sức Mạnh của nó.",
+    "name": "Sức Mạnh Đại Mẫu",
+    "powerCode": "P1028",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1024.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1024-full.png",
+    "description": "Mỗi vòng, lá bài đầu tiên mà <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> xuất trận sẽ được giảm 1 tiêu hao tương ứng với mỗi bài quân đã bị hạ gục trong trận này.",
+    "descriptionRaw": "Mỗi vòng, lá bài đầu tiên mà Địch Thủ xuất trận sẽ được giảm 1 tiêu hao tương ứng với mỗi bài quân đã bị hạ gục trong trận này.",
+    "name": "Thu Thập Linh Hồn",
+    "powerCode": "P1024",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1033.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/powers/P1033-full.png",
+    "description": "Khi một bài quân không phải <link=card.self><style=AssociatedCard>Xúc Tu</style></link> của <link=vocab.Foe><style=Vocab>Địch Thủ</style></link> bị hạ gục, chúng sẽ <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link> số lượng bằng với Sức Mạnh của đơn vị đó.",
+    "descriptionRaw": "Khi một bài quân không phải Xúc Tu của Địch Thủ bị hạ gục, chúng sẽ Triệu Gọi số lượng bằng với Sức Mạnh của đơn vị đó.",
+    "name": "Chuyến Phà Cuối Cùng",
+    "powerCode": "P1033",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
   }
 ]

@@ -3240,7 +3240,7 @@
 			"I0070",
 			"I0012"
 		],
-		"powerStarIds": ["P0011", "P0014", "P0013"],
+		"powerStarIds": ["P0011", "P0014", "P0013", "P0083", "P1040", "P1019"],
 		"runeIds": [],
 		"relicSets": [
 			["R0092", "R0045", "R0001"],
@@ -3257,6 +3257,60 @@
 			}
 		],
 		"bonusStars": [
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Tiền Thưởng",
+            "desc": "+1 Hồi Sinh, +4 Hồi Phục",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Huyền Thoại",
+            "desc": "Các anh hùng hỗ trợ của bạn có Mệnh Lệnh Biển Cả.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Chúc Phúc",
+            "desc": "Xúc Tu có Đao Đụng Độ.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Khám Phá",
+            "desc": "Lính Canh Buhru và tùy tùng ngươi thu thập trong chuyến phiêu lưu với 4 tiêu hao hoặc nhiều hơn có Mệnh Lệnh Biển Cả.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "frag": 40 },
+            "name": "Ngôi Sao Kỳ Thú",
+            "desc": "Xúc Tu Tàn Phá có Đồng Hồ Ngưng Đọng.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/starIcon.png"
+        },
+        {
+            "req": { "gemstone": 150 },
+            "name": "Huyền Thoại Tinh Tú",
+            "desc": "Các lá bài hỗ trợ có thêm 1 trang bị.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tài Lộc Thượng Giới",
+            "desc": "+5% tỉ lệ xuất hiện vật phẩm và sức mạnh Sử Thi.\n+1% tỉ lệ xuất hiện sức mạnh Huyền Thoại.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 250 },
+            "name": "Tiền Thưởng Thượng Giới",
+            "desc": "+4 Hồi Phục cho các anh hùng Bilgewater.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        },
+        {
+            "req": { "gemstone": 350 },
+            "name": "Thấu Thị Thượng Giới",
+            "desc": "+100% XP cho các anh hùng Bilgewater.",
+            "icon": "https://wpocpicture.s3.us-east-1.amazonaws.com/images/celestialStarIcon.png"
+        }
     ],
 "startingDeck": {
             "baseCards": [

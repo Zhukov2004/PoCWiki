@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thử Thách Tuần & Ác Mộng | Legends Of Runeterra Wiki VN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        :root {
+            --font-header: 'Space Grotesk', sans-serif;
+            --font-main: 'Open Sans', sans-serif;
+        }
+
+        html, body {
+            font-family: var(--font-main) !important;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        h1, h2, h3, h4, h5, h6, 
+        button, .portal-title, .star-badge {
+            font-family: var(--font-header) !important;
+            letter-spacing: -0.02em;
+        }
+
+        p, span, li, td, th {
+            font-family: var(--font-main) !important;
+            line-height: 1.6;
+            letter-spacing: 0.01em;
+        }
+
+        td, th {
+            font-variant-numeric: tabular-nums;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100 p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto pt-20 md:pt-24">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-purple-500 mb-3 tracking-wide">
+                THỬ THÁCH TUẦN & ÁC MỘNG
+            </h1>
+            <p class="text-base md:text-lg text-gray-400 font-normal max-w-3xl mx-auto">Cẩm nang tra cứu quy tắc, điều kiện và phần thưởng của mọi Thử Thách Tuần trong Con Đường Anh Hùng</p>
+        </header>
+
+        <div class="flex justify-center gap-3 md:gap-5 mb-10 border-b border-gray-800 pb-5">
+            <button onclick="switchTab('normal')" id="tab-normal" class="px-6 py-3 font-bold text-base rounded-lg transition bg-blue-600 text-white shadow-lg cursor-pointer">
+                ✨ Ải Tuần Thường
+            </button>
+            <button onclick="switchTab('nightmare')" id="tab-nightmare" class="px-6 py-3 font-bold text-base rounded-lg text-gray-400 hover:text-white hover:bg-gray-800 transition cursor-pointer">
+                💀 Ải Ác Mộng Tuần
+            </button>
+            <button onclick="switchTab('xp')" id="tab-xp" class="px-6 py-3 font-bold text-base rounded-lg text-gray-400 hover:text-white hover:bg-gray-800 transition cursor-pointer">
+                📊 Bảng Thưởng XP
+            </button>
+        </div>
+
+        <div id="content-normal" class="tab-content grid grid-cols-1 md:grid-cols-3 gap-6">
+        </div>
+
+        <div id="content-nightmare" class="tab-content hidden space-y-6">
+            <div class="bg-red-950/30 border border-red-800/60 p-5 rounded-xl flex items-start gap-4">
+                <span class="text-3xl">⚠️</span>
+                <div>
+                    <h4 class="font-bold text-red-400 text-base uppercase tracking-wider">Cơ Chế Mặc Định Của Ải Ác Mộng</h4>
+                    <p class="text-sm text-gray-300 mt-1.5 leading-relaxed font-normal">
+                        Kẻ địch tại đây thường mang các lá bài có vật phẩm <span class="text-yellow-400 font-semibold">"Bắt Đầu Trận Đấu: Triệu hồi 1 bản thể của ta từ bộ bài."</span>. Lợi thế duy nhất của bạn: <span class="text-green-400 font-semibold">Luôn nhận được Lượt Tấn Công ở ngay lượt 1! </span>Hãy tận dụng điều này để dứt điểm nhanh nhất có thể
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="nightmareList">
+            </div>
+            <div class="bg-gray-900 border border-gray-800 rounded-xl p-4 md:p-6 shadow-2xl overflow-x-auto mt-10">
+                <div class="flex items-center gap-3 mb-5">
+                    <h3 class="text-xl font-bold text-purple-400">Danh Sách 1 số Luật Chơi Đặc Biệt & Ác Mộng</h3>
+                </div>
+                <table class="w-full text-left border-collapse min-w-[600px]">
+                    <thead>
+                        <tr class="bg-gray-800/80 text-gray-300 text-sm font-bold uppercase tracking-wider border border-gray-700">
+                            <th class="p-4 w-1/4 text-center">Luật Chơi Đặc Biệt</th>
+                            <th class="p-4 w-3/4 text-center">Mô tả hiệu ứng</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nightmarePowersTable" class="text-base font-medium">
+                        <tr>
+                            <td colspan="2" class="p-4 text-center text-gray-500 animate-pulse">Đang tải dữ liệu sức mạnh...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="content-xp" class="tab-content hidden bg-gray-900 border border-gray-800 rounded-xl p-4 md:p-6 shadow-2xl overflow-x-auto">
+            <h3 class="text-xl font-bold text-yellow-400 mb-5">Bảng Cộng Dồn Điểm Kinh Nghiệm (XP) Tướng Theo Số Trận Thắng</h3>
+            <table class="w-full text-center border-collapse min-w-[750px]">
+                <thead>
+                    <tr class="bg-gray-800 text-gray-300 text-sm font-bold uppercase tracking-wider">
+                        <th class="p-4 border border-gray-700">Độ khó (Sao)</th>
+                        <th class="p-4 border border-gray-700 text-blue-400">1 Trận</th>
+                        <th class="p-4 border border-gray-700 text-blue-400">2 Trận</th>
+                        <th class="p-4 border border-gray-700 text-green-400">3 Trận</th>
+                        <th class="p-4 border border-gray-700 text-green-400">4 Trận</th>
+                        <th class="p-4 border border-gray-700 text-yellow-400">5 Trận</th>
+                        <th class="p-4 border border-gray-700 text-yellow-400">6 Trận</th>
+                        <th class="p-4 border border-gray-700 text-red-400">Thắng Toàn Bộ (7 Trận)</th>
+                    </tr>
+                </thead>
+                <tbody id="xpTableBody" class="text-base font-medium">
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script>
+        // DANH SÁCH MÃ QUY TẮC HIỂN THỊ TRONG TUẦN
+        // Tuần mới đổi luật, bạn chỉ cần thay đổi các mã nằm trong này (Ví dụ: "P0733", "P0122")
+        const activePowerCodes = [
+            "P3046",
+            "P0495",
+            "P0490",
+            "P0505",
+            "P0074",
+            "P0501",
+            "P0504",
+            "P0484",
+            "P0537",
+            "P0485",
+            "P0075",
+            "P0539",
+            "P0496",
+            "P3274",
+            "P3109",
+            "P3275"
+        ];
+
+        const fullData = {
+            weekly_adventures: [
+                { name: "Cổng Tinh Tú", stars: "2.0 ⭐(Độ khó có thể thay đổi)", req: "Cấp Truyền Thuyết 6", rules: [{ textPrefix: "Có 1 Luật Đặc Biệt ngẫu nhiên", hasPopup: false }], rewards: "Hòm Thần Tích Đồng + 1000 Điểm Huyền Thoại", color: "from-blue-600 to-indigo-700" },
+                { name: "Cổng Bóng Tối", stars: "3.0 ⭐(Độ khó có thể thay đổi)", req: "Cấp Truyền Thuyết 10", rules: [{ textPrefix: "Có 2 Luật Đặc Biệt ngẫu nhiên", hasPopup: false }], rewards: "Kho Báu Bạc + 1000 Điểm Huyền Thoại", color: "from-indigo-600 to-purple-700" },
+                { 
+                    name: "Cổng Hắc Tinh", 
+                    stars: "4.0 ⭐(Độ khó có thể thay đổi)", 
+                    req: "Cấp Truyền Thuyết 15", 
+                    rules: [
+                        { textPrefix: "Có 2 Luật Đặc Biệt ngẫu nhiên", hasPopup: false },
+                        { 
+                            textPrefix: "Luật cố định: ", 
+                            textSuffix: "Kẻ Thù Hiểm Độc", 
+                            hasPopup: true,
+                            icon: "image/kethuhiemdoc.png", 
+                            popupImg: "image/image.png" 
+                        }
+                    ], 
+                    rewards: "Hòm Thần Tích Bạc + 1000 Điểm Huyền Thoại", 
+                    color: "from-purple-700 to-fuchsia-900" 
+                }
+            ],
+            weekly_nightmares: [
+                { 
+                    name: "Cổng Đáng Sợ", 
+                    stars: "4.5 ⭐", 
+                    req: "Nhiệm vụ Afraid Of Nothing I", 
+                    rules: [
+                        { textPrefix: "Có 2 Luật Đặc Biệt ngẫu nhiên", hasPopup: false },
+                        { 
+                            textPrefix: "Luật cố định: ", 
+                            textSuffix: "Chí Tử",
+                            hasPopup: true,
+                            icon: "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0492.png", 
+                            popupImg: "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0492-full.png" 
+                        }
+                    ], 
+                    rewards: "40 XP Thử Thách + 2000 Điểm Huyền Thoại", 
+                    color: "from-orange-600 to-red-700" 
+                },
+                { name: "Cổng Kinh Hãi", stars: "5.5 ⭐", req: "Nhiệm vụ Afraid Of Nothing II", rules: [{ textPrefix: "Có 1 Luật Đặc Biệt ngẫu nhiên", hasPopup: false }, { 
+                            textPrefix: "Luật cố định: ", 
+                            textSuffix: "Chí Tử",
+                            hasPopup: true,
+                            icon: "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0492.png", 
+                            popupImg: "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0492-full.png" 
+                        }], rewards: "60 XP Thử Thách + 2000 Điểm Huyền Thoại", color: "from-red-700 to-rose-900" },
+                { name: "Cổng Ác Mộng", stars: "6.5 ⭐", req: "Nhiệm vụ Afraid Of Nothing III", rules: [{ textPrefix: "Có 2 Luật Ác Mộng siêu khó", hasPopup: false }, { 
+                            textPrefix: "Luật cố định: ", 
+                            textSuffix: "Chí Tử",
+                            hasPopup: true,
+                            icon: "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0492.png", 
+                            popupImg: "https://dd.b.pvp.net/7_3_0/adventure/vi_vn/img/powers/P0492-full.png" 
+                        }], rewards: "80 XP Thử Thách + 2000 Điểm Huyền Thoại", color: "from-rose-950 to-black" }
+            ],
+            xp_table: [
+                { stars: "3.5 ⭐", wins: [75, 150, 1070, 1595, 2035, 2395, 3015] },
+                { stars: "4.0 ⭐", wins: [95, 190, 1505, 1835, 2200, 2545, 3200] },
+                { stars: "4.5 ⭐", wins: [110, 220, 1785, 2455, 3015, 3575, 4470] }
+            ]
+        };
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`content-${tabName}`).classList.remove('hidden');
+            
+            document.querySelectorAll('button[id^="tab-"]').forEach(btn => {
+                btn.className = "px-6 py-3 font-bold text-base rounded-lg text-gray-400 hover:text-white hover:bg-gray-800 transition cursor-pointer";
+            });
+            
+            const activeColors = { normal: 'bg-blue-600', nightmare: 'bg-red-600', xp: 'bg-yellow-600' };
+            document.getElementById(`tab-${tabName}`).className = `px-6 py-3 font-bold text-base rounded-lg text-white shadow-lg ${activeColors[tabName]} cursor-pointer`;
+        }
+
+        function buildCards(data, containerId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = data.map(p => `
+                <div class="bg-gray-900 border border-gray-800 rounded-xl shadow-xl flex flex-col justify-between">
+                    <div class="bg-gradient-to-r ${p.color} p-5 text-center rounded-t-xl overflow-hidden">
+                        <span class="star-badge text-xs font-bold bg-black/40 px-3 py-1.5 rounded-full text-yellow-400">${p.stars}</span>
+                        <h3 class="portal-title text-xl font-bold text-white mt-2">${p.name}</h3>
+                    </div>
+                    <div class="p-5 flex-1 text-sm space-y-4">
+                        <div>
+                            <span class="text-gray-500 font-bold uppercase tracking-wider block text-[11px]">Yêu cầu mở khóa:</span>
+                            <p class="text-gray-200 mt-1 font-normal text-sm">${p.req}</p>
+                        </div>
+                        <div>
+                            <span class="text-gray-500 font-bold uppercase tracking-wider block text-[11px]">Quy tắc ải:</span>
+                            <ul class="list-none mt-1 text-gray-300 space-y-2.5 font-normal text-sm">
+                                ${p.rules.map(r => {
+                                    if (r.hasPopup) {
+                                        return `
+                                            <li class="relative group leading-relaxed cursor-help">
+                                                <span>${r.textPrefix}</span>
+                                                <span class="inline-block align-middle mx-1">
+                                                    <img src="${r.icon}" class="w-6 h-6 object-contain inline-block -mt-0.5 border border-amber-500/30 rounded" alt="icon">
+                                                </span>
+                                                <span class="text-amber-400 font-semibold group-hover:text-amber-300 transition-colors">${r.textSuffix}</span>
+                                                
+                                                <div class="hidden group-hover:block absolute bottom-full left-1/2 -translate-x-1/2 mb-3 z-50 bg-gray-950 border border-amber-500/70 p-2 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.9)] w-96 pointer-events-none animate-fade-in">
+                                                    <img src="${r.popupImg}" class="w-full h-auto rounded-lg object-contain" alt="Chi tiết luật">
+                                                </div>
+                                            </li>`;
+                                    } else {
+                                        return `<li class="pl-3 relative before:content-['•'] before:absolute before:left-0 before:text-gray-600">${r.textPrefix}</li>`;
+                                    }
+                                }).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-gray-950 p-4 text-center border-t border-gray-800 text-sm rounded-b-xl">
+                        <span class="text-gray-500 block text-[10px] uppercase font-bold mb-1">Thưởng lần đầu:</span>
+                        <span class="text-green-400 font-semibold text-sm">${p.rewards}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // ĐÃ SỬA: Hàm sử dụng mảng activePowerCodes toàn cục ở dòng 99
+        async function loadNightmarePowers() {
+            try {
+                const response = await fetch('powers.json');
+                const allPowers = await response.json();
+                
+                const tableBody = document.getElementById('nightmarePowersTable');
+
+                // Lọc dữ liệu dựa trên danh sách activePowerCodes ở đầu script
+                const filteredPowers = allPowers.filter(power => activePowerCodes.includes(power.powerCode));
+                
+                if (!filteredPowers || filteredPowers.length === 0) {
+                    tableBody.innerHTML = `<tr><td colspan="2" class="p-4 text-center text-gray-500">Không tìm thấy sức mạnh nào khớp với danh sách mã tuần này.</td></tr>`;
+                    return;
+                }
+
+                tableBody.innerHTML = filteredPowers.map(power => `
+                    <tr class="border-b border-gray-800 hover:bg-gray-800/30 transition">
+                        <td class="p-4 border-r border-gray-800 bg-gray-900/30 text-center font-semibold text-sm">
+                            <div class="flex flex-col items-center justify-center gap-2">
+                                <img src="${power.assetAbsolutePath || 'https://vignette.wikia.nocookie.net/leagueoflegends/images/0/03/Mutator_ViciousEnemy.png'}" 
+                                     class="w-16 h-16 object-contain" 
+                                     alt="${power.name}">
+                                <span class="text-yellow-400 text-base font-bold tracking-wide block leading-tight mt-1">${power.name}</span>
+                            </div>
+                        </td>
+                        <td class="p-4 text-gray-300 text-base leading-relaxed font-normal align-middle">
+                            ${power.description}
+                        </td>
+                    </tr>
+                `).join('');
+
+            } catch (error) {
+                console.error("Lỗi khi lọc dữ liệu powers.json:", error);
+                document.getElementById('nightmarePowersTable').innerHTML = `
+                    <tr>
+                        <td colspan="2" class="p-4 text-center text-red-400 font-medium">
+                            ⚠️ Không thể tải dữ liệu sức mạnh (Kiểm tra lại file powers.json).
+                        </td>
+                    </tr>`;
+            }
+        }
+
+        function init() {
+            buildCards(fullData.weekly_adventures, 'content-normal');
+            buildCards(fullData.weekly_nightmares, 'nightmareList');
+            
+            // Chạy hàm nạp dữ liệu
+            loadNightmarePowers();
+            
+            document.getElementById('xpTableBody').innerHTML = fullData.xp_table.map(row => `
+                <tr class="border-b border-gray-800 hover:bg-gray-800/30 transition">
+                    <td class="p-4 font-bold text-yellow-500 bg-gray-900/50 text-base">${row.stars}</td>
+                    ${row.wins.map((val, idx) => {
+                        let cls = "text-gray-300";
+                        if(idx === 6) cls = "text-red-400 font-bold";
+                        return `<td class="p-4 ${cls}">${val.toLocaleString()} XP</td>`;
+                    }).join('')}
+                </tr>
+            `).join('');
+        }
+
+        init();
+    </script>
+</body>
+</html>

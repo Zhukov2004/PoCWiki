@@ -1788,5 +1788,15 @@
     "itemCode": "I0193",
     "rarity": "SỬ THI",
     "rarityRef": "Epic"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/items/I0214.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/items/I0214-full.png",
+    "description": "<link=keyword.Attune><sprite name=Attune><style=Keyword>Hồi Lực</style></link>.<br>Khi ta được triệu hồi, <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link> bằng tiêu hao của ta.",
+    "descriptionRaw": "Hồi Lực.Khi ta được triệu hồi, Triệu Gọi bằng tiêu hao của ta.",
+    "name": "Mệnh Lệnh Biển Cả",
+    "itemCode": "I0214",
+    "rarity": "HIẾM",
+    "rarityRef": "Rare"
   }
 ]

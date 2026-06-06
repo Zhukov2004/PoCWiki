@@ -1458,5 +1458,15 @@
     "relicCode": "R0169",
     "rarity": "HIẾM",
     "rarityRef": "Rare"
+  },
+  {
+    "assetAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/relics/R0181.png",
+    "assetFullAbsolutePath": "https://dd.b.pvp.net/7_6_0/adventure/vi_vn/img/relics/R0181-full.png",
+    "description": "<link=keyword.Regeneration><sprite name=Regeneration><style=Keyword>Hồi Phục</style></link><br>Khi ta bị chặn đòn, <link=card.self><style=AssociatedCard>Xúc Tu</style></link> <link=vocab.Strongest><style=Vocab>mạnh nhất</style></link> của ngươi sẽ tấn công kẻ chặn đòn ta.<br><link=vocab.Play><style=Vocab>Xuất Trận</style></link>: <link=vocab.Spawn><style=Vocab>Triệu Gọi</style></link> 2.",
+    "descriptionRaw": "Hồi Phục.Khi ta bị chặn đòn, Xúc Tu mạnh nhất của ngươi sẽ tấn công kẻ chặn đòn ta.Xuất Trận: Triệu Gọi 2.",
+    "name": "Lời Răn Khắc Nghiệt",
+    "relicCode": "R0181",
+    "rarity": "SỬ THI",
+    "rarityRef": "Epic"
   }
 ]
