@@ -1,9 +1,9 @@
 [
     {
       "name": "Battle Pass",
-      "description": "Mở ra cơ hội nhận Battle Pass nâng cấp với những phần thưởng cao cấp. Chơi trò chơi, nhận kinh nghiệm và mở khóa những phần thưởng!\n\nBattle Pass hết hạn vào 23:00 giờ, ngày 02 tháng 6.",
+      "description": "Mở ra cơ hội nhận Battle Pass nâng cấp với những phần thưởng cao cấp. Chơi trò chơi, nhận kinh nghiệm và mở khóa những phần thưởng!\n\nBattle Pass hết hạn vào 00:00 giờ, ngày 15 tháng 7.",
       "price": 990,
-      "image": "store/BattlePass52026.png"
+      "image": "store/Featured Store Banner - Thekrakenpriestess76.png"
     },
     {
       "name": "Gói Tân Binh Con Đường Anh Hùng",
@@ -664,5 +664,29 @@
       "description": "Đem sự hiện diện kinh hoàng của Volibear đến cho đội hình Con Đường Anh Hùng của bạn bằng Gói Chào Mừng này. Nó có đầy đủ mọi thứ mà bạn cần cho hành trình đến những vì sao, bao gồm cả những cổ vật mạnh mẽ phù hợp với lối chơi của Volibear.\n\nMảnh Ghép Anh Hùng:\nx60 MẢNH GHÉP VOLIBEAR\n\nCổ Vật:\nx1 Biểu Tượng Valhir\nx5 Siêu Phước Lành Vũ Trụ (Tiêu Thụ)\nx3 Tôi Luyện Linh Hồn (Tiêu Thụ)\n\nBáu Vật Khác (Gửi qua thư):\nx3 KHO BÁU BẠC",
       "price": 1190,
       "image": "store/Featured Store Banner - Volibear Celebration.png"
+    },
+    {
+      "name": "Gói Chào Mừng Illaoi",
+      "description": "Chứng kiến sự thật với Gói Chào Mừng của Con Đường Anh Hùng này. Gói có mọi thứ bạn cần để nâng Illaoi lên hai sao ngay lập tức, sẵn sàng giúp cô ấy học Lời Răn Khắc Nghiệt đáng nhớ\n\nMảnh Ghép Anh Hùng:\nx60 MẢNH GHÉP ILLAOI\n\nCổ Vật:\nx1 Lời Răn Khắc Nghiệt\nx5 Siêu Phước Lành Vũ Trụ (Tiêu Thụ)\nx3 Tôi Luyện Linh Hồn (Tiêu Thụ)\n\nBáu Vật Khác (Gửi qua thư):\nx5 KHO BÁU BẠC",
+      "price": 990,
+      "image": "store/Featured Store Banner - Illaoi Celebration Bundle.png"
+    },
+    {
+      "name": "Gói Illaoi 4 Sao",
+      "description": "Gói đầy Ngọc Tinh Tú này đảm bảo sự phát triển vượt bậc, giúp bạn nâng Illaoi lên 4 sao ngay lập tức! Bạn cũng sẽ nhận được những tài nguyên quý giá, cùng với Kho Báu Vàng để mở ra vô số Mảnh Ghép Anh Hùng!\n\nMảnh Ghép Anh Hùng:\nx160 MẢNH GHÉP ILLAOI\n\nBáu Vật Khác (Gửi qua thư):\nx4 KHO BÁU VÀNG\nx3 THÙNG TINH TÚ BẠC\n\nKhác:\nx10 MẢNH SAO BĂNG BILGEWATER\nx10 NGỌC TINH TÚ BILGEWATER",
+      "price": 1980,
+      "image": "store/Featured Store Banner - Illaoi Four Star Bundle.png"
+    },
+    {
+      "name": "Gói Illaoi 5 Sao",
+      "description": "Nagakabouros đã gửi Illaoi đến cùng Gói 5 Sao này. Gói có mọi thứ bạn cần để nâng Nữ Tu Thủy Thần lên 5 sao ngay lập tức, cùng vô số tài nguyên để tăng sức mạnh cho đội hình của bạn.\n\nMua Gói 5 Sao sẽ mở khóa Gói Thượng Giới cho Illaoi. Gói còn bao gồm một Ngọc Tân Tinh Bilgewater và nhiều tài nguyên mạnh mẽ khác để giúp các anh hùng của bạn phát huy tối đa tiềm năng!\n\nMảnh Ghép Anh Hùng:\n• x280 MẢNH GHÉP ILLAOI\n\nBáu Vật Khác (Gửi qua thư):\n• x3 KHO BÁU BẠCH KIM\n• x2 THÙNG ĐÁ QUÝ NHỎ BILGEWATER\n\nKhác:\n• x50 MẢNH GHÉP BÍ ẨN\n• x50 NGỌC TINH TÚ BILGEWATER",
+      "price": 3650,
+      "image": "store/Featured Store Banner - Illaoi Five Star Bundle.png"
+    },
+    {
+      "name": "Gói Illaoi Tinh Tú Thượng Giới",
+      "description": "Nagakabouros đã gửi Illaoi đến cùng Gói 5 Sao này. Gói có mọi thứ bạn cần để nâng Nữ Tu Thủy Thần lên 5 sao ngay lập tức, cùng vô số tài nguyên để tăng sức mạnh cho đội hình của bạn.\n\nMua Gói 5 Sao sẽ mở khóa Gói Thượng Giới cho Illaoi. Gói còn bao gồm một Ngọc Tân Tinh Bilgewater và nhiều tài nguyên mạnh mẽ khác để giúp các anh hùng của bạn phát huy tối đa tiềm năng!\n\nMảnh Ghép Anh Hùng:\n• x200 MẢNH GHÉP ILLAOI\n\nBáu Vật Khác (Gửi qua thư):\n• x2 KHO BÁU KIM CƯƠNG\n• x2 THÙNG ĐÁ QUÝ LỚN BILGEWATER\n• x1 THÙNG NGỌC TÂN TINH BILGEWATER\n• x5 THÙNG TINH TÚ VÀNG BILGEWATER",
+      "price": 3650,
+      "image": "store/Featured Store Banner - Illaoi Celestial Star Bundle.png"
     }
   ]
